@@ -14,7 +14,7 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { NgModule } from '@angular/core';
 
-const components = [FooterComponent, HeaderComponent, MainComponent];
+const components = [FooterComponent, HeaderComponent];
 
 const MaterialModules = [
   MatInputModule,
