@@ -12,6 +12,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { CommonModule } from '@angular/common';
 
 const components = [FooterComponent, HeaderComponent];
 
@@ -30,8 +31,8 @@ const MaterialModules = [
 
 @NgModule({
   declarations: [...components],
-  imports: [...MaterialModules],
+  imports: [...MaterialModules, CommonModule],
   providers: [],
-  exports: [...components, ...MaterialModules]
+  exports: [...components, ...MaterialModules, CommonModule]
 })
 export class SharedModule {}
