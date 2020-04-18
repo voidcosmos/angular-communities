@@ -1,8 +1,7 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { CommonModule } from '@angular/common';
 import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
-import { HttpClientModule } from '@angular/common/http';
+import { MainComponent } from '@pages/main/main.component';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatFormFieldModule } from '@angular/material/form-field';
@@ -15,7 +14,7 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { NgModule } from '@angular/core';
 
-const components = [FooterComponent, HeaderComponent];
+const components = [FooterComponent, HeaderComponent, MainComponent];
 
 const MaterialModules = [
   MatInputModule,

@@ -1,4 +1,5 @@
-import { CommunityService } from 'app/community.service';
+import { Community } from '@shared/interfaces/communities.interface';
+import { CommunityService } from '@shared/services/community.service';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,13 +8,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./main.component.scss'],
 })
 export class MainComponent {
-  community: any;
+  community: Community;
   communities$ = this.communityService.communities;
+
   constructor(private communityService: CommunityService) {
     this.communities$ = this.communityService.communities;
   }
 
-  onSelectCommunity(community) {
+  onSelectCommunity(community: Community) {
     this.community = community;
   }
 }

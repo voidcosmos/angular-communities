@@ -10,6 +10,8 @@ import {
 } from '@angular/core';
 import { GoogleMap, MapMarker } from '@angular/google-maps';
 
+import { Communities } from '@shared/interfaces/communities.interface';
+
 @Component({
   selector: 'ngcommunity-map',
   templateUrl: './map.component.html',
@@ -18,9 +20,9 @@ import { GoogleMap, MapMarker } from '@angular/google-maps';
 export class MapComponent implements OnInit, OnChanges {
   @ViewChild(GoogleMap, { static: false }) map: GoogleMap;
   @Output() community: EventEmitter<any> = new EventEmitter();
-  @Input() communities = {}; // TODO
+  @Input() communities: Communities;
 
-  markers = [];
+  markers: any[] = [];
   zoom = 11;
   center: google.maps.LatLngLiteral;
   options: google.maps.MapOptions = {
@@ -30,10 +32,8 @@ export class MapComponent implements OnInit, OnChanges {
     maxZoom: 15,
     minZoom: 4,
   };
-  infoContent = '';
 
-  constructor() {}
-  ngOnChanges(changes: SimpleChanges): void {
+  ngOnChanges(): void {
     this.addCommunities();
   }
 
@@ -58,15 +58,10 @@ export class MapComponent implements OnInit, OnChanges {
   }
 
   addCommunities() {
-    const communities = Object.entries(this.communities) as any;
+    const communities = Object.entries(this.communities);
     for (const [name, community] of communities) {
       this.markers.push({
-        community,
         position: community.position,
-        /* label: {
-          color: 'red',
-          text: name,
-        }, */
         title: name,
         options: {
           animation: google.maps.Animation.BOUNCE,
