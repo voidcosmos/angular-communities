@@ -1,15 +1,19 @@
-import { Component, OnInit } from '@angular/core';
+import { CommunityService } from 'app/community.service';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'ngcommunity-main',
   templateUrl: './main.component.html',
   styleUrls: ['./main.component.scss'],
 })
-export class MainComponent implements OnInit {
-  community;
-  ngOnInit() {}
+export class MainComponent {
+  community: any;
+  communities$ = this.communityService.communities;
+  constructor(private communityService: CommunityService) {
+    this.communities$ = this.communityService.communities;
+  }
 
-  onMapClick($event) {
-    console.log('mainComponent', $event);
+  onSelectCommunity(community) {
+    this.community = community;
   }
 }

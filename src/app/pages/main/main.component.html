@@ -1,3 +1,7 @@
 <h1>Main component</h1>
-<ngcommunity-map (click)="onMapClick($event)"></ngcommunity-map>
+<ngcommunity-map
+  *ngIf="communities$ | async as communities"
+  [communities]="communities"
+  (community)="onSelectCommunity($event)"
+></ngcommunity-map>
 <ngcommunity-sidenav [community]="community"></ngcommunity-sidenav>

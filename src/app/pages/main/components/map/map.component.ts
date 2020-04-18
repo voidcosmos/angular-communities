@@ -1,22 +1,24 @@
 import {
   Component,
   EventEmitter,
+  Input,
+  OnChanges,
   OnInit,
   Output,
+  SimpleChanges,
   ViewChild,
 } from '@angular/core';
 import { GoogleMap, MapMarker } from '@angular/google-maps';
-
-import { CommunityService } from 'app/community.service';
 
 @Component({
   selector: 'ngcommunity-map',
   templateUrl: './map.component.html',
   styleUrls: ['./map.component.scss'],
 })
-export class MapComponent implements OnInit {
+export class MapComponent implements OnInit, OnChanges {
   @ViewChild(GoogleMap, { static: false }) map: GoogleMap;
   @Output() community: EventEmitter<any> = new EventEmitter();
+  @Input() communities = {}; // TODO
 
   markers = [];
   zoom = 11;
@@ -25,20 +27,21 @@ export class MapComponent implements OnInit {
     zoomControl: false,
     scrollwheel: false,
     disableDoubleClickZoom: true,
-    // mapTypeId: 'hybrid',
     maxZoom: 15,
-    minZoom: 8,
+    minZoom: 4,
   };
   infoContent = '';
 
-  constructor(private communityService: CommunityService) {}
+  constructor() {}
+  ngOnChanges(changes: SimpleChanges): void {
+    this.addCommunities();
+  }
+
   ngOnInit() {
-    const communities$ = this.communityService.communities;
-    communities$.subscribe(console.log);
-    navigator.geolocation.getCurrentPosition((position) => {
+    navigator.geolocation.getCurrentPosition(({ coords }) => {
       this.center = {
-        lat: position.coords.latitude,
-        lng: position.coords.longitude,
+        lat: coords.latitude,
+        lng: coords.longitude,
       };
     });
   }
@@ -54,35 +57,30 @@ export class MapComponent implements OnInit {
     }
   }
 
-  click(event: google.maps.MouseEvent) {
-    console.log(event);
+  addCommunities() {
+    const communities = Object.entries(this.communities) as any;
+    for (const [name, community] of communities) {
+      this.markers.push({
+        community,
+        position: community.position,
+        /* label: {
+          color: 'red',
+          text: name,
+        }, */
+        title: name,
+        options: {
+          animation: google.maps.Animation.BOUNCE,
+          icon: {
+            url: `assets/images/${community.id}.png`,
+            scaledSize: { height: 48, width: 48 },
+          },
+        },
+      });
+    }
   }
 
-  logCenter() {
-    console.log(JSON.stringify(this.map.getCenter()));
-  }
-
-  addMarker() {
-    this.markers.push({
-      position: {
-        lat: this.center.lat + ((Math.random() - 0.5) * 2) / 10,
-        lng: this.center.lng + ((Math.random() - 0.5) * 2) / 10,
-      },
-      label: {
-        color: 'red',
-        text: 'Marker label ' + (this.markers.length + 1),
-      },
-      title: 'Marker title ' + (this.markers.length + 1),
-      info: 'Marker info ' + (this.markers.length + 1),
-      options: {
-        animation: google.maps.Animation.BOUNCE,
-      },
-    });
-  }
-
-  openInfo(marker: MapMarker, content) {
-    console.log('marker', marker);
-    console.log('content', content);
-    this.community.emit(marker);
+  openInfo(marker: MapMarker) {
+    const community = this.communities[marker.getTitle()];
+    this.community.emit(community);
   }
 }

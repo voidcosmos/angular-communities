@@ -4,7 +4,6 @@
   [zoom]="zoom"
   [center]="center"
   [options]="options"
-  (mapClick)="click($event)"
 >
   <map-marker
     #markerElem
@@ -13,14 +12,10 @@
     [label]="marker.label"
     [title]="marker.title"
     [options]="marker.options"
-    (mapClick)="openInfo(markerElem, marker.info)"
+    (mapClick)="openInfo(markerElem)"
   >
   </map-marker>
-
-  <!--  <map-info-window>{{ infoContent }}</map-info-window> -->
 </google-map>
 
 <button (click)="zoomIn()">Zoom in</button>
 <button (click)="zoomOut()">Zoom out</button>
-<button (click)="logCenter()">Log center</button>
-<button (click)="addMarker()">Add marker</button>

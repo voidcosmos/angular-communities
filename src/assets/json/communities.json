@@ -2,8 +2,8 @@
   "AngularMálaga": {
     "id": "1",
     "position": {
-      "latitude": "36.7167",
-      "longitude": "4.4260"
+      "lat": 36.72016,
+      "lng": -4.42034
     },
     "image": "assets/images/1.png",
     "twitter": "https://twitter.com/AngularMalaga",
@@ -29,8 +29,8 @@
   "AngularSevilla": {
     "id": "2",
     "position": {
-      "longitude": "5.9845",
-      "latitude": "37.3891"
+      "lng": 5.9845,
+      "lat": 37.3891
     },
     "image": "assets/images/2.jps",
     "twitter": "https://twitter.com/ngsevilla",
@@ -46,8 +46,8 @@
   "AngularAlmería": {
     "id": "3",
     "position": {
-      "longitude": "2.4637",
-      "latitude": "36.8340"
+      "lng": -3.70256,
+      "lat": 40.4165
     },
     "image": "assets/images/3.jpg",
     "twitter": "https://twitter.com/AngularAlmeria",
