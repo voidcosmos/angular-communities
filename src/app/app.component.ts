@@ -9,6 +9,4 @@ TODO (Carlos): Create Community Model
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
-export class AppComponent {
-  constructor() {}
-}
+export class AppComponent {}

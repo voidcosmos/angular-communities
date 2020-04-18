@@ -30,12 +30,10 @@ const MaterialModules = [
   MatPaginatorModule,
 ];
 
-const modules = [CommonModule, HttpClientModule];
-
 @NgModule({
   declarations: [...components],
-  imports: [...MaterialModules, ...modules],
+  imports: [...MaterialModules, CommonModule],
   providers: [],
-  exports: [...components, ...MaterialModules, ...modules],
+  exports: [...components, ...MaterialModules, CommonModule],
 })
 export class SharedModule {}
