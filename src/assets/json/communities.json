@@ -1,0 +1,27 @@
+{
+  "Angular Málaga": {
+    "id": 1,
+    "position": {
+      "latitude": "40.4165",
+      "longitude": "-3.70256"
+    },
+    "twitter": "@angularmalaga",
+    "web": "http://www.angularmalaga.com",
+    "image": "assets/",
+    "organizers": [
+      {
+        "name": "Nya García",
+        "twitter": "@nyablk"
+      },
+      {
+        "name": "Juan Torres",
+        "twitter": "@juaniman99"
+      },
+      {
+        "name": "Carlos Caballero",
+        "twitter": "@carlillo",
+        "webs": ["https://www.carloscaballero.io"]
+      }
+    ]
+  }
+}

@@ -1,6 +1,12 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { GoogleMap, MapInfoWindow, MapMarker } from '@angular/google-maps';
 
+import { CommunityService } from './community.service';
+
+/*
+TODO (Carlos): Create Community Model
+*/
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -10,7 +16,7 @@ export class AppComponent implements OnInit {
   @ViewChild(GoogleMap, { static: false }) map: GoogleMap;
   @ViewChild(MapInfoWindow, { static: false }) info: MapInfoWindow;
 
-  markets = [];
+  markers = [];
   zoom = 11;
   center: google.maps.LatLngLiteral;
   options: google.maps.MapOptions = {
@@ -21,10 +27,13 @@ export class AppComponent implements OnInit {
     maxZoom: 15,
     minZoom: 8,
   };
-  markers = [];
   infoContent = '';
 
+  constructor(private communityService: CommunityService) {}
+
   ngOnInit() {
+    const communities$ = this.communityService.communities;
+    communities$.subscribe(console.log);
     navigator.geolocation.getCurrentPosition((position) => {
       this.center = {
         lat: position.coords.latitude,
