@@ -1,17 +1,19 @@
-import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { CommonModule } from '@angular/common';
 import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
-import { MatInputModule } from '@angular/material/input';
-import { MatFormFieldModule } from '@angular/material/form-field';
+import { HttpClientModule } from '@angular/common/http';
 import { MatButtonModule } from '@angular/material/button';
-import { MatSelectModule } from '@angular/material/select';
-
-import { MatPaginatorModule } from '@angular/material/paginator';
-import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
-import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatIconModule } from '@angular/material/icon';
+import { MatInputModule } from '@angular/material/input';
+import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { MatSelectModule } from '@angular/material/select';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { NgModule } from '@angular/core';
 
 const components = [FooterComponent, HeaderComponent];
 
@@ -25,13 +27,15 @@ const MaterialModules = [
   MatToolbarModule,
   MatProgressSpinnerModule,
   MatSnackBarModule,
-  MatPaginatorModule
+  MatPaginatorModule,
 ];
+
+const modules = [CommonModule, HttpClientModule];
 
 @NgModule({
   declarations: [...components],
-  imports: [...MaterialModules],
+  imports: [...MaterialModules, ...modules],
   providers: [],
-  exports: [...components, ...MaterialModules]
+  exports: [...components, ...MaterialModules, ...modules],
 })
 export class SharedModule {}
