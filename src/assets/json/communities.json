@@ -1,0 +1,63 @@
+{
+  "AngularMálaga": {
+    "id": "1",
+    "position": {
+      "latitude": "36.7167",
+      "longitude": "4.4260"
+    },
+    "image": "assets/images/1.png",
+    "twitter": "https://twitter.com/AngularMalaga",
+    "web": "https://sites.google.com/view/angular-malaga/",
+    "organizers ": [
+      {
+        "name": "Estefanía García Gallardo",
+        "twitter": "https://twitter.com/nyablk",
+        "webs": [""]
+      },
+      {
+        "name": "Carlos Caballero González",
+        "twitter": "https://twitter.com/Carlillo",
+        "webs": ["https://carloscaballero.io/"]
+      },
+      {
+        "name": "Juan Torres Gómez",
+        "twitter": "https://twitter.com/juaniman99",
+        "webs": [""]
+      }
+    ]
+  },
+  "AngularSevilla": {
+    "id": "2",
+    "position": {
+      "longitude": "5.9845",
+      "latitude": "37.3891"
+    },
+    "image": "assets/images/2.jps",
+    "twitter": "https://twitter.com/ngsevilla",
+    "web": "https://www.meetup.com/ngSevilla/",
+    "organizers ": [
+      {
+        "name": "Sergio Raposo",
+        "twitter": "https://twitter.com/serrapos",
+        "webs": [""]
+      }
+    ]
+  },
+  "AngularAlmería": {
+    "id": "3",
+    "position": {
+      "longitude": "2.4637",
+      "latitude": "36.8340"
+    },
+    "image": "assets/images/3.jpg",
+    "twitter": "https://twitter.com/AngularAlmeria",
+    "web": "https://github.com/Angular-Almeria?language=javascript",
+    "organizers ": [
+      {
+        "name": "Álvaro Quirós",
+        "twitter": "https://twitter.com/alodev",
+        "webs": [""]
+      }
+    ]
+  }
+}
