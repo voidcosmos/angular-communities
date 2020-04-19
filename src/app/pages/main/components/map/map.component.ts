@@ -2,6 +2,8 @@ import { Component, EventEmitter, Input, Output, ViewChild, OnInit } from '@angu
 import { GoogleMap, MapMarker } from '@angular/google-maps';
 
 import { Communities, Community } from '@shared/interfaces';
+import { GeolocationService } from '@shared/services';
+import { startWith } from 'rxjs/operators';
 
 @Component({
   selector: 'ngcommunity-map',
@@ -15,10 +17,10 @@ export class MapComponent implements OnInit {
 
   markers: any[] = [];
   zoom = 11;
-  center: google.maps.LatLngLiteral = {
+  center$ = this.geolocation.getMyLocationOr({
     lat: 36.72016,
     lng: -4.42034,
-  };
+  });
   options: google.maps.MapOptions = {
     zoomControl: false,
     scrollwheel: true,
@@ -27,17 +29,10 @@ export class MapComponent implements OnInit {
     minZoom: 4,
   };
 
+  constructor(private geolocation: GeolocationService) {}
+
   ngOnInit(): void {
     this.addCommunities();
-  }
-
-  constructor() {
-    navigator.geolocation.getCurrentPosition(({ coords }) => {
-      this.center = {
-        lat: coords.latitude,
-        lng: coords.longitude,
-      };
-    }, console.error);
   }
 
   zoomIn() {
