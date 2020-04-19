@@ -9,24 +9,22 @@ import { Component } from '@angular/core';
 })
 export class MainComponent {
   community: Community;
-  communities$ = this.communityService.communities;
+  communitie$ = this.communityService.communities;
   optionsGrid = {
     cols: 4,
     map: {
-      colspan: 4
+      colspan: 3
     },
     sidenav: {
-      colspan: 0
+      colspan: 1
     }
   };
 
   constructor(private communityService: CommunityService) {
-    this.communities$ = this.communityService.communities;
+    this.communitie$ = this.communityService.communities;
   }
 
   onSelectCommunity(community: Community) {
     this.community = community;
-    this.optionsGrid.map.colspan = 3;
-    this.optionsGrid.sidenav.colspan = 1;
   }
 }
