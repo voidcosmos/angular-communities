@@ -1,0 +1,130 @@
+@import "~@angular/material/theming";
+@include mat-core();
+
+$ng-communities-red: (
+  50: #f8e1e1,
+  100: #ecb5b5,
+  200: #e08383,
+  300: #d45151,
+  400: #ca2c2c,
+  500: #c10707,
+  600: #bb0606,
+  700: #b30505,
+  800: #ab0404,
+  900: #9e0202,
+  A100: #ffc9c9,
+  A200: #ff9696,
+  A400: #ff6363,
+  A700: #ff4949,
+  contrast: (
+    50: #000000,
+    100: #000000,
+    200: #000000,
+    300: #ffffff,
+    400: #ffffff,
+    500: #ffffff,
+    600: #ffffff,
+    700: #ffffff,
+    800: #ffffff,
+    900: #ffffff,
+    A100: #000000,
+    A200: #000000,
+    A400: #000000,
+    A700: #ffffff
+  )
+);
+
+$ng-communities-grey: (
+  50: #e8e8e8,
+  100: #c5c5c5,
+  200: #9f9f9f,
+  300: #787878,
+  400: #5b5b5b,
+  500: #3e3e3e,
+  600: #383838,
+  700: #303030,
+  800: #282828,
+  900: #1b1b1b,
+  A100: #f07575,
+  A200: #eb4747,
+  A400: #ff0000,
+  A700: #e60000,
+  contrast: (
+    50: #000000,
+    100: #000000,
+    200: #000000,
+    300: #ffffff,
+    400: #ffffff,
+    500: #ffffff,
+    600: #ffffff,
+    700: #ffffff,
+    800: #ffffff,
+    900: #ffffff,
+    A100: #000000,
+    A200: #ffffff,
+    A400: #ffffff,
+    A700: #ffffff
+  )
+);
+
+$ng-communities-light-red: (
+  50: #ffeded,
+  100: #ffd3d3,
+  200: #ffb5b5,
+  300: #ff9797,
+  400: #ff8181,
+  500: #ff6b6b,
+  600: #ff6363,
+  700: #ff5858,
+  800: #ff4e4e,
+  900: #ff3c3c,
+  A100: #ffffff,
+  A200: #ffffff,
+  A400: #ffe5e5,
+  A700: #ffcbcb,
+  contrast: (
+    50: #000000,
+    100: #000000,
+    200: #000000,
+    300: #000000,
+    400: #000000,
+    500: #000000,
+    600: #000000,
+    700: #000000,
+    800: #000000,
+    900: #ffffff,
+    A100: #000000,
+    A200: #000000,
+    A400: #000000,
+    A700: #000000
+  )
+);
+
+$ng-communities-palette-primary: mat-palette($ng-communities-red);
+$ng-communities-accent: mat-palette($ng-communities-grey, 500, 900, A100);
+$ng-communities-warn: mat-palette($mat-deep-orange);
+$ng-communities-theme: mat-light-theme(
+  $ng-communities-palette-primary,
+  $ng-communities-accent,
+  $ng-communities-warn
+);
+
+$ng-communities-theme: mat-light-theme(
+  $ng-communities-palette-primary,
+  $ng-communities-accent,
+  $ng-communities-warn
+);
+
+@include angular-material-theme($ng-communities-theme);
+
+.ng-communities-alternate {
+  $ng-communities-alternate-primary: mat-palette($ng-communities-light-red);
+  $ng-communities-alternate-accent: mat-palette($mat-pink, 400);
+
+  $ng-communities-alternate-theme: mat-light-theme(
+    $ng-communities-alternate-primary,
+    $ng-communities-alternate-accent
+  );
+
+  @include angular-material-theme($ng-communities-alternate-theme);
+}
