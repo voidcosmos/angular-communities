@@ -9,20 +9,24 @@
     "image": "assets/images/1.png",
     "twitter": "https://twitter.com/AngularMalaga",
     "web": "https://sites.google.com/view/angular-malaga/",
+    "description": "We are a spanish community formed by a group of amazing people. Our goal is to share our Angular/Javascript knowledge with anyone who wants to learn about these amazing technologies.",
     "organizers": [
       {
         "name": "Estefanía García Gallardo",
         "twitter": "https://twitter.com/nyablk",
+        "github": "https://github.com/nyagarcia",
         "webs": [""]
       },
       {
         "name": "Carlos Caballero González",
         "twitter": "https://twitter.com/Carlillo",
+        "github": "https://github.com/caballerog",
         "webs": ["https://carloscaballero.io/"]
       },
       {
         "name": "Juan Torres Gómez",
         "twitter": "https://twitter.com/juaniman99",
+        "github": "https://github.com/zaldih",
         "webs": [""]
       }
     ]
@@ -37,10 +41,12 @@
     "image": "assets/images/2.jps",
     "twitter": "https://twitter.com/ngsevilla",
     "web": "https://www.meetup.com/ngSevilla/",
+    "description": "",
     "organizers": [
       {
         "name": "Sergio Raposo",
         "twitter": "https://twitter.com/serrapos",
+        "github": "",
         "webs": [""]
       }
     ]
@@ -55,10 +61,12 @@
     "image": "assets/images/3.jpg",
     "twitter": "https://twitter.com/AngularAlmeria",
     "web": "https://github.com/Angular-Almeria?language=javascript",
+    "description": "",
     "organizers": [
       {
         "name": "Álvaro Quirós",
         "twitter": "https://twitter.com/alodev",
+        "github": "",
         "webs": [""]
       }
     ]
