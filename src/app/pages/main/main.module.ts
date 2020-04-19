@@ -5,12 +5,12 @@ import { NgModule } from '@angular/core';
 import { SharedModule } from '@shared/shared.module';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 
-const components = [MainComponent, MapComponent, SidenavComponent];
+const COMPONENTS = [MainComponent, MapComponent, SidenavComponent];
 
 @NgModule({
-  declarations: [...components, SidenavComponent],
+  declarations: COMPONENTS,
   imports: [SharedModule, GoogleMapsModule],
   providers: [],
-  exports: [...components],
+  exports: COMPONENTS,
 })
 export class MainModule {}

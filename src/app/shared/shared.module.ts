@@ -15,9 +15,9 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { NgModule } from '@angular/core';
 
-const components = [FooterComponent, HeaderComponent];
+const COMPONENTS = [FooterComponent, HeaderComponent];
 
-const MaterialModules = [
+const MATERIAL_MODULES = [
   MatInputModule,
   MatButtonModule,
   MatFormFieldModule,
@@ -29,13 +29,12 @@ const MaterialModules = [
   MatSnackBarModule,
   MatPaginatorModule,
   MatGridListModule,
-  MatSidenavModule
+  MatSidenavModule,
 ];
 
 @NgModule({
-  declarations: [...components],
-  imports: [...MaterialModules, CommonModule],
-  providers: [],
-  exports: [...components, ...MaterialModules, CommonModule]
+  declarations: COMPONENTS,
+  imports: [MATERIAL_MODULES, CommonModule],
+  exports: [COMPONENTS, MATERIAL_MODULES, CommonModule],
 })
 export class SharedModule {}

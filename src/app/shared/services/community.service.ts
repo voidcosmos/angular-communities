@@ -1,4 +1,4 @@
-import { Communities } from '@shared/interfaces/communities.interface';
+import { Communities } from '@shared/interfaces';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';

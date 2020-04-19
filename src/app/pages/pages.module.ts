@@ -6,6 +6,6 @@ import { MainModule } from './main/main.module';
   declarations: [],
   imports: [SharedModule, MainModule],
   providers: [],
-  exports: [MainModule]
+  exports: [MainModule],
 })
 export class PagesModule {}

@@ -1,11 +1,11 @@
 import { Component, Input, OnInit } from '@angular/core';
 
-import { Community } from '@shared/interfaces/communities.interface';
+import { Community } from '@shared/interfaces';
 
 @Component({
   selector: 'ngcommunity-sidenav',
   templateUrl: './sidenav.component.html',
-  styleUrls: ['./sidenav.component.scss']
+  styleUrls: ['./sidenav.component.scss'],
 })
 export class SidenavComponent implements OnInit {
   @Input() community: Community;
