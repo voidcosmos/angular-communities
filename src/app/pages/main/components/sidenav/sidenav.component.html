@@ -1,15 +1,10 @@
 <aside class="profile-card">
   <header>
-    <!-- here’s the avatar -->
-    <a href="https://tutsplus.com">
+    <a href="{{ community.web }}" target="_blank">
       <img src="assets/images/{{ community.id }}.png" />
     </a>
-
-    <!-- the username -->
     <h1>{{ community.name }}</h1>
   </header>
-
-  <!-- bit of a bio; who are you? -->
   <div class="profile-bio">
     <p>Organizers!</p>
     <p *ngFor="let organizer of community.organizers">
@@ -26,8 +21,6 @@
       </a>
     </p>
   </div>
-
-  <!-- some social links to show off -->
   <ul class="profile-social-links">
     <li>
       <a href="{{ community.twitter }}" target="_blank">
@@ -36,8 +29,6 @@
         />
       </a>
     </li>
-
-    <!-- codepen - your codepen profile-->
     <li>
       <a href="{{ community.web }}" target="_blank">
         <img
