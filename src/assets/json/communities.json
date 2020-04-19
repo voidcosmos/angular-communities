@@ -1,6 +1,7 @@
 {
-  "AngularMálaga": {
+  "Angular Málaga": {
     "id": "1",
+    "name": "Angular Málaga",
     "position": {
       "lat": 36.72016,
       "lng": -4.42034
@@ -8,7 +9,7 @@
     "image": "assets/images/1.png",
     "twitter": "https://twitter.com/AngularMalaga",
     "web": "https://sites.google.com/view/angular-malaga/",
-    "organizers ": [
+    "organizers": [
       {
         "name": "Estefanía García Gallardo",
         "twitter": "https://twitter.com/nyablk",
@@ -28,6 +29,7 @@
   },
   "AngularSevilla": {
     "id": "2",
+    "name": "Angular Sevilla",
     "position": {
       "lng": 5.9845,
       "lat": 37.3891
@@ -35,7 +37,7 @@
     "image": "assets/images/2.jps",
     "twitter": "https://twitter.com/ngsevilla",
     "web": "https://www.meetup.com/ngSevilla/",
-    "organizers ": [
+    "organizers": [
       {
         "name": "Sergio Raposo",
         "twitter": "https://twitter.com/serrapos",
@@ -43,8 +45,9 @@
       }
     ]
   },
-  "AngularAlmería": {
+  "Angular Almería": {
     "id": "3",
+    "name": "Angular Almería",
     "position": {
       "lng": -3.70256,
       "lat": 40.4165
@@ -52,7 +55,7 @@
     "image": "assets/images/3.jpg",
     "twitter": "https://twitter.com/AngularAlmeria",
     "web": "https://github.com/Angular-Almeria?language=javascript",
-    "organizers ": [
+    "organizers": [
       {
         "name": "Álvaro Quirós",
         "twitter": "https://twitter.com/alodev",

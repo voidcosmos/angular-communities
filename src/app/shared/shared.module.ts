@@ -1,10 +1,10 @@
 import { CommonModule } from '@angular/common';
 import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
-import { MainComponent } from '@pages/main/main.component';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatGridListModule } from '@angular/material/grid-list';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { MatPaginatorModule } from '@angular/material/paginator';
@@ -27,6 +27,7 @@ const MaterialModules = [
   MatProgressSpinnerModule,
   MatSnackBarModule,
   MatPaginatorModule,
+  MatGridListModule,
 ];
 
 @NgModule({
