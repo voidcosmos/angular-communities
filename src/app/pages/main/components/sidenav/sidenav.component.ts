@@ -5,7 +5,7 @@ import { Community } from '@shared/interfaces/communities.interface';
 @Component({
   selector: 'ngcommunity-sidenav',
   templateUrl: './sidenav.component.html',
-  styleUrls: ['./sidenav.component.scss'],
+  styleUrls: ['./sidenav.component.scss']
 })
 export class SidenavComponent implements OnInit {
   @Input() community: Community;
