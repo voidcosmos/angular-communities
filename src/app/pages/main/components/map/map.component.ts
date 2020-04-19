@@ -3,7 +3,6 @@ import { GoogleMap, MapMarker } from '@angular/google-maps';
 
 import { Communities, Community } from '@shared/interfaces';
 import { GeolocationService } from '@shared/services';
-import { startWith } from 'rxjs/operators';
 
 @Component({
   selector: 'ngcommunity-map',
@@ -33,18 +32,6 @@ export class MapComponent implements OnInit {
 
   ngOnInit(): void {
     this.addCommunities();
-  }
-
-  zoomIn() {
-    if (this.zoom < this.options.maxZoom) {
-      this.zoom++;
-    }
-  }
-
-  zoomOut() {
-    if (this.zoom > this.options.minZoom) {
-      this.zoom--;
-    }
   }
 
   addCommunities() {
