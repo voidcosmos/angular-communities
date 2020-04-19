@@ -31,8 +31,8 @@
     "id": "2",
     "name": "Angular Sevilla",
     "position": {
-      "lng": 5.9845,
-      "lat": 37.3891
+      "lng": -6.025099,
+      "lat": 37.3754865
     },
     "image": "assets/images/2.jps",
     "twitter": "https://twitter.com/ngsevilla",
@@ -49,8 +49,8 @@
     "id": "3",
     "name": "Angular Almería",
     "position": {
-      "lng": -3.70256,
-      "lat": 40.4165
+      "lng": -2.4921361,
+      "lat": 36.841523
     },
     "image": "assets/images/3.jpg",
     "twitter": "https://twitter.com/AngularAlmeria",
