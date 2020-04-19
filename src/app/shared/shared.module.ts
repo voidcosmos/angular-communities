@@ -12,6 +12,7 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatSelectModule } from '@angular/material/select';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatSidenavModule } from '@angular/material/sidenav';
 import { NgModule } from '@angular/core';
 
 const components = [FooterComponent, HeaderComponent];
@@ -28,12 +29,13 @@ const MaterialModules = [
   MatSnackBarModule,
   MatPaginatorModule,
   MatGridListModule,
+  MatSidenavModule
 ];
 
 @NgModule({
   declarations: [...components],
   imports: [...MaterialModules, CommonModule],
   providers: [],
-  exports: [...components, ...MaterialModules, CommonModule],
+  exports: [...components, ...MaterialModules, CommonModule]
 })
 export class SharedModule {}
