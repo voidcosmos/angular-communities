@@ -64,7 +64,6 @@ export class MapComponent implements OnInit, OnChanges {
         position: community.position,
         title: name,
         options: {
-          animation: google.maps.Animation.BOUNCE,
           icon: {
             url: `assets/images/${community.id}.png`,
             scaledSize: { height: 48, width: 48 },
