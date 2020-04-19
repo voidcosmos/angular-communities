@@ -1,12 +1,12 @@
 <mat-grid-list cols="4" rowHeight="100%">
-  <mat-grid-tile colspan="3">
+  <mat-grid-tile colspan="{{ optionsGrid.map.colspan }}">
     <ngcommunity-map
       *ngIf="communities$ | async as communities"
       [communities]="communities"
       (community)="onSelectCommunity($event)"
     ></ngcommunity-map>
   </mat-grid-tile>
-  <mat-grid-tile colspan="1">
+  <mat-grid-tile colspan="{{ optionsGrid.sidenav.colspan }}" *ngIf="community">
     <ngcommunity-sidenav [community]="community"></ngcommunity-sidenav>
   </mat-grid-tile>
 </mat-grid-list>
