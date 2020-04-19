@@ -1,40 +1,46 @@
 <aside class="profile-card">
-  <header>
-    <a href="{{ community.web }}" target="_blank">
-      <img src="assets/images/{{ community.id }}.png" />
-    </a>
-    <h1>{{ community.name }}</h1>
-  </header>
-  <div class="profile-bio">
-    <p>Organizers!</p>
-    <p *ngFor="let organizer of community.organizers">
-      {{ organizer.name }} -
-      <a
-        class="profile-social-links"
-        *ngIf="organizer.twitter"
-        href="{{ organizer.twitter }}"
-        target="_blank"
-      >
-        <img
-          src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/social-twitter.svg"
-        />
-      </a>
-    </p>
-  </div>
-  <ul class="profile-social-links">
-    <li>
-      <a href="{{ community.twitter }}" target="_blank">
-        <img
-          src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/social-twitter.svg"
-        />
-      </a>
-    </li>
-    <li>
+  <ng-container *ngIf="community; else default">
+    <header>
       <a href="{{ community.web }}" target="_blank">
-        <img
-          src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/social-codepen.svg"
-        />
+        <img src="assets/images/{{ community.id }}.png" />
       </a>
-    </li>
-  </ul>
+      <h1>{{ community.name }}</h1>
+    </header>
+    <div class="profile-bio">
+      <p>Organizers</p>
+      <p *ngFor="let organizer of community.organizers">
+        {{ organizer.name }} -
+        <a
+          class="profile-social-links"
+          *ngIf="organizer.twitter"
+          href="{{ organizer.twitter }}"
+          target="_blank"
+        >
+          <img
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/social-twitter.svg"
+          />
+        </a>
+      </p>
+    </div>
+    <ul class="profile-social-links">
+      <li>
+        <a href="{{ community.twitter }}" target="_blank">
+          <img
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/social-twitter.svg"
+          />
+        </a>
+      </li>
+      <li>
+        <a href="{{ community.web }}" target="_blank">
+          <img
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/social-codepen.svg"
+          />
+        </a>
+      </li>
+    </ul>
+  </ng-container>
+  <ng-template #default>
+    <h1>Communities</h1>
+    <h4>Search Communities</h4>
+  </ng-template>
 </aside>
