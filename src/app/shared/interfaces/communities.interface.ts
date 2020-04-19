@@ -10,10 +10,12 @@ export interface Community {
   image: string;
   twitter: string;
   web: string;
+  description: string;
   organizers: Organizer[];
 }
 interface Organizer {
   name: string;
   twitter: string;
+  github: string;
   webs: string[];
 }
