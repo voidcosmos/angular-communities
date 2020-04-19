@@ -1,30 +1,24 @@
-import {
-  Component,
-  EventEmitter,
-  Input,
-  OnChanges,
-  OnInit,
-  Output,
-  SimpleChanges,
-  ViewChild,
-} from '@angular/core';
+import { Component, EventEmitter, Input, Output, ViewChild, OnInit } from '@angular/core';
 import { GoogleMap, MapMarker } from '@angular/google-maps';
 
-import { Communities } from '@shared/interfaces/communities.interface';
+import { Communities, Community } from '@shared/interfaces';
 
 @Component({
   selector: 'ngcommunity-map',
   templateUrl: './map.component.html',
   styleUrls: ['./map.component.scss'],
 })
-export class MapComponent implements OnInit, OnChanges {
+export class MapComponent implements OnInit {
   @ViewChild(GoogleMap, { static: false }) map: GoogleMap;
-  @Output() community: EventEmitter<any> = new EventEmitter();
+  @Output() community: EventEmitter<Community> = new EventEmitter();
   @Input() communities: Communities;
 
   markers: any[] = [];
   zoom = 11;
-  center: google.maps.LatLngLiteral;
+  center: google.maps.LatLngLiteral = {
+    lat: 36.72016,
+    lng: -4.42034,
+  };
   options: google.maps.MapOptions = {
     zoomControl: false,
     scrollwheel: true,
@@ -33,18 +27,19 @@ export class MapComponent implements OnInit, OnChanges {
     minZoom: 4,
   };
 
-  ngOnChanges(): void {
+  ngOnInit(): void {
     this.addCommunities();
   }
 
-  ngOnInit() {
+  constructor() {
     navigator.geolocation.getCurrentPosition(({ coords }) => {
       this.center = {
         lat: coords.latitude,
         lng: coords.longitude,
       };
-    });
+    }, console.error);
   }
+
   zoomIn() {
     if (this.zoom < this.options.maxZoom) {
       this.zoom++;
@@ -59,18 +54,16 @@ export class MapComponent implements OnInit, OnChanges {
 
   addCommunities() {
     const communities = Object.entries(this.communities);
-    for (const [name, community] of communities) {
-      this.markers.push({
-        position: community.position,
-        title: name,
-        options: {
-          icon: {
-            url: `assets/images/${community.id}.png`,
-            scaledSize: { height: 48, width: 48 },
-          },
+    this.markers = communities.map(([title, { id, position }]) => ({
+      position,
+      title,
+      options: {
+        icon: {
+          url: `assets/images/${id}.png`,
+          scaledSize: { height: 48, width: 48 },
         },
-      });
-    }
+      },
+    }));
   }
 
   openInfo(marker: MapMarker) {
