@@ -31,10 +31,6 @@ const MATERIAL_MODULES = [
   MatPaginatorModule,
   MatGridListModule,
   MatSidenavModule,
-<<<<<<< HEAD
-  MatTreeModule
-=======
->>>>>>> 0c6ad85f23c1b8a4e8337f363b6a75789ccefc80
 ];
 
 @NgModule({
