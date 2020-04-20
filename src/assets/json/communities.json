@@ -121,5 +121,33 @@
         "twitter": "https://twitter.com/c_janz"
       }
     ]
+  },
+  "Angular Wrocław": {
+    "id": 6,
+    "name": "Angular Wrocław",
+    "position": {
+      "lng": 17.038538,
+      "lat": 51.107883
+    },
+    "image": "assets/images/6.png",
+    "web": "https://www.meetup.com/es-ES/AngularJS-Wroc%C5%82aw/",
+    "description": "",
+    "organizers": [
+      {
+        "name": "Kamil Zasada",
+        "twitter": "https://twitter.com/zasadakamil"
+      },
+      {
+        "name": "Vitalii Bobrov",
+        "twitter": "https://twitter.com/bobrov1989",
+        "webs": ["https://bobrov.dev/"]
+      },
+      {
+        "name": "Szymon Pawlak"
+      },
+      {
+        "name": "Marta Wydra"
+      }
+    ]
   }
 }
