@@ -149,5 +149,31 @@
         "name": "Marta Wydra"
       }
     ]
+  },
+  "Angular London": {
+    "id": 7,
+    "name": "Angular London",
+    "position": {
+      "lng": -0.118092,
+      "lat": 51.509865
+    },
+    "image": "assets/images/7.png",
+    "web": "https://www.meetup.com/es-ES/angular-london/",
+    "description": "",
+    "organizers": [
+      {
+        "name": "Ed Conolly",
+        "twitter": "https://twitter.com/conollyed"
+      },
+      {
+        "name": "Pete Bacon Darwin",
+        "twitter": "https://twitter.com/petebd",
+        "webs": ["https://www.angularconnect.com/"]
+      },
+      {
+        "name": "Josh Moont",
+        "twitter": "https://twitter.com/moonty"
+      }
+    ]
   }
 }
