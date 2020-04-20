@@ -31,7 +31,7 @@
       }
     ]
   },
-  "AngularSevilla": {
+  "Angular Sevilla": {
     "id": "2",
     "name": "Angular Sevilla",
     "position": {
@@ -68,6 +68,30 @@
         "twitter": "https://twitter.com/alodev",
         "github": "",
         "webs": [""]
+      }
+    ]
+  },
+  "Angular Belgium": {
+    "id": "4",
+    "name": "Angular Belgium",
+    "position": {
+      "lng": 4.34878,
+      "lat": 50.85045
+    },
+    "image": "assets/images/4.jpg",
+    "web": "https://www.meetup.com/es-ES/Angular-Belgium/",
+    "description": "",
+    "organizers": [
+      {
+        "name": "Sam Vloeberghs",
+        "twitter": "https://twitter.com/samvloeberghs",
+        "github": "https://github.com/samvloeberghs",
+        "webs": ["https://samvloeberghs.be/"]
+      },
+      {
+        "name": "Jurgen Van de Moere",
+        "twitter": "https://twitter.com/samvloeberghs",
+        "webs": ["https://www.jvandemo.com/"]
       }
     ]
   }
