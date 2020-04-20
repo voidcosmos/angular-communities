@@ -1,12 +1,16 @@
-<mat-grid-list cols="4" rowHeight="100%">
+<mat-grid-list cols="4" rowHeight="100%" *ngIf="communitie$ | async as communities">
   <mat-grid-tile [colspan]="optionsGrid.map.colspan">
     <ngcommunity-map
-      *ngIf="communitie$ | async as communities"
       [communities]="communities"
-      (community)="onSelectCommunity($event)"
+      [marked]="marked"
+      (community)="onClickCommunity($event)"
     ></ngcommunity-map>
   </mat-grid-tile>
   <mat-grid-tile [colspan]="optionsGrid.sidenav.colspan">
-    <ngcommunity-sidenav [community]="community"></ngcommunity-sidenav>
+    <ngcommunity-sidenav
+      [communities]="communities"
+      [community]="community"
+      (selected)="onSelectCommunity($event)"
+    ></ngcommunity-sidenav>
   </mat-grid-tile>
 </mat-grid-list>
