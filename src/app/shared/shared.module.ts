@@ -13,6 +13,7 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatTreeModule } from '@angular/material/tree';
 import { NgModule } from '@angular/core';
 
 const COMPONENTS = [FooterComponent, HeaderComponent];
