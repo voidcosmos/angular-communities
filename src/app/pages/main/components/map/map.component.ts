@@ -1,7 +1,7 @@
-import { Component, EventEmitter, Input, Output, ViewChild, OnInit } from '@angular/core';
+import { Communities, Community } from '@shared/interfaces';
+import { Component, EventEmitter, Input, OnInit, Output, ViewChild } from '@angular/core';
 import { GoogleMap, MapMarker } from '@angular/google-maps';
 
-import { Communities, Community } from '@shared/interfaces';
 import { GeolocationService } from '@shared/services';
 
 @Component({
@@ -23,8 +23,10 @@ export class MapComponent implements OnInit {
   options: google.maps.MapOptions = {
     zoomControl: false,
     scrollwheel: true,
-    disableDoubleClickZoom: true,
-    maxZoom: 15,
+    disableDoubleClickZoom: false,
+    fullscreenControl: false,
+    streetViewControl: false,
+    maxZoom: 12,
     minZoom: 4,
   };
 
