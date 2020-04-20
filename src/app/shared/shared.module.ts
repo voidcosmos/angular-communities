@@ -16,9 +16,9 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatTreeModule } from '@angular/material/tree';
 import { NgModule } from '@angular/core';
 
-const components = [FooterComponent, HeaderComponent];
+const COMPONENTS = [FooterComponent, HeaderComponent];
 
-const MaterialModules = [
+const MATERIAL_MODULES = [
   MatInputModule,
   MatButtonModule,
   MatFormFieldModule,
@@ -31,13 +31,15 @@ const MaterialModules = [
   MatPaginatorModule,
   MatGridListModule,
   MatSidenavModule,
+<<<<<<< HEAD
   MatTreeModule
+=======
+>>>>>>> 0c6ad85f23c1b8a4e8337f363b6a75789ccefc80
 ];
 
 @NgModule({
-  declarations: [...components],
-  imports: [...MaterialModules, CommonModule],
-  providers: [],
-  exports: [...components, ...MaterialModules, CommonModule]
+  declarations: COMPONENTS,
+  imports: [MATERIAL_MODULES, CommonModule],
+  exports: [COMPONENTS, MATERIAL_MODULES, CommonModule],
 })
 export class SharedModule {}
