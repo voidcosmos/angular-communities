@@ -1,22 +1,18 @@
-<<<<<<< HEAD
 import { Communities, Community } from '@shared/interfaces';
-import { Component, EventEmitter, Input, OnInit, Output, ViewChild } from '@angular/core';
-=======
 import {
   Component,
   EventEmitter,
   Input,
-  Output,
-  ViewChild,
-  OnInit,
   OnChanges,
+  OnInit,
+  Output,
   SimpleChanges,
+  ViewChild,
 } from '@angular/core';
->>>>>>> feat/search-community
 import { GoogleMap, MapMarker } from '@angular/google-maps';
+import { Subject, merge } from 'rxjs';
 
 import { GeolocationService } from '@shared/services';
-import { merge, Subject } from 'rxjs';
 
 @Component({
   selector: 'ngcommunity-map',
