@@ -1,6 +1,6 @@
 {
   "Angular Málaga": {
-    "id": "1",
+    "id": 1,
     "name": "Angular Málaga",
     "position": {
       "lat": 36.72016,
@@ -31,14 +31,14 @@
       }
     ]
   },
-  "AngularSevilla": {
-    "id": "2",
+  "Angular Sevilla": {
+    "id": 2,
     "name": "Angular Sevilla",
     "position": {
       "lng": -6.025099,
       "lat": 37.3754865
     },
-    "image": "assets/images/2.jps",
+    "image": "assets/images/2.png",
     "twitter": "https://twitter.com/ngsevilla",
     "web": "https://www.meetup.com/ngSevilla/",
     "description": "",
@@ -52,13 +52,13 @@
     ]
   },
   "Angular Almería": {
-    "id": "3",
+    "id": 3,
     "name": "Angular Almería",
     "position": {
       "lng": -2.4921361,
       "lat": 36.841523
     },
-    "image": "assets/images/3.jpg",
+    "image": "assets/images/3.png",
     "twitter": "https://twitter.com/AngularAlmeria",
     "web": "https://github.com/Angular-Almeria?language=javascript",
     "description": "",
@@ -68,6 +68,111 @@
         "twitter": "https://twitter.com/alodev",
         "github": "",
         "webs": [""]
+      }
+    ]
+  },
+  "Angular Belgium": {
+    "id": 4,
+    "name": "Angular Belgium",
+    "position": {
+      "lng": 4.34878,
+      "lat": 50.85045
+    },
+    "image": "assets/images/4.png",
+    "web": "https://www.meetup.com/es-ES/Angular-Belgium/",
+    "description": "",
+    "organizers": [
+      {
+        "name": "Sam Vloeberghs",
+        "twitter": "https://twitter.com/samvloeberghs",
+        "github": "https://github.com/samvloeberghs",
+        "webs": ["https://samvloeberghs.be/"]
+      },
+      {
+        "name": "Jurgen Van de Moere",
+        "twitter": "https://twitter.com/samvloeberghs",
+        "webs": ["https://www.jvandemo.com/"]
+      }
+    ]
+  },
+  "Angular Heidelberg": {
+    "id": 5,
+    "name": "Angular Heidelberg",
+    "position": {
+      "lng": 8.672434,
+      "lat": 49.39875
+    },
+    "image": "assets/images/5.png",
+    "web": "https://angular-heidelberg.de/",
+    "description": "",
+    "organizers": [
+      {
+        "name": "Johannes Hoppe",
+        "twitter": "https://twitter.com/johanneshoppe",
+        "webs": ["https://angular.schule/"]
+      },
+      {
+        "name": "Martina Kraus",
+        "twitter": "https://twitter.com/martinakraus11",
+        "webs": ["https://martinakraus.github.io/"]
+      },
+      {
+        "name": "Christian Janz",
+        "twitter": "https://twitter.com/c_janz"
+      }
+    ]
+  },
+  "Angular Wrocław": {
+    "id": 6,
+    "name": "Angular Wrocław",
+    "position": {
+      "lng": 17.038538,
+      "lat": 51.107883
+    },
+    "image": "assets/images/6.png",
+    "web": "https://www.meetup.com/es-ES/AngularJS-Wroc%C5%82aw/",
+    "description": "",
+    "organizers": [
+      {
+        "name": "Kamil Zasada",
+        "twitter": "https://twitter.com/zasadakamil"
+      },
+      {
+        "name": "Vitalii Bobrov",
+        "twitter": "https://twitter.com/bobrov1989",
+        "webs": ["https://bobrov.dev/"]
+      },
+      {
+        "name": "Szymon Pawlak"
+      },
+      {
+        "name": "Marta Wydra"
+      }
+    ]
+  },
+  "Angular London": {
+    "id": 7,
+    "name": "Angular London",
+    "position": {
+      "lng": -0.118092,
+      "lat": 51.509865
+    },
+    "image": "assets/images/7.png",
+    "web": "https://www.meetup.com/es-ES/angular-london/",
+    "description": "",
+    "organizers": [
+      {
+        "name": "Ed Conolly",
+        "twitter": "https://twitter.com/conollyed"
+      },
+      {
+        "name": "Pete Bacon Darwin",
+        "twitter": "https://twitter.com/petebd",
+        "webs": ["https://www.angularconnect.com/"]
+      },
+      {
+        "name": "Josh Moont",
+        "twitter": "https://twitter.com/moonty"
       }
     ]
   }
