@@ -1,66 +1,72 @@
 <mat-sidenav-container fullscreen>
-  <mat-sidenav-content>
-    <ng-container *ngIf="community; else default">
-      <header>
+  <mat-sidenav-content *ngIf="community; else search">
+    <header>
+      <span (click)="closeInfo()">X</span>
+      <a href="{{ community.web }}" target="_blank">
+        <img src="assets/images/{{ community.id }}.png" />
+      </a>
+      <div class="flex-even social-links">
+        <a href="{{ community.twitter }}" target="_blank">
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/social-twitter.svg" />
+        </a>
+        <h1>{{ community.name }}</h1>
         <a href="{{ community.web }}" target="_blank">
           <img src="assets/images/{{ community.id }}.png" />
         </a>
-        <div class="flex-even social-links">
-          <a href="{{ community.twitter }}" target="_blank">
+      </div>
+    </header>
+
+    <div class="profile-bio">
+      <div *ngIf="community.description">
+        {{ community.description }}
+      </div>
+      <div class="profile-title">Org</div>
+      <div class="flex-between" *ngFor="let organizer of community.organizers">
+        {{ organizer.name }}
+        <div class="flex-even">
+          <a
+            class="social-icon"
+            *ngIf="organizer.twitter"
+            href="{{ organizer.twitter }}"
+            target="_blank"
+          >
             <img
+              class="social"
               src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/social-twitter.svg"
             />
           </a>
-          <h1>{{ community.name }}</h1>
-          <a href="{{ community.web }}" target="_blank">
-            <img src="assets/images/{{ community.id }}.png" />
+          <a
+            class="social-icon"
+            *ngIf="organizer.github"
+            href="{{ organizer.github }}"
+            target="_blank"
+          >
+            <img
+              class="social"
+              src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Ei-sc-github.svg"
+            />
           </a>
         </div>
-      </header>
-
-      <div class="profile-bio">
-        <div *ngIf="community.description">
-          {{ community.description }}
-        </div>
-        <div class="profile-title">Org</div>
-        <div
-          class="flex-between"
-          *ngFor="let organizer of community.organizers"
-        >
-          {{ organizer.name }}
-          <div class="flex-even">
-            <a
-              class="social-icon"
-              *ngIf="organizer.twitter"
-              href="{{ organizer.twitter }}"
-              target="_blank"
-            >
-              <img
-                class="social"
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/social-twitter.svg"
-              />
-            </a>
-            <a
-              class="social-icon"
-              *ngIf="organizer.github"
-              href="{{ organizer.github }}"
-              target="_blank"
-            >
-              <img
-                class="social"
-                src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Ei-sc-github.svg"
-              />
-            </a>
-          </div>
-        </div>
       </div>
-    </ng-container>
+    </div>
   </mat-sidenav-content>
-  <ng-template #default class="content">
+  <ng-template #search class="content">
     <mat-sidenav-content>
       <header>
         <h1>Communities</h1>
         <h4>Search Communities</h4>
+        <mat-form-field>
+          <input type="text" [formControl]="control" matInput [matAutocomplete]="auto" />
+        </mat-form-field>
+
+        <mat-autocomplete
+          #auto="matAutocomplete"
+          (optionSelected)="onSelected($event.option.value)"
+        >
+          <mat-option *ngFor="let community of options$ | async" [value]="community">
+            {{ community }}
+          </mat-option>
+        </mat-autocomplete>
       </header>
     </mat-sidenav-content>
   </ng-template>

@@ -3,10 +3,7 @@ export type Communities = Record<string, Community>;
 export interface Community {
   id: number;
   name: string;
-  position: {
-    lat: number;
-    lng: number;
-  };
+  position: google.maps.LatLngLiteral;
   image: string;
   twitter: string;
   web: string;

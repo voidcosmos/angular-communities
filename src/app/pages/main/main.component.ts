@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { Community } from '@shared/interfaces';
+import { Community, Communities } from '@shared/interfaces';
 import { CommunityService } from '@shared/services';
 
 @Component({
@@ -21,9 +21,15 @@ export class MainComponent {
     },
   };
 
+  marked: Community;
+
   constructor(private communityService: CommunityService) {}
 
-  onSelectCommunity(community: Community) {
+  onClickCommunity(community: Community) {
     this.community = community;
+  }
+
+  onSelectCommunity(community: Community) {
+    this.marked = community;
   }
 }
