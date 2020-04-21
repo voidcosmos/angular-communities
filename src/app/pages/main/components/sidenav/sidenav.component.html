@@ -5,7 +5,7 @@
       <img [src]="community.image" />
       <div fxLayout fxLayoutAlign="space-evenly center social-links">
         <a
-          *ngIf="community.twitter"
+          *ngIf="community.twitter; else emptyCommunityTwitter"
           [href]="community.twitter"
           class="social-buttons__button social-button social-button--twitter"
           aria-label="Twitter"
@@ -18,6 +18,7 @@
         <h1>{{ community.name }}</h1>
 
         <a
+          *ngIf="community.web; else emptyCommunityWeb"
           [href]="community.web"
           target="_blank"
           class="social-buttons__button social-button social-button--link"
@@ -36,7 +37,6 @@
       <header class="margin-top-1">
         <h1>Organizers</h1>
       </header>
-      <!-- <div class="flex-between" *ngFor="let organizer of community.organizers"> -->
       <div
         fxLayout
         fxLayoutAlign="space-between center"
@@ -116,5 +116,20 @@
         </mat-autocomplete>
       </header>
     </mat-sidenav-content>
+  </ng-template>
+
+  <ng-template #emptyCommunityTwitter>
+    <a class="social-buttons__button social-button social-button--twitter" aria-label="Twitter">
+      <span class="social-button__inner">
+        <i class="fab fa-twitter"></i>
+      </span>
+    </a>
+  </ng-template>
+  <ng-template #emptyCommunityWeb>
+    <a target="_blank" class="social-buttons__button social-button social-button--link">
+      <span class="social-button__inner">
+        <i class="fas fa-link"></i>
+      </span>
+    </a>
   </ng-template>
 </mat-sidenav-container>
