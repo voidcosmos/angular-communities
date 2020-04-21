@@ -18,11 +18,16 @@ export class CommunityService {
       .get<Communities>(this.JSON_COMMUNITIES)
       .pipe(map(communities => this.normalizeCommunities(communities)));
   }
+
   private normalizeCommunities(communities: Communities): Communities {
-    const communitiesNormalized = Object.entries(communities).map(([title, community]) => {
-      const image = !community.image ? this.DEFAULT_IMAGE : community.image;
-      return [title, { ...community, image }];
-    });
+    const communitiesNormalized = Object.entries(communities).map(([title, community]) => [
+      title,
+      {
+        ...community,
+        image: community.image || this.DEFAULT_IMAGE,
+      },
+    ]);
+
     return Object.fromEntries(communitiesNormalized);
   }
 }
