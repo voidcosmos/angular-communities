@@ -18,7 +18,7 @@
       "@services/*": ["app/shared/services/*"],
       "@pages/*": ["app/pages/*"]
     },
-    "lib": ["es2018", "dom"]
+    "lib": ["es2018", "es2019", "dom"]
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
