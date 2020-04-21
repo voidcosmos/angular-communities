@@ -1,10 +1,8 @@
 <mat-sidenav-container fxFill>
   <mat-sidenav-content *ngIf="community; else search">
     <header>
-      <span (click)="onCloseInfo()" class="close"></span>
-      <a [href]="community.web" target="_blank">
-        <img [src]="community.image" />
-      </a>
+      <span (click)="onCloseInfo()" class="link close"></span>
+      <img [src]="community.image" />
       <div fxLayout fxLayoutAlign="space-evenly center social-links">
         <a
           *ngIf="community.twitter"
