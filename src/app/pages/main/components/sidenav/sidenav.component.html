@@ -35,6 +35,9 @@
           <a class="social-icon" *ngIf="organizer.github" [href]="organizer.github" target="_blank">
             <img class="social" src="assets/images/github.svg" />
           </a>
+          <a class="social-icon" *ngFor="let web of organizer.webs" [href]="web" target="_blank">
+            <img class="social" src="assets/images/link.svg" />
+          </a>
         </div>
       </div>
     </div>
