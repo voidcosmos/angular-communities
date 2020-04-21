@@ -21,6 +21,7 @@ export class MainComponent {
 
   onSelectCommunity(community: Community) {
     this.searched = community;
+    this.community = community;
   }
 
   onCloseCommunity() {

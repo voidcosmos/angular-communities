@@ -30,6 +30,7 @@ export class SidenavComponent {
   }
 
   onCloseInfo() {
+    this.control.setValue('');
     this.community = null;
     this.closeInfo.emit();
   }

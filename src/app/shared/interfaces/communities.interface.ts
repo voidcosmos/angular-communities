@@ -10,6 +10,7 @@ export interface Community {
   description: string;
   organizers: Organizer[];
 }
+
 interface Organizer {
   name: string;
   twitter: string;
