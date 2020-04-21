@@ -1,16 +1,16 @@
 <div
   *ngIf="communitie$ | async as communities"
-  gdAreas="side content"
+  gdAreas="map side"
   gdGap="0px"
   gdRows="100% 100%"
   gdColumns="auto 35%"
-  gdAreas.lt-md="side | content"
+  gdAreas.lt-md="side | map"
   gdColumns.lt-md="100% 100%"
   gdRows.lt-md="auto 40%"
   fxFlexFill
 >
   <ngcommunity-map
-    gdArea="side"
+    gdArea="map"
     [communities]="communities"
     [center]="searched?.position"
     (clickCommunity)="onClickCommunity($event)"
@@ -18,7 +18,7 @@
 
   <ngcommunity-sidenav
     gdRow="100px"
-    gdArea="content"
+    gdArea="side"
     [communities]="communities"
     [community]="community"
     (selected)="onSelectCommunity($event)"
