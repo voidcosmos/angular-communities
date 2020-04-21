@@ -1,8 +1,8 @@
-import { Component, Input, Output, EventEmitter } from '@angular/core';
+import { Communities, Community } from '@shared/interfaces';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { map, startWith } from 'rxjs/operators';
 
-import { Community, Communities } from '@shared/interfaces';
 import { FormControl } from '@angular/forms';
-import { startWith, map } from 'rxjs/operators';
 
 @Component({
   selector: 'ngcommunity-sidenav',

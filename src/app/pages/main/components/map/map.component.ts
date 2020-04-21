@@ -60,12 +60,12 @@ export class MapComponent implements OnInit, OnChanges {
 
   addCommunities() {
     const communities = Object.entries(this.communities);
-    this.markers = communities.map(([title, { id, position }]) => ({
+    this.markers = communities.map(([title, { position, image }]) => ({
       position,
       title,
       options: {
         icon: {
-          url: `assets/images/${id}.png`,
+          url: image,
           scaledSize: { height: 48, width: 48 },
         },
       },
