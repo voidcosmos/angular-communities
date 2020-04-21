@@ -134,3 +134,19 @@ body {
 .margin-top-1 {
   margin-top: 1em;
 }
+
+@media (max-width: 599px) {
+  .social-button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    width: 36px;
+    height: 36px;
+    text-decoration: none;
+  }
+  .social-button i {
+    font-size: 26px;
+  }
+}
