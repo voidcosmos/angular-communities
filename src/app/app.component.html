@@ -1,3 +1,13 @@
-<ngcommunity-header></ngcommunity-header>
-<ngcommunity-main></ngcommunity-main>
-<ngcommunity-footer></ngcommunity-footer>
+<div
+  fxFlexFill
+  gdAreas="header header | main main | footer footer"
+  gdGap="0px"
+  gdRows="64px auto 64px"
+  gdAreas.lt-md="header | side | content | footer"
+  gdRows.lt-md="auto auto auto auto"
+>
+  <ngcommunity-header gdArea="header"></ngcommunity-header>
+  <ngcommunity-main gdArea="main"></ngcommunity-main>
+
+  <ngcommunity-footer gdArea="footer"></ngcommunity-footer>
+</div>

@@ -1,7 +1,6 @@
-import { Component } from '@angular/core';
-
 import { Community } from '@shared/interfaces';
 import { CommunityService } from '@shared/services';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'ngcommunity-main',
@@ -11,15 +10,6 @@ import { CommunityService } from '@shared/services';
 export class MainComponent {
   community: Community;
   communitie$ = this.communityService.communities;
-  optionsGrid = {
-    cols: 4,
-    map: {
-      colspan: 3,
-    },
-    sidenav: {
-      colspan: 1,
-    },
-  };
 
   searched: Community;
 

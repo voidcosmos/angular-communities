@@ -1,17 +1,26 @@
-<mat-grid-list cols="4" rowHeight="100%" *ngIf="communitie$ | async as communities">
-  <mat-grid-tile [colspan]="optionsGrid.map.colspan">
-    <ngcommunity-map
-      [communities]="communities"
-      [center]="searched?.position"
-      (clickCommunity)="onClickCommunity($event)"
-    ></ngcommunity-map>
-  </mat-grid-tile>
-  <mat-grid-tile [colspan]="optionsGrid.sidenav.colspan">
-    <ngcommunity-sidenav
-      [communities]="communities"
-      [community]="community"
-      (selected)="onSelectCommunity($event)"
-      (closeInfo)="onCloseCommunity()"
-    ></ngcommunity-sidenav>
-  </mat-grid-tile>
-</mat-grid-list>
+<div
+  *ngIf="communitie$ | async as communities"
+  gdAreas="side content"
+  gdGap="0px"
+  gdRows="100% 100%"
+  gdColumns="auto 35%"
+  gdAreas.lt-md=" side | content "
+  gdRows.lt-md="auto auto"
+  fxFlexFill
+>
+  <ngcommunity-map
+    gdArea="side"
+    [communities]="communities"
+    [center]="searched?.position"
+    (clickCommunity)="onClickCommunity($event)"
+  ></ngcommunity-map>
+
+  <ngcommunity-sidenav
+    gdRow="100px"
+    gdArea="content"
+    [communities]="communities"
+    [community]="community"
+    (selected)="onSelectCommunity($event)"
+    (closeInfo)="onCloseCommunity()"
+  ></ngcommunity-sidenav>
+</div>
