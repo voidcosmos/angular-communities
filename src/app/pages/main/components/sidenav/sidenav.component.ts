@@ -15,6 +15,8 @@ export class SidenavComponent {
 
   @Output()
   selected = new EventEmitter<Community>();
+  @Output()
+  closeInfo = new EventEmitter<void>();
 
   control = new FormControl();
   options$ = this.control.valueChanges.pipe(
@@ -27,8 +29,9 @@ export class SidenavComponent {
     this.selected.emit(this.communities[selected]);
   }
 
-  closeInfo() {
+  onCloseInfo() {
     this.community = null;
+    this.closeInfo.emit();
   }
 
   private getFilteredCommunitiesBy(filter: string) {

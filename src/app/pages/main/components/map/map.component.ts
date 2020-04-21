@@ -1,4 +1,3 @@
-import { Communities, Community } from '@shared/interfaces';
 import {
   Component,
   EventEmitter,
@@ -10,8 +9,9 @@ import {
   ViewChild,
 } from '@angular/core';
 import { GoogleMap, MapMarker } from '@angular/google-maps';
-import { Subject, merge } from 'rxjs';
+import { Subject } from 'rxjs';
 
+import { Communities, Community } from '@shared/interfaces';
 import { GeolocationService } from '@shared/services';
 
 @Component({
@@ -21,21 +21,16 @@ import { GeolocationService } from '@shared/services';
 })
 export class MapComponent implements OnInit, OnChanges {
   @ViewChild(GoogleMap, { static: false }) map: GoogleMap;
-  @Output() community: EventEmitter<Community> = new EventEmitter();
   @Input() communities: Communities;
-  @Input() marked: Community;
+  @Input() center: google.maps.LatLngLiteral;
 
-  markers$ = new Subject<google.maps.LatLngLiteral>();
+  @Output() clickCommunity: EventEmitter<Community> = new EventEmitter();
+
+  center$ = new Subject<google.maps.LatLngLiteral>();
 
   markers: any[] = [];
   zoom = 11;
-  center$ = merge(
-    this.geolocation.getMyLocationOr({
-      lat: 36.72016,
-      lng: -4.42034,
-    }),
-    this.markers$,
-  );
+
   options: google.maps.MapOptions = {
     zoomControl: false,
     scrollwheel: true,
@@ -46,15 +41,22 @@ export class MapComponent implements OnInit, OnChanges {
     minZoom: 4,
   };
 
-  constructor(private geolocation: GeolocationService) {}
+  constructor(private geolocation: GeolocationService) {
+    this.geolocation
+      .getMyLocationOr({
+        lat: 36.72016,
+        lng: -4.42034,
+      })
+      .subscribe(coords => this.center$.next(coords));
+  }
 
   ngOnInit(): void {
     this.addCommunities();
   }
 
-  ngOnChanges({ marked }: SimpleChanges) {
-    if (marked && this.marked) {
-      this.markers$.next(this.marked.position);
+  ngOnChanges({ center }: SimpleChanges) {
+    if (center && this.center) {
+      this.center$.next(this.center);
     }
   }
 
@@ -74,6 +76,6 @@ export class MapComponent implements OnInit, OnChanges {
 
   openInfo(marker: MapMarker) {
     const community = this.communities[marker.getTitle()];
-    this.community.emit(community);
+    this.clickCommunity.emit(community);
   }
 }
