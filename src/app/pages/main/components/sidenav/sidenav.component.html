@@ -1,4 +1,4 @@
-<mat-sidenav-container fxFill>
+<mat-sidenav-container fxFill class="animated" [ngClass]="{ fadeIn: community }">
   <mat-sidenav-content *ngIf="community; else search">
     <header>
       <span (click)="onCloseInfo()" class="link close"></span>
