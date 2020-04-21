@@ -1,5 +1,5 @@
 mat-sidenav-content {
-  //background-image: linear-gradient(#ffffff, #000000);
+  //  background-image: linear-gradient(#ffffff, #000000);
 }
 
 div {
@@ -25,6 +25,7 @@ header h1 {
   padding: 10px;
   border-top: 1px solid #888888;
   border-bottom: 1px solid #888888;
+  margin: 0 0 0px;
 }
 
 header h2 {
@@ -37,30 +38,12 @@ header h2 {
   margin: 0;
 }
 
-.social {
-  width: 25px;
-  height: 25px;
-  background: #fff;
-  border-radius: 50%;
-  border: 1px solid #888888;
-}
-
-.profile-title {
+.community-title {
   font-size: 22px;
   margin-top: 15px;
 }
 
-.flex-even {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.flex-between {
-  display: flex;
-  justify-content: space-between;
-}
-
-.profile-bio {
+.community-bio {
   margin-top: 20px;
   padding: 1px 20px 10px 20px !important;
   color: #888888;
@@ -72,16 +55,12 @@ header h2 {
   margin-right: 2px;
 }
 
-.profile-bio p:first-child {
-  text-align: center;
-  font-size: 16px;
+.community-bio p:first-child {
+  text-align: justify;
+  font-size: 19px;
+  line-height: 1.25em;
+  padding: 0em 1.25em;
 }
-
-.social-links a img {
-  width: 30px;
-  background: #fff;
-  border-radius: 50%;
-  border: 1px solid #888888;
-  padding: 5px;
-  margin: 0;
+mat-form-field {
+  width: 85%;
 }

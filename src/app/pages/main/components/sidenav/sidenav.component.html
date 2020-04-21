@@ -1,42 +1,94 @@
 <mat-sidenav-container fxFill>
   <mat-sidenav-content *ngIf="community; else search">
     <header>
-      <span (click)="onCloseInfo()">X</span>
+      <span (click)="onCloseInfo()" class="close"></span>
       <a [href]="community.web" target="_blank">
         <img [src]="community.image" />
       </a>
-      <div class="flex-even social-links">
-        <a [href]="community.twitter" target="_blank">
-          <img src="assets/images/twitter.svg" />
+      <div fxLayout fxLayoutAlign="space-evenly center social-links">
+        <a
+          *ngIf="community.twitter"
+          [href]="community.twitter"
+          class="social-buttons__button social-button social-button--twitter"
+          aria-label="Twitter"
+        >
+          <span class="social-button__inner">
+            <i class="fab fa-twitter"></i>
+          </span>
         </a>
+
         <h1>{{ community.name }}</h1>
-        <a [href]="community.web" target="_blank">
-          <img [src]="community.image" />
+
+        <a
+          [href]="community.web"
+          target="_blank"
+          class="social-buttons__button social-button social-button--link"
+        >
+          <span class="social-button__inner">
+            <i class="fas fa-link"></i>
+          </span>
         </a>
       </div>
     </header>
 
-    <div class="profile-bio">
-      <div *ngIf="community.description">
+    <div class="community-bio">
+      <p *ngIf="community.description">
         {{ community.description }}
-      </div>
-      <div class="profile-title">Org</div>
-      <div class="flex-between" *ngFor="let organizer of community.organizers">
-        {{ organizer.name }}
-        <div class="flex-even">
+      </p>
+      <header class="margin-top-1">
+        <h1>Organizers</h1>
+      </header>
+      <!-- <div class="flex-between" *ngFor="let organizer of community.organizers"> -->
+      <div
+        fxLayout
+        fxLayoutAlign="space-between center"
+        *ngFor="let organizer of community.organizers"
+      >
+        <span>{{ organizer.name }}</span>
+
+        <div fxLayout fxFlexalign="space-between center">
           <a
-            class="social-icon"
             *ngIf="organizer.twitter"
             [href]="organizer.twitter"
-            target="_blank"
+            class="social-buttons__button social-button social-button--twitter"
+            aria-label="Twitter"
           >
-            <img class="social" src="assets/images/twitter.svg" />
+            <span class="social-button__inner">
+              <i class="fab fa-twitter"></i>
+            </span>
           </a>
-          <a class="social-icon" *ngIf="organizer.github" [href]="organizer.github" target="_blank">
-            <img class="social" src="assets/images/github.svg" />
+
+          <a
+            *ngIf="organizer.github"
+            [href]="organizer.github"
+            target="_blank"
+            class="social-buttons__button social-button social-button--github"
+            aria-label="GitHub"
+          >
+            <span class="social-button__inner">
+              <i class="fab fa-github"></i>
+            </span>
           </a>
-          <a class="social-icon" *ngFor="let web of organizer.webs" [href]="web" target="_blank">
-            <img class="social" src="assets/images/link.svg" />
+          <a
+            *ngIf="organizer.linkedin"
+            [href]="organizer.linkedin"
+            target="_blank"
+            class="social-buttons__button social-button social-button--linkedin"
+            aria-label="LinkedIn"
+          >
+            <span class="social-button__inner">
+              <i class="fab fa-linkedin"></i>
+            </span>
+          </a>
+          <a
+            *ngFor="let web of organizer.webs"
+            [href]="web"
+            target="_blank"
+            class="social-buttons__button social-button social-button--link"
+          >
+            <span class="social-button__inner">
+              <i class="fas fa-link"></i>
+            </span>
           </a>
         </div>
       </div>
@@ -45,10 +97,15 @@
   <ng-template #search class="content">
     <mat-sidenav-content>
       <header>
-        <h1>Communities</h1>
-        <h4>Search Communities</h4>
-        <mat-form-field>
-          <input type="text" [formControl]="control" matInput [matAutocomplete]="auto" />
+        <h1>Search Communities</h1>
+        <mat-form-field class="margin-top-1">
+          <input
+            placeholder="Typing your community"
+            type="text"
+            [formControl]="control"
+            matInput
+            [matAutocomplete]="auto"
+          />
         </mat-form-field>
 
         <mat-autocomplete

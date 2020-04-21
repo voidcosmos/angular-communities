@@ -14,5 +14,6 @@ interface Organizer {
   name: string;
   twitter: string;
   github: string;
+  linkedin: string;
   webs: string[];
 }

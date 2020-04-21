@@ -1,8 +1,22 @@
 <mat-toolbar class="main-header" color="primary">
-  <mat-toolbar-row class="main-header-container">
-    <img src="assets/images/angular.png" />
-    <span>ANGULAR COMMUNITIES</span>
-    <span class="menu-spacer"></span>
-    <span class="fill-space"></span>
+  <mat-toolbar-row class="main-header-container" fxLayout fxLayoutAlign="space-between center">
+    <div fxLayout fxLayoutAlign="center center">
+      <img src="assets/images/angular.png" />
+      <span>ANGULAR COMMUNITIES</span>
+      <span class="menu-spacer"></span>
+      <span class="fill-space"></span>
+    </div>
+    <div>
+      <a
+        href="https://www.github.com/voidcosmos/angular-communities"
+        target="_blank"
+        class="social-buttons__button social-button social-button--github"
+        aria-label="GitHub"
+      >
+        <span class="social-button__inner">
+          <i class="fab fa-github"></i>
+        </span>
+      </a>
+    </div>
   </mat-toolbar-row>
 </mat-toolbar>
