@@ -2,8 +2,8 @@
   <mat-grid-tile [colspan]="optionsGrid.map.colspan">
     <ngcommunity-map
       [communities]="communities"
-      [marked]="marked"
-      (community)="onClickCommunity($event)"
+      [center]="searched?.position"
+      (clickCommunity)="onClickCommunity($event)"
     ></ngcommunity-map>
   </mat-grid-tile>
   <mat-grid-tile [colspan]="optionsGrid.sidenav.colspan">
@@ -11,6 +11,7 @@
       [communities]="communities"
       [community]="community"
       (selected)="onSelectCommunity($event)"
+      (closeInfo)="onCloseCommunity()"
     ></ngcommunity-sidenav>
   </mat-grid-tile>
 </mat-grid-list>

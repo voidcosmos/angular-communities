@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { Community, Communities } from '@shared/interfaces';
+import { Community } from '@shared/interfaces';
 import { CommunityService } from '@shared/services';
 
 @Component({
@@ -21,7 +21,7 @@ export class MainComponent {
     },
   };
 
-  marked: Community;
+  searched: Community;
 
   constructor(private communityService: CommunityService) {}
 
@@ -30,6 +30,10 @@ export class MainComponent {
   }
 
   onSelectCommunity(community: Community) {
-    this.marked = community;
+    this.searched = community;
+  }
+
+  onCloseCommunity() {
+    this.community = null;
   }
 }

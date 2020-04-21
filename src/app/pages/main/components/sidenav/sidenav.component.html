@@ -1,16 +1,16 @@
 <mat-sidenav-container fullscreen>
   <mat-sidenav-content *ngIf="community; else search">
     <header>
-      <span (click)="closeInfo()">X</span>
-      <a href="{{ community.web }}" target="_blank">
+      <span (click)="onCloseInfo()">X</span>
+      <a [href]="community.web" target="_blank">
         <img src="assets/images/{{ community.id }}.png" />
       </a>
       <div class="flex-even social-links">
-        <a href="{{ community.twitter }}" target="_blank">
+        <a [href]="community.twitter" target="_blank">
           <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/social-twitter.svg" />
         </a>
         <h1>{{ community.name }}</h1>
-        <a href="{{ community.web }}" target="_blank">
+        <a [href]="community.web" target="_blank">
           <img src="assets/images/{{ community.id }}.png" />
         </a>
       </div>
@@ -27,7 +27,7 @@
           <a
             class="social-icon"
             *ngIf="organizer.twitter"
-            href="{{ organizer.twitter }}"
+            [href]="organizer.twitter"
             target="_blank"
           >
             <img
@@ -35,12 +35,7 @@
               src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/social-twitter.svg"
             />
           </a>
-          <a
-            class="social-icon"
-            *ngIf="organizer.github"
-            href="{{ organizer.github }}"
-            target="_blank"
-          >
+          <a class="social-icon" *ngIf="organizer.github" [href]="organizer.github" target="_blank">
             <img
               class="social"
               src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Ei-sc-github.svg"
