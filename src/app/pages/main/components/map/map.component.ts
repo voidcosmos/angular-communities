@@ -1,3 +1,4 @@
+import { Communities, Community } from '@shared/interfaces';
 import {
   Component,
   EventEmitter,
@@ -9,10 +10,9 @@ import {
   ViewChild,
 } from '@angular/core';
 import { GoogleMap, MapMarker } from '@angular/google-maps';
-import { Subject } from 'rxjs';
 
-import { Communities, Community } from '@shared/interfaces';
 import { GeolocationService } from '@shared/services';
+import { Subject } from 'rxjs';
 
 @Component({
   selector: 'ngcommunity-map',
@@ -29,7 +29,7 @@ export class MapComponent implements OnInit, OnChanges {
   center$ = new Subject<google.maps.LatLngLiteral>();
 
   markers: any[] = [];
-  zoom = 11;
+  zoom = 8;
 
   options: google.maps.MapOptions = {
     zoomControl: false,
@@ -37,8 +37,8 @@ export class MapComponent implements OnInit, OnChanges {
     disableDoubleClickZoom: false,
     fullscreenControl: false,
     streetViewControl: false,
-    maxZoom: 12,
-    minZoom: 4,
+    maxZoom: 10,
+    minZoom: 6,
   };
 
   constructor(private geolocation: GeolocationService) {
