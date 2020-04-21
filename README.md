@@ -45,9 +45,9 @@ Angular Communities
 - [ ] PWA
 - [ ] Conferences version
 
-<a name="#add-your-meetup"></a>
+<a name="#add-your-community"></a>
 
-## Add Your Event
+## Add Your Community
 
 Fork this repo so you can commit directly to your account and submit a Pull Request to include your meetup.
 
