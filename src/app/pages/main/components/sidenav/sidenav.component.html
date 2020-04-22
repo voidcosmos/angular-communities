@@ -95,10 +95,10 @@
   <ng-template #search class="content">
     <mat-sidenav-content>
       <header>
-        <h1>Search Communities</h1>
+        <h1>Communities</h1>
         <mat-form-field class="margin-top-1">
           <input
-            placeholder="Typing your community"
+            placeholder="Search communities"
             type="text"
             [formControl]="control"
             matInput
@@ -115,6 +115,9 @@
           </mat-option>
         </mat-autocomplete>
       </header>
+      <mat-divider></mat-divider>
+      <ngcommunity-preview (selected)="onSelectedPreview($event)" [communities]="communities">
+      </ngcommunity-preview>
     </mat-sidenav-content>
   </ng-template>
 
