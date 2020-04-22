@@ -4,6 +4,7 @@ export interface Community {
   id: number;
   name: string;
   position: google.maps.LatLngLiteral;
+  city: string;
   image: string;
   twitter: string;
   web: string;
