@@ -116,7 +116,11 @@
         </mat-autocomplete>
       </header>
       <mat-divider></mat-divider>
-      <ngcommunity-preview (selected)="onSelectedPreview($event)" [communities]="communities">
+      <ngcommunity-preview
+        fxHide.xs
+        (selected)="onSelectedPreview($event)"
+        [communities]="communities"
+      >
       </ngcommunity-preview>
     </mat-sidenav-content>
   </ng-template>

@@ -8,19 +8,22 @@ div {
   font-size: 12px;
 }
 
-.container {
-  margin-top: 20px;
-}
-
 .community {
   margin-bottom: 15px;
-}
-
-.list {
-  height: 400px;
 }
 
 .community:hover {
   cursor: pointer;
   background-color: #dfdfdf;
+}
+
+.community-preview-listContainer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  min-height: 80%;
+}
+
+.community-preview-listViewPort {
+  flex-grow: 1;
 }
