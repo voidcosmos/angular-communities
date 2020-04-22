@@ -6,6 +6,7 @@
       "lat": 36.72016,
       "lng": -4.42034
     },
+    "city": "Málaga",
     "image": "assets/images/1.png",
     "twitter": "https://twitter.com/AngularMalaga",
     "web": "https://sites.google.com/view/angular-malaga/",
@@ -42,6 +43,7 @@
       "lng": -6.025099,
       "lat": 37.3754865
     },
+    "city": "Sevilla",
     "image": "assets/images/2.png",
     "twitter": "https://twitter.com/ngsevilla",
     "web": "https://www.meetup.com/ngSevilla/",
@@ -61,6 +63,7 @@
       "lng": -2.4921361,
       "lat": 36.841523
     },
+    "city": "Almería",
     "image": "assets/images/3.png",
     "twitter": "https://twitter.com/AngularAlmeria",
     "web": "https://github.com/Angular-Almeria?language=javascript",
@@ -80,6 +83,7 @@
       "lng": 4.34878,
       "lat": 50.85045
     },
+    "city": "Brussels",
     "image": "assets/images/4.png",
     "web": "https://www.meetup.com/es-ES/Angular-Belgium/",
     "description": "",
@@ -104,6 +108,7 @@
       "lng": 8.672434,
       "lat": 49.39875
     },
+    "city": "Heidelberg",
     "image": "assets/images/5.png",
     "web": "https://angular-heidelberg.de/",
     "description": "",
@@ -131,6 +136,7 @@
       "lng": 17.038538,
       "lat": 51.107883
     },
+    "city": "Wrocław",
     "image": "assets/images/6.png",
     "web": "https://www.meetup.com/es-ES/AngularJS-Wroc%C5%82aw/",
     "description": "",
@@ -159,6 +165,7 @@
       "lng": -0.118092,
       "lat": 51.509865
     },
+    "city": "London",
     "image": "assets/images/7.png",
     "web": "https://www.meetup.com/es-ES/angular-london/",
     "description": "",
