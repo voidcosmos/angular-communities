@@ -58,3 +58,13 @@ header h2 {
 mat-form-field {
   width: 85%;
 }
+
+.organizer-name {
+  height: 42px;
+}
+
+@media (max-width: 599px) {
+  .organizer-name {
+    height: 36px;
+  }
+}
