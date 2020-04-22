@@ -18,7 +18,9 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { ScrollingModule } from '@angular/cdk/scrolling';
 import { NgModule } from '@angular/core';
+import { MatDividerModule } from '@angular/material/divider';
 
 const CORE_MODULES = [BrowserAnimationsModule, CommonModule, FormsModule, ReactiveFormsModule];
 
@@ -38,6 +40,8 @@ const MATERIAL_MODULES = [
   MatGridListModule,
   MatSidenavModule,
   MatAutocompleteModule,
+  MatDividerModule,
+  ScrollingModule,
 ];
 
 @NgModule({
