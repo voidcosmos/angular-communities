@@ -1,9 +1,9 @@
 <div class="container">
-  <cdk-virtual-scroll-viewport class="list">
+  <cdk-virtual-scroll-viewport itemSize="50" class="list">
     <div
       class="community"
       fxLayout="row"
-      fxLayoutAlign="space-around"
+      fxLayoutAlign="space-evenly"
       *cdkVirtualFor="let community of communities | keyvalue"
       (click)="onSelected(community.value.name)"
     >
