@@ -1,0 +1,17 @@
+<div class="community-preview-listContainer">
+  <cdk-virtual-scroll-viewport itemSize="50" class="community-preview-listViewPort">
+    <div
+      class="community"
+      fxLayout="row"
+      fxLayoutAlign="space-evenly"
+      *cdkVirtualFor="let community of communities | keyvalue"
+      (click)="onSelected(community.value.name)"
+    >
+      <img [src]="community.value.image" />
+      <div fxLayout="column">
+        <h3>{{ community.value.name }}</h3>
+        <p>{{ community.value.city }}</p>
+      </div>
+    </div>
+  </cdk-virtual-scroll-viewport>
+</div>
