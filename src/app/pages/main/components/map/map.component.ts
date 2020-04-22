@@ -32,9 +32,9 @@ export class MapComponent implements OnInit, OnChanges {
   zoom = 8;
 
   options: google.maps.MapOptions = {
-    zoomControl: false,
+    zoomControl: true,
     scrollwheel: true,
-    disableDoubleClickZoom: false,
+    disableDoubleClickZoom: true,
     fullscreenControl: false,
     streetViewControl: false,
     maxZoom: 10,
