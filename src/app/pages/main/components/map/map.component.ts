@@ -29,7 +29,7 @@ export class MapComponent implements OnInit, OnChanges {
   center$ = new Subject<google.maps.LatLngLiteral>();
 
   markers: any[] = [];
-  zoom = 8;
+  zoom = 10;
 
   options: google.maps.MapOptions = {
     zoomControl: true,
@@ -37,8 +37,8 @@ export class MapComponent implements OnInit, OnChanges {
     disableDoubleClickZoom: true,
     fullscreenControl: false,
     streetViewControl: false,
-    maxZoom: 10,
-    minZoom: 6,
+    maxZoom: 14,
+    minZoom: 2,
   };
 
   constructor(private geolocation: GeolocationService) {
