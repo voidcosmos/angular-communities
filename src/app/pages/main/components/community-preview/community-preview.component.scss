@@ -1,0 +1,26 @@
+img {
+  height: 90px;
+  width: 90px;
+  margin: 10px;
+}
+
+div {
+  font-size: 12px;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.community {
+  margin-bottom: 15px;
+}
+
+.list {
+  height: 400px;
+}
+
+.community:hover {
+  cursor: pointer;
+  background-color: #dfdfdf;
+}
