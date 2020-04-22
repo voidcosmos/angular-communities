@@ -29,6 +29,10 @@ export class SidenavComponent {
     this.selected.emit(this.communities[selected]);
   }
 
+  onSelectedPreview(selected: Community) {
+    this.selected.emit(selected);
+  }
+
   onCloseInfo() {
     this.control.setValue('');
     this.community = null;
