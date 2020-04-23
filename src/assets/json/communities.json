@@ -138,6 +138,7 @@
     },
     "city": "Wrocław",
     "image": "assets/images/6.png",
+    "twitter": "https://twitter.com/AngularWroclaw",
     "web": "https://www.meetup.com/es-ES/AngularJS-Wroc%C5%82aw/",
     "description": "",
     "organizers": [
@@ -167,6 +168,7 @@
     },
     "city": "London",
     "image": "assets/images/7.png",
+    "twitter": "https://twitter.com/AngularLONDON",
     "web": "https://www.meetup.com/es-ES/angular-london/",
     "description": "",
     "organizers": [
@@ -195,6 +197,7 @@
     "city": "San Francisco",
     "image": "assets/images/8.png",
     "web": "https://www.meetup.com/es-ES/Angular-SF/",
+    "twitter": "https://twitter.com/angularsf",
     "description": "Angular meetup group in San Francisco, CA. To host or speak, please message us!",
     "organizers": [
       {
