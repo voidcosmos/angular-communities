@@ -351,5 +351,24 @@
         "twitter": "https://twitter.com/obenjiro"
       }
     ]
+  },
+  "Angular Stuttgart": {
+    "id": 15,
+    "name": "Angular Stuttgart",
+    "position": {
+      "lng": 9.183333,
+      "lat": 48.783333
+    },
+    "city": "Stuttgart, Deutschland",
+    "image": "assets/images/15.png",
+    "twitter": "https://twitter.com/NgStuttgart",
+    "web": "https://www.meetup.com/angular-users-stuttgart/",
+    "description": "This meetup is for anybody who is interested in Angular or AngularJS!",
+    "organizers": [
+      {
+        "name": "Florian Tischler",
+        "twitter": "https://twitter.com/floriantischler"
+      }
+    ]
   }
 }
