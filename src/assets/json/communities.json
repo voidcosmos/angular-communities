@@ -333,5 +333,23 @@
         "twitter": "https://twitter.com/tomwhiterant"
       }
     ]
+  },
+  "Angular Moscow": {
+    "id": 14,
+    "name": "Angular Moscow",
+    "position": {
+      "lng": 37.618423,
+      "lat": 55.751244
+    },
+    "city": "Moscow, Russia",
+    "image": "assets/images/14.png",
+    "twitter": "https://twitter.com/AngularMoscow",
+    "web": "https://meetup.tinkoff.ru/",
+    "organizers": [
+      {
+        "name": "Aleksey Okhrimenko",
+        "twitter": "https://twitter.com/obenjiro"
+      }
+    ]
   }
 }
