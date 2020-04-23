@@ -275,5 +275,44 @@
         "webs": ["https://missing-manual.com/"]
       }
     ]
+  },
+  "ngManila": {
+    "id": 11,
+    "name": "ngManila",
+    "position": {
+      "lng": 120.984222,
+      "lat": 14.599512
+    },
+    "city": "Manila, the Philippines",
+    "image": "assets/images/11.png",
+    "twitter": "https://twitter.com/ngManila",
+    "web": "https://www.meetup.com/es-ES/ngManila/",
+    "description": "This is a group for anyone interested (experienced or new) in developing in Angular. Meet ups will be held with the primary goal of sharing knowledge and furthering the science of single-page app development using Angular. Expect speakers, networking, and fun!",
+    "organizers": [
+      {
+        "name": "Johnny Estilles",
+        "twitter": "https://twitter.com/JohnnyEstilles/"
+      }
+    ]
+  },
+  "ngBucharest": {
+    "id": 12,
+    "name": "ngBucharest",
+    "position": {
+      "lng": 26.096306,
+      "lat": 44.439663
+    },
+    "city": "Bucharest, Romania",
+    "image": "assets/images/12.png",
+    "twitter": "https://twitter.com/ngBucharest",
+    "web": "https://www.meetup.com/es-ES/AngularJS-Bucharest/",
+    "description": "This meet-up group has the purpose of creating a community around the Angular framework and related technologies.",
+    "organizers": [
+      {
+        "name": "Andrei Antal",
+        "twitter": "https://twitter.com/andrei_antal",
+        "github": "https://github.com/andrei-antal"
+      }
+    ]
   }
 }
