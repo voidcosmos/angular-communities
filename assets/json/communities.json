@@ -184,5 +184,38 @@
         "twitter": "https://twitter.com/moonty"
       }
     ]
+  },
+  "Angular San Francisco": {
+    "id": 8,
+    "name": "Angular San Francisco",
+    "position": {
+      "lng": -122.431297,
+      "lat": 37.773972
+    },
+    "city": "San Francisco",
+    "image": "assets/images/8.png",
+    "web": "https://www.meetup.com/es-ES/Angular-SF/",
+    "description": "Angular meetup group in San Francisco, CA. To host or speak, please message us!",
+    "organizers": [
+      {
+        "name": "Leonardo Zizzamia",
+        "twitter": "https://twitter.com/zizzamia",
+        "github": "https://github.com/Zizzamia"
+      },
+      {
+        "name": "Minko Gechev",
+        "twitter": "https://twitter.com/mgechev",
+        "github": "https://github.com/mgechev"
+      },
+      {
+        "name": "Matias Niemelä",
+        "twitter": "https://twitter.com/yearofmoo",
+        "webs": ["https://www.yearofmoo.com/"]
+      },
+      {
+        "name": "Igor Minar",
+        "twitter": "https://twitter.com/igorminar"
+      }
+    ]
   }
 }
