@@ -217,5 +217,35 @@
         "twitter": "https://twitter.com/igorminar"
       }
     ]
+  },
+  "Angular Oslo": {
+    "id": 9,
+    "name": "Angular Oslo",
+    "position": {
+      "lng": 10.757933,
+      "lat": 59.911491
+    },
+    "city": "Oslo",
+    "image": "assets/images/9.png",
+    "twitter": "https://twitter.com/angularoslo",
+    "web": "https://www.meetup.com/es-ES/AngularJS-Oslo/",
+    "youtube": "https://www.youtube.com/channel/UC-bZWTOkwB5JMgicaBEZEdQ",
+    "description": "Angular Oslo Meetup is a community of web developers dedicated to one of the most advanced and hot discussed JavaScript frameworks ideally suited for creating modern web and mobile applications. Community's mission is to help web front-end developers with selection of the best framework for their needs and to share knowledge, experience and best practices on it.",
+    "organizers": [
+      {
+        "name": "Maxim Salnikov",
+        "twitter": "https://twitter.com/webmaxru"
+      },
+      {
+        "name": "Minko Gechev",
+        "twitter": "https://twitter.com/mgechev",
+        "github": "https://github.com/mgechev"
+      },
+      {
+        "name": "Majid Hajian",
+        "twitter": "https://twitter.com/mhadaily",
+        "webs": ["https://www.majidhajian.com/"]
+      }
+    ]
   }
 }
