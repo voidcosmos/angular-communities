@@ -370,5 +370,26 @@
         "twitter": "https://twitter.com/floriantischler"
       }
     ]
+  },
+  "Angular Berlin": {
+    "id": 16,
+    "name": "Angular Berlin",
+    "position": {
+      "lng": 13.404954,
+      "lat": 52.520008
+    },
+    "city": "Berlin, Deutschland",
+    "image": "assets/images/16.png",
+    "twitter": "https://twitter.com/angular_berlin",
+    "web": "https://www.meetup.com/Angular-Meetup-Berlin/",
+    "youtube": "https://www.youtube.com/channel/UC7nGzQTgvPBRIo8rOGPGuaQ",
+    "description": "The Angular Meetup Berlin is a meetup around the Angular framework. We're open to anyone interested in the topic. Whether you're a beginner dying to poke questions at someone with experience or a veteran wanting to discuss the finer details, come along.",
+    "organizers": [
+      {
+        "name": "Robin Böhm",
+        "twitter": "https://twitter.com/robinboehm",
+        "webs": ["https://workshops.de/"]
+      }
+    ]
   }
 }
