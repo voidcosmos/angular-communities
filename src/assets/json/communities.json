@@ -250,5 +250,30 @@
         "webs": ["https://www.majidhajian.com/"]
       }
     ]
+  },
+  "Angular Vienna": {
+    "id": 10,
+    "name": "Angular Vienna",
+    "position": {
+      "lng": 16.363449,
+      "lat": 48.210033
+    },
+    "city": "Wien, Österreich",
+    "image": "assets/images/10.png",
+    "twitter": "https://twitter.com/AngularVienna",
+    "web": "https://www.meetup.com/es-ES/Angular-Vienna/",
+    "youtube": "https://www.youtube.com/playlist?list=PL8xuokhAnn4pftOHlvSvcO2TaPxXQeZD6",
+    "description": "A user group for Angular rookies, gurus, and everybody curious about what's new in the Angular world and related technologies.",
+    "organizers": [
+      {
+        "name": "Michael Hladky",
+        "twitter": "https://twitter.com/michael_hladky"
+      },
+      {
+        "name": "Miroslav Jonas",
+        "twitter": "https://twitter.com/meeroslav/",
+        "webs": ["https://missing-manual.com/"]
+      }
+    ]
   }
 }
