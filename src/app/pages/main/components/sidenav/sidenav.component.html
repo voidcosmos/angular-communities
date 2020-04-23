@@ -7,6 +7,7 @@
         <a
           *ngIf="community.twitter; else emptyCommunityTwitter"
           [href]="community.twitter"
+          target="_blank"
           class="social-buttons__button social-button social-button--twitter"
           aria-label="Twitter"
         >
@@ -48,6 +49,7 @@
           <a
             *ngIf="organizer.twitter"
             [href]="organizer.twitter"
+            target="_blank"
             class="social-buttons__button social-button social-button--twitter"
             aria-label="Twitter"
           >
