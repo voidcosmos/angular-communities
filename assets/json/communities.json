@@ -314,5 +314,24 @@
         "github": "https://github.com/andrei-antal"
       }
     ]
+  },
+  "Angular2bes": {
+    "id": 13,
+    "name": "Angular2bes",
+    "position": {
+      "lng": -0.13947,
+      "lat": 50.8283806
+    },
+    "city": "Brighton, United Kingdom",
+    "image": "assets/images/13.png",
+    "twitter": "https://twitter.com/Angular2bes",
+    "web": "https://www.meetup.com/es-ES/Brighton-Worthing-Angular2-Meetup/",
+    "description": "Hello there! We're a local Angular community group. Fancy joining up to share and learn together?",
+    "organizers": [
+      {
+        "name": "Tom White",
+        "twitter": "https://twitter.com/tomwhiterant"
+      }
+    ]
   }
 }
