@@ -484,7 +484,7 @@
       {
         "name": "Jeff Whelpley",
         "twitter": "https://twitter.com/jeffwhelpley",
-        "webs": "https://jeffwhelpley.com/"
+        "webs": ["https://jeffwhelpley.com/"]
       },
       {
         "name": "Rico dos Santos"
@@ -492,6 +492,30 @@
       {
         "name": "Sharon DiOrio",
         "twitter": "https://twitter.com/sharondio"
+      }
+    ]
+  },
+  "Angular Paris": {
+    "id": 21,
+    "name": "Angular Paris",
+    "position": {
+      "lng": 2.349014,
+      "lat": 48.864716
+    },
+    "city": "Paris, France",
+    "image": "assets/images/21.png",
+    "twitter": "https://twitter.com/ngParis",
+    "web": "https://www.meetup.com/AngularJS-Paris/",
+    "description": "If you love AngularJS and Angular 2 and live in or around Paris, join us!",
+    "organizers": [
+      {
+        "name": "Patrick Aljord",
+        "twitter": "https://twitter.com/patcito/",
+        "webs": ["https://medium.com/@patcito"]
+      },
+      {
+        "name": "Katiuska Gamero",
+        "twitter": "https://twitter.com/katy_gca"
       }
     ]
   }
