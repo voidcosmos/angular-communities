@@ -467,5 +467,32 @@
         "webs": ["https://chihab.dev/"]
       }
     ]
+  },
+  "Angular Boston": {
+    "id": 20,
+    "name": "Angular Boston",
+    "position": {
+      "lng": -71.057083,
+      "lat": 42.361145
+    },
+    "city": "Boston, MA",
+    "image": "assets/images/20.png",
+    "twitter": "https://twitter.com/NgBoston",
+    "web": "https://www.meetup.com/Angular-Boston/",
+    "description": "We're super proud when someone tells us we're the friendliest, and most open meet-up they've ever attended. We firmly believe that technology is nothing without the people who use it. So come join us if you love Angular, want to learn more, or are just curious. There's plenty of room for veterans and beginners!",
+    "organizers": [
+      {
+        "name": "Jeff Whelpley",
+        "twitter": "https://twitter.com/jeffwhelpley",
+        "webs": "https://jeffwhelpley.com/"
+      },
+      {
+        "name": "Rico dos Santos"
+      },
+      {
+        "name": "Sharon DiOrio",
+        "twitter": "https://twitter.com/sharondio"
+      }
+    ]
   }
 }
