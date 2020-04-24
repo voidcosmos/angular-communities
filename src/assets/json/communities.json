@@ -627,8 +627,8 @@
     "id": 26,
     "name": "Angular Ruhr",
     "position": {
-      "lng": -81.655647,
-      "lat": 30.332184
+      "lng": 6.88333,
+      "lat": 51.43333
     },
     "city": "Ruhrgebiet, Deutschland",
     "image": "assets/images/26.png",
@@ -650,6 +650,34 @@
       {
         "name": "Tobias Brenner",
         "twitter": "https://twitter.com/stardustlabs"
+      }
+    ]
+  },
+  "Angular Atlanta": {
+    "id": 27,
+    "name": "Angular Atlanta",
+    "position": {
+      "lng": -84.38633,
+      "lat": 33.753746
+    },
+    "city": "Atlanta, GA",
+    "image": "assets/images/27.png",
+    "twitter": "https://twitter.com/ATL_Angular",
+    "web": "https://www.meetup.com/ATL-Angular/",
+    "youtube": "https://www.youtube.com/channel/UCkLkCLvZkZkDLq1ZCW8mbAQ",
+    "description": "For both newbies and professional front-end developers interested in Angular, JavaScript and IoT(Internet of Things). Workshops, speakers, networking and more to help our community grow, support and learn from each other.",
+    "organizers": [
+      {
+        "name": "Araxie",
+        "twitter": "https://twitter.com/araxiemr"
+      },
+      {
+        "name": "Matt Gold",
+        "twitter": "https://twitter.com/mattbgold/"
+      },
+      {
+        "name": "Mariah Avalos",
+        "twitter": "https://twitter.com/mariahdavalos"
       }
     ]
   }
