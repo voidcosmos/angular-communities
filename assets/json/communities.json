@@ -680,5 +680,37 @@
         "twitter": "https://twitter.com/mariahdavalos"
       }
     ]
+  },
+  "Angular Finland": {
+    "id": 28,
+    "name": "Angular Finland",
+    "position": {
+      "lng": 24.945831,
+      "lat": 60.192059
+    },
+    "city": "Helsinki, Finland",
+    "image": "assets/images/28.png",
+    "twitter": "https://twitter.com/AngularFI",
+    "web": "https://www.angular.fi/",
+    "description": "We're an association formed to bring Angular people together in Finland. We're here to help people enter the industry, to develop their skills and to provide a platform for experts to share their knowledge with the Angular community. Our main activities are meetups, larger events in Finland and contributing to the ngVikings conference.",
+    "organizers": [
+      {
+        "name": "Richard Farkas",
+        "twitter": "https://twitter.com/richardfarkas"
+      },
+      {
+        "name": "Liisa Duerig",
+        "twitter": "https://twitter.com/liskit7"
+      },
+      {
+        "name": "Jussi Kinnula",
+        "twitter": "https://twitter.com/jussikinnula",
+        "webs": ["https://jussikinnula.com/"]
+      },
+      {
+        "name": "Michael Belov",
+        "webs": ["https://www.linkedin.com/in/belovm"]
+      }
+    ]
   }
 }
