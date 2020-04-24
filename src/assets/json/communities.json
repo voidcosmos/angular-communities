@@ -391,5 +391,26 @@
         "webs": ["https://workshops.de/"]
       }
     ]
+  },
+  "Angular Toronto": {
+    "id": 17,
+    "name": "Angular Toronto",
+    "position": {
+      "lng": -79.383800,
+      "lat": 43.650352
+    },
+    "city": "Toronto, Canada",
+    "image": "assets/images/17.png",
+    "twitter": "https://twitter.com/angulartoronto",
+    "web": "https://www.meetup.com/AngularToronto/",
+    "youtube": "https://www.youtube.com/channel/UCUlbE1BakJPBVx8OAzc5quA",
+    "description": "Angular 2+ meetup and anything Angular-related (NgRx, nest.js, TypeScript and etc).",
+    "organizers": [
+      {
+        "name": "Alex Okrushko",
+        "twitter": "https://twitter.com/AlexOkrushko",
+        "webs": ["https://medium.com/@alex.okrushko"]
+      }
+    ]
   }
 }
