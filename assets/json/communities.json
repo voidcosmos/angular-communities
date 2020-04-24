@@ -546,5 +546,18 @@
         "twitter": "https://twitter.com/jonnywalker9"
       }
     ]
+  },
+  "Angular Rome": {
+    "id": 23,
+    "name": "Angular Rome",
+    "position": {
+      "lng": 12.496366,
+      "lat": 41.902782
+    },
+    "city": "Rome, Italy",
+    "image": "assets/images/23.png",
+    "twitter": "https://twitter.com/AngularRome",
+    "web": "https://www.facebook.com/angularRome",
+    "description": "Il gruppo è dedicato al framework Angular e strumenti correlati (Typescript, Redux, RxJS, ..). Qui puoi condividere idee, fornire e ricevere supporto!!"
   }
 }
