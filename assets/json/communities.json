@@ -622,5 +622,35 @@
         "name": "Chris Young"
       }
     ]
+  },
+  "Angular Ruhr": {
+    "id": 26,
+    "name": "Angular Ruhr",
+    "position": {
+      "lng": -81.655647,
+      "lat": 30.332184
+    },
+    "city": "Ruhrgebiet, Deutschland",
+    "image": "assets/images/26.png",
+    "twitter": "https://twitter.com/AngularRuhr",
+    "web": "https://www.meetup.com/Angular-Ruhr/",
+    "description": "Angular Meetup in the Ruhr Area. Exchange knowledge, make some new friends, get projects, jobs. This Meetup is sponsored and hosted by E.ON Digital Technology, Essen. We welcome every kind of support. If you want to be a host, speaker, sponsor or participate in the planning, feel free to contact us.",
+    "organizers": [
+      {
+        "name": "Robin Böhm",
+        "twitter": "https://twitter.com/robinboehm",
+        "webs": ["https://workshops.de/"]
+      },
+      {
+        "name": "Leonard Thiele",
+        "twitter": "https://twitter.com/thiele_leonard",
+        "webs": ["https://leonardthiele.com/"],
+        "github": "https://github.com/leonardthiele"
+      },
+      {
+        "name": "Tobias Brenner",
+        "twitter": "https://twitter.com/stardustlabs"
+      }
+    ]
   }
 }
