@@ -712,5 +712,31 @@
         "webs": ["https://www.linkedin.com/in/belovm"]
       }
     ]
+  },
+  "Angular NYC": {
+    "id": 29,
+    "name": "Angular NYC",
+    "position": {
+      "lng": -73.935242,
+      "lat": 40.73061
+    },
+    "city": "Nueva York, NY",
+    "image": "assets/images/29.png",
+    "twitter": "https://twitter.com/AngularNYC",
+    "web": "https://angular.nyc/",
+    "youtube": "https://www.youtube.com/AngularNYC",
+    "description": "AngularNYC was created with the goal of sharing Angular knowledge and best-practices as well as providing a space where people can meet up and chat with others working with Angular.",
+    "organizers": [
+      {
+        "name": "Daniel Zen",
+        "twitter": "https://twitter.com/danielze",
+        "github": "https://github.com/danielzen",
+        "webs": ["https://zen.digital/"]
+      },
+      {
+        "name": "Kirill Cherkashin",
+        "twitter": "https://twitter.com/kirjs"
+      }
+    ]
   }
 }
