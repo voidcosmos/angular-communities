@@ -441,5 +441,31 @@
         "twitter": "https://twitter.com/giobetancourtg"
       }
     ]
+  },
+  "ng Morocco": {
+    "id": 19,
+    "name": "ng Morocco",
+    "position": {
+      "lng": -6.83255,
+      "lat": 34.0132484
+    },
+    "city": "Rabat, Morocco",
+    "image": "assets/images/19.png",
+    "twitter": "https://twitter.com/ngMorocco",
+    "web": "https://www.meetup.com/ngMorocco/",
+    "description": "The Moroccan Angular Developer Community The main goal of ngMorocco is to share Angular knowledge and best-practices, to gather people who are passionate about Angular and enable them to talk, socialize and learn from the best, with delicious food and a friendly atmosphere no matter your gender, age, physical appearance, body size, race, or religion.",
+    "organizers": [
+      {
+        "name": "Ouadie LAHDIOUI",
+        "twitter": "https://twitter.com/lahdiouiouadie",
+        "github": "https://github.com/ouadie-lahdioui"
+      },
+      {
+        "name": "Chihab Otmani",
+        "twitter": "https://twitter.com/chihabotmani",
+        "github": "https://github.com/chihab",
+        "webs": ["https://chihab.dev/"]
+      }
+    ]
   }
 }
