@@ -594,5 +594,33 @@
         "twitter": "https://twitter.com/abampakos"
       }
     ]
+  },
+  "Angular JAX": {
+    "id": 25,
+    "name": "Angular JAX",
+    "position": {
+      "lng": -81.655647,
+      "lat": 30.332184
+    },
+    "city": "Jacksonville, Florida",
+    "image": "assets/images/25.png",
+    "twitter": "https://twitter.com/AngularJax",
+    "web": "https://www.meetup.com/Angular-Jax-Meetup-Group/",
+    "description": "We share ideas and host discussions for developers interested in Angular. Our goal is to grow and contribute to the Angular community in Jacksonville through talks, teaching and the chance to network with other talented IT professionals.",
+    "organizers": [
+      {
+        "name": "Patricio Vargas",
+        "twitter": "https://twitter.com/devpato"
+      },
+      {
+        "name": "Healy Dwyer",
+        "twitter": "https://twitter.com/healydwya",
+        "webs": ["http://www.healydwyer.com/"],
+        "github": "https://github.com/healydwya"
+      },
+      {
+        "name": "Chris Young"
+      }
+    ]
   }
 }
