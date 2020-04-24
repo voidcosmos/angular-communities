@@ -396,7 +396,7 @@
     "id": 17,
     "name": "Angular Toronto",
     "position": {
-      "lng": -79.383800,
+      "lng": -79.3838,
       "lat": 43.650352
     },
     "city": "Toronto, Canada",
@@ -410,6 +410,35 @@
         "name": "Alex Okrushko",
         "twitter": "https://twitter.com/AlexOkrushko",
         "webs": ["https://medium.com/@alex.okrushko"]
+      }
+    ]
+  },
+  "Angular Bogotá": {
+    "id": 18,
+    "name": "Angular Bogotá",
+    "position": {
+      "lng": -74.063644,
+      "lat": 4.624335
+    },
+    "city": "Bogotá, Colombia",
+    "image": "assets/images/18.png",
+    "twitter": "https://twitter.com/angularbogota",
+    "web": "https://www.meetup.com/Angular-Bogota/",
+    "description": "🅰️💛❤️ Somos tu comunidad de Angular en Bogotá 🅰️💛❤️",
+    "organizers": [
+      {
+        "name": "Mayra Alejandra Rodriguez",
+        "twitter": "https://twitter.com/mayrascript",
+        "webs": ["https://mayrarodriguez.me/"]
+      },
+      {
+        "name": "Nicolás Contreras V.",
+        "twitter": "https://twitter.com/ni500",
+        "webs": ["https://ni500.com/"]
+      },
+      {
+        "name": "Giovanny Betancourt Gutierrez",
+        "twitter": "https://twitter.com/giobetancourtg"
       }
     ]
   }
