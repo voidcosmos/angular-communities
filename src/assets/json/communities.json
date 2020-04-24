@@ -559,5 +559,40 @@
     "twitter": "https://twitter.com/AngularRome",
     "web": "https://www.facebook.com/angularRome",
     "description": "Il gruppo è dedicato al framework Angular e strumenti correlati (Typescript, Redux, RxJS, ..). Qui puoi condividere idee, fornire e ricevere supporto!!"
+  },
+  "Angular Athens": {
+    "id": 24,
+    "name": "Angular Athens",
+    "position": {
+      "lng": 23.727539,
+      "lat": 37.98381
+    },
+    "city": "Attiki, Greece",
+    "image": "assets/images/24.png",
+    "twitter": "https://twitter.com/AthensAngular",
+    "web": "https://www.meetup.com/Angular-Athens/",
+    "description": "Angular is one of the most popular front-end frameworks and has a massive and active community around the world. The new version of Angular is here to stay and we want to build a community in Athens in order to explore the huge ecosystem around this framework, learn new things and share our knowledge and best practices about Angular and front end development in general. This group is for both newbies and experienced developers who want to be part of this community. We'll organize regularly scheduled meetings and of course we are open to new ideas for talks, for presenters and volunteers. If you want to share something cool about Angular you are more than welcome.",
+    "organizers": [
+      {
+        "name": "Katerina Skroumpelou",
+        "twitter": "https://twitter.com/psybercity",
+        "webs": ["https://twitter.com/psybercity"]
+      },
+      {
+        "name": "Stefanos Lignos",
+        "twitter": "https://twitter.com/stefanos_lig",
+        "webs": ["http://stefanos-lignos.com/"],
+        "github": "https://github.com/stefanoslig"
+      },
+      {
+        "name": "Lena Lekkou",
+        "twitter": "https://twitter.com/lenalekkou",
+        "webs": ["https://www.lenalekkou.gr/"]
+      },
+      {
+        "name": "Aristeidis Bampakos",
+        "twitter": "https://twitter.com/abampakos"
+      }
+    ]
   }
 }
