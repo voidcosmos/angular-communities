@@ -518,5 +518,33 @@
         "twitter": "https://twitter.com/katy_gca"
       }
     ]
+  },
+  "Angular Minnesota": {
+    "id": 22,
+    "name": "Angular Minnesota",
+    "position": {
+      "lng": -93.091301,
+      "lat": 44.954445
+    },
+    "city": "Saint Paul, MN",
+    "image": "assets/images/22.png",
+    "twitter": "https://twitter.com/AngularMN",
+    "web": "https://www.meetup.com/AngularMN/",
+    "description": "AngularMN strives to give Angular (current versions) and AngularJS (1.x) developers here in the Twin Cities a place to learn more about Angular, share success stories with one another, show the best practices we've had success with, and hang out together to talk about technology in general. We have multiple different event types",
+    "organizers": [
+      {
+        "name": "Will Buck",
+        "twitter": "https://twitter.com/wbucksoft",
+        "github": "https://github.com/willbuck"
+      },
+      {
+        "name": "Joel Miller",
+        "twitter": "https://twitter.com/joeltmiller"
+      },
+      {
+        "name": "Jonathan walker",
+        "twitter": "https://twitter.com/jonnywalker9"
+      }
+    ]
   }
 }
