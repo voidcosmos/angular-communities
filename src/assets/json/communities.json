@@ -848,5 +848,35 @@
         "webs": ["https://ng-poland.pl/"]
       }
     ]
+  },
+  "Angular Zürich": {
+    "id": 34,
+    "name": "Angular Zürich",
+    "position": {
+      "lng": 8.55,
+      "lat": 47.36667
+    },
+    "city": "Zürich, Switzerland",
+    "image": "assets/images/33.png",
+    "twitter": "https://twitter.com/AngularZurich",
+    "web": "https://angularzurich.dev/",
+    "youtube": "https://www.youtube.com/channel/UC3dvhlLD9QsFwe3H0HrFJLg",
+    "description": "👨‍🏫️ Let's learn #Angular together! 📅 Once a month ✨ Interesting topics & 👩👦 speakers Great community",
+    "organizers": [
+      {
+        "name": "Carlos Morales",
+        "twitter": "https://twitter.com/crlsmrls_"
+      },
+      {
+        "name": "Gion Kunz",
+        "twitter": "https://twitter.com/GionKunz"
+      },
+      {
+        "name": "Tomas Trajan",
+        "twitter": "https://twitter.com/tomastrajan",
+        "webs": ["https://www.tomastrajan.com/home"],
+        "github": "https://github.com/tomastrajan"
+      }
+    ]
   }
 }
