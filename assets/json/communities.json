@@ -763,5 +763,39 @@
         "twitter": "https://twitter.com/tobmaster/"
       }
     ]
+  },
+  "Angular Leipzig": {
+    "id": 31,
+    "name": "Angular Leipzig",
+    "position": {
+      "lng": 12.387772,
+      "lat": 51.343479
+    },
+    "city": "Leipzig, Saxony",
+    "image": "assets/images/31.png",
+    "twitter": "https://twitter.com/ngLeipzig/",
+    "web": "https://www.meetup.com//Angular-Meetup-Leipzig/",
+    "youtube": "https://www.youtube.com/watch?v=DchT9ozH0TQ&list=PLa3LJQYGkv7SFfhG0-_1c-cDttRinW4ZU",
+    "description": "This meetup group is dedicated to bringing together the local 🅰️ Angular Community in Leipzig, Germany. Angular is one of the major front-end frameworks. In this group, everything is centered around Angular, Angular CLI, TypeScript, RxJS, Testing and all that makes the Angular enthusiast's heart leap for joy! ❤️",
+    "organizers": [
+      {
+        "name": "Chrizzly",
+        "twitter": "https://twitter.com/Chrizzly42/"
+      },
+      {
+        "name": "Martina Kraus",
+        "twitter": "https://twitter.com/martinakraus11",
+        "webs": ["https://martinakraus.github.io/"]
+      },
+      {
+        "name": "Ferdinand Malcher",
+        "twitter": "https://twitter.com/fmalcher01/",
+        "webs": ["https://www.ferdinand-malcher.de/home/index.html"]
+      },
+      {
+        "name": "Robert Beier",
+        "twitter": "https://twitter.com/RobertBeier"
+      }
+    ]
   }
 }
