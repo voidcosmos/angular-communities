@@ -797,5 +797,36 @@
         "twitter": "https://twitter.com/RobertBeier"
       }
     ]
+  },
+  "Angular Seattle": {
+    "id": 32,
+    "name": "Angular Seattle",
+    "position": {
+      "lng": -122.335167,
+      "lat": 47.608013
+    },
+    "city": "Seattle, WA",
+    "image": "assets/images/32.png",
+    "twitter": "https://twitter.com/ngSeattle",
+    "web": "https://www.meetup.com/Angular-Seattle/",
+    "description": "There will be a regular meetup hosted at Google every January, April, July, and October. We're seeking organizers to help put together events the rest of the year. Organizers are responsible for finding speakers, getting a venue, and finding sponsorship. If you'd like to join our team of organizers, please reach out to us!",
+    "organizers": [
+      {
+        "name": "Mike Giambalvo",
+        "twitter": "https://twitter.com/heathkit"
+      },
+      {
+        "name": "Craig N",
+        "twitter": "https://twitter.com/cnishina/"
+      },
+      {
+        "name": "Nicole Oliver",
+        "twitter": "https://twitter.com/nixallover",
+        "webs": ["http://nixallover.com/"]
+      },
+      {
+        "name": "Kendrick Burson"
+      }
+    ]
   }
 }
