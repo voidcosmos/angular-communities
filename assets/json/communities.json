@@ -828,5 +828,25 @@
         "name": "Kendrick Burson"
       }
     ]
+  },
+  "Angular Kraków": {
+    "id": 33,
+    "name": "Angular Kraków",
+    "position": {
+      "lng": 19.944544,
+      "lat": 50.049683
+    },
+    "city": "Kraków, Poland",
+    "image": "assets/images/33.png",
+    "twitter": "https://twitter.com/AngularKrakow",
+    "web": "https://www.meetup.com/Angular-Krakow/",
+    "description": "If you love Angular and live in or around Kraków, join us!",
+    "organizers": [
+      {
+        "name": "Dariusz Kalbarczyk",
+        "twitter": "https://twitter.com/ngKalbarczyk",
+        "webs": ["https://ng-poland.pl/"]
+      }
+    ]
   }
 }
