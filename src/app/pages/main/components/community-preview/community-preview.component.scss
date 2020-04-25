@@ -11,22 +11,23 @@ div {
   font-size: 1rem;
 }
 
-.community {
-  margin-bottom: 15px;
-}
-
 .community:hover {
   cursor: pointer;
   background-color: #dfdfdf;
 }
 
-.community-preview-listContainer {
-  margin-top: 20px;
+.community-preview-list-container {
   display: flex;
   flex-direction: column;
-  min-height: 80%;
+  height: calc(100vh - 246px);
 }
 
-.community-preview-listViewPort {
+.community-preview-list-view-port {
   flex-grow: 1;
+}
+
+@media (max-width: 599px) {
+  .community-preview-list-container {
+    height: calc(100vh - 335px);
+  }
 }

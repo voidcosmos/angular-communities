@@ -1,5 +1,5 @@
 <mat-sidenav-container fxFill class="animated" [ngClass]="{ fadeIn: community }">
-  <mat-sidenav-content *ngIf="community; else search">
+  <mat-sidenav-content *ngIf="community; else search" class="">
     <header>
       <span (click)="onCloseInfo()" class="link close"></span>
       <img [src]="community.image" />
@@ -98,31 +98,9 @@
     <mat-sidenav-content>
       <header>
         <h1>Communities</h1>
-        <mat-form-field class="margin-top-1">
-          <input
-            placeholder="Search communities"
-            type="text"
-            [formControl]="control"
-            matInput
-            [matAutocomplete]="auto"
-          />
-        </mat-form-field>
-
-        <mat-autocomplete
-          #auto="matAutocomplete"
-          (optionSelected)="onSelected($event.option.value)"
-        >
-          <mat-option *ngFor="let community of options$ | async" [value]="community">
-            {{ community }}
-          </mat-option>
-        </mat-autocomplete>
       </header>
-      <mat-divider fxHide.xs></mat-divider>
-      <ngcommunity-preview
-        fxHide.xs
-        (selected)="onSelectedPreview($event)"
-        [communities]="communities"
-      >
+      <mat-divider></mat-divider>
+      <ngcommunity-preview (selected)="onSelected($event)" [communities]="communities">
       </ngcommunity-preview>
     </mat-sidenav-content>
   </ng-template>

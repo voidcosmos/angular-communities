@@ -1,17 +1,28 @@
-<div class="community-preview-listContainer">
-  <cdk-virtual-scroll-viewport itemSize="50" class="community-preview-listViewPort">
-    <div
-      class="community"
-      fxLayout="row"
-      fxLayoutAlign="space-evenly"
-      *cdkVirtualFor="let community of communities | keyvalue"
-      (click)="onSelected(community.value.name)"
-    >
-      <img [src]="community.value.image" />
-      <div fxFlex="66" fxLayout="column" fxLayoutAlign="center center">
-        <h3>{{ community.value.name }}</h3>
-        <p>{{ community.value.city }}</p>
+<div fxLayout="column">
+  <mat-form-field>
+    <input
+      placeholder="Search communities"
+      type="text"
+      [formControl]="filter"
+      matInput
+      autocomplete="off"
+    />
+  </mat-form-field>
+  <div class="community-preview-list-container">
+    <cdk-virtual-scroll-viewport itemSize="110" class="community-preview-list-view-port">
+      <div
+        class="community"
+        fxLayout="row"
+        fxLayoutAlign="space-evenly"
+        *cdkVirtualFor="let community of filtered$ | async"
+        (click)="onSelected(community.name)"
+      >
+        <img [src]="community.image" />
+        <div fxFlex="66" fxLayout="column" fxLayoutAlign="center center">
+          <h3>{{ community.name }}</h3>
+          <p>{{ community.city }}</p>
+        </div>
       </div>
-    </div>
-  </cdk-virtual-scroll-viewport>
+    </cdk-virtual-scroll-viewport>
+  </div>
 </div>
