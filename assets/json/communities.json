@@ -442,7 +442,7 @@
       }
     ]
   },
-  "ng Morocco": {
+  "ngMorocco": {
     "id": 19,
     "name": "ng Morocco",
     "position": {
@@ -736,6 +736,31 @@
       {
         "name": "Kirill Cherkashin",
         "twitter": "https://twitter.com/kirjs"
+      }
+    ]
+  },
+  "NgNiederrhein": {
+    "id": 30,
+    "name": "NgNiederrhein",
+    "position": {
+      "lng": 6.5091,
+      "lat": 51.3755
+    },
+    "city": "Krefeld, Nordrhein-Westfalen",
+    "image": "assets/images/30.png",
+    "twitter": "https://twitter.com/NgNiederrhein",
+    "web": "https://www.meetup.com/NgNiederrhein/",
+    "github": "https://github.com/niklas-wortmann/NgNiederrhein",
+    "description": "Meetup für Angular und alle weiteren Technologien und Tools , die für die Entwicklung von Angular Applikationen von Interesse sind. Es werden alle Themen vertreten sein, von der ersten Hello World Anwendung bis hin zu Fortgeschrittenen Themen, jeder ist also willkommen und hiermit herzlich eingeladen.",
+    "organizers": [
+      {
+        "name": "Jan-Niklas W.",
+        "twitter": "https://twitter.com/niklas_wortmann",
+        "webs": ["https://niklas-wortmann.com/"]
+      },
+      {
+        "name": "Tobias Struckmeier",
+        "twitter": "https://twitter.com/tobmaster/"
       }
     ]
   }
