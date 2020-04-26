@@ -27,9 +27,9 @@ export class CommunityPreviewComponent {
   }
 
   private getFilteredCommunitiesBy(criteria: string) {
-    return Object.values(this.communities).filter(
-      ({ name, city }) => this.contains(name, criteria) || this.contains(city, criteria),
-    );
+    return Object.values(this.communities)
+      .filter(({ name, city }) => this.contains(name, criteria) || this.contains(city, criteria))
+      .sort(this.compareCommunities);
   }
 
   private contains(value: string, contained: string) {
@@ -38,5 +38,9 @@ export class CommunityPreviewComponent {
       .replace(/[\u0300-\u036f]/g, '')
       .toLowerCase()
       .includes(contained);
+  }
+
+  private compareCommunities({ name }: Community, other: Community) {
+    return name.localeCompare(other.name);
   }
 }
