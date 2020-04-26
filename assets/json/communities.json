@@ -923,5 +923,29 @@
         "name": "Kátia Lima"
       }
     ]
+  },
+  "Angular Austin": {
+    "id": 36,
+    "name": "Angular Austin",
+    "position": {
+      "lng": -97.73333,
+      "lat": 30.266666
+    },
+    "city": "Austin, TX",
+    "image": "assets/images/36.png",
+
+    "web": "https://www.meetup.com/es-ES/AngularATX/",
+    "description": "Do you use Angular to build brilliant web apps? Are you interested in one of the best Javascript framework? Meetup with others who are into AngularJS, share knowledge, apps and collaborate. Angular -The Superheroic JavaScript MVW Framework is an open source offering from Google. Angular is what HTML would have been, had it been designed for building web-apps. Declarative templates with data-binding, MVW, MVVM, MVC, dependency injection and great testability story all implemented with pure client-side JavaScript!",
+    "organizers": [
+      {
+        "name": "Chander Dhall",
+        "github": "https://github.com/csdhall",
+        "webs": ["https://www.youtube.com/channel/UCRL37KOiqQ-tOohlkMwGKKg"]
+      },
+      {
+        "name": "Alison Wadsworth Dhall",
+        "twitter": "https://twitter.com/alison_dhall"
+      }
+    ]
   }
 }
