@@ -947,5 +947,26 @@
         "twitter": "https://twitter.com/alison_dhall"
       }
     ]
+  },
+  "Angular Sacramento": {
+    "id": 37,
+    "name": "Angular Sacramento",
+    "position": {
+      "lng": -121.478851,
+      "lat": 38.575764
+    },
+    "city": "Sacramento, CA",
+    "image": "assets/images/37.png",
+
+    "web": "https://www.meetup.com/Sacramento-Angular-Meetup/",
+    "description": "The Google Developer Group (GDG) Sacramento provides a forum for anyone in the Sacramento area to meet and discuss Google technologies such as Android, AppEngine, APIs, AngularJS, Polymer, Dart, Go, etc.",
+    "organizers": [
+      {
+        "name": "Alain Chautard",
+        "twitter": "https://twitter.com/alainchautard",
+        "github": "https://github.com/alcfeoh",
+        "webs": ["http://www.angulartraining.com/"]
+      }
+    ]
   }
 }
