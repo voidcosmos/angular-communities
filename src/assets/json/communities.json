@@ -442,9 +442,9 @@
       }
     ]
   },
-  "ng Morocco": {
+  "ngMorocco": {
     "id": 19,
-    "name": "ng Morocco",
+    "name": "ngMorocco",
     "position": {
       "lng": -6.83255,
       "lat": 34.0132484
@@ -720,7 +720,7 @@
       "lng": -73.935242,
       "lat": 40.73061
     },
-    "city": "Nueva York, NY",
+    "city": "New York, NY",
     "image": "assets/images/29.png",
     "twitter": "https://twitter.com/AngularNYC",
     "web": "https://angular.nyc/",
@@ -736,6 +736,311 @@
       {
         "name": "Kirill Cherkashin",
         "twitter": "https://twitter.com/kirjs"
+      }
+    ]
+  },
+  "NgNiederrhein": {
+    "id": 30,
+    "name": "NgNiederrhein",
+    "position": {
+      "lng": 6.5091,
+      "lat": 51.3755
+    },
+    "city": "Krefeld, Nordrhein-Westfalen",
+    "image": "assets/images/30.png",
+    "twitter": "https://twitter.com/NgNiederrhein",
+    "web": "https://www.meetup.com/NgNiederrhein/",
+    "github": "https://github.com/niklas-wortmann/NgNiederrhein",
+    "description": "Meetup für Angular und alle weiteren Technologien und Tools , die für die Entwicklung von Angular Applikationen von Interesse sind. Es werden alle Themen vertreten sein, von der ersten Hello World Anwendung bis hin zu Fortgeschrittenen Themen, jeder ist also willkommen und hiermit herzlich eingeladen.",
+    "organizers": [
+      {
+        "name": "Jan-Niklas W.",
+        "twitter": "https://twitter.com/niklas_wortmann",
+        "webs": ["https://niklas-wortmann.com/"]
+      },
+      {
+        "name": "Tobias Struckmeier",
+        "twitter": "https://twitter.com/tobmaster/"
+      }
+    ]
+  },
+  "Angular Leipzig": {
+    "id": 31,
+    "name": "Angular Leipzig",
+    "position": {
+      "lng": 12.387772,
+      "lat": 51.343479
+    },
+    "city": "Leipzig, Saxony",
+    "image": "assets/images/31.png",
+    "twitter": "https://twitter.com/ngLeipzig/",
+    "web": "https://www.meetup.com//Angular-Meetup-Leipzig/",
+    "youtube": "https://www.youtube.com/watch?v=DchT9ozH0TQ&list=PLa3LJQYGkv7SFfhG0-_1c-cDttRinW4ZU",
+    "description": "This meetup group is dedicated to bringing together the local 🅰️ Angular Community in Leipzig, Germany. Angular is one of the major front-end frameworks. In this group, everything is centered around Angular, Angular CLI, TypeScript, RxJS, Testing and all that makes the Angular enthusiast's heart leap for joy! ❤️",
+    "organizers": [
+      {
+        "name": "Chrizzly",
+        "twitter": "https://twitter.com/Chrizzly42/"
+      },
+      {
+        "name": "Martina Kraus",
+        "twitter": "https://twitter.com/martinakraus11",
+        "webs": ["https://martinakraus.github.io/"]
+      },
+      {
+        "name": "Ferdinand Malcher",
+        "twitter": "https://twitter.com/fmalcher01/",
+        "webs": ["https://www.ferdinand-malcher.de/home/index.html"]
+      },
+      {
+        "name": "Robert Beier",
+        "twitter": "https://twitter.com/RobertBeier"
+      }
+    ]
+  },
+  "Angular Seattle": {
+    "id": 32,
+    "name": "Angular Seattle",
+    "position": {
+      "lng": -122.335167,
+      "lat": 47.608013
+    },
+    "city": "Seattle, WA",
+    "image": "assets/images/32.png",
+    "twitter": "https://twitter.com/ngSeattle",
+    "web": "https://www.meetup.com/Angular-Seattle/",
+    "description": "There will be a regular meetup hosted at Google every January, April, July, and October. We're seeking organizers to help put together events the rest of the year. Organizers are responsible for finding speakers, getting a venue, and finding sponsorship. If you'd like to join our team of organizers, please reach out to us!",
+    "organizers": [
+      {
+        "name": "Mike Giambalvo",
+        "twitter": "https://twitter.com/heathkit"
+      },
+      {
+        "name": "Craig N",
+        "twitter": "https://twitter.com/cnishina/"
+      },
+      {
+        "name": "Nicole Oliver",
+        "twitter": "https://twitter.com/nixallover",
+        "webs": ["http://nixallover.com/"]
+      },
+      {
+        "name": "Kendrick Burson"
+      }
+    ]
+  },
+  "Angular Kraków": {
+    "id": 33,
+    "name": "Angular Kraków",
+    "position": {
+      "lng": 19.944544,
+      "lat": 50.049683
+    },
+    "city": "Kraków, Poland",
+    "image": "assets/images/33.png",
+    "twitter": "https://twitter.com/AngularKrakow",
+    "web": "https://www.meetup.com/Angular-Krakow/",
+    "description": "If you love Angular and live in or around Kraków, join us!",
+    "organizers": [
+      {
+        "name": "Dariusz Kalbarczyk",
+        "twitter": "https://twitter.com/ngKalbarczyk",
+        "webs": ["https://ng-poland.pl/"]
+      }
+    ]
+  },
+  "Angular Zürich": {
+    "id": 34,
+    "name": "Angular Zürich",
+    "position": {
+      "lng": 8.55,
+      "lat": 47.36667
+    },
+    "city": "Zürich, Switzerland",
+    "image": "assets/images/34.png",
+    "twitter": "https://twitter.com/AngularZurich",
+    "web": "https://angularzurich.dev/",
+    "youtube": "https://www.youtube.com/channel/UC3dvhlLD9QsFwe3H0HrFJLg",
+    "description": "👨‍🏫️ Let's learn #Angular together! 📅 Once a month ✨ Interesting topics & 👩👦 speakers Great community",
+    "organizers": [
+      {
+        "name": "Carlos Morales",
+        "twitter": "https://twitter.com/crlsmrls_"
+      },
+      {
+        "name": "Gion Kunz",
+        "twitter": "https://twitter.com/GionKunz"
+      },
+      {
+        "name": "Tomas Trajan",
+        "twitter": "https://twitter.com/tomastrajan",
+        "webs": ["https://www.tomastrajan.com/home"],
+        "github": "https://github.com/tomastrajan"
+      }
+    ]
+  },
+  "Angular SP": {
+    "id": 35,
+    "name": "Angular SP",
+    "position": {
+      "lng": -46.633308,
+      "lat": -23.55052
+    },
+    "city": "São Paulo, Brazil",
+    "image": "assets/images/35.png",
+    "twitter": "https://twitter.com/AngularSP",
+    "web": "https://www.meetup.com/AngularJS-Sao-Paulo/",
+    "youtube": "https://www.youtube.com/channel/UCK4x3skK4rTpLqJf6XkTfqg",
+    "description": "We are the biggest Angular community from Latin America",
+    "organizers": [
+      {
+        "name": "William Grasel",
+        "twitter": "https://twitter.com/willgmbr"
+      },
+      {
+        "name": "Américo Neto",
+        "twitter": "https://twitter.com/americoneto1"
+      },
+      {
+        "name": "Alana Ceccato",
+        "twitter": "https://twitter.com/AlanaCeccato"
+      },
+      {
+        "name": "Alvaro Camillo Neto",
+        "twitter": "https://twitter.com/alvarocamillont"
+      },
+      {
+        "name": "Paolo Almeida",
+        "twitter": "https://twitter.com/paolo_almeida"
+      },
+      {
+        "name": "Vitor Farias"
+      },
+      {
+        "name": "Mayara Cardoso"
+      },
+      {
+        "name": "Kátia Lima"
+      }
+    ]
+  },
+  "Angular Austin": {
+    "id": 36,
+    "name": "Angular Austin",
+    "position": {
+      "lng": -97.73333,
+      "lat": 30.266666
+    },
+    "city": "Austin, TX",
+    "image": "assets/images/36.png",
+
+    "web": "https://www.meetup.com/es-ES/AngularATX/",
+    "description": "Do you use Angular to build brilliant web apps? Are you interested in one of the best Javascript framework? Meetup with others who are into AngularJS, share knowledge, apps and collaborate. Angular -The Superheroic JavaScript MVW Framework is an open source offering from Google. Angular is what HTML would have been, had it been designed for building web-apps. Declarative templates with data-binding, MVW, MVVM, MVC, dependency injection and great testability story all implemented with pure client-side JavaScript!",
+    "organizers": [
+      {
+        "name": "Chander Dhall",
+        "github": "https://github.com/csdhall",
+        "webs": ["https://www.youtube.com/channel/UCRL37KOiqQ-tOohlkMwGKKg"]
+      },
+      {
+        "name": "Alison Wadsworth Dhall",
+        "twitter": "https://twitter.com/alison_dhall"
+      }
+    ]
+  },
+  "Angular Sacramento": {
+    "id": 37,
+    "name": "Angular Sacramento",
+    "position": {
+      "lng": -121.478851,
+      "lat": 38.575764
+    },
+    "city": "Sacramento, CA",
+    "image": "assets/images/37.png",
+
+    "web": "https://www.meetup.com/Sacramento-Angular-Meetup/",
+    "description": "The Google Developer Group (GDG) Sacramento provides a forum for anyone in the Sacramento area to meet and discuss Google technologies such as Android, AppEngine, APIs, AngularJS, Polymer, Dart, Go, etc.",
+    "organizers": [
+      {
+        "name": "Alain Chautard",
+        "twitter": "https://twitter.com/alainchautard",
+        "github": "https://github.com/alcfeoh",
+        "webs": ["http://www.angulartraining.com/"]
+      }
+    ]
+  },
+  "Angular Birmingham": {
+    "id": 38,
+    "name": "Angular Birmingham",
+    "position": {
+      "lng": -1.898575,
+      "lat": 52.489471
+    },
+    "city": "Birmingham, UK",
+    "image": "assets/images/38.png",
+    "twitter": "https://twitter.com/ngbrum/",
+    "web": "https://www.meetup.com/Angular-Birmingham/",
+    "description": "Sharing best practices, ideas, experiences and helping each other become Angular Ninjas!",
+    "organizers": [
+      {
+        "name": "Alex Cotelin",
+        "twitter": "https://twitter.com/alexcotelin"
+      },
+      {
+        "name": "George Wilde",
+        "twitter": "https://twitter.com/MrGeorgeWilde/",
+        "webs": ["https://www.wildecreations.co.uk/"]
+      },
+      {
+        "name": "Gary A Scott"
+      }
+    ]
+  },
+  "Angular Warsaw": {
+    "id": 39,
+    "name": "Angular Warsaw",
+    "position": {
+      "lng": 21.020000457763672,
+      "lat": 52.2599983215332
+    },
+    "city": "Warsaw, Poland",
+    "image": "assets/images/39.png",
+    "twitter": "https://twitter.com/AngularWarsaw",
+    "web": "http://angularwarsaw.pl/",
+    "description": "Angular Warsaw is a local community of Angular professionals and enthusiasts. We love Angular and want to share it with you. Every second month we have talks on Angular. Please join our Meetup to learn or share knowledge about Angular. We are constantly looking for new speakers.",
+    "organizers": [
+      {
+        "name": "Dariusz Kalbarczyk",
+        "twitter": "https://twitter.com/ngKalbarczyk",
+        "webs": ["https://ng-poland.pl/"]
+      },
+      {
+        "name": "Arek Kalbarczyk"
+      }
+    ]
+  },
+  "Angular Dresden": {
+    "id": 40,
+    "name": "Angular Dresden",
+    "position": {
+      "lng": 13.737262,
+      "lat": 51.050407
+    },
+    "city": "Dresden, Germany",
+    "image": "assets/images/40.png",
+    "twitter": "https://twitter.com/ngDresden",
+    "web": "https://angular-dresden.de/",
+    "description": "Dies ist die Gruppe für alle, die ihre Ideen mit dem Angular Framework bereits realisieren oder realisieren wollen. Hier dreht sich alles um Angular, Angular CLI, Angular Labs und Typescript. Für den Anfang ist ein monatliches Treffen geplant. Je nach Zuspruch wird die Häufigkeit der Treffen angepasst.",
+    "organizers": [
+      {
+        "name": "Gregor Doroschenko",
+        "twitter": "https://twitter.com/g_doroschenko/",
+        "webs": ["https://www.meetup.com/es-ES/Angular-Meetup-Dresden/"]
+      },
+      {
+        "name": "Henry Ruhs",
+        "twitter": "https://twitter.com/redaxmedia",
+        "webs": ["https://redaxmedia.com/"]
       }
     ]
   }
