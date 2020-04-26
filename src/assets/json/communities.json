@@ -883,8 +883,8 @@
     "id": 35,
     "name": "Angular SP",
     "position": {
-      "lng": -23.550520,
-      "lat": -46.633308
+      "lng": -46.633308,
+      "lat": -23.55052
     },
     "city": "São Paulo, Brazil",
     "image": "assets/images/35.png",
