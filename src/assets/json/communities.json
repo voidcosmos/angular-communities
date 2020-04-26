@@ -995,5 +995,28 @@
         "name": "Gary A Scott"
       }
     ]
+  },
+  "Angular Warsaw": {
+    "id": 39,
+    "name": "Angular Warsaw",
+    "position": {
+      "lng": 21.020000457763672,
+      "lat": 52.2599983215332
+    },
+    "city": "Warsaw, Poland",
+    "image": "assets/images/39.png",
+    "twitter": "https://twitter.com/AngularWarsaw",
+    "web": "http://angularwarsaw.pl/",
+    "description": "Angular Warsaw is a local community of Angular professionals and enthusiasts. We love Angular and want to share it with you. Every second month we have talks on Angular. Please join our Meetup to learn or share knowledge about Angular. We are constantly looking for new speakers.",
+    "organizers": [
+      {
+        "name": "Dariusz Kalbarczyk",
+        "twitter": "https://twitter.com/ngKalbarczyk",
+        "webs": ["https://ng-poland.pl/"]
+      },
+      {
+        "name": "Arek Kalbarczyk"
+      }
+    ]
   }
 }
