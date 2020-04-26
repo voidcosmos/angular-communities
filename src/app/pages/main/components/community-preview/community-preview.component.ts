@@ -33,11 +33,14 @@ export class CommunityPreviewComponent {
   }
 
   private contains(value: string, contained: string) {
+    return this.normalize(value).includes(this.normalize(contained));
+  }
+
+  private normalize(value: string) {
     return value
       .normalize('NFD')
       .replace(/[\u0300-\u036f]/g, '')
-      .toLowerCase()
-      .includes(contained);
+      .toLowerCase();
   }
 
   private compareCommunities({ name }: Community, other: Community) {
