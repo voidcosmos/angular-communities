@@ -968,5 +968,32 @@
         "webs": ["http://www.angulartraining.com/"]
       }
     ]
+  },
+  "Angular Birmingham": {
+    "id": 38,
+    "name": "Angular Birmingham",
+    "position": {
+      "lng": -1.898575,
+      "lat": 52.489471
+    },
+    "city": "Birmingham, UK",
+    "image": "assets/images/38.png",
+    "twitter": "https://twitter.com/ngbrum/",
+    "web": "https://www.meetup.com/Angular-Birmingham/",
+    "description": "Sharing best practices, ideas, experiences and helping each other become Angular Ninjas!",
+    "organizers": [
+      {
+        "name": "Alex Cotelin",
+        "twitter": "https://twitter.com/alexcotelin"
+      },
+      {
+        "name": "George Wilde",
+        "twitter": "https://twitter.com/MrGeorgeWilde/",
+        "webs": ["https://www.wildecreations.co.uk/"]
+      },
+      {
+        "name": "Gary A Scott"
+      }
+    ]
   }
 }
