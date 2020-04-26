@@ -1018,5 +1018,30 @@
         "name": "Arek Kalbarczyk"
       }
     ]
+  },
+  "Angular Dresden": {
+    "id": 40,
+    "name": "Angular Dresden",
+    "position": {
+      "lng": 13.737262,
+      "lat": 51.050407
+    },
+    "city": "Dresden, Germany",
+    "image": "assets/images/40.png",
+    "twitter": "https://twitter.com/ngDresden",
+    "web": "https://angular-dresden.de/",
+    "description": "Dies ist die Gruppe für alle, die ihre Ideen mit dem Angular Framework bereits realisieren oder realisieren wollen. Hier dreht sich alles um Angular, Angular CLI, Angular Labs und Typescript. Für den Anfang ist ein monatliches Treffen geplant. Je nach Zuspruch wird die Häufigkeit der Treffen angepasst.",
+    "organizers": [
+      {
+        "name": "Gregor Doroschenko",
+        "twitter": "https://twitter.com/g_doroschenko/",
+        "webs": ["https://www.meetup.com/es-ES/Angular-Meetup-Dresden/"]
+      },
+      {
+        "name": "Henry Ruhs",
+        "twitter": "https://twitter.com/redaxmedia",
+        "webs": ["https://redaxmedia.com/"]
+      }
+    ]
   }
 }
