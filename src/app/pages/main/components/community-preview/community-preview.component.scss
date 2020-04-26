@@ -26,8 +26,17 @@ div {
   flex-grow: 1;
 }
 
+mat-form-field {
+  width: 85%;
+  align-self: center;
+}
+
 @media (max-width: 599px) {
   .community-preview-list-container {
     height: calc(100vh - 335px);
+  }
+
+  mat-form-field {
+    width: 100%;
   }
 }
