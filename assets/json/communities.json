@@ -878,5 +878,50 @@
         "github": "https://github.com/tomastrajan"
       }
     ]
+  },
+  "Angular SP": {
+    "id": 35,
+    "name": "Angular SP",
+    "position": {
+      "lng": -23.550520,
+      "lat": -46.633308
+    },
+    "city": "São Paulo, Brazil",
+    "image": "assets/images/35.png",
+    "twitter": "https://twitter.com/AngularSP",
+    "web": "https://www.meetup.com/AngularJS-Sao-Paulo/",
+    "youtube": "https://www.youtube.com/channel/UCK4x3skK4rTpLqJf6XkTfqg",
+    "description": "We are the biggest Angular community from Latin America",
+    "organizers": [
+      {
+        "name": "William Grasel",
+        "twitter": "https://twitter.com/willgmbr"
+      },
+      {
+        "name": "Américo Neto",
+        "twitter": "https://twitter.com/americoneto1"
+      },
+      {
+        "name": "Alana Ceccato",
+        "twitter": "https://twitter.com/AlanaCeccato"
+      },
+      {
+        "name": "Alvaro Camillo Neto",
+        "twitter": "https://twitter.com/alvarocamillont"
+      },
+      {
+        "name": "Paolo Almeida",
+        "twitter": "https://twitter.com/paolo_almeida"
+      },
+      {
+        "name": "Vitor Farias"
+      },
+      {
+        "name": "Mayara Cardoso"
+      },
+      {
+        "name": "Kátia Lima"
+      }
+    ]
   }
 }
