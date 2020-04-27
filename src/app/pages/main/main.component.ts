@@ -11,8 +11,6 @@ export class MainComponent {
   community: Community;
   communitie$ = this.communityService.communities;
 
-  searched: Community;
-
   constructor(private communityService: CommunityService) {}
 
   onClickCommunity(community: Community) {
@@ -20,7 +18,6 @@ export class MainComponent {
   }
 
   onSelectCommunity(community: Community) {
-    this.searched = community;
     this.community = community;
   }
 
