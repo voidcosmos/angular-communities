@@ -1043,5 +1043,37 @@
         "webs": ["https://redaxmedia.com/"]
       }
     ]
+  },
+  "ngBaires": {
+    "id": 41,
+    "name": "ngBaires",
+    "position": {
+      "lng": -58.381592,
+      "lat": -34.603722
+    },
+    "city": "Buenos Aires, Argentina",
+    "image": "assets/images/41.png",
+    "twitter": "https://twitter.com/ngbaires",
+    "web": "https://github.com/ngbaires",
+    "description": "Grupo de Angular en Buenos Aires, Argentina",
+    "organizers": [
+      {
+        "name": "Jorge Cano",
+        "twitter": "https://twitter.com/jorgeucano/",
+        "github": "https://github.com/jorgeucano",
+        "webs": ["https://medium.com/@jorgeucano"]
+      },
+      {
+        "name": "Andrés Villanueva",
+        "twitter": "https://twitter.com/villanuevand",
+        "github": "https://github.com/Villanuevand/",
+        "webs": ["https://www.andresvillanueva.com.ve/"]
+      },
+      {
+        "name": "Leonardo Pittelli",
+        "twitter": "https://twitter.com/leopittelli",
+        "github": "https://github.com/leopittelli"
+      }
+    ]
   }
 }
