@@ -1075,5 +1075,25 @@
         "github": "https://github.com/leopittelli"
       }
     ]
-  }
+  },
+  "Angular Honduras": { 
+    "id": 42, 
+    "name": "Angular Honduras", 
+    "position": { 
+      "lat": 15.5012428,
+      "lng": -88.0327868
+    },
+    "city" : "San Pedro Sula, Honduras"
+    "image": "assets/images/42.png", 
+    "twitter": "https://twitter.com/AngularHonduras",
+    "web": "https://ng-honduras.org/", 
+    "description": "Angular Honduras es una comunidad abierta para compartir experiencias y conocimiento sobre Angular y 	Tecnologías Web.",
+    "organizers": [
+      {
+        "name": "Ricardo Chavarria", 
+        "twitter": "https://twitter.com/ricardo_chl",  
+        "github": "https://github.com/ricardochl" 
+      },
+    ]
+  },
 }
