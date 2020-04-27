@@ -1085,7 +1085,6 @@
     },
     "city": "Sofia, Bulgaria",
     "image": "assets/images/42.png",
-    "twitter": "https://twitter.com/ngbaires",
     "web": "https://www.meetup.com/Angular-Sofia",
     "description": "This is a group for anyone excited about Angular. Let's gather together and share our experience. All skill levels are welcome. We are always looking for new speakers, so if have na idea for a talk, please contact the organizers.",
     "organizers": [
@@ -1123,8 +1122,8 @@
     "id": 44,
     "name": "Angular Bahia",
     "position": {
-      "lng": -38.5108300,
-      "lat": -12.9711100
+      "lng": -38.51083,
+      "lat": -12.97111
     },
     "city": "Salvador",
     "image": "assets/images/44.png",
@@ -1142,7 +1141,7 @@
         "name": "Igor Alves",
         "twitter": "https://twitter.com/devBaiano",
         "github": "https://github.com/Perolanegra",
-        "webs": ["https://dev.to/perolanegra","https://medium.com/@devbaiano"]
+        "webs": ["https://dev.to/perolanegra", "https://medium.com/@devbaiano"]
       }
     ]
   }
