@@ -1,8 +1,5 @@
 import { Communities, Community } from '@shared/interfaces';
 import { Component, EventEmitter, Input, Output } from '@angular/core';
-import { map, startWith } from 'rxjs/operators';
-
-import { FormControl } from '@angular/forms';
 
 @Component({
   selector: 'ngcommunity-sidenav',
@@ -18,28 +15,12 @@ export class SidenavComponent {
   @Output()
   closeInfo = new EventEmitter<void>();
 
-  control = new FormControl();
-  options$ = this.control.valueChanges.pipe(
-    startWith(''),
-    map(value => value.toLocaleLowerCase()),
-    map(value => this.getFilteredCommunitiesBy(value)),
-  );
-
-  onSelected(selected: string) {
-    this.selected.emit(this.communities[selected]);
-  }
-
-  onSelectedPreview(selected: Community) {
+  onSelected(selected: Community) {
     this.selected.emit(selected);
   }
 
   onCloseInfo() {
-    this.control.setValue('');
     this.community = null;
     this.closeInfo.emit();
-  }
-
-  private getFilteredCommunitiesBy(filter: string) {
-    return Object.keys(this.communities).filter(name => name.toLocaleLowerCase().includes(filter));
   }
 }

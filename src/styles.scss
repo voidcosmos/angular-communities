@@ -183,3 +183,19 @@ body {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
 }
+
+*::-webkit-scrollbar-track {
+  background: #f7f9fc;
+}
+
+*::-webkit-scrollbar {
+  width: 0.4rem;
+  height: 0.4rem;
+  background-color: #f5f5f5;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #c10707;
+  cursor: pointer;
+  border-radius: 0.7rem;
+}
