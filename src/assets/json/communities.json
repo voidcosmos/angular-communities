@@ -1075,5 +1075,28 @@
         "github": "https://github.com/leopittelli"
       }
     ]
+  },
+  "Angular Sofia": {
+    "id": 42,
+    "name": "Angular Sofia",
+    "position": {
+      "lng": 23.319941,
+      "lat": 42.698334
+    },
+    "city": "Sofia, Bulgaria",
+    "image": "assets/images/42.png",
+    "twitter": "https://twitter.com/ngbaires",
+    "web": "https://www.meetup.com/Angular-Sofia",
+    "description": "This is a group for anyone excited about Angular. Let's gather together and share our experience. All skill levels are welcome. We are always looking for new speakers, so if have na idea for a talk, please contact the organizers.",
+    "organizers": [
+      {
+        "name": "Alexander Vakrilov",
+        "twitter": "https://twitter.com/ufsa"
+      },
+      {
+        "name": "Iliya Idakiev",
+        "twitter": "https://twitter.com/ilia_idakiev"
+      }
+    ]
   }
 }
