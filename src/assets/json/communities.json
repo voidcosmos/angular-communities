@@ -1118,7 +1118,7 @@
       }
     ]
   },
-  "AngularBA": {
+  "Angular Bahia": {
     "id": 44,
     "name": "Angular Bahia",
     "position": {
@@ -1128,7 +1128,6 @@
     "city": "Salvador",
     "image": "assets/images/44.png",
     "twitter": "https://twitter.com/AngularBA",
-    "web": "",
     "description": "Nós somos a comunidade de Angular em Salvador Bahia, focada em criar conteúdos, compartilhar conhecimento e ajudar as pessoas.",
     "organizers": [
       {
