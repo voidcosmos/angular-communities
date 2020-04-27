@@ -5,7 +5,7 @@ Angular Communities
 <h4 align="center">A list of all the Angular Communities around the world</h4>
 
 <p align="center">
-  <img src="./docs/angular-communities-0.1.0.gif" alt="angular-communities 0.1.0 gif" />
+  <img src="./docs/angular-communities-0.1.1.gif" alt="angular-communities 0.1.1 gif" />
 </p>
 
 ---
