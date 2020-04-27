@@ -1118,5 +1118,32 @@
         "github": "https://github.com/ricardochl"
       }
     ]
+  },
+  "AngularBA": {
+    "id": 44,
+    "name": "Angular Bahia",
+    "position": {
+      "lng": -38.5108300,
+      "lat": -12.9711100
+    },
+    "city": "Salvador",
+    "image": "assets/images/44.png",
+    "twitter": "https://twitter.com/AngularBA",
+    "web": "",
+    "description": "Nós somos a comunidade de Angular em Salvador Bahia, focada em criar conteúdos, compartilhar conhecimento e ajudar as pessoas.",
+    "organizers": [
+      {
+        "name": "Michael Oliveira de Deus",
+        "twitter": "https://twitter.com/michaelsdeus",
+        "github": "https://github.com/izshx",
+        "webs": ["https://dev.to/michaelsdeus"]
+      },
+      {
+        "name": "Igor Alves",
+        "twitter": "https://twitter.com/devBaiano",
+        "github": "https://github.com/Perolanegra",
+        "webs": ["https://dev.to/perolanegra","https://medium.com/@devbaiano"]
+      }
+    ]
   }
 }
