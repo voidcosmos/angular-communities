@@ -1235,5 +1235,32 @@
         "name": "Carlos Alberto Angulo Mendoza"
       }
     ]
+  },
+  "Angular Montevideo": {
+    "id": 49,
+    "name": "Angular Montevideo",
+    "position": {
+      "lng": -56.164532,
+      "lat": -34.901112
+    },
+    "city": "Montevideo, Uruguay",
+    "image": "assets/images/49.png",
+    "twitter": "https://twitter.com/AngularMVD",
+    "web": "https://www.meetup.com/Angular-MVD/",
+    "description": "Presentamos y discutimos temas variados, desde javascript y Angular, hasta performance, best practices, patrones de diseño, seguridad, web design y estar al día con las innovaciones de la industria.",
+    "organizers": [
+      {
+        "name": "Matias Delgado",
+        "twitter": "https://twitter.com/matias_delgado/"
+      },
+      {
+        "name": "Guillermo Fernandez",
+        "twitter": "https://twitter.com/ollita7",
+        "webs": ["https://www.cavepot.com/"]
+      },
+      {
+        "name": "Humberto Llauradó Falcó"
+      }
+    ]
   }
 }
