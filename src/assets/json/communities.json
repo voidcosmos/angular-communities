@@ -1143,5 +1143,26 @@
         "webs": ["https://dev.to/perolanegra", "https://medium.com/@devbaiano"]
       }
     ]
+  },
+  "Angular Guayaquil": {
+    "id": 45,
+    "name": "ngGuayaquil",
+    "position": {
+      "lng": -79.9478915,
+      "lat": -2.2742526
+    },
+    "city": "Guayaquil, Ecuador",
+    "image": "assets/images/45.png",
+    "twitter": "https://twitter.com/ngguayaquil",
+    "web": "https://github.com/ngguayaquil",
+    "description": "Comunidad de desarrolladores Angular Guayaquil. Construyendo una comunidad genial de desarrolladores.",
+    "organizers": [
+      {
+        "name": "Christian Morante",
+        "twitter": "https://twitter.com/cmodev/",
+        "github": "https://github.com/christianmorante",
+        "webs": ["https://christianmorante.github.io/"]
+      }
+    ]
   }
 }
