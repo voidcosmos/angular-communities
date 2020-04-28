@@ -1285,5 +1285,32 @@
         "twitter": "https://twitter.com/ayodeleopetumo"
       }
     ]
+  },
+  "Ng Panama": {
+    "id": 51,
+    "name": "Ng Panama",
+    "position": {
+      "lng": -79.516670,
+      "lat": 8.983333
+    },
+    "city": "Panama City, Panamá",
+    "image": "assets/images/51.png",
+    "twitter": "https://twitter.com/NgPanama",
+    "web": "https://ngpanama.org/",
+    "description": "Comunidad que promueve y comparte el framework de desarrollo web Angular creado por google a través de charlas y talleres.",
+    "organizers": [
+      {
+        "name": "Victor Tejada Yau",
+        "twitter": "https://twitter.com/victortyau"
+      },
+      {
+        "name": "Davis Álvarez",
+        "twitter": "https://twitter.com/davisclick"
+      },
+      {
+        "name": "Arcadio E. Quintero",
+        "twitter": "https://twitter.com/oidacra"
+      }
+    ]
   }
 }
