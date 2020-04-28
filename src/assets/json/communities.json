@@ -1193,8 +1193,8 @@
     "id": 47,
     "name": "ngRosario",
     "position": {
-      "lng": -32.968996124,
-      "lat": -60.617664196
+      "lng": -60.617664196,
+      "lat": -32.968996124
     },
     "city": "Rosario, Argentina",
     "web": "https://www.meetup.com/Ng-Rosario/",
