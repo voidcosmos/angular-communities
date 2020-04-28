@@ -1164,5 +1164,30 @@
         "webs": ["https://christianmorante.github.io/"]
       }
     ]
+  },
+  "Angular-IL": {
+    "id": 1,
+    "name": "Angular-IL",
+    "position": {
+      "lat": 32.0853,
+      "lng": 34.7818
+    },
+    "city": "Tel Aviv",
+    "image": "assets/images/46.png",
+    
+    "web": "https://www.meetup.com/Angular-IL/",
+    "description": "Home for the the Angular Community in Israel",
+    "organizers": [
+      {
+        "name": "Nir Kaufman",
+        "twitter": "https://twitter.com/nirkaufman",
+        "github": "https://github.com/nirkaufman"
+      },
+      {
+        "name": "Eliran Eliassy",
+        "twitter": "https://twitter.com/EliranEliassy",
+        "github": "https://github.com/eliraneliassy"
+      }
+    ]
   }
 }
