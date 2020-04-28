@@ -1174,7 +1174,6 @@
     },
     "city": "Tel Aviv",
     "image": "assets/images/46.png",
-
     "web": "https://www.meetup.com/Angular-IL/",
     "description": "Home for the the Angular Community in Israel",
     "organizers": [
@@ -1216,6 +1215,24 @@
       {
         "name": "Franco Battista",
         "twitter": "https://twitter.com/TotiBattista/"
+      }
+    ]
+  },
+  "Angular Medellín": {
+    "id": 48,
+    "name": "Angular Medellín",
+    "position": {
+      "lng": -75.590553,
+      "lat": 6.230833
+    },
+    "city": "Medellín, Colombia",
+    "image": "assets/images/48.png",
+    "twitter": "https://twitter.com/AngularMedellin",
+    "web": "https://www.meetup.com/Angular-Medellin/",
+    "description": "⭐️ ¡Bienvenido a Angular Medellín! ⭐️",
+    "organizers": [
+      {
+        "name": "Carlos Alberto Angulo Mendoza"
       }
     ]
   }
