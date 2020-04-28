@@ -1262,5 +1262,28 @@
         "name": "Humberto Llauradó Falcó"
       }
     ]
+  },
+  "Angular Nigeria": {
+    "id": 50,
+    "name": "Angular Nigeria",
+    "position": {
+      "lng": 3.406448,
+      "lat": 6.465422
+    },
+    "city": "Lagos, Nigeria",
+    "image": "assets/images/50.png",
+    "twitter": "https://twitter.com/angularnigeria",
+    "web": "https://www.meetup.com/ng-nigeria/",
+    "description": "Interested in Angular (1.x & 2), Frontend Engineering, Best Practices, Future of JavaScript, Tooling, and any topic in-between? Join us and expect no dulling moments in our upcoming meetups, QA sessions, webinars, and more.",
+    "organizers": [
+      {
+        "name": "Kelechi Oti",
+        "twitter": "https://twitter.com/ot_kelechi"
+      },
+      {
+        "name": "Ayodele Opetumo",
+        "twitter": "https://twitter.com/ayodeleopetumo"
+      }
+    ]
   }
 }
