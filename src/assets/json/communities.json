@@ -1164,5 +1164,38 @@
         "webs": ["https://christianmorante.github.io/"]
       }
     ]
+  },
+  "ng_rosario": {
+    "id": 46,
+    "name": "ng rosario",
+    "position": {
+      "lng": -32.968996124
+      "lat": -60.617664196
+    },
+    "city": "Rosario, Argentina",
+    "image": "assets/images/46.png",
+    "twitter": "",
+    "web": "https://www.meetup.com/Ng-Rosario/",
+    "description": "Comunidad para desarrolladores Angular en Rosario.",
+    "organizers": [
+      {
+        "name": "Joaquin Cid",
+        "twitter": "https://twitter.com/joaqcid/",
+        "github": "https://github.com/joaqcid",
+        "webs": ["https://joaqcid.dev/"]
+      },
+      {
+        "name": "Salim Chemes",
+        "twitter": "https://twitter.com/salimchemes/",
+        "github": "https://github.com/salimchemes",
+        "webs": ["https://www.salimchemes.com/"]
+      },
+      {
+        "name": "Franco Battista",
+        "twitter": "https://twitter.com/TotiBattista/",
+        "github": "",
+        "webs": [""]
+      }
+    ]
   }
 }
