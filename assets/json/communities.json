@@ -1166,7 +1166,7 @@
     ]
   },
   "Angular-IL": {
-    "id": 1,
+    "id": 46,
     "name": "Angular-IL",
     "position": {
       "lat": 32.0853,
@@ -1174,7 +1174,7 @@
     },
     "city": "Tel Aviv",
     "image": "assets/images/46.png",
-    
+
     "web": "https://www.meetup.com/Angular-IL/",
     "description": "Home for the the Angular Community in Israel",
     "organizers": [
@@ -1187,6 +1187,35 @@
         "name": "Eliran Eliassy",
         "twitter": "https://twitter.com/EliranEliassy",
         "github": "https://github.com/eliraneliassy"
+      }
+    ]
+  },
+  "ngRosario": {
+    "id": 47,
+    "name": "ngRosario",
+    "position": {
+      "lng": -32.968996124,
+      "lat": -60.617664196
+    },
+    "city": "Rosario, Argentina",
+    "web": "https://www.meetup.com/Ng-Rosario/",
+    "description": "Comunidad para desarrolladores Angular en Rosario.",
+    "organizers": [
+      {
+        "name": "Joaquin Cid",
+        "twitter": "https://twitter.com/joaqcid/",
+        "github": "https://github.com/joaqcid",
+        "webs": ["https://joaqcid.dev/"]
+      },
+      {
+        "name": "Salim Chemes",
+        "twitter": "https://twitter.com/salimchemes/",
+        "github": "https://github.com/salimchemes",
+        "webs": ["https://www.salimchemes.com/"]
+      },
+      {
+        "name": "Franco Battista",
+        "twitter": "https://twitter.com/TotiBattista/"
       }
     ]
   }
