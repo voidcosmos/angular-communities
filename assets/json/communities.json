@@ -10,6 +10,7 @@
     "image": "assets/images/1.png",
     "twitter": "https://twitter.com/AngularMalaga",
     "web": "https://sites.google.com/view/angular-malaga/",
+    "youtube": "https://www.youtube.com/channel/UCJhRPniwydP6F0fJnbIBL7Q",
     "description": "We are a spanish community formed by a group of amazing people. Our goal is to share our Angular/Javascript knowledge with anyone who wants to learn about these amazing technologies.",
     "organizers": [
       {
@@ -111,6 +112,7 @@
     "city": "Heidelberg",
     "image": "assets/images/5.png",
     "web": "https://angular-heidelberg.de/",
+    "youtube": "https://www.youtube.com/channel/UCYdLfs0WvYVMAcQ2yTxX9tw",
     "description": "",
     "organizers": [
       {
