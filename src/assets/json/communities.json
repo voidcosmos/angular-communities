@@ -1377,5 +1377,39 @@
         "twitter": "https://twitter.com/wchb"
       }
     ]
+  },
+  "Angular DC": {
+    "id": 54,
+    "name": "Angular DC",
+    "position": {
+      "lng": -120.740135,
+      "lat": 47.751076
+    },
+    "city": "Washington, DC",
+    "image": "assets/images/54.png",
+    "twitter": "https://twitter.com/angulardc",
+    "web": "https://www.meetup.com/es-ES/angularDC/",
+    "description": "Whether 'old' (v 1.x), or new (2, 4, 5, ...) Angular, we work, play, and/or dabble in Angular. We meet every once a month for talks or workshops on anything Angular related.",
+    "organizers": [
+      {
+        "name": "Doguhan Uluca",
+        "twitter": "https://twitter.com/duluca",
+        "webs": ["https://expertlysimple.io/angular-for-enterprise-2nd-edition/"]
+      },
+      {
+        "name": "Tracy King",
+        "twitter": "https://twitter.com/ng_tracyy/",
+        "github": "https://github.com/tracyalison11",
+        "webs": ["http://tracyking.me/"]
+      },
+      {
+        "name": "Sam Blissard",
+        "twitter": "https://twitter.com/samblissard/"
+      },
+      {
+        "name": "Alex Hoffman",
+        "twitter": "https://twitter.com/alexhoffman617"
+      }
+    ]
   }
 }
