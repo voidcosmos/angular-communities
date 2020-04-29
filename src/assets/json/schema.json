@@ -1,0 +1,108 @@
+{
+  "$id": "http://angular-communities.com/assets/json/schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Angular communities",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    }
+  },
+  "patternProperties": {
+    "^.*$": {
+      "$ref": "#/definitions/community",
+      "description": "An Angular community"
+    }
+  },
+  "definitions": {
+    "community": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "position", "city"],
+      "properties": {
+        "id": {
+          "description": "An unique ID",
+          "type": "number",
+          "minimum": 1
+        },
+        "name": {
+          "type": "string"
+        },
+        "position": {
+          "description": "Geoposition of the community",
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "lat": {
+              "type": "number",
+              "minimum": -90,
+              "maximum": 90
+            },
+            "lng": {
+              "type": "number",
+              "minimum": -180,
+              "maximum": 180
+            }
+          }
+        },
+        "city": {
+          "type": "string"
+        },
+        "image": {
+          "type": "string",
+          "pattern": "^assets/images/[1-9][0-9]*\\.png$"
+        },
+        "github": {
+          "type": "string",
+          "format": "uri"
+        },
+        "twitter": {
+          "type": "string",
+          "format": "uri"
+        },
+        "web": {
+          "type": "string",
+          "format": "uri"
+        },
+        "youtube": {
+          "type": "string",
+          "format": "uri"
+        },
+        "description": {
+          "type": "string"
+        },
+        "organizers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/organizer"
+          }
+        }
+      }
+    },
+    "organizer": {
+      "type": "object",
+      "required": ["name"],
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "twitter": {
+          "type": "string",
+          "format": "uri"
+        },
+        "github": {
+          "type": "string",
+          "format": "uri"
+        },
+        "webs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        }
+      }
+    }
+  }
+}
