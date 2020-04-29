@@ -1,6 +1,7 @@
-import { Community } from '@shared/interfaces';
-import { CommunityService } from '@shared/services';
-import { Component } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
+import { Community, Communities } from '@shared/interfaces';
+import { Component, Input } from '@angular/core';
+import { map } from 'rxjs/operators';
 
 @Component({
   selector: 'ngcommunity-main',
@@ -8,20 +9,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./main.component.scss'],
 })
 export class MainComponent {
-  community: Community;
-  communitie$ = this.communityService.communities;
+  @Input()
+  communities: Communities;
 
-  constructor(private communityService: CommunityService) {}
+  community$ = this.route.fragment.pipe(map(community => this.communities[community]));
 
-  onClickCommunity(community: Community) {
-    this.community = community;
-  }
+  constructor(private router: Router, private route: ActivatedRoute) {}
 
-  onSelectCommunity(community: Community) {
-    this.community = community;
-  }
-
-  onCloseCommunity() {
-    this.community = null;
+  changeCommunity(community?: Community) {
+    this.router.navigate([], {
+      fragment: community?.name,
+    });
   }
 }

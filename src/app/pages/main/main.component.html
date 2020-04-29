@@ -1,5 +1,4 @@
 <div
-  *ngIf="communitie$ | async as communities"
   class="overflow-hidden"
   gdAreas="map side"
   gdGap="0px"
@@ -19,16 +18,16 @@
   <ngcommunity-map
     gdArea="map"
     [communities]="communities"
-    [center]="community?.position"
-    (clickCommunity)="onClickCommunity($event)"
+    [center]="(community$ | async)?.position"
+    (clickCommunity)="changeCommunity($event)"
   ></ngcommunity-map>
 
   <ngcommunity-sidenav
     gdRow="100px"
     gdArea="side"
     [communities]="communities"
-    [community]="community"
-    (selected)="onSelectCommunity($event)"
-    (closeInfo)="onCloseCommunity()"
+    [community]="community$ | async"
+    (selected)="changeCommunity($event)"
+    (closeInfo)="changeCommunity(null)"
   ></ngcommunity-sidenav>
 </div>

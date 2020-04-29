@@ -4,10 +4,11 @@ import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { PagesModule } from './pages/pages.module';
 import { SharedModule } from './shared/shared.module';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, SharedModule, PagesModule, HttpClientModule],
+  imports: [BrowserModule, SharedModule, PagesModule, HttpClientModule, RouterModule.forRoot([])],
   providers: [],
   bootstrap: [AppComponent],
 })

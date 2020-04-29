@@ -1,32 +1,32 @@
 import { Communities, Community } from '@shared/interfaces';
-import {
-  Component,
-  EventEmitter,
-  Input,
-  OnChanges,
-  OnInit,
-  Output,
-  SimpleChanges,
-  ViewChild,
-} from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output, ViewChild } from '@angular/core';
 import { GoogleMap, MapMarker } from '@angular/google-maps';
 
 import { GeolocationService } from '@shared/services';
-import { Subject } from 'rxjs';
+import { BehaviorSubject } from 'rxjs';
+import { takeUntil, skip } from 'rxjs/operators';
 
 @Component({
   selector: 'ngcommunity-map',
   templateUrl: './map.component.html',
   styleUrls: ['./map.component.scss'],
 })
-export class MapComponent implements OnInit, OnChanges {
+export class MapComponent implements OnInit {
   @ViewChild(GoogleMap, { static: false }) map: GoogleMap;
   @Input() communities: Communities;
-  @Input() center: google.maps.LatLngLiteral;
+  @Input()
+  set center(center: google.maps.LatLngLiteral) {
+    if (center) {
+      this.center$.next(center);
+    }
+  }
 
   @Output() clickCommunity: EventEmitter<Community> = new EventEmitter();
 
-  center$ = new Subject<google.maps.LatLngLiteral>();
+  center$ = new BehaviorSubject<google.maps.LatLngLiteral>({
+    lat: 36.72016,
+    lng: -4.42034,
+  });
 
   markers: any[] = [];
   zoom = 10;
@@ -45,21 +45,13 @@ export class MapComponent implements OnInit, OnChanges {
 
   constructor(private geolocation: GeolocationService) {
     this.geolocation
-      .getMyLocationOr({
-        lat: 36.72016,
-        lng: -4.42034,
-      })
+      .getMyLocation()
+      .pipe(takeUntil(this.center$.pipe(skip(1))))
       .subscribe(coords => this.center$.next(coords));
   }
 
   ngOnInit(): void {
     this.addCommunities();
-  }
-
-  ngOnChanges({ center }: SimpleChanges) {
-    if (center && this.center) {
-      this.center$.next(this.center);
-    }
   }
 
   addCommunities() {
