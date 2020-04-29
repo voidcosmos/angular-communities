@@ -48,7 +48,6 @@
     "image": "assets/images/2.png",
     "twitter": "https://twitter.com/ngsevilla",
     "web": "https://www.meetup.com/ngSevilla/",
-    "youtube": "",
     "description": "",
     "organizers": [
       {
@@ -69,7 +68,6 @@
     "image": "assets/images/3.png",
     "twitter": "https://twitter.com/AngularAlmeria",
     "web": "https://github.com/Angular-Almeria?language=javascript",
-    "youtube": "",
     "description": "",
     "organizers": [
       {
@@ -89,7 +87,6 @@
     "city": "Brussels",
     "image": "assets/images/4.png",
     "web": "https://www.meetup.com/es-ES/Angular-Belgium/",
-    "youtube": "",
     "description": "",
     "organizers": [
       {
@@ -145,7 +142,6 @@
     "image": "assets/images/6.png",
     "twitter": "https://twitter.com/AngularWroclaw",
     "web": "https://www.meetup.com/es-ES/AngularJS-Wroc%C5%82aw/",
-    "youtube": "",
     "description": "",
     "organizers": [
       {
@@ -176,7 +172,6 @@
     "image": "assets/images/7.png",
     "twitter": "https://twitter.com/AngularLONDON",
     "web": "https://www.meetup.com/es-ES/angular-london/",
-    "youtube": "",
     "description": "",
     "organizers": [
       {
@@ -205,7 +200,6 @@
     "image": "assets/images/8.png",
     "web": "https://www.meetup.com/es-ES/Angular-SF/",
     "twitter": "https://twitter.com/angularsf",
-    "youtube": "",
     "description": "Angular meetup group in San Francisco, CA. To host or speak, please message us!",
     "organizers": [
       {
@@ -295,7 +289,6 @@
     "image": "assets/images/11.png",
     "twitter": "https://twitter.com/ngManila",
     "web": "https://www.meetup.com/es-ES/ngManila/",
-    "youtube": "",
     "description": "This is a group for anyone interested (experienced or new) in developing in Angular. Meet ups will be held with the primary goal of sharing knowledge and furthering the science of single-page app development using Angular. Expect speakers, networking, and fun!",
     "organizers": [
       {
@@ -315,7 +308,6 @@
     "image": "assets/images/12.png",
     "twitter": "https://twitter.com/ngBucharest",
     "web": "https://www.meetup.com/es-ES/AngularJS-Bucharest/",
-    "youtube": "",
     "description": "This meet-up group has the purpose of creating a community around the Angular framework and related technologies.",
     "organizers": [
       {
@@ -336,7 +328,6 @@
     "image": "assets/images/13.png",
     "twitter": "https://twitter.com/Angular2bes",
     "web": "https://www.meetup.com/es-ES/Brighton-Worthing-Angular2-Meetup/",
-    "youtube": "",
     "description": "Hello there! We're a local Angular community group. Fancy joining up to share and learn together?",
     "organizers": [
       {
@@ -374,7 +365,6 @@
     "image": "assets/images/15.png",
     "twitter": "https://twitter.com/NgStuttgart",
     "web": "https://www.meetup.com/angular-users-stuttgart/",
-    "youtube": "",
     "description": "This meetup is for anybody who is interested in Angular or AngularJS!",
     "organizers": [
       {
@@ -436,7 +426,6 @@
     "image": "assets/images/18.png",
     "twitter": "https://twitter.com/angularbogota",
     "web": "https://www.meetup.com/Angular-Bogota/",
-    "youtube": "",
     "description": "🅰️💛❤️ Somos tu comunidad de Angular en Bogotá 🅰️💛❤️",
     "organizers": [
       {
@@ -466,7 +455,6 @@
     "image": "assets/images/19.png",
     "twitter": "https://twitter.com/ngMorocco",
     "web": "https://www.meetup.com/ngMorocco/",
-    "youtube": "",
     "description": "The Moroccan Angular Developer Community The main goal of ngMorocco is to share Angular knowledge and best-practices, to gather people who are passionate about Angular and enable them to talk, socialize and learn from the best, with delicious food and a friendly atmosphere no matter your gender, age, physical appearance, body size, race, or religion.",
     "organizers": [
       {
@@ -493,7 +481,6 @@
     "image": "assets/images/20.png",
     "twitter": "https://twitter.com/NgBoston",
     "web": "https://www.meetup.com/Angular-Boston/",
-    "youtube": "",
     "description": "We're super proud when someone tells us we're the friendliest, and most open meet-up they've ever attended. We firmly believe that technology is nothing without the people who use it. So come join us if you love Angular, want to learn more, or are just curious. There's plenty of room for veterans and beginners!",
     "organizers": [
       {
@@ -521,7 +508,6 @@
     "image": "assets/images/21.png",
     "twitter": "https://twitter.com/ngParis",
     "web": "https://www.meetup.com/AngularJS-Paris/",
-    "youtube": "",
     "description": "If you love AngularJS and Angular 2 and live in or around Paris, join us!",
     "organizers": [
       {
@@ -546,7 +532,6 @@
     "image": "assets/images/22.png",
     "twitter": "https://twitter.com/AngularMN",
     "web": "https://www.meetup.com/AngularMN/",
-    "youtube": "",
     "description": "AngularMN strives to give Angular (current versions) and AngularJS (1.x) developers here in the Twin Cities a place to learn more about Angular, share success stories with one another, show the best practices we've had success with, and hang out together to talk about technology in general. We have multiple different event types",
     "organizers": [
       {
@@ -575,7 +560,6 @@
     "image": "assets/images/23.png",
     "twitter": "https://twitter.com/AngularRome",
     "web": "https://www.facebook.com/angularRome",
-    "youtube": "",
     "description": "Il gruppo è dedicato al framework Angular e strumenti correlati (Typescript, Redux, RxJS, ..). Qui puoi condividere idee, fornire e ricevere supporto!!"
   },
   "Angular Athens": {
@@ -589,7 +573,6 @@
     "image": "assets/images/24.png",
     "twitter": "https://twitter.com/AthensAngular",
     "web": "https://www.meetup.com/Angular-Athens/",
-    "youtube": "",
     "description": "Angular is one of the most popular front-end frameworks and has a massive and active community around the world. The new version of Angular is here to stay and we want to build a community in Athens in order to explore the huge ecosystem around this framework, learn new things and share our knowledge and best practices about Angular and front end development in general. This group is for both newbies and experienced developers who want to be part of this community. We'll organize regularly scheduled meetings and of course we are open to new ideas for talks, for presenters and volunteers. If you want to share something cool about Angular you are more than welcome.",
     "organizers": [
       {
@@ -625,7 +608,6 @@
     "image": "assets/images/25.png",
     "twitter": "https://twitter.com/AngularJax",
     "web": "https://www.meetup.com/Angular-Jax-Meetup-Group/",
-    "youtube": "",
     "description": "We share ideas and host discussions for developers interested in Angular. Our goal is to grow and contribute to the Angular community in Jacksonville through talks, teaching and the chance to network with other talented IT professionals.",
     "organizers": [
       {
@@ -654,7 +636,6 @@
     "image": "assets/images/26.png",
     "twitter": "https://twitter.com/AngularRuhr",
     "web": "https://www.meetup.com/Angular-Ruhr/",
-    "youtube": "",
     "description": "Angular Meetup in the Ruhr Area. Exchange knowledge, make some new friends, get projects, jobs. This Meetup is sponsored and hosted by E.ON Digital Technology, Essen. We welcome every kind of support. If you want to be a host, speaker, sponsor or participate in the planning, feel free to contact us.",
     "organizers": [
       {
@@ -713,7 +694,6 @@
     "image": "assets/images/28.png",
     "twitter": "https://twitter.com/AngularFI",
     "web": "https://www.angular.fi/",
-    "youtube": "",
     "description": "We're an association formed to bring Angular people together in Finland. We're here to help people enter the industry, to develop their skills and to provide a platform for experts to share their knowledge with the Angular community. Our main activities are meetups, larger events in Finland and contributing to the ngVikings conference.",
     "organizers": [
       {
@@ -773,7 +753,6 @@
     "twitter": "https://twitter.com/NgNiederrhein",
     "web": "https://www.meetup.com/NgNiederrhein/",
     "github": "https://github.com/niklas-wortmann/NgNiederrhein",
-    "youtube": "",
     "description": "Meetup für Angular und alle weiteren Technologien und Tools , die für die Entwicklung von Angular Applikationen von Interesse sind. Es werden alle Themen vertreten sein, von der ersten Hello World Anwendung bis hin zu Fortgeschrittenen Themen, jeder ist also willkommen und hiermit herzlich eingeladen.",
     "organizers": [
       {
@@ -832,7 +811,6 @@
     "image": "assets/images/32.png",
     "twitter": "https://twitter.com/ngSeattle",
     "web": "https://www.meetup.com/Angular-Seattle/",
-    "youtube": "",
     "description": "There will be a regular meetup hosted at Google every January, April, July, and October. We're seeking organizers to help put together events the rest of the year. Organizers are responsible for finding speakers, getting a venue, and finding sponsorship. If you'd like to join our team of organizers, please reach out to us!",
     "organizers": [
       {
@@ -864,7 +842,6 @@
     "image": "assets/images/33.png",
     "twitter": "https://twitter.com/AngularKrakow",
     "web": "https://www.meetup.com/Angular-Krakow/",
-    "youtube": "",
     "description": "If you love Angular and live in or around Kraków, join us!",
     "organizers": [
       {
@@ -960,7 +937,6 @@
     "image": "assets/images/36.png",
 
     "web": "https://www.meetup.com/es-ES/AngularATX/",
-    "youtube": "",
     "description": "Do you use Angular to build brilliant web apps? Are you interested in one of the best Javascript framework? Meetup with others who are into AngularJS, share knowledge, apps and collaborate. Angular -The Superheroic JavaScript MVW Framework is an open source offering from Google. Angular is what HTML would have been, had it been designed for building web-apps. Declarative templates with data-binding, MVW, MVVM, MVC, dependency injection and great testability story all implemented with pure client-side JavaScript!",
     "organizers": [
       {
@@ -985,7 +961,6 @@
     "image": "assets/images/37.png",
 
     "web": "https://www.meetup.com/Sacramento-Angular-Meetup/",
-    "youtube": "",
     "description": "The Google Developer Group (GDG) Sacramento provides a forum for anyone in the Sacramento area to meet and discuss Google technologies such as Android, AppEngine, APIs, AngularJS, Polymer, Dart, Go, etc.",
     "organizers": [
       {
@@ -1007,7 +982,6 @@
     "image": "assets/images/38.png",
     "twitter": "https://twitter.com/ngbrum/",
     "web": "https://www.meetup.com/Angular-Birmingham/",
-    "youtube": "",
     "description": "Sharing best practices, ideas, experiences and helping each other become Angular Ninjas!",
     "organizers": [
       {
@@ -1035,7 +1009,6 @@
     "image": "assets/images/39.png",
     "twitter": "https://twitter.com/AngularWarsaw",
     "web": "http://angularwarsaw.pl/",
-    "youtube": "",
     "description": "Angular Warsaw is a local community of Angular professionals and enthusiasts. We love Angular and want to share it with you. Every second month we have talks on Angular. Please join our Meetup to learn or share knowledge about Angular. We are constantly looking for new speakers.",
     "organizers": [
       {
@@ -1059,7 +1032,6 @@
     "image": "assets/images/40.png",
     "twitter": "https://twitter.com/ngDresden",
     "web": "https://angular-dresden.de/",
-    "youtube": "",
     "description": "Dies ist die Gruppe für alle, die ihre Ideen mit dem Angular Framework bereits realisieren oder realisieren wollen. Hier dreht sich alles um Angular, Angular CLI, Angular Labs und Typescript. Für den Anfang ist ein monatliches Treffen geplant. Je nach Zuspruch wird die Häufigkeit der Treffen angepasst.",
     "organizers": [
       {
@@ -1085,7 +1057,6 @@
     "image": "assets/images/41.png",
     "twitter": "https://twitter.com/ngbaires",
     "web": "https://github.com/ngbaires",
-    "youtube": "",
     "description": "Grupo de Angular en Buenos Aires, Argentina",
     "organizers": [
       {
@@ -1117,7 +1088,6 @@
     "city": "Sofia, Bulgaria",
     "image": "assets/images/42.png",
     "web": "https://www.meetup.com/Angular-Sofia",
-    "youtube": "",
     "description": "This is a group for anyone excited about Angular. Let's gather together and share our experience. All skill levels are welcome. We are always looking for new speakers, so if have na idea for a talk, please contact the organizers.",
     "organizers": [
       {
@@ -1141,7 +1111,6 @@
     "image": "assets/images/43.png",
     "twitter": "https://twitter.com/AngularHonduras",
     "web": "https://ng-honduras.org/",
-    "youtube": "",
     "description": "Angular Honduras es una comunidad abierta para compartir experiencias y conocimiento sobre Angular y Tecnologías Web.",
     "organizers": [
       {
@@ -1161,7 +1130,6 @@
     "city": "Salvador",
     "image": "assets/images/44.png",
     "twitter": "https://twitter.com/AngularBA",
-    "youtube": "",
     "description": "Nós somos a comunidade de Angular em Salvador Bahia, focada em criar conteúdos, compartilhar conhecimento e ajudar as pessoas.",
     "organizers": [
       {
@@ -1189,7 +1157,6 @@
     "image": "assets/images/45.png",
     "twitter": "https://twitter.com/ngguayaquil/",
     "web": "https://github.com/ngguayaquil",
-    "youtube": "",
     "description": "Comunidad de desarrolladores Angular Guayaquil. Construyendo una comunidad genial de desarrolladores.",
     "organizers": [
       {
@@ -1211,7 +1178,6 @@
     "image": "assets/images/46.png",
 
     "web": "https://www.meetup.com/Angular-IL/",
-    "youtube": "",
     "description": "Home for the the Angular Community in Israel",
     "organizers": [
       {
