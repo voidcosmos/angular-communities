@@ -1168,7 +1168,7 @@
     ]
   },
   "Angular-IL": {
-    "id": 1,
+    "id": 46,
     "name": "Angular-IL",
     "position": {
       "lat": 32.0853,
@@ -1176,7 +1176,6 @@
     },
     "city": "Tel Aviv",
     "image": "assets/images/46.png",
-
     "web": "https://www.meetup.com/Angular-IL/",
     "description": "Home for the the Angular Community in Israel",
     "organizers": [
@@ -1189,6 +1188,130 @@
         "name": "Eliran Eliassy",
         "twitter": "https://twitter.com/EliranEliassy",
         "github": "https://github.com/eliraneliassy"
+      }
+    ]
+  },
+  "ngRosario": {
+    "id": 47,
+    "name": "ngRosario",
+    "position": {
+      "lng": -60.617664196,
+      "lat": -32.968996124
+    },
+    "city": "Rosario, Argentina",
+    "web": "https://www.meetup.com/Ng-Rosario/",
+    "description": "Comunidad para desarrolladores Angular en Rosario.",
+    "organizers": [
+      {
+        "name": "Joaquin Cid",
+        "twitter": "https://twitter.com/joaqcid/",
+        "github": "https://github.com/joaqcid",
+        "webs": ["https://joaqcid.dev/"]
+      },
+      {
+        "name": "Salim Chemes",
+        "twitter": "https://twitter.com/salimchemes/",
+        "github": "https://github.com/salimchemes",
+        "webs": ["https://www.salimchemes.com/"]
+      },
+      {
+        "name": "Franco Battista",
+        "twitter": "https://twitter.com/TotiBattista/"
+      }
+    ]
+  },
+  "Angular Medellín": {
+    "id": 48,
+    "name": "Angular Medellín",
+    "position": {
+      "lng": -75.590553,
+      "lat": 6.230833
+    },
+    "city": "Medellín, Colombia",
+    "image": "assets/images/48.png",
+    "twitter": "https://twitter.com/AngularMedellin",
+    "web": "https://www.meetup.com/Angular-Medellin/",
+    "description": "⭐️ ¡Bienvenido a Angular Medellín! ⭐️",
+    "organizers": [
+      {
+        "name": "Carlos Alberto Angulo Mendoza"
+      }
+    ]
+  },
+  "Angular Montevideo": {
+    "id": 49,
+    "name": "Angular Montevideo",
+    "position": {
+      "lng": -56.164532,
+      "lat": -34.901112
+    },
+    "city": "Montevideo, Uruguay",
+    "image": "assets/images/49.png",
+    "twitter": "https://twitter.com/AngularMVD",
+    "web": "https://www.meetup.com/Angular-MVD/",
+    "description": "Presentamos y discutimos temas variados, desde javascript y Angular, hasta performance, best practices, patrones de diseño, seguridad, web design y estar al día con las innovaciones de la industria.",
+    "organizers": [
+      {
+        "name": "Matias Delgado",
+        "twitter": "https://twitter.com/matias_delgado/"
+      },
+      {
+        "name": "Guillermo Fernandez",
+        "twitter": "https://twitter.com/ollita7",
+        "webs": ["https://www.cavepot.com/"]
+      },
+      {
+        "name": "Humberto Llauradó Falcó"
+      }
+    ]
+  },
+  "Angular Nigeria": {
+    "id": 50,
+    "name": "Angular Nigeria",
+    "position": {
+      "lng": 3.406448,
+      "lat": 6.465422
+    },
+    "city": "Lagos, Nigeria",
+    "image": "assets/images/50.png",
+    "twitter": "https://twitter.com/angularnigeria",
+    "web": "https://www.meetup.com/ng-nigeria/",
+    "description": "Interested in Angular (1.x & 2), Frontend Engineering, Best Practices, Future of JavaScript, Tooling, and any topic in-between? Join us and expect no dulling moments in our upcoming meetups, QA sessions, webinars, and more.",
+    "organizers": [
+      {
+        "name": "Kelechi Oti",
+        "twitter": "https://twitter.com/ot_kelechi"
+      },
+      {
+        "name": "Ayodele Opetumo",
+        "twitter": "https://twitter.com/ayodeleopetumo"
+      }
+    ]
+  },
+  "Ng Panama": {
+    "id": 51,
+    "name": "Ng Panama",
+    "position": {
+      "lng": -79.516670,
+      "lat": 8.983333
+    },
+    "city": "Panama City, Panamá",
+    "image": "assets/images/51.png",
+    "twitter": "https://twitter.com/NgPanama",
+    "web": "https://ngpanama.org/",
+    "description": "Comunidad que promueve y comparte el framework de desarrollo web Angular creado por google a través de charlas y talleres.",
+    "organizers": [
+      {
+        "name": "Victor Tejada Yau",
+        "twitter": "https://twitter.com/victortyau"
+      },
+      {
+        "name": "Davis Álvarez",
+        "twitter": "https://twitter.com/davisclick"
+      },
+      {
+        "name": "Arcadio E. Quintero",
+        "twitter": "https://twitter.com/oidacra"
       }
     ]
   }
