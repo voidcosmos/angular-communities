@@ -20,13 +20,15 @@ export class CommunityService {
   }
 
   private normalizeCommunities(communities: Communities): Communities {
-    const communitiesNormalized = Object.entries(communities).map(([title, community]) => [
-      title,
-      {
-        ...community,
-        image: community.image || this.DEFAULT_IMAGE,
-      },
-    ]);
+    const communitiesNormalized = Object.entries(communities)
+      .filter(([name]) => name !== '$schema')
+      .map(([title, community]) => [
+        title,
+        {
+          ...community,
+          image: community.image || this.DEFAULT_IMAGE,
+        },
+      ]);
 
     return Object.fromEntries(communitiesNormalized);
   }
