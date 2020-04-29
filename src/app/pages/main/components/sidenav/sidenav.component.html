@@ -3,31 +3,44 @@
     <header>
       <span (click)="onCloseInfo()" class="link close"></span>
       <img [src]="community.image" />
-      <div fxLayout fxLayoutAlign="space-evenly center social-links">
-        <a
-          *ngIf="community.twitter; else emptyCommunityTwitter"
-          [href]="community.twitter"
-          target="_blank"
-          class="social-buttons__button social-button social-button--twitter"
-          aria-label="Twitter"
-        >
-          <span class="social-button__inner">
-            <i class="fab fa-twitter"></i>
-          </span>
-        </a>
-
+      <div fxLayout="column">
         <h1>{{ community.name }}</h1>
+        <div fxLayout fxLayoutAlign="center social-links">
+          <a
+            *ngIf="community.twitter"
+            [href]="community.twitter"
+            target="_blank"
+            class="social-buttons__button social-button social-button--twitter"
+            aria-label="Twitter"
+          >
+            <span class="social-button__inner">
+              <i class="fab fa-twitter"></i>
+            </span>
+          </a>
 
-        <a
-          *ngIf="community.web; else emptyCommunityWeb"
-          [href]="community.web"
-          target="_blank"
-          class="social-buttons__button social-button social-button--link"
-        >
-          <span class="social-button__inner">
-            <i class="fas fa-link"></i>
-          </span>
-        </a>
+          <a
+            *ngIf="community.youtube"
+            [href]="community.youtube"
+            target="_blank"
+            class="social-buttons__button social-button social-button--youtube"
+            aria-label="Youtube"
+          >
+            <span class="social-button__inner">
+              <i class="fab fa-youtube"></i>
+            </span>
+          </a>
+
+          <a
+            *ngIf="community.web"
+            [href]="community.web"
+            target="_blank"
+            class="social-buttons__button social-button social-button--link"
+          >
+            <span class="social-button__inner">
+              <i class="fas fa-link"></i>
+            </span>
+          </a>
+        </div>
       </div>
     </header>
 

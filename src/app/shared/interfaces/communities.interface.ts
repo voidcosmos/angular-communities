@@ -8,6 +8,7 @@ export interface Community {
   image: string;
   twitter: string;
   web: string;
+  youtube: string;
   description: string;
   organizers: Organizer[];
 }
