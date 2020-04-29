@@ -1288,11 +1288,11 @@
       }
     ]
   },
-  "Ng Panama": {
+  "ngPanama": {
     "id": 51,
-    "name": "Ng Panama",
+    "name": "ngPanama",
     "position": {
-      "lng": -79.516670,
+      "lng": -79.51667,
       "lat": 8.983333
     },
     "city": "Panama City, Panamá",
