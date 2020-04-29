@@ -1339,5 +1339,43 @@
         "twitter": "https://twitter.com/zladuric"
       }
     ]
+  },
+  "Angular Utah": {
+    "id": 53,
+    "name": "Angular Utah",
+    "position": {
+      "lng": -111.9297,
+      "lat": 40.5622
+    },
+    "city": "South Jordan, UT",
+    "image": "assets/images/53.png",
+    "twitter": "https://twitter.com/AngularJSUtah",
+    "web": "https://www.meetup.com/es-ES/AngularUtah/",
+    "description": "One of the world's first Angular meetups started here in Utah. This is a great place to learn about Angular and collaborate and network with other developers. Meetups are held the fourth Tuesday of every month on the south end of Salt Lake Valley.",
+    "organizers": [
+      {
+        "name": "Aaron Frost",
+        "twitter": "https://twitter.com/aaronfrost"
+      },
+      {
+        "name": "Joe Eames",
+        "twitter": "https://twitter.com/josepheames/",
+        "webs": ["https://medium.com/@josepheames"]
+      },
+      {
+        "name": "Anthony Humes"
+      },
+      {
+        "name": "Michael Madsen",
+        "twitter": "https://twitter.com/mmadsen87"
+      },
+      {
+        "name": "Erik S"
+      },
+      {
+        "name": "Aaron Hunt",
+        "twitter": "https://twitter.com/wchb"
+      }
+    ]
   }
 }
