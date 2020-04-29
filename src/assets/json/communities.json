@@ -1,4 +1,5 @@
 {
+  "$schema": "./schema.json",
   "Angular Málaga": {
     "id": 1,
     "name": "Angular Málaga",
@@ -52,8 +53,7 @@
     "organizers": [
       {
         "name": "Sergio Raposo",
-        "twitter": "https://twitter.com/serrapos",
-        "github": ""
+        "twitter": "https://twitter.com/serrapos"
       }
     ]
   },
@@ -72,8 +72,7 @@
     "organizers": [
       {
         "name": "Álvaro Quirós",
-        "twitter": "https://twitter.com/alodev",
-        "github": ""
+        "twitter": "https://twitter.com/alodev"
       }
     ]
   },
