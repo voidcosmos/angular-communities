@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable, of } from 'rxjs';
+import { Observable } from 'rxjs';
 import { map, first, catchError } from 'rxjs/operators';
 
 @Injectable({
@@ -29,10 +29,7 @@ export class GeolocationService {
 
   constructor(private httpClient: HttpClient) {}
 
-  getMyLocationOr(defaultCoords: google.maps.LatLngLiteral): Observable<google.maps.LatLngLiteral> {
-    return this.fromNavigator$.pipe(
-      catchError(() => this.fromAPI$),
-      catchError(() => of(defaultCoords)),
-    );
+  getMyLocation(): Observable<google.maps.LatLngLiteral> {
+    return this.fromNavigator$.pipe(catchError(() => this.fromAPI$));
   }
 }
