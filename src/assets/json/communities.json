@@ -1412,22 +1412,22 @@
       }
     ]
   },
- "Angular Abuja": {
+  "Angular Abuja": {
     "id": 55,
     "name": "Angular Abuja",
-    "position": { 
+    "position": {
       "lat": 9.0765,
       "lng": 7.3986
     },
-    "city" : "Abuja",
-    "image": "https://pbs.twimg.com/profile_images/1221538873597222912/txY7pYud.jpg",
+    "city": "Abuja",
+    "image": "assets/images/55.png",
     "twitter": "https://twitter.com/AngularAbuja",
     "web": "https://github.com/ngabuja",
     "description": "A community of Angular developers in the heart of the City of Capital of Nigeria.",
     "organizers": [
       {
         "name": "Hassan Sani",
-        "twitter": "https://twitter.com/inidaname", 
+        "twitter": "https://twitter.com/inidaname",
         "github": "https://github.com/inidaname",
         "webs": ["https://hassansani.me"]
       },
@@ -1435,13 +1435,11 @@
         "name": "Ahmad Abdulaziz",
         "twitter": "https://twitter.com/devamaz",
         "github": "https://github.com/devamaz"
-
       },
       {
-       "name": "Abdulwahab",
-       "twitter": "https://twitter.com/ibn_ashimi",
-       "github": "https://github.com/ibn_ashimi"
-
+        "name": "Abdulwahab",
+        "twitter": "https://twitter.com/ibn_ashimi",
+        "github": "https://github.com/ibn_ashimi"
       }
     ]
   }
