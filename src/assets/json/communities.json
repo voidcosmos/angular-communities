@@ -1634,6 +1634,7 @@
       "lng": -73.561668
     },
     "city": "Montréal, Québec",
+    "image": "assets/images/63.png",
     "web": "https://www.meetup.com/Angular-Montreal/",
     "description": "Is Angular your choice to deliver front-end applications? Want to learn more about it? Want to share your knowledge or present your project? No matter if you are on the fence about joining Angular, you just started using it or you are a seasoned developer, let's have some fun together and build a strong Angular community at Montréal.",
     "organizers": [
