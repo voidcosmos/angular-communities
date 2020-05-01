@@ -1524,8 +1524,7 @@
       "lng": -96.698883
     },
     "city": "Plano, TX",
-    "youtube": "https://www.youtube.com/channel/UC3I5sFp-B1ZD53Y9li-FPDQ",
-    "web": "https://www.meetup.com/RTP-Angular/",
+    "web": "https://www.meetup.com/DallasAngularJS/",
     "description": "The Dallas AngularJS Super Heros DASH is a user group of front end AngularJS developers. We meet to broaden our knowledge on AngularJS and also other related front end technologies. The DASH meets on the fourth Tuesday of every month, with social / food at 6:30pm, and meeting content starting at 7:00pm. We meet at the Improving Enterprises office in Plano on Legacy by Hedgecox",
     "organizers": [
       {
@@ -1536,6 +1535,32 @@
       {
         "name": "Srini Kusunam",
         "twitter": "https://twitter.com/skusunam/"
+      }
+    ]
+  },
+  "Angular Amsterdam": {
+    "id": 60,
+    "name": "Angular Amsterdam",
+    "position": {
+      "lat": 52.377956,
+      "lng": 4.89707
+    },
+    "city": "Amsterdam, Netherlands",
+    "image": "assets/images/60.png",
+    "youtube": "https://www.youtube.com/frontendlove",
+    "web": "https://www.meetup.com/AngularJS-Amsterdam-Meetup/",
+    "description": "This is the largest Angularjs Meetup Group in the Netherlands.",
+    "organizers": [
+      {
+        "name": "Nick van Dijk",
+        "twitter": "https://twitter.com/NickvanDijk/",
+        "webs": ["https://passionatepeople.io/"]
+      },
+      {
+        "name": "David den Toom"
+      },
+      {
+        "name": "James McGlasson"
       }
     ]
   }
