@@ -1486,5 +1486,34 @@
         "twitter": "https://twitter.com/rafal_brzoska"
       }
     ]
+  },
+  "RTP Angular": {
+    "id": 58,
+    "name": "RTP Angular",
+    "position": {
+      "lat": 35.787743,
+      "lng": -78.644257
+    },
+    "city": "Raleigh, NC",
+    "youtube": "https://www.youtube.com/channel/UC3I5sFp-B1ZD53Y9li-FPDQ",
+    "web": "https://www.meetup.com/RTP-Angular/",
+    "description": "RTP Angular Meetup - A great place to Network & collaborate on Angular learning.",
+    "organizers": [
+      {
+        "name": "Udhayakumar G",
+        "twitter": "https://twitter.com/AskUdhay/",
+        "webs": ["https://angularhive.com/"]
+      },
+      {
+        "name": "Ethan Presberg",
+        "twitter": "https://twitter.com/ethnp/",
+        "webs": ["http://ethanpresberg.com/"]
+      },
+      {
+        "name": "Tracy Lee",
+        "twitter": "https://twitter.com/ladyleet/",
+        "webs": ["https://labs.thisdot.co/"]
+      }
+    ]
   }
 }
