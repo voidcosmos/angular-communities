@@ -1442,5 +1442,31 @@
         "github": "https://github.com/ibn_ashimi"
       }
     ]
+  },
+  "Angular Rio": {
+    "id": 56,
+    "name": "Angular Rio",
+    "position": {
+      "lat": -22.908333,
+      "lng": -43.196388
+    },
+    "city": "Río de Janeiro, Brazil",
+    "twitter": "https://twitter.com/angular_rio",
+    "web": "https://www.meetup.com/Angular-RJ/",
+    "description": "Grupo para quem quer aprender, compartilhar e trocar ideias sobre Angular e TypeScript no Rio de Janeiro.",
+    "organizers": [
+      {
+        "name": "Ricardo Mello",
+        "twitter": "https://twitter.com/_ricardomello_"
+      },
+      {
+        "name": "Klaus Kazlauskas",
+        "twitter": "https://twitter.com/klauskpm"
+      },
+      {
+        "name": "Eduardo Florence",
+        "twitter": "https://twitter.com/eduardoflorence"
+      }
+    ]
   }
 }
