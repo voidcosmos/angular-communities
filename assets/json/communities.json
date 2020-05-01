@@ -1563,5 +1563,38 @@
         "name": "James McGlasson"
       }
     ]
+  },
+  "Rocky Mountain Angular": {
+    "id": 61,
+    "name": "Rocky Mountain Angular",
+    "position": {
+      "lat": 39.742043,
+      "lng": -104.991531
+    },
+    "city": "Denver, CO",
+    "image": "assets/images/61.png",
+    "youtube": "https://twitter.com/RockyMtnAngular",
+    "web": "http://rmangular.org/",
+    "description": "This is a group devoted to the exploration, understanding, and practical application of the Angular development framework. We'll organize regularly scheduled meetings that dive deep into every aspect of Angular, its place in the development ecosystem, and provide an opportunities to learn the best way possible... by coding with our peers. We welcome developers, managers, designers, and anyone else who is interested learning more about the 'Superheroic JavaScript MVW Framework' from Google.",
+    "organizers": [
+      {
+        "name": "Steve Witman",
+        "twitter": "https://twitter.com/stevewitman",
+        "github": "https://github.com/stevewitman",
+        "webs": ["http://stevewitman.com/"]
+      },
+      {
+        "name": "Jesse Sanders",
+        "twitter": "https://twitter.com/JesseS_BrieBug/",
+        "webs": ["https://briebug.com/"]
+      },
+      {
+        "name": "Andrea Wilson"
+      },
+      {
+        "name": "Gary Schultz",
+        "twitter": "https://twitter.com/thebizofhelping/"
+      }
+    ]
   }
 }
