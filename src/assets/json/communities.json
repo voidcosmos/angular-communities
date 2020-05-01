@@ -1644,5 +1644,33 @@
         "webs": ["https://www.bogdancarpean.com/"]
       }
     ]
-  }
+  },
+   "Angular Vancovuer": { 
+    "id": 64, // The last id that you see in the file + 1 (this is your id :D)
+    "name": "Angular Vancouver", //// Community name
+    "position": { // Latitude and Longitude
+      "lat": -123.1939434,
+      "lng": 49.2578263
+    },
+    "city" : "Vancouver"
+    "image": "assets/images/64.png",
+    "web": "https://www.meetup.com/vanangular/", // Community's web
+    "description": "Hailing from Vancouver, Canada; we are an international hub of developers with a keen interest in the power of front end development and in particular, of course, Angular.", 
+    "organizers": [  
+      {
+        "name": "Yan Hong",     // Name
+        "twitter": "https://twitter.com/honlyan",
+        "github": "https://github.com/hongyanh"
+      },
+      {
+        "name": "Andrew Eisenberg",
+        "twitter": "https://twitter.com/werdnagreb/",
+        "github": "https://github.com/aeisenberg"
+      },
+      {
+        "name": "Jonathan Mattice",
+        "twitter": "https://twitter.com/bearargonaut"
+      }
+    ]
+  },
 }
