@@ -1573,7 +1573,7 @@
     },
     "city": "Denver, CO",
     "image": "assets/images/61.png",
-    "youtube": "https://twitter.com/RockyMtnAngular",
+    "twitter": "https://twitter.com/RockyMtnAngular",
     "web": "http://rmangular.org/",
     "description": "This is a group devoted to the exploration, understanding, and practical application of the Angular development framework. We'll organize regularly scheduled meetings that dive deep into every aspect of Angular, its place in the development ecosystem, and provide an opportunities to learn the best way possible... by coding with our peers. We welcome developers, managers, designers, and anyone else who is interested learning more about the 'Superheroic JavaScript MVW Framework' from Google.",
     "organizers": [
@@ -1594,6 +1594,35 @@
       {
         "name": "Gary Schultz",
         "twitter": "https://twitter.com/thebizofhelping/"
+      }
+    ]
+  },
+  "AngularKC": {
+    "id": 62,
+    "name": "AngularKC",
+    "position": {
+      "lat": 39.099724,
+      "lng": -94.578331
+    },
+    "city": "Kansas City, MO",
+    "twitter": "https://twitter.com/angularkc",
+    "web": "https://www.meetup.com/angularkc/",
+    "github": "https://github.com/angularkc",
+    "description": "This group is a community of web-developers who focus and have interest in the Angular framework. Join us as we leverage the power of community to strengthen our development skills and gain insights into best practices. We will be hosting regular training, discussion, and networking events. If you would like to present, host, or in any way volunteer in these events, please reach out to the leaders of this group.",
+    "organizers": [
+      {
+        "name": "Steven Barnhurst",
+        "twitter": "https://twitter.com/StevenBarnhurst"
+      },
+      {
+        "name": "Alisa Duncan",
+        "twitter": "https://twitter.com/AlisaDuncan",
+        "webs": ["https://alisaduncan.dev/"]
+      },
+      {
+        "name": "Devin Kelly-Collins",
+        "twitter": "https://twitter.com/dkellycollins",
+        "webs": ["http://github.dkellycollins.info"]
       }
     ]
   }
