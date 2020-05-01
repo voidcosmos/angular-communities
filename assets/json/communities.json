@@ -1645,20 +1645,20 @@
       }
     ]
   },
-   "Angular Vancouver": { 
-    "id": 64, 
-    "name": "Angular Vancouver", 
-    "position": { 
+  "Angular Vancouver": {
+    "id": 64,
+    "name": "Angular Vancouver",
+    "position": {
       "lat": 49.2578263,
       "lng": -123.1939434
     },
-    "city" : "Vancouver",
+    "city": "Vancouver",
     "image": "assets/images/64.png",
-    "web": "https://www.meetup.com/vanangular/", 
-    "description": "Hailing from Vancouver, Canada; we are an international hub of developers with a keen interest in the power of front end development and in particular, of course, Angular.", 
-    "organizers": [  
+    "web": "https://www.meetup.com/vanangular/",
+    "description": "Hailing from Vancouver, Canada; we are an international hub of developers with a keen interest in the power of front end development and in particular, of course, Angular.",
+    "organizers": [
       {
-        "name": "Yan Hong", 
+        "name": "Yan Hong",
         "twitter": "https://twitter.com/honlyan",
         "github": "https://github.com/hongyanh"
       },
@@ -1672,5 +1672,5 @@
         "twitter": "https://twitter.com/bearargonaut"
       }
     ]
-  },
+  }
 }
