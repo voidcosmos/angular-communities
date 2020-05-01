@@ -1625,5 +1625,24 @@
         "webs": ["http://github.dkellycollins.info"]
       }
     ]
+  },
+  "Angular Montreal": {
+    "id": 63,
+    "name": "Angular Montreal",
+    "position": {
+      "lat": 45.508888,
+      "lng": -73.561668
+    },
+    "city": "Montréal, Québec",
+    "web": "https://www.meetup.com/Angular-Montreal/",
+    "description": "Is Angular your choice to deliver front-end applications? Want to learn more about it? Want to share your knowledge or present your project? No matter if you are on the fence about joining Angular, you just started using it or you are a seasoned developer, let's have some fun together and build a strong Angular community at Montréal.",
+    "organizers": [
+      {
+        "name": "Bogdan Carpean",
+        "github": "https://github.com/bogdancar",
+        "twitter": "https://twitter.com/bogdan_carpean",
+        "webs": ["https://www.bogdancarpean.com/"]
+      }
+    ]
   }
 }
