@@ -1468,5 +1468,23 @@
         "twitter": "https://twitter.com/eduardoflorence"
       }
     ]
+  },
+  "Angular Silesia": {
+    "id": 57,
+    "name": "Angular Silesia",
+    "position": {
+      "lat": 50.2945,
+      "lng": 18.6714
+    },
+    "city": "Gliwice, Poland",
+    "image": "assets/images/57.png",
+    "web": "https://www.meetup.com/Angular-Silesia/",
+    "description": "Angular Meetup to wydarzenie stworzone z myślą o użytkownikach i pasjonatach tej technologii oraz pokrewnych, np. Typescript, RxJS. Ideą spotkań jest rozwój i wymiana doświadczeń, dlatego zachęcamy do dyskusji i – dla chętnych – zgłaszania swoich propozycji wystąpień!",
+    "organizers": [
+      {
+        "name": "Rafał Brzoska",
+        "twitter": "https://twitter.com/rafal_brzoska"
+      }
+    ]
   }
 }
