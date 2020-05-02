@@ -1,7 +1,7 @@
 {
   "name": "angular-communities",
   "short_name": "angular-communities",
-  "theme_color": "#1976d2",
+  "theme_color": "#c10707",
   "background_color": "#fafafa",
   "display": "standalone",
   "scope": "./",
