@@ -17,7 +17,7 @@
         *cdkVirtualFor="let community of filtered$ | async"
         (click)="onSelected(community.name)"
       >
-        <img [src]="community.image" />
+        <img alt="{{ community.name }} logo" [src]="community.image" />
         <div fxFlex="66" fxLayout="column" fxLayoutAlign="center center">
           <h3>{{ community.name }}</h3>
           <p>{{ community.city }}</p>

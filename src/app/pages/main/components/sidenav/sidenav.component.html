@@ -2,7 +2,7 @@
   <mat-sidenav-content *ngIf="community; else search">
     <header>
       <span (click)="onCloseInfo()" class="link close"></span>
-      <img [src]="community.image" />
+      <img alt="{{ community.name }} logo" [src]="community.image" />
       <div fxLayout="column">
         <h1>{{ community.name }}</h1>
         <div fxLayout fxLayoutAlign="center social-links">
