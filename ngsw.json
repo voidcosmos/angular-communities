@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1588511538178,
+  "timestamp": 1588512116058,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -94,8 +94,6 @@
         "/assets/images/8.png",
         "/assets/images/9.png",
         "/assets/images/angular.png",
-        "/assets/json/communities.json",
-        "/assets/json/schema.json",
         "/fa-brands-400.31015e861aeb30ff8355.woff2",
         "/fa-brands-400.3c45c98f6f6c1b009c08.svg",
         "/fa-brands-400.5818bbd07dfd7095920a.ttf",
@@ -185,8 +183,6 @@
     "/assets/images/8.png": "1221ead83fc2f766cad13211fb80b5c3aebd4344",
     "/assets/images/9.png": "527207741290b8784d6fe37f2634914ce8b59bcd",
     "/assets/images/angular.png": "d40a185eb2fa6f4978158ff9c02e29d842403ef7",
-    "/assets/json/communities.json": "74f7f1ba9ea3f5d3d5b8f677a9d6a745cb011d49",
-    "/assets/json/schema.json": "b5ec878505c59f1cdbeb53cfbed6a1be57084d72",
     "/fa-brands-400.31015e861aeb30ff8355.woff2": "509988477da79c146cb93fb728405f18e923c2de",
     "/fa-brands-400.3c45c98f6f6c1b009c08.svg": "d49c07aef6414916b3c6860b42b906e39748e842",
     "/fa-brands-400.5818bbd07dfd7095920a.ttf": "66c86edfd13e63e0e981ce853335c28bc2d20cec",
