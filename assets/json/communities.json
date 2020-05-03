@@ -1799,5 +1799,32 @@
         "webs": ["https://fluin.io/"]
       }
     ]
+  },
+  "STL Angular": {
+    "id": 70,
+    "name": "STL Angular",
+    "position": {
+      "lat": 38.627003,
+      "lng": -90.199402
+    },
+    "city": "Saint Louis, MO",
+    "image": "assets/images/70.png",
+    "twitter": "https://twitter.com/stl_angular",
+    "youtube": "https://www.youtube.com/playlist?list=PLP4qxCldB2jRU-Ebo7nyF3oowMraGRkLL",
+    "web": "https://twitter.com/stl_angular",
+    "description": "Come to learn, discuss and get to know fellow Angular developers in the STL area. We love seeing new faces and swapping stories of Angular Development. We try to keep the topics introductory so that newer members feel welcome, but one-on-one conversations allow us to dive deeper.",
+    "organizers": [
+      {
+        "name": "Heather Moore",
+        "twitter": "https://twitter.com/heathrmoor",
+        "github": "https://github.com/heatherm",
+        "webs": ["https://heather.work/"]
+      },
+      {
+        "name": "Paul Spears",
+        "twitter": "https://twitter.com/theevergreendev",
+        "webs": ["https://donaldspears.wordpress.com/"]
+      }
+    ]
   }
 }
