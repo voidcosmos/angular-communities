@@ -1850,5 +1850,38 @@
         "twitter": "https://twitter.com/rebhighapkido"
       }
     ]
+  },
+  "Angular Dutch": {
+    "id": 72,
+    "name": "Angular Dutch",
+    "position": {
+      "lat": 52.092876,
+      "lng": 5.10448
+    },
+    "city": "Utrecht, The Netherlands",
+    "image": "assets/images/72.png",
+    "twitter": "https://twitter.com/AngularDutch",
+    "youtube": "https://www.youtube.com/channel/UCExOZEWcSPmvHp8jUGxwe7g/featured",
+    "web": "https://www.meetup.com/Dutch-Angular-group/",
+    "description": "The Dutch AngularJS User Group is aimed at all professionals from The Netherlands who want to talk everything Angular and AngularJS. Our mission is to make the Dutch community 'Harder, Better, Faster, Stronger' and enable its members to share their ideas and visions, inspire each other and collaborate in the making of awesome things. To do so, the group organises regular meetups, where community members dive deep into every aspect of the framework, speak about their Angular projects and share their knowledge and learnings. We welcome developers, managers, designers, and anyone else who is interested in learning more about this superheroic framework.",
+    "organizers": [
+      {
+        "name": "Sander Elias",
+        "twitter": "https://twitter.com/esosanderelias"
+      },
+      {
+        "name": "Mischa Dasberg"
+      },
+      {
+        "name": "Stepan Suvorov",
+        "twitter": "https://twitter.com/stevermeister",
+        "webs": ["http://stepansuvorov.com/"]
+      },
+      {
+        "name": "Jeffrey Bosch",
+        "twitter": "https://twitter.com/jefiozie",
+        "webs": ["https://jefiozie.github.io/"]
+      }
+    ]
   }
 }
