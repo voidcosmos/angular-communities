@@ -1,0 +1,17 @@
+name: Pull Request
+
+on: pull_request
+jobs:
+  check-communities-against-schema:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+
+      - name: Install checker
+        run: |
+          npm install ajv
+
+      - name: Check communities JSON against schema
+        run: |
+          npm run check-communities
