@@ -1673,5 +1673,32 @@
         "twitter": "https://twitter.com/bearargonaut"
       }
     ]
+  },
+  "Angular Night": {
+    "id": 65,
+    "name": "Angular Night",
+    "position": {
+      "lat": 39.952583,
+      "lng": -75.165222
+    },
+    "city": "Philadelphia, PA",
+    "image": "assets/images/65.png",
+    "web": "https://www.meetup.com/Angular-Philly/",
+    "description": "Join in to learn Angular Development (and related technologies) with your peers in Philadelphia! We host events that feature various topics and presentation types for developers and entrepreneurs of ALL skill levels.",
+    "organizers": [
+      {
+        "name": "Jedidiah Weller",
+        "twitter": "https://twitter.com/jedihacks",
+        "webs": ["https://openforge.io/"]
+      },
+      {
+        "name": "Paulina Gallo",
+        "twitter": "https://twitter.com/paulpaultweets",
+        "github": "https://github.com/aeisenberg"
+      },
+      {
+        "name": "May AlKhraisha"
+      }
+    ]
   }
 }
