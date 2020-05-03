@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1588541800705,
+  "timestamp": 1588542135567,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -97,6 +97,7 @@
         "/assets/images/69.png",
         "/assets/images/7.png",
         "/assets/images/70.png",
+        "/assets/images/71.png",
         "/assets/images/8.png",
         "/assets/images/9.png",
         "/assets/images/angular.png",
@@ -192,6 +193,7 @@
     "/assets/images/69.png": "235a9b6277564c1d3c89823f528a529facb51041",
     "/assets/images/7.png": "c9c201b30d5c98dcecc1fd51f3ec12ed496ddd47",
     "/assets/images/70.png": "5e0d5b6963621910d8bab92835cebcebeb49090e",
+    "/assets/images/71.png": "235a9b6277564c1d3c89823f528a529facb51041",
     "/assets/images/8.png": "1221ead83fc2f766cad13211fb80b5c3aebd4344",
     "/assets/images/9.png": "527207741290b8784d6fe37f2634914ce8b59bcd",
     "/assets/images/angular.png": "d40a185eb2fa6f4978158ff9c02e29d842403ef7",
