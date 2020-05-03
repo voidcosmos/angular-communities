@@ -141,6 +141,9 @@ MIT
 @angular/router
 MIT
 
+@angular/service-worker
+MIT
+
 @fortawesome/fontawesome-free
 (CC-BY-4.0 AND OFL-1.1 AND MIT)
 Font Awesome Free License
