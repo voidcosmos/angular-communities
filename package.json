@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "pre:deploy": "rib -i src/assets/images_raw -o src/assets/images --no-clean --force",
+    "predeploy": "rib -i src/assets/images_raw -o src/assets/images --no-clean --force",
     "deploy": "ng build --prod --base-href=/",
     "check-communities": "node check-communities.js"
   },
