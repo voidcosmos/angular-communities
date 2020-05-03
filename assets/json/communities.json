@@ -1723,5 +1723,33 @@
         "webs": ["https://cazton.com/"]
       }
     ]
+  },
+  "Angular Hamburg": {
+    "id": 67,
+    "name": "Angular Hamburg",
+    "position": {
+      "lat": 53.551086,
+      "lng": 9.993682
+    },
+    "city": "Hamburg, Deutschland",
+    "image": "assets/images/67.png",
+    "web": "https://www.meetup.com/Hamburg-AngularJS-Meetup/",
+    "twitter": "https://twitter.com/angular_hamburg",
+    "description": "Das Angular Meetup Hamburg ist ein Meetup rund ums Angular Framework. Hier ist jeder willkommen, egal ob Neuling oder Erfahrener. The Angular Meetup is a meetup around the Angular framework. We're open to anyone interested in the topic. Whether you're a beginner dying to poke questions at someone with experience or a veteran wanting to discuss the finer details, come along.",
+    "organizers": [
+      {
+        "name": "John Behrens",
+        "twitter": "https://twitter.com/webconsultseu/"
+      },
+      {
+        "name": "David Müllerchen",
+        "twitter": "https://twitter.com/webdave_de",
+        "webs": ["https://www.webdave.de"]
+      },
+      {
+        "name": "André Dickenscheidt",
+        "twitter": "https://twitter.com/adickenscheidt"
+      }
+    ]
   }
 }
