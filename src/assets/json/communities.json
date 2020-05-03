@@ -1883,5 +1883,28 @@
         "webs": ["https://jefiozie.github.io/"]
       }
     ]
+  },
+  "Angular Piter": {
+    "id": 73,
+    "name": "Angular Piter",
+    "position": {
+      "lat": 59.9386,
+      "lng": 30.3141
+    },
+    "city": "Saint Petersburg, Russian",
+    "image": "assets/images/73.png",
+    "web": "https://github.com/AngularPiter/",
+    "description": "The goal of this meetup is sharing Angular knowledge and best-practices and providing a space where people can meet up and chat with others working with Angular.",
+    "organizers": [
+      {
+        "name": "Tatiana Smirnova"
+      },
+      {
+        "name": "Юлия Царева"
+      },
+      {
+        "name": "Rustam Imaykin"
+      }
+    ]
   }
 }
