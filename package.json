@@ -9,7 +9,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "pre:deploy": "rib -i src/assets/images_raw -o src/assets/images --no-clean --force",
-    "deploy": "ng build --prod --base-href=/"
+    "deploy": "ng build --prod --base-href=/",
+    "check-communities": "node check-communities.js"
   },
   "private": true,
   "dependencies": {
@@ -42,6 +43,7 @@
     "codelyzer": "^5.1.2",
     "jasmine-core": "~3.5.0",
     "jasmine-spec-reporter": "~4.2.1",
+    "ajv": "^6.12.2",
     "karma": "~4.4.1",
     "karma-chrome-launcher": "~3.1.0",
     "karma-coverage-istanbul-reporter": "~2.1.0",
