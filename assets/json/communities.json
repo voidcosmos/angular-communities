@@ -1673,5 +1673,55 @@
         "twitter": "https://twitter.com/bearargonaut"
       }
     ]
+  },
+  "Angular Night": {
+    "id": 65,
+    "name": "Angular Night",
+    "position": {
+      "lat": 39.952583,
+      "lng": -75.165222
+    },
+    "city": "Philadelphia, PA",
+    "image": "assets/images/65.png",
+    "web": "https://www.meetup.com/Angular-Philly/",
+    "description": "Join in to learn Angular Development (and related technologies) with your peers in Philadelphia! We host events that feature various topics and presentation types for developers and entrepreneurs of ALL skill levels.",
+    "organizers": [
+      {
+        "name": "Jedidiah Weller",
+        "twitter": "https://twitter.com/jedihacks",
+        "webs": ["https://openforge.io/"]
+      },
+      {
+        "name": "Paulina Gallo",
+        "twitter": "https://twitter.com/paulpaultweets",
+        "github": "https://github.com/aeisenberg"
+      },
+      {
+        "name": "May AlKhraisha"
+      }
+    ]
+  },
+  "Angular Orange County": {
+    "id": 66,
+    "name": "Angular Orange County",
+    "position": {
+      "lat": 33.669445,
+      "lng": -117.823059
+    },
+    "city": "Irvine, CA",
+    "image": "assets/images/66.png",
+    "web": "https://www.meetup.com/AngularOC/",
+    "twitter": "https://twitter.com/AngularJSOC",
+    "description": "We are an Orange County MeetUp focused on developing with Angular.",
+    "organizers": [
+      {
+        "name": "Chander Dhall"
+      },
+      {
+        "name": "Alison Wadsworth Dhall",
+        "twitter": "https://twitter.com/alison_dhall",
+        "webs": ["https://cazton.com/"]
+      }
+    ]
   }
 }
