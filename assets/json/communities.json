@@ -1775,5 +1775,29 @@
         "webs": ["https://javierdutan.com/"]
       }
     ]
+  },
+  "Angular Mountain View": {
+    "id": 69,
+    "name": "Angular Mountain View",
+    "position": {
+      "lat": 37.386051,
+      "lng": -122.083855
+    },
+    "city": "Mountain View, CA",
+    "image": "assets/images/69.png",
+    "web": "https://www.meetup.com/Angular-MTV/",
+    "description": "Angular meetup group in Mountain View, CA.",
+    "organizers": [
+      {
+        "name": "Igor Minar",
+        "twitter": "https://twitter.com/IgorMinar/",
+        "webs": ["http://blog.igorminar.com/"]
+      },
+      {
+        "name": "Stephen Fluin",
+        "twitter": "https://twitter.com/stephenfluin",
+        "webs": ["https://fluin.io/"]
+      }
+    ]
   }
 }
