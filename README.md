@@ -38,11 +38,11 @@ Angular Communities
 - [ ] Improve code
   - [ ] Improve performance
   - [ ] Improve performance even more!
-- [ ] A lot of Communities
+- [X] A lot of Communities
   - [ ] +100 Communities
   - [ ] +500 Communities
   - [ ] +1000 Communities
-- [ ] PWA
+- [X] PWA
 - [ ] Conferences version
 
 <a name="#add-your-community"></a>
