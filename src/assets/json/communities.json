@@ -1751,5 +1751,29 @@
         "twitter": "https://twitter.com/adickenscheidt"
       }
     ]
+  },
+  "Angular Quito": {
+    "id": 68,
+    "name": "Angular Quito",
+    "position": {
+      "lat": -0.180653,
+      "lng": -78.467834
+    },
+    "city": "Quito, Ecuador",
+    "image": "assets/images/68.png",
+    "web": "https://www.meetup.com/angularQuito/",
+    "twitter": "https://twitter.com/AngularQuito",
+    "description": "La comunidad Angular Quito es para todos aquellos apasionados por la tecnología web y Angular, sean expertos o principiantes aprenderemos de experiencias y conocimientos de buenas prácticas junto a miembros de nuestra comunidad Angular Hispano.",
+    "organizers": [
+      {
+        "name": "Carlos Villavicencio",
+        "twitter": "https://twitter.com/po5i/"
+      },
+      {
+        "name": "Javier Dutan",
+        "twitter": "https://twitter.com/foodvier",
+        "webs": ["https://javierdutan.com/"]
+      }
+    ]
   }
 }
