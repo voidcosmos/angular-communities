@@ -1811,7 +1811,7 @@
     "image": "assets/images/70.png",
     "twitter": "https://twitter.com/stl_angular",
     "youtube": "https://www.youtube.com/playlist?list=PLP4qxCldB2jRU-Ebo7nyF3oowMraGRkLL",
-    "web": "https://twitter.com/stl_angular",
+    "web": "https://www.meetup.com/STL-Angular/",
     "description": "Come to learn, discuss and get to know fellow Angular developers in the STL area. We love seeing new faces and swapping stories of Angular Development. We try to keep the topics introductory so that newer members feel welcome, but one-on-one conversations allow us to dive deeper.",
     "organizers": [
       {
@@ -1824,6 +1824,30 @@
         "name": "Paul Spears",
         "twitter": "https://twitter.com/theevergreendev",
         "webs": ["https://donaldspears.wordpress.com/"]
+      }
+    ]
+  },
+  "Angular Brisbane": {
+    "id": 71,
+    "name": "Angular Brisbane",
+    "position": {
+      "lat": -27.470125,
+      "lng": 153.021072
+    },
+    "city": "Brisbane, Australia",
+    "image": "assets/images/71.png",
+    "twitter": "https://twitter.com/angularMelb",
+    "youtube": "https://www.youtube.com/c/AngularAustralia",
+    "web": "https://www.meetup.com/Angular-Brisbane/",
+    "description": "This group is for web developers in Queensland who want to learn more about Angular and modern web development.",
+    "organizers": [
+      {
+        "name": "Alexander Burakevych",
+        "twitter": "https://twitter.com/oburakevych/"
+      },
+      {
+        "name": "Rebekah Higgins",
+        "twitter": "https://twitter.com/rebhighapkido"
       }
     ]
   }
