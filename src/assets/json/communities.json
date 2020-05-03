@@ -1700,5 +1700,28 @@
         "name": "May AlKhraisha"
       }
     ]
+  },
+  "Angular Orange County": {
+    "id": 66,
+    "name": "Angular Orange County",
+    "position": {
+      "lat": 33.669445,
+      "lng": -117.823059
+    },
+    "city": "Irvine, CA",
+    "image": "assets/images/66.png",
+    "web": "https://www.meetup.com/AngularOC/",
+    "twitter": "https://twitter.com/AngularJSOC",
+    "description": "We are an Orange County MeetUp focused on developing with Angular.",
+    "organizers": [
+      {
+        "name": "Chander Dhall"
+      },
+      {
+        "name": "Alison Wadsworth Dhall",
+        "twitter": "https://twitter.com/alison_dhall",
+        "webs": ["https://cazton.com/"]
+      }
+    ]
   }
 }
