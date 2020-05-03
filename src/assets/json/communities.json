@@ -8,7 +8,6 @@
       "lng": -4.42034
     },
     "city": "Málaga",
-    "image": "assets/images/1.png",
     "twitter": "https://twitter.com/AngularMalaga",
     "web": "https://sites.google.com/view/angular-malaga/",
     "youtube": "https://www.youtube.com/channel/UCJhRPniwydP6F0fJnbIBL7Q",
@@ -46,7 +45,6 @@
       "lat": 37.3754865
     },
     "city": "Sevilla",
-    "image": "assets/images/2.png",
     "twitter": "https://twitter.com/ngsevilla",
     "web": "https://www.meetup.com/ngSevilla/",
     "description": "",
@@ -65,7 +63,6 @@
       "lat": 36.841523
     },
     "city": "Almería",
-    "image": "assets/images/3.png",
     "twitter": "https://twitter.com/AngularAlmeria",
     "web": "https://github.com/Angular-Almeria?language=javascript",
     "description": "",
@@ -84,7 +81,6 @@
       "lat": 50.85045
     },
     "city": "Brussels",
-    "image": "assets/images/4.png",
     "web": "https://www.meetup.com/es-ES/Angular-Belgium/",
     "description": "",
     "organizers": [
@@ -109,7 +105,6 @@
       "lat": 49.39875
     },
     "city": "Heidelberg",
-    "image": "assets/images/5.png",
     "web": "https://angular-heidelberg.de/",
     "youtube": "https://www.youtube.com/channel/UCYdLfs0WvYVMAcQ2yTxX9tw",
     "description": "",
@@ -138,7 +133,6 @@
       "lat": 51.107883
     },
     "city": "Wrocław",
-    "image": "assets/images/6.png",
     "twitter": "https://twitter.com/AngularWroclaw",
     "web": "https://www.meetup.com/es-ES/AngularJS-Wroc%C5%82aw/",
     "description": "",
@@ -168,7 +162,6 @@
       "lat": 51.509865
     },
     "city": "London, UK",
-    "image": "assets/images/7.png",
     "twitter": "https://twitter.com/AngularLONDON",
     "web": "https://www.meetup.com/es-ES/angular-london/",
     "description": "",
@@ -196,7 +189,6 @@
       "lat": 37.773972
     },
     "city": "San Francisco, CA",
-    "image": "assets/images/8.png",
     "web": "https://www.meetup.com/es-ES/Angular-SF/",
     "twitter": "https://twitter.com/angularsf",
     "description": "Angular meetup group in San Francisco, CA. To host or speak, please message us!",
@@ -230,7 +222,6 @@
       "lat": 59.911491
     },
     "city": "Oslo, Norway",
-    "image": "assets/images/9.png",
     "twitter": "https://twitter.com/angularoslo",
     "web": "https://www.meetup.com/es-ES/AngularJS-Oslo/",
     "youtube": "https://www.youtube.com/channel/UC-bZWTOkwB5JMgicaBEZEdQ",
@@ -260,7 +251,6 @@
       "lat": 48.210033
     },
     "city": "Wien, Österreich",
-    "image": "assets/images/10.png",
     "twitter": "https://twitter.com/AngularVienna",
     "web": "https://www.meetup.com/es-ES/Angular-Vienna/",
     "youtube": "https://www.youtube.com/playlist?list=PL8xuokhAnn4pftOHlvSvcO2TaPxXQeZD6",
@@ -285,7 +275,6 @@
       "lat": 14.599512
     },
     "city": "Manila, the Philippines",
-    "image": "assets/images/11.png",
     "twitter": "https://twitter.com/ngManila",
     "web": "https://www.meetup.com/es-ES/ngManila/",
     "description": "This is a group for anyone interested (experienced or new) in developing in Angular. Meet ups will be held with the primary goal of sharing knowledge and furthering the science of single-page app development using Angular. Expect speakers, networking, and fun!",
@@ -304,7 +293,6 @@
       "lat": 44.439663
     },
     "city": "Bucharest, Romania",
-    "image": "assets/images/12.png",
     "twitter": "https://twitter.com/ngBucharest",
     "web": "https://www.meetup.com/es-ES/AngularJS-Bucharest/",
     "description": "This meet-up group has the purpose of creating a community around the Angular framework and related technologies.",
@@ -324,7 +312,6 @@
       "lat": 50.8283806
     },
     "city": "Brighton, United Kingdom",
-    "image": "assets/images/13.png",
     "twitter": "https://twitter.com/Angular2bes",
     "web": "https://www.meetup.com/es-ES/Brighton-Worthing-Angular2-Meetup/",
     "description": "Hello there! We're a local Angular community group. Fancy joining up to share and learn together?",
@@ -343,7 +330,6 @@
       "lat": 55.751244
     },
     "city": "Moscow, Russia",
-    "image": "assets/images/14.png",
     "twitter": "https://twitter.com/AngularMoscow",
     "web": "https://meetup.tinkoff.ru/",
     "organizers": [
@@ -361,7 +347,6 @@
       "lat": 48.783333
     },
     "city": "Stuttgart, Deutschland",
-    "image": "assets/images/15.png",
     "twitter": "https://twitter.com/NgStuttgart",
     "web": "https://www.meetup.com/angular-users-stuttgart/",
     "description": "This meetup is for anybody who is interested in Angular or AngularJS!",
@@ -380,7 +365,6 @@
       "lat": 52.520008
     },
     "city": "Berlin, Deutschland",
-    "image": "assets/images/16.png",
     "twitter": "https://twitter.com/angular_berlin",
     "web": "https://www.meetup.com/Angular-Meetup-Berlin/",
     "youtube": "https://www.youtube.com/channel/UC7nGzQTgvPBRIo8rOGPGuaQ",
@@ -401,7 +385,6 @@
       "lat": 43.650352
     },
     "city": "Toronto, Canada",
-    "image": "assets/images/17.png",
     "twitter": "https://twitter.com/angulartoronto",
     "web": "https://www.meetup.com/AngularToronto/",
     "youtube": "https://www.youtube.com/channel/UCUlbE1BakJPBVx8OAzc5quA",
@@ -422,7 +405,6 @@
       "lat": 4.624335
     },
     "city": "Bogotá, Colombia",
-    "image": "assets/images/18.png",
     "twitter": "https://twitter.com/angularbogota",
     "web": "https://www.meetup.com/Angular-Bogota/",
     "description": "🅰️💛❤️ Somos tu comunidad de Angular en Bogotá 🅰️💛❤️",
@@ -451,7 +433,6 @@
       "lat": 34.0132484
     },
     "city": "Rabat, Morocco",
-    "image": "assets/images/19.png",
     "twitter": "https://twitter.com/ngMorocco",
     "web": "https://www.meetup.com/ngMorocco/",
     "description": "The Moroccan Angular Developer Community The main goal of ngMorocco is to share Angular knowledge and best-practices, to gather people who are passionate about Angular and enable them to talk, socialize and learn from the best, with delicious food and a friendly atmosphere no matter your gender, age, physical appearance, body size, race, or religion.",
@@ -477,7 +458,6 @@
       "lat": 42.361145
     },
     "city": "Boston, MA",
-    "image": "assets/images/20.png",
     "twitter": "https://twitter.com/NgBoston",
     "web": "https://www.meetup.com/Angular-Boston/",
     "description": "We're super proud when someone tells us we're the friendliest, and most open meet-up they've ever attended. We firmly believe that technology is nothing without the people who use it. So come join us if you love Angular, want to learn more, or are just curious. There's plenty of room for veterans and beginners!",
@@ -504,7 +484,6 @@
       "lat": 48.864716
     },
     "city": "Paris, France",
-    "image": "assets/images/21.png",
     "twitter": "https://twitter.com/ngParis",
     "web": "https://www.meetup.com/AngularJS-Paris/",
     "description": "If you love AngularJS and Angular 2 and live in or around Paris, join us!",
@@ -528,7 +507,6 @@
       "lat": 44.954445
     },
     "city": "Saint Paul, MN",
-    "image": "assets/images/22.png",
     "twitter": "https://twitter.com/AngularMN",
     "web": "https://www.meetup.com/AngularMN/",
     "description": "AngularMN strives to give Angular (current versions) and AngularJS (1.x) developers here in the Twin Cities a place to learn more about Angular, share success stories with one another, show the best practices we've had success with, and hang out together to talk about technology in general. We have multiple different event types",
@@ -556,7 +534,6 @@
       "lat": 41.902782
     },
     "city": "Rome, Italy",
-    "image": "assets/images/23.png",
     "twitter": "https://twitter.com/AngularRome",
     "web": "https://www.facebook.com/angularRome",
     "description": "Il gruppo è dedicato al framework Angular e strumenti correlati (Typescript, Redux, RxJS, ..). Qui puoi condividere idee, fornire e ricevere supporto!!"
@@ -569,7 +546,6 @@
       "lat": 37.98381
     },
     "city": "Attiki, Greece",
-    "image": "assets/images/24.png",
     "twitter": "https://twitter.com/AthensAngular",
     "web": "https://www.meetup.com/Angular-Athens/",
     "description": "Angular is one of the most popular front-end frameworks and has a massive and active community around the world. The new version of Angular is here to stay and we want to build a community in Athens in order to explore the huge ecosystem around this framework, learn new things and share our knowledge and best practices about Angular and front end development in general. This group is for both newbies and experienced developers who want to be part of this community. We'll organize regularly scheduled meetings and of course we are open to new ideas for talks, for presenters and volunteers. If you want to share something cool about Angular you are more than welcome.",
@@ -604,7 +580,6 @@
       "lat": 30.332184
     },
     "city": "Jacksonville, Florida",
-    "image": "assets/images/25.png",
     "twitter": "https://twitter.com/AngularJax",
     "web": "https://www.meetup.com/Angular-Jax-Meetup-Group/",
     "description": "We share ideas and host discussions for developers interested in Angular. Our goal is to grow and contribute to the Angular community in Jacksonville through talks, teaching and the chance to network with other talented IT professionals.",
@@ -632,7 +607,6 @@
       "lat": 51.43333
     },
     "city": "Ruhrgebiet, Deutschland",
-    "image": "assets/images/26.png",
     "twitter": "https://twitter.com/AngularRuhr",
     "web": "https://www.meetup.com/Angular-Ruhr/",
     "description": "Angular Meetup in the Ruhr Area. Exchange knowledge, make some new friends, get projects, jobs. This Meetup is sponsored and hosted by E.ON Digital Technology, Essen. We welcome every kind of support. If you want to be a host, speaker, sponsor or participate in the planning, feel free to contact us.",
@@ -662,7 +636,6 @@
       "lat": 33.753746
     },
     "city": "Atlanta, GA",
-    "image": "assets/images/27.png",
     "twitter": "https://twitter.com/ATL_Angular",
     "web": "https://www.meetup.com/ATL-Angular/",
     "youtube": "https://www.youtube.com/channel/UCkLkCLvZkZkDLq1ZCW8mbAQ",
@@ -690,7 +663,6 @@
       "lat": 60.192059
     },
     "city": "Helsinki, Finland",
-    "image": "assets/images/28.png",
     "twitter": "https://twitter.com/AngularFI",
     "web": "https://www.angular.fi/",
     "description": "We're an association formed to bring Angular people together in Finland. We're here to help people enter the industry, to develop their skills and to provide a platform for experts to share their knowledge with the Angular community. Our main activities are meetups, larger events in Finland and contributing to the ngVikings conference.",
@@ -722,7 +694,6 @@
       "lat": 40.73061
     },
     "city": "New York, NY",
-    "image": "assets/images/29.png",
     "twitter": "https://twitter.com/AngularNYC",
     "web": "https://angular.nyc/",
     "youtube": "https://www.youtube.com/AngularNYC",
@@ -748,7 +719,6 @@
       "lat": 51.3755
     },
     "city": "Krefeld, Nordrhein-Westfalen",
-    "image": "assets/images/30.png",
     "twitter": "https://twitter.com/NgNiederrhein",
     "web": "https://www.meetup.com/NgNiederrhein/",
     "github": "https://github.com/niklas-wortmann/NgNiederrhein",
@@ -773,7 +743,6 @@
       "lat": 51.343479
     },
     "city": "Leipzig, Saxony",
-    "image": "assets/images/31.png",
     "twitter": "https://twitter.com/ngLeipzig/",
     "web": "https://www.meetup.com//Angular-Meetup-Leipzig/",
     "youtube": "https://www.youtube.com/watch?v=DchT9ozH0TQ&list=PLa3LJQYGkv7SFfhG0-_1c-cDttRinW4ZU",
@@ -807,7 +776,6 @@
       "lat": 47.608013
     },
     "city": "Seattle, WA",
-    "image": "assets/images/32.png",
     "twitter": "https://twitter.com/ngSeattle",
     "web": "https://www.meetup.com/Angular-Seattle/",
     "description": "There will be a regular meetup hosted at Google every January, April, July, and October. We're seeking organizers to help put together events the rest of the year. Organizers are responsible for finding speakers, getting a venue, and finding sponsorship. If you'd like to join our team of organizers, please reach out to us!",
@@ -838,7 +806,6 @@
       "lat": 50.049683
     },
     "city": "Kraków, Poland",
-    "image": "assets/images/33.png",
     "twitter": "https://twitter.com/AngularKrakow",
     "web": "https://www.meetup.com/Angular-Krakow/",
     "description": "If you love Angular and live in or around Kraków, join us!",
@@ -858,7 +825,6 @@
       "lat": 47.36667
     },
     "city": "Zürich, Switzerland",
-    "image": "assets/images/34.png",
     "twitter": "https://twitter.com/AngularZurich",
     "web": "https://angularzurich.dev/",
     "youtube": "https://www.youtube.com/channel/UC3dvhlLD9QsFwe3H0HrFJLg",
@@ -888,7 +854,6 @@
       "lat": -23.55052
     },
     "city": "São Paulo, Brazil",
-    "image": "assets/images/35.png",
     "twitter": "https://twitter.com/AngularSP",
     "web": "https://www.meetup.com/AngularJS-Sao-Paulo/",
     "youtube": "https://www.youtube.com/channel/UCK4x3skK4rTpLqJf6XkTfqg",
@@ -933,8 +898,6 @@
       "lat": 30.266666
     },
     "city": "Austin, TX",
-    "image": "assets/images/36.png",
-
     "web": "https://www.meetup.com/es-ES/AngularATX/",
     "description": "Do you use Angular to build brilliant web apps? Are you interested in one of the best Javascript framework? Meetup with others who are into AngularJS, share knowledge, apps and collaborate. Angular -The Superheroic JavaScript MVW Framework is an open source offering from Google. Angular is what HTML would have been, had it been designed for building web-apps. Declarative templates with data-binding, MVW, MVVM, MVC, dependency injection and great testability story all implemented with pure client-side JavaScript!",
     "organizers": [
@@ -957,8 +920,6 @@
       "lat": 38.575764
     },
     "city": "Sacramento, CA",
-    "image": "assets/images/37.png",
-
     "web": "https://www.meetup.com/Sacramento-Angular-Meetup/",
     "description": "The Google Developer Group (GDG) Sacramento provides a forum for anyone in the Sacramento area to meet and discuss Google technologies such as Android, AppEngine, APIs, AngularJS, Polymer, Dart, Go, etc.",
     "organizers": [
@@ -978,7 +939,6 @@
       "lat": 52.489471
     },
     "city": "Birmingham, UK",
-    "image": "assets/images/38.png",
     "twitter": "https://twitter.com/ngbrum/",
     "web": "https://www.meetup.com/Angular-Birmingham/",
     "description": "Sharing best practices, ideas, experiences and helping each other become Angular Ninjas!",
@@ -1005,7 +965,6 @@
       "lat": 52.2599983215332
     },
     "city": "Warsaw, Poland",
-    "image": "assets/images/39.png",
     "twitter": "https://twitter.com/AngularWarsaw",
     "web": "http://angularwarsaw.pl/",
     "description": "Angular Warsaw is a local community of Angular professionals and enthusiasts. We love Angular and want to share it with you. Every second month we have talks on Angular. Please join our Meetup to learn or share knowledge about Angular. We are constantly looking for new speakers.",
@@ -1028,7 +987,6 @@
       "lat": 51.050407
     },
     "city": "Dresden, Germany",
-    "image": "assets/images/40.png",
     "twitter": "https://twitter.com/ngDresden",
     "web": "https://angular-dresden.de/",
     "description": "Dies ist die Gruppe für alle, die ihre Ideen mit dem Angular Framework bereits realisieren oder realisieren wollen. Hier dreht sich alles um Angular, Angular CLI, Angular Labs und Typescript. Für den Anfang ist ein monatliches Treffen geplant. Je nach Zuspruch wird die Häufigkeit der Treffen angepasst.",
@@ -1053,7 +1011,6 @@
       "lat": -34.603722
     },
     "city": "Buenos Aires, Argentina",
-    "image": "assets/images/41.png",
     "twitter": "https://twitter.com/ngbaires",
     "web": "https://github.com/ngbaires",
     "description": "Grupo de Angular en Buenos Aires, Argentina",
@@ -1085,7 +1042,6 @@
       "lat": 42.698334
     },
     "city": "Sofia, Bulgaria",
-    "image": "assets/images/42.png",
     "web": "https://www.meetup.com/Angular-Sofia",
     "description": "This is a group for anyone excited about Angular. Let's gather together and share our experience. All skill levels are welcome. We are always looking for new speakers, so if have na idea for a talk, please contact the organizers.",
     "organizers": [
@@ -1107,7 +1063,6 @@
       "lng": -88.0327868
     },
     "city": "San Pedro Sula, Honduras",
-    "image": "assets/images/43.png",
     "twitter": "https://twitter.com/AngularHonduras",
     "web": "https://ng-honduras.org/",
     "description": "Angular Honduras es una comunidad abierta para compartir experiencias y conocimiento sobre Angular y Tecnologías Web.",
@@ -1127,7 +1082,6 @@
       "lat": -12.97111
     },
     "city": "Salvador",
-    "image": "assets/images/44.png",
     "twitter": "https://twitter.com/AngularBA",
     "description": "Nós somos a comunidade de Angular em Salvador Bahia, focada em criar conteúdos, compartilhar conhecimento e ajudar as pessoas.",
     "organizers": [
@@ -1153,7 +1107,6 @@
       "lat": -2.1864
     },
     "city": "Guayaquil, Ecuador",
-    "image": "assets/images/45.png",
     "twitter": "https://twitter.com/ngguayaquil/",
     "web": "https://github.com/ngguayaquil",
     "description": "Comunidad de desarrolladores Angular Guayaquil. Construyendo una comunidad genial de desarrolladores.",
@@ -1174,7 +1127,6 @@
       "lng": 34.7818
     },
     "city": "Tel Aviv",
-    "image": "assets/images/46.png",
     "web": "https://www.meetup.com/Angular-IL/",
     "description": "Home for the the Angular Community in Israel",
     "organizers": [
@@ -1227,7 +1179,6 @@
       "lat": 6.230833
     },
     "city": "Medellín, Colombia",
-    "image": "assets/images/48.png",
     "twitter": "https://twitter.com/AngularMedellin",
     "web": "https://www.meetup.com/Angular-Medellin/",
     "description": "⭐️ ¡Bienvenido a Angular Medellín! ⭐️",
@@ -1245,7 +1196,6 @@
       "lat": -34.901112
     },
     "city": "Montevideo, Uruguay",
-    "image": "assets/images/49.png",
     "twitter": "https://twitter.com/AngularMVD",
     "web": "https://www.meetup.com/Angular-MVD/",
     "description": "Presentamos y discutimos temas variados, desde javascript y Angular, hasta performance, best practices, patrones de diseño, seguridad, web design y estar al día con las innovaciones de la industria.",
@@ -1272,7 +1222,6 @@
       "lat": 6.465422
     },
     "city": "Lagos, Nigeria",
-    "image": "assets/images/50.png",
     "twitter": "https://twitter.com/angularnigeria",
     "web": "https://www.meetup.com/ng-nigeria/",
     "description": "Interested in Angular (1.x & 2), Frontend Engineering, Best Practices, Future of JavaScript, Tooling, and any topic in-between? Join us and expect no dulling moments in our upcoming meetups, QA sessions, webinars, and more.",
@@ -1295,7 +1244,6 @@
       "lat": 8.983333
     },
     "city": "Panama City, Panamá",
-    "image": "assets/images/51.png",
     "twitter": "https://twitter.com/NgPanama",
     "web": "https://ngpanama.org/",
     "description": "Comunidad que promueve y comparte el framework de desarrollo web Angular creado por google a través de charlas y talleres.",
@@ -1348,7 +1296,6 @@
       "lat": 40.5622
     },
     "city": "South Jordan, UT",
-    "image": "assets/images/53.png",
     "twitter": "https://twitter.com/AngularJSUtah",
     "web": "https://www.meetup.com/es-ES/AngularUtah/",
     "description": "One of the world's first Angular meetups started here in Utah. This is a great place to learn about Angular and collaborate and network with other developers. Meetups are held the fourth Tuesday of every month on the south end of Salt Lake Valley.",
@@ -1386,7 +1333,6 @@
       "lat": 38.89511
     },
     "city": "Washington, DC",
-    "image": "assets/images/54.png",
     "twitter": "https://twitter.com/angulardc",
     "web": "https://www.meetup.com/es-ES/angularDC/",
     "description": "Whether 'old' (v 1.x), or new (2, 4, 5, ...) Angular, we work, play, and/or dabble in Angular. We meet every once a month for talks or workshops on anything Angular related.",
@@ -1420,7 +1366,6 @@
       "lng": 7.3986
     },
     "city": "Abuja",
-    "image": "assets/images/55.png",
     "twitter": "https://twitter.com/AngularAbuja",
     "web": "https://github.com/ngabuja",
     "description": "A community of Angular developers in the heart of the City of Capital of Nigeria.",
@@ -1477,7 +1422,6 @@
       "lng": 18.6714
     },
     "city": "Gliwice, Poland",
-    "image": "assets/images/57.png",
     "web": "https://www.meetup.com/Angular-Silesia/",
     "description": "Angular Meetup to wydarzenie stworzone z myślą o użytkownikach i pasjonatach tej technologii oraz pokrewnych, np. Typescript, RxJS. Ideą spotkań jest rozwój i wymiana doświadczeń, dlatego zachęcamy do dyskusji i – dla chętnych – zgłaszania swoich propozycji wystąpień!",
     "organizers": [
@@ -1546,7 +1490,6 @@
       "lng": 4.89707
     },
     "city": "Amsterdam, Netherlands",
-    "image": "assets/images/60.png",
     "youtube": "https://www.youtube.com/frontendlove",
     "web": "https://www.meetup.com/AngularJS-Amsterdam-Meetup/",
     "description": "This is the largest Angularjs Meetup Group in the Netherlands.",
@@ -1572,7 +1515,6 @@
       "lng": -104.991531
     },
     "city": "Denver, CO",
-    "image": "assets/images/61.png",
     "twitter": "https://twitter.com/RockyMtnAngular",
     "web": "http://rmangular.org/",
     "description": "This is a group devoted to the exploration, understanding, and practical application of the Angular development framework. We'll organize regularly scheduled meetings that dive deep into every aspect of Angular, its place in the development ecosystem, and provide an opportunities to learn the best way possible... by coding with our peers. We welcome developers, managers, designers, and anyone else who is interested learning more about the 'Superheroic JavaScript MVW Framework' from Google.",
@@ -1634,7 +1576,6 @@
       "lng": -73.561668
     },
     "city": "Montréal, Québec",
-    "image": "assets/images/63.png",
     "web": "https://www.meetup.com/Angular-Montreal/",
     "description": "Is Angular your choice to deliver front-end applications? Want to learn more about it? Want to share your knowledge or present your project? No matter if you are on the fence about joining Angular, you just started using it or you are a seasoned developer, let's have some fun together and build a strong Angular community at Montréal.",
     "organizers": [
@@ -1654,7 +1595,6 @@
       "lng": -123.1939434
     },
     "city": "Vancouver",
-    "image": "assets/images/64.png",
     "web": "https://www.meetup.com/vanangular/",
     "description": "Hailing from Vancouver, Canada; we are an international hub of developers with a keen interest in the power of front end development and in particular, of course, Angular.",
     "organizers": [
