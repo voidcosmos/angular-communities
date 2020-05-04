@@ -2,28 +2,28 @@
   "exportPresets": [
     {
       "name": "xs",
-      "width": 320,
+      "width": 64,
       "force": true
     },
     {
       "name": "sm",
-      "width": 640,
+      "width": 128,
       "force": true,
       "default": true
     },
     {
       "name": "md",
-      "width": 1024,
+      "width": 240,
       "force": true
     },
     {
       "name": "lg",
-      "width": 1024,
+      "width": 320,
       "force": true
     },
     {
       "name": "xl",
-      "width": 1024,
+      "width": 320,
       "force": true
     }
   ]
