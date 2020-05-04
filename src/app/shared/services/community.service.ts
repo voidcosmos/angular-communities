@@ -9,7 +9,6 @@ import { map } from 'rxjs/operators';
 })
 export class CommunityService {
   JSON_COMMUNITIES = 'assets/json/communities.json';
-  DEFAULT_IMAGE = 'assets/images/0.png';
 
   constructor(private httpClient: HttpClient) {}
 
@@ -26,7 +25,7 @@ export class CommunityService {
         title,
         {
           ...community,
-          image: community.image || this.DEFAULT_IMAGE,
+          image: `assets/images/${community.id}_xs.png`,
         },
       ]);
 

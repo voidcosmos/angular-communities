@@ -8,6 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
+    "predeploy": "rib -i src/assets/images_raw -o src/assets/images --no-clean --force",
     "deploy": "ng build --prod --base-href=/",
     "check-communities": "node check-communities.js"
   },
@@ -49,6 +50,7 @@
     "karma-jasmine": "~3.0.1",
     "karma-jasmine-html-reporter": "^1.4.2",
     "protractor": "~5.4.3",
+    "responsive-image-builder": "^3.1.3",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~3.8.3"

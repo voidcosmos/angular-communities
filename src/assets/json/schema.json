@@ -49,10 +49,7 @@
         "city": {
           "type": "string"
         },
-        "image": {
-          "type": "string",
-          "pattern": "^assets/images/[1-9][0-9]*\\.png$"
-        },
+
         "github": {
           "type": "string",
           "format": "uri"

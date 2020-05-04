@@ -35,14 +35,14 @@ Angular Communities
 # :crystal_ball: Roadmap
 
 - [x] Release 0.1.0 !
-- [ ] Improve code
-  - [ ] Improve performance
+- [x] Improve code
+  - [x] Improve performance
   - [ ] Improve performance even more!
-- [X] A lot of Communities
+- [x] A lot of Communities
   - [ ] +100 Communities
   - [ ] +500 Communities
   - [ ] +1000 Communities
-- [X] PWA
+- [x] PWA
 - [ ] Conferences version
 
 <a name="#add-your-community"></a>
@@ -63,8 +63,7 @@ Access the `assets/json/communities.json` file and add your community.
       "lat": 36.72016,
       "lng": -4.42034
     },
-    "city" : "Málaga"
-    "image": "assets/images/1.png", // Your logo (if you don't have a logo don't worry. Remove this property and we will display the Angular logo for you.)
+    "city" : "Málaga",
     "twitter": "https://twitter.com/AngularMalaga", // Community's twitter
     "web": "https://sites.google.com/view/angular-malaga/", // Community's web
     "description": "We are a spanish community formed by a group of amazing people. Our goal is to share our Angular/Javascript knowledge with anyone who want to learn about these awesome technologies.", // Nice description of your group (A few words)
@@ -84,7 +83,7 @@ Access the `assets/json/communities.json` file and add your community.
   },
 ```
 
-The last step is to upload the logo of your community to the directory `assets/images/<id>.png`. Make sure the logo is transparent (eg .png format) for a better view on the map.
+The last step is to upload the logo of your community to the directory `assets/images_raw/<id>.png`. Make sure the logo is transparent (eg .png format) for a better view on the map.
 
 <a name="contributing"></a>
 
