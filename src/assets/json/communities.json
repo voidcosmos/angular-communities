@@ -1929,5 +1929,28 @@
         "name": "Ксения Горон"
       }
     ]
+  },
+  "ngHouston": {
+    "id": 75,
+    "name": "ngHouston",
+    "position": {
+      "lat": 29.749907,
+      "lng": -95.358421
+    },
+    "city": "Houston, TX",
+    "image": "assets/images/75.png",
+    "twitter": "https://twitter.com/ng_Houston",
+    "web": "https://www.meetup.com/ngHouston/",
+    "youtube": "https://www.youtube.com/channel/UC3cfVUpgrO5TK6cvH04ieSQ/videos",
+    "description": "A group of developers interested in meeting to discuss Angular and related topics. All skill levels welcome!",
+    "organizers": [
+      {
+        "name": "Bonnie Brennan",
+        "twitter": "https://twitter.com/bonnster75"
+      },
+      {
+        "name": "Denny Kruep"
+      }
+    ]
   }
 }
