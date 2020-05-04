@@ -1622,7 +1622,6 @@
       "lng": -75.165222
     },
     "city": "Philadelphia, PA",
-    "image": "assets/images/65.png",
     "web": "https://www.meetup.com/Angular-Philly/",
     "description": "Join in to learn Angular Development (and related technologies) with your peers in Philadelphia! We host events that feature various topics and presentation types for developers and entrepreneurs of ALL skill levels.",
     "organizers": [
@@ -1649,7 +1648,6 @@
       "lng": -117.823059
     },
     "city": "Irvine, CA",
-    "image": "assets/images/66.png",
     "web": "https://www.meetup.com/AngularOC/",
     "twitter": "https://twitter.com/AngularJSOC",
     "description": "We are an Orange County MeetUp focused on developing with Angular.",
@@ -1672,7 +1670,6 @@
       "lng": 9.993682
     },
     "city": "Hamburg, Deutschland",
-    "image": "assets/images/67.png",
     "web": "https://www.meetup.com/Hamburg-AngularJS-Meetup/",
     "twitter": "https://twitter.com/angular_hamburg",
     "description": "Das Angular Meetup Hamburg ist ein Meetup rund ums Angular Framework. Hier ist jeder willkommen, egal ob Neuling oder Erfahrener. The Angular Meetup is a meetup around the Angular framework. We're open to anyone interested in the topic. Whether you're a beginner dying to poke questions at someone with experience or a veteran wanting to discuss the finer details, come along.",
@@ -1700,7 +1697,6 @@
       "lng": -78.467834
     },
     "city": "Quito, Ecuador",
-    "image": "assets/images/68.png",
     "web": "https://www.meetup.com/angularQuito/",
     "twitter": "https://twitter.com/AngularQuito",
     "description": "La comunidad Angular Quito es para todos aquellos apasionados por la tecnología web y Angular, sean expertos o principiantes aprenderemos de experiencias y conocimientos de buenas prácticas junto a miembros de nuestra comunidad Angular Hispano.",
@@ -1724,7 +1720,6 @@
       "lng": -122.083855
     },
     "city": "Mountain View, CA",
-    "image": "assets/images/69.png",
     "web": "https://www.meetup.com/Angular-MTV/",
     "description": "Angular meetup group in Mountain View, CA.",
     "organizers": [
@@ -1748,7 +1743,6 @@
       "lng": -90.199402
     },
     "city": "Saint Louis, MO",
-    "image": "assets/images/70.png",
     "twitter": "https://twitter.com/stl_angular",
     "youtube": "https://www.youtube.com/playlist?list=PLP4qxCldB2jRU-Ebo7nyF3oowMraGRkLL",
     "web": "https://www.meetup.com/STL-Angular/",
@@ -1775,7 +1769,6 @@
       "lng": 153.021072
     },
     "city": "Brisbane, Australia",
-    "image": "assets/images/71.png",
     "twitter": "https://twitter.com/angularMelb",
     "youtube": "https://www.youtube.com/c/AngularAustralia",
     "web": "https://www.meetup.com/Angular-Brisbane/",
@@ -1799,7 +1792,6 @@
       "lng": 5.10448
     },
     "city": "Utrecht, The Netherlands",
-    "image": "assets/images/72.png",
     "twitter": "https://twitter.com/AngularDutch",
     "youtube": "https://www.youtube.com/channel/UCExOZEWcSPmvHp8jUGxwe7g/featured",
     "web": "https://www.meetup.com/Dutch-Angular-group/",
@@ -1832,7 +1824,6 @@
       "lng": 30.3141
     },
     "city": "Saint Petersburg, Russian",
-    "image": "assets/images/73.png",
     "web": "https://github.com/AngularPiter/",
     "description": "The goal of this meetup is sharing Angular knowledge and best-practices and providing a space where people can meet up and chat with others working with Angular.",
     "organizers": [
@@ -1878,7 +1869,6 @@
       "lng": -95.358421
     },
     "city": "Houston, TX",
-    "image": "assets/images/75.png",
     "twitter": "https://twitter.com/ng_Houston",
     "web": "https://www.meetup.com/ngHouston/",
     "youtube": "https://www.youtube.com/channel/UC3cfVUpgrO5TK6cvH04ieSQ/videos",
@@ -1890,6 +1880,25 @@
       },
       {
         "name": "Denny Kruep"
+      }
+    ]
+  },
+  "Angular Bolivia": {
+    "id": 76,
+    "name": "Angular Bolivia",
+    "position": {
+      "lat": -17.413977,
+      "lng": -66.165321
+    },
+    "city": "Cochabamba, Bolivia",
+    "twitter": "https://twitter.com/angularBolivia",
+    "web": "https://www.meetup.com/Angular-Bolivia/",
+    "description": "Bienvenido a la creciente comunidad de Angular. En este grupo estamos dispuestos a ayudarte a empezar con esta tecnología. La idea es que podamos aprender compartiendo experiencias y conocimientos. Si eres alguien apasionado por aprender lo último en cuanto a tecnologías Web y Angular, este grupo es para ti.",
+    "organizers": [
+      {
+        "name": "Luis Aviles",
+        "twitter": "https://twitter.com/luixaviles/",
+        "github": "https://github.com/luixaviles"
       }
     ]
   }
