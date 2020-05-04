@@ -1906,5 +1906,28 @@
         "name": "Rustam Imaykin"
       }
     ]
+  },
+  "Angular Belarus": {
+    "id": 74,
+    "name": "Angular Belarus",
+    "position": {
+      "lat": 53.9000015,
+      "lng": 27.5666695
+    },
+    "city": "Minsk, Belarus",
+    "image": "assets/images/74.png",
+    "twitter": "https://twitter.com/angularbelarus",
+    "web": "https://www.meetup.com/angularbelarus/",
+    "youtube": "https://www.youtube.com/channel/UC5Xn1PlK9MNFt2vsQxNXJkQ",
+    "description": "We are here to develop communication and support for Angular lovers. This Angular community is building up for everybody curious about what's new in the Angular world and related technologies. Your seniority doesn't matter here. If you are new to Angular and want to see what all the fuss is about – join us, we'll help you to learn faster! If you have been doing Angular and wish to share your experience and thoughts we would love to have you onboard too!",
+    "organizers": [
+      {
+        "name": "Nikita Poltoratsky",
+        "twitter": "https://twitter.com/nikpoltoratsky"
+      },
+      {
+        "name": "Ксения Горон"
+      }
+    ]
   }
 }
