@@ -1982,5 +1982,25 @@
         "twitter": "https://twitter.com/chris_huppi"
       }
     ]
+  },
+  "Angular Portland": {
+    "id": 80,
+    "name": "Angular Portland",
+    "position": {
+      "lat": 45.523064,
+      "lng": -122.676483
+    },
+    "city": "Portland, OR",
+    "twitter": "https://twitter.com/AngularPortland",
+    "web": "https://www.meetup.com/ngpdxers/",
+    "description": "We are a community of JavaScript enthusiasts that share a love for Angular. Some of us have been using it for years and others are just hearing about it. Each month we get together to hear about all the great things that make up the Angular framework and see what great things people are creating with it.",
+    "organizers": [
+      {
+        "name": "Sam Julien",
+        "twitter": "https://twitter.com/samjulien",
+        "github": "https://github.com/samjulien/",
+        "webs": ["https://www.samjulien.com/"]
+      }
+    ]
   }
 }
