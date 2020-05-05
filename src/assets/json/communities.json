@@ -1905,8 +1905,8 @@
     "id": 77,
     "name": "Angular Minsk",
     "position": {
-      "lat": 53.891380,
-      "lng": 27.571100
+      "lat": 53.89138,
+      "lng": 27.5711
     },
     "city": "Minsk",
     "twitter": "https://twitter.com/AngularMinsk",
@@ -1924,6 +1924,36 @@
         "name": "Yury Tatsenka",
         "twitter": "https://twitter.com/diiceas",
         "github": "https://github.com/diiceas"
+      }
+    ]
+  },
+  "ngCopenhagen": {
+    "id": 78,
+    "name": "ngCopenhagen",
+    "position": {
+      "lat": 55.676098,
+      "lng": 12.568337
+    },
+    "city": "Copenhagen, Denmark",
+    "twitter": "https://twitter.com/ngCopenhagen",
+    "web": "https://www.meetup.com/ngCopenhagen/",
+    "description": "This is a Meetup for anyone, who's interested or working in Angular.",
+    "organizers": [
+      {
+        "name": "Sherry List",
+        "twitter": "https://twitter.com/sherrrylst/",
+        "webs": ["https://about.me/sherrylist"]
+      },
+      {
+        "name": "Mohsen Asfia",
+        "twitter": "https://twitter.com/mohsenasfia"
+      },
+      {
+        "name": "Peter Lindsey",
+        "twitter": "https://twitter.com/yesdnilp"
+      },
+      {
+        "name": "Alexander Hafstad"
       }
     ]
   }
