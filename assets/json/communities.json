@@ -1956,5 +1956,31 @@
         "name": "Alexander Hafstad"
       }
     ]
+  },
+  "Angular Cologne": {
+    "id": 79,
+    "name": "Angular Cologne",
+    "position": {
+      "lat": 50.935173,
+      "lng": 6.953101
+    },
+    "city": "Köln, Deustchland",
+    "twitter": "https://twitter.com/ngCopenhagen",
+    "web": "https://www.meetup.com/angular-cologne/",
+    "description": "Neben der Vorstellung von technischen Themen wie dem Angular-Kernframework, RxJS oder webpack möchten wir mit dem Meetup auch einen Treffpunkt für die Kölner Angular-Szene schaffen. Willkommen ist jeder der sich für Angular interessiert (Einsteiger wie Angular-Profis) und Teil unserer Community werden möchte.",
+    "organizers": [
+      {
+        "name": "Christoph Höller",
+        "twitter": "https://twitter.com/chris_hoeller/",
+        "webs": ["http://christoph-hoeller.net/"]
+      },
+      {
+        "name": "Tilman"
+      },
+      {
+        "name": "Christian Huppert",
+        "twitter": "https://twitter.com/chris_huppi"
+      }
+    ]
   }
 }
