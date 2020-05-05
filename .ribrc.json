@@ -2,12 +2,12 @@
   "exportPresets": [
     {
       "name": "xs",
-      "width": 128,
+      "width": 240,
       "force": true
     },
     {
       "name": "sm",
-      "width": 128,
+      "width": 240,
       "force": true,
       "default": true
     },
