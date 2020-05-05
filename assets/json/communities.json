@@ -1900,5 +1900,31 @@
         "github": "https://github.com/luixaviles"
       }
     ]
+  },
+  "Angular Minsk": {
+    "id": 77,
+    "name": "Angular Minsk",
+    "position": {
+      "lat": 53.891380,
+      "lng": 27.571100
+    },
+    "city": "Minsk",
+    "twitter": "https://twitter.com/AngularMinsk",
+    "web": "https://angularminsk.org",
+    "youtube": "https://www.youtube.com/channel/UCuSPm74LSL6WKzQQxsWOj7w",
+    "description": "This group is for everyone who want to sharpen their Angular skills and to learn Angular best practices and how to apply these practices at work building modern web apps. Our goal is to bring more Angular-related activities in Minsk, we offer presentations, online and offline workshops and social events to help people to learn Angular and get to know people in the Minsk Angular developers community.",
+    "organizers": [
+      {
+        "name": "Aliaksei Kuncevič",
+        "twitter": "https://twitter.com/kuncevic",
+        "github": "https://github.com/kuncevic",
+        "webs": ["https://kuncevic.dev/"]
+      },
+      {
+        "name": "Yury Tatsenka",
+        "twitter": "https://twitter.com/diiceas",
+        "github": "https://github.com/diiceas"
+      }
+    ]
   }
 }
