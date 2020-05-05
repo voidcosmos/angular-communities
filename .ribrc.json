@@ -2,7 +2,7 @@
   "exportPresets": [
     {
       "name": "xs",
-      "width": 64,
+      "width": 128,
       "force": true
     },
     {
