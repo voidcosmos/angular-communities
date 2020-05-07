@@ -2027,28 +2027,5 @@
         "name": "Ben Glynn"
       }
     ]
-  },
-  "Angular Colombia": {
-    "id": 82,
-    "name": "Angular Colombia",
-    "position": {
-      "lat": 4.624335,
-      "lng": -74.063644
-    },
-    "city": "Bogota, Colombia",
-    "twitter": "https://twitter.com/AngularCO",
-    "web": "https://www.meetup.com/Angular-Colombia/",
-    "description": "¿Has creado código a partir de ejemplos pero no sabes por qué no funciona tu aplicación? O peor ¿no sabes por qué funciona?",
-    "organizers": [
-      {
-        "name": "Diego Coy",
-        "twitter": "https://twitter.com/UnJavaScripter",
-        "webs": ["https://twitter.com/UnJavaScripter"]
-      },
-      {
-        "name": "Milena Suarez",
-        "twitter": "https://twitter.com/milena_suarezl"
-      }
-    ]
   }
 }
