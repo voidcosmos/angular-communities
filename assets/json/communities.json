@@ -2002,5 +2002,53 @@
         "webs": ["https://www.samjulien.com/"]
       }
     ]
+  },
+  "Angular South West": {
+    "id": 81,
+    "name": "Angular South West",
+    "position": {
+      "lat": 51.4552307,
+      "lng": -2.5966499
+    },
+    "city": "Bristol, UK",
+    "twitter": "https://twitter.com/AngularSW",
+    "web": "https://www.meetup.com/Angular-South-West/",
+    "description": "We connect Angular developers in Bristol, Bath and the surrounding area. Our focus is on learning about the Angular framework.",
+    "organizers": [
+      {
+        "name": "Matthew Cawley",
+        "twitter": "https://twitter.com/mjcwly/"
+      },
+      {
+        "name": "Eddie Bragg",
+        "twitter": "https://twitter.com/eddiebragg/"
+      },
+      {
+        "name": "Ben Glynn"
+      }
+    ]
+  },
+  "Angular Colombia": {
+    "id": 82,
+    "name": "Angular Colombia",
+    "position": {
+      "lat": 4.624335,
+      "lng": -74.063644
+    },
+    "city": "Bogota, Colombia",
+    "twitter": "https://twitter.com/AngularCO",
+    "web": "https://www.meetup.com/Angular-Colombia/",
+    "description": "¿Has creado código a partir de ejemplos pero no sabes por qué no funciona tu aplicación? O peor ¿no sabes por qué funciona?",
+    "organizers": [
+      {
+        "name": "Diego Coy",
+        "twitter": "https://twitter.com/UnJavaScripter",
+        "webs": ["https://twitter.com/UnJavaScripter"]
+      },
+      {
+        "name": "Milena Suarez",
+        "twitter": "https://twitter.com/milena_suarezl"
+      }
+    ]
   }
 }
