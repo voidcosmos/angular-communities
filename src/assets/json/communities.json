@@ -2051,4 +2051,23 @@
       }
     ]
   }
+  "Angular Turkey": { // Communities name
+    "id": 83, // The last id that you see in the file + 1 (this is your id :D)
+    "name": "Angular Turkey", //// Community name
+    "position": { // Latitude and Longitude
+      "lat": 41.01384,
+      "lng": 28.94966
+    },
+    "city" : "Istanbul",
+    "twitter": "https://twitter.com/ngTurkiye", // Community's twitter
+    "web": "https://github.com/ng-turkey", // Community's web
+    "description": "Angular organization of Turkey. Let's discover Angular together!", // Nice description of your group (A few words)
+    "organizers": [ 
+      {
+        "name": "Mehmet Alp",     // Name
+        "twitter": "https://twitter.com/mhmtakifalp",  // Twitter
+        "github": "https://github.com/mobilerast" // Github
+      }
+    ]
+  },
 }
