@@ -2050,5 +2050,24 @@
         "twitter": "https://twitter.com/milena_suarezl"
       }
     ]
+  },
+  "Angular Turkey": {
+    "id": 83,
+    "name": "Angular Turkey",
+    "position": {
+      "lat": 41.01384,
+      "lng": 28.94966
+    },
+    "city": "Istanbul, Turkey",
+    "twitter": "https://twitter.com/ngTurkiye",
+    "web": "https://github.com/ng-turkey",
+    "description": "Angular organization of Turkey. Let's discover Angular together!",
+    "organizers": [
+      {
+        "name": "Mehmet ALP",
+        "twitter": "https://twitter.com/mhmtakifalp",
+        "github": "https://github.com/mobilerast"
+      }
+    ]
   }
 }
