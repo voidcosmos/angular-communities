@@ -2032,8 +2032,8 @@
     "id": 82,
     "name": "Angular Colombia",
     "position": {
-      "lat": 4.624335,
-      "lng": -74.063644
+      "lat": 3.624335,
+      "lng": -73.063644
     },
     "city": "Bogota, Colombia",
     "twitter": "https://twitter.com/AngularCO",
@@ -2067,6 +2067,46 @@
         "name": "Mehmet ALP",
         "twitter": "https://twitter.com/mhmtakifalp",
         "github": "https://github.com/mobilerast"
+      }
+    ]
+  },
+  "Angular Kenya": {
+    "id": 84,
+    "name": "Angular Kenya",
+    "position": {
+      "lat": -1.286389,
+      "lng": 36.817223
+    },
+    "city": "Nairobi, Kenya",
+    "twitter": "https://twitter.com/angular_kenya",
+    "organizers": [
+      {
+        "name": "Wayne Gakuo",
+        "twitter": "https://twitter.com/wayne_gakuo",
+        "webs": ["https://waynegakuo.github.io/"],
+        "github": "https://github.com/waynegakuo"
+      }
+    ]
+  },
+  "Angular Costa Rica": {
+    "id": 85,
+    "name": "Angular Costa Rica",
+    "position": {
+      "lat": 9.934739,
+      "lng": -84.087502
+    },
+    "city": "San José, Costa Rica",
+    "twitter": "https://twitter.com/AngularCRa",
+    "youtube": "https://www.youtube.com/channel/UC4vCnqA5s8IR2zCcSXp63_w/",
+    "web": "https://www.meetup.com/es-ES/gdg-costarica/",
+    "organizers": [
+      {
+        "name": "Mariano Álvarez",
+        "twitter": "https://twitter.com/malvarezcr"
+      },
+      {
+        "name": "Alfredo Bonilla",
+        "twitter": "https://twitter.com/Brolag"
       }
     ]
   }
