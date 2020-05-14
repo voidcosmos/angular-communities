@@ -2110,9 +2110,9 @@
       }
     ]
   },
-  "Ng Arab": {
+  "ngArab": {
     "id": 86,
-    "name": "Ng Arab",
+    "name": "ngArab",
     "position": {
       "lat": 31.2001,
       "lng": 29.9187
