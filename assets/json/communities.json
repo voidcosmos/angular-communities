@@ -2109,5 +2109,22 @@
         "twitter": "https://twitter.com/Brolag"
       }
     ]
+  },
+  "Ng Arab": {
+    "id": 86,
+    "name": "Ng Arab",
+    "position": {
+      "lat": 31.2001,
+      "lng": 29.9187
+    },
+    "city": "All Arab Cities ❤",
+    "youtube": "http://www.youtube.com/c/AngularArmy",
+    "description": "Angular Army 'Ng Arab' is the first community for all Arabic speakers to discuss what is all about Angular, We make online sessions, support new developers, and post for jobs related to Angular.",
+    "organizers": [
+      {
+        "name": "Omar Hasan",
+        "twitter": "https://twitter.com/OmarioHasan"
+      }
+    ]
   }
 }
