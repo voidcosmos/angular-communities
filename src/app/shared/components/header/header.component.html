@@ -4,17 +4,21 @@
       <img alt="Angular communities logo" src="assets/images/angular-communities-logo_md.png" />
       <span>ANGULAR COMMUNITIES</span>
     </div>
+    <p>{{displayName}}</p>
     <div>
-      <a
-        href="https://www.github.com/voidcosmos/angular-communities"
-        target="_blank"
-        class="social-buttons__button social-button social-button--github"
-        aria-label="GitHub"
-      >
-        <span class="social-button__inner">
-          <i class="fab fa-github"></i>
-        </span>
-      </a>
+      <button mat-raised-button class="login-btn" (click)="!!displayName ? logout() : login()">{{!!displayName ? 'Log Out' : 'Log In'}}</button>
+      <div class="github-link">
+        <a
+          href="https://www.github.com/voidcosmos/angular-communities"
+          target="_blank"
+          class="social-buttons__button social-button social-button--github"
+          aria-label="GitHub"
+        >
+          <span class="social-button__inner">
+            <i class="fab fa-github"></i>
+          </span>
+        </a>
+      </div>
     </div>
   </mat-toolbar-row>
 </mat-toolbar>

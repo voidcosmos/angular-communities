@@ -21,6 +21,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { ScrollingModule } from '@angular/cdk/scrolling';
 import { NgModule } from '@angular/core';
 import { MatDividerModule } from '@angular/material/divider';
+import { FirebaseService } from './services';
 
 const CORE_MODULES = [BrowserAnimationsModule, CommonModule, FormsModule, ReactiveFormsModule];
 
@@ -48,5 +49,6 @@ const MATERIAL_MODULES = [
   declarations: COMPONENTS,
   imports: [MATERIAL_MODULES, CORE_MODULES, FlexLayoutModule],
   exports: [COMPONENTS, MATERIAL_MODULES, CORE_MODULES, FlexLayoutModule],
+  providers: [FirebaseService]
 })
 export class SharedModule {}
