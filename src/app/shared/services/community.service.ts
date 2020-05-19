@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
+import { AngularFirestore } from '@angular/fire/firestore';
 
 @Injectable({
   providedIn: 'root',
@@ -10,7 +11,12 @@ import { map } from 'rxjs/operators';
 export class CommunityService {
   JSON_COMMUNITIES = 'assets/json/communities.json';
 
-  constructor(private httpClient: HttpClient) {}
+  firebaseCommunities: Observable<any[]>;
+
+  constructor(private httpClient: HttpClient, firestore: AngularFirestore) {
+    this.firebaseCommunities = firestore.collection('communities').valueChanges();
+    this.firebaseCommunities.subscribe(res => console.log("Communities: ",res))
+  }
 
   get communities(): Observable<Communities> {
     return this.httpClient

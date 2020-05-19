@@ -19,6 +19,7 @@
     "@angular/common": "~9.1.1",
     "@angular/compiler": "~9.1.1",
     "@angular/core": "~9.1.1",
+    "@angular/fire": "^6.0.0",
     "@angular/flex-layout": "^9.0.0-beta.29",
     "@angular/forms": "~9.1.1",
     "@angular/google-maps": "^9.2.1",
@@ -28,6 +29,7 @@
     "@angular/router": "~9.1.1",
     "@angular/service-worker": "~9.1.1",
     "@fortawesome/fontawesome-free": "^5.13.0",
+    "firebase": "^7.14.4",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
