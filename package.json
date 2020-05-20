@@ -11,6 +11,7 @@
     "predeploy": "rib -i src/assets/images_raw -o src/assets/images --no-clean --force",
     "deploy": "ng build --prod --base-href=/",
     "load-communities-to-firebase": "node load-communities-to-firebase.js",
+    "load-community-to-firebase": "node load-community-to-firebase.js",
     "check-communities": "node check-communities.js"
   },
   "private": true,
