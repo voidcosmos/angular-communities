@@ -49,6 +49,6 @@ const MATERIAL_MODULES = [
   declarations: COMPONENTS,
   imports: [MATERIAL_MODULES, CORE_MODULES, FlexLayoutModule],
   exports: [COMPONENTS, MATERIAL_MODULES, CORE_MODULES, FlexLayoutModule],
-  providers: [FirebaseService]
+  providers: []
 })
 export class SharedModule {}

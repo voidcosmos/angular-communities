@@ -1,9 +1,9 @@
-import { Communities } from '@shared/interfaces';
-import { HttpClient } from '@angular/common/http';
+import { Communities, Community } from '@shared/interfaces';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { AngularFirestore } from '@angular/fire/firestore';
+import { environment } from '@environments/environment';
 
 @Injectable({
   providedIn: 'root',
@@ -11,17 +11,21 @@ import { AngularFirestore } from '@angular/fire/firestore';
 export class CommunityService {
   JSON_COMMUNITIES = 'assets/json/communities.json';
 
-  firebaseCommunities: Observable<any[]>;
+  constructor( public firestore: AngularFirestore) {
 
-  constructor(private httpClient: HttpClient, firestore: AngularFirestore) {
-    this.firebaseCommunities = firestore.collection('communities').valueChanges();
-    this.firebaseCommunities.subscribe(res => console.log("Communities: ",res))
   }
 
-  get communities(): Observable<Communities> {
-    return this.httpClient
-      .get<Communities>(this.JSON_COMMUNITIES)
-      .pipe(map(communities => this.normalizeCommunities(communities)));
+  get communities(): Observable<Community[]> {
+    return this.firestore.collection(environment.firestore.COMMUNITIES_PATH).valueChanges().pipe(
+      map((communities)=>{
+        return communities.map((community: Community)=> {
+          return {
+            ...community,
+            image: `assets/images/${community.id}_xs.png`
+          }
+        })
+      })
+    )
   }
 
   private normalizeCommunities(communities: Communities): Communities {

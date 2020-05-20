@@ -10,6 +10,9 @@ export const environment = {
     databaseURL: "",
     storageBucket: "",
     messagingSenderId: ""
+  },
+  firestore:{
+      COMMUNITIES_PATH: "communities-test"
   }
 };
 
