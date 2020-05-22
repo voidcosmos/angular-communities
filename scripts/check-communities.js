@@ -1,6 +1,6 @@
 const AJV = require('ajv');
-const { $schema: _, ...communities } = require('./src/assets/json/communities.json');
-const schema = require('./src/assets/json/schema.json');
+const { $schema: _, ...communities } = require('../src/assets/json/communities.json');
+const schema = require('../src/assets/json/schema.json');
 
 const ajv = new AJV({ allErrors: true });
 

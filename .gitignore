@@ -10,6 +10,9 @@
 # Only exists if Bazel was run
 /bazel-out
 
+# Firebase Admin Credentials
+angular-communities-admin-key.json
+
 # dependencies
 /node_modules
 

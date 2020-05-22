@@ -10,9 +10,8 @@
     "e2e": "ng e2e",
     "predeploy": "rib -i src/assets/images_raw -o src/assets/images --no-clean --force",
     "deploy": "ng build --prod --base-href=/",
-    "load-communities-to-firebase": "node load-communities-to-firebase.js",
-    "load-community-to-firebase": "node load-community-to-firebase.js",
-    "check-communities": "node check-communities.js"
+    "load-communities-to-firebase": "node scripts/load-communities-to-firebase.js",
+    "check-communities": "node scripts/check-communities.js"
   },
   "private": true,
   "dependencies": {
@@ -41,6 +40,7 @@
     "@angular/cli": "~9.1.1",
     "@angular/compiler-cli": "~9.1.1",
     "@angular/language-service": "~9.1.1",
+    "@google-cloud/storage": "^5.0.0",
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.11.1",
