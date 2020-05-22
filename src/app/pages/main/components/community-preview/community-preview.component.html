@@ -24,10 +24,11 @@
             [srcset]="'./assets/images/' + community.id + media.suffix + '.' + media.format"
             [type]="'image/' + media.format"
           />
-
+          
+          <!-- TODO: Image index should be select depending on format type or flatten the array into a list of different image names -->
           <img
             alt="{{ community.name }} logo"
-            [src]="'./assets/images/' + community.id + '_md.png'"
+            [src]="community?.images[2]"
           />
         </picture>
 

@@ -6,6 +6,7 @@ export interface Community {
   position: google.maps.LatLngLiteral;
   city: string;
   image: string;
+  images: string[];
   twitter: string;
   web: string;
   youtube: string;

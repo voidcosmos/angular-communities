@@ -15,15 +15,17 @@ export class CommunityService {
 
   }
 
-  get communities(): Observable<Community[]> {
+  get communities(): Observable<Communities> {
     return this.firestore.collection(environment.firestore.COMMUNITIES_PATH).valueChanges().pipe(
       map((communities)=>{
-        return communities.map((community: Community)=> {
-          return {
+        let communitiesRecord = {};
+        communities.forEach((community: Community)=> {
+          communitiesRecord[community.name] = {
             ...community,
-            image: `assets/images/${community.id}_xs.png`
-          }
-        })
+            image: community?.images[9]
+          };
+        });
+        return communitiesRecord;
       })
     )
   }

@@ -2,7 +2,8 @@
   <mat-sidenav-content *ngIf="community; else search">
     <header>
       <span (click)="onCloseInfo()" class="link close"></span>
-      <img alt="{{ community.name }} logo" [src]="'./assets/images/' + community.id + '_md.png'" />
+      <!-- TODO: Image index should be select depending on format type or flatten the array into a list of different image names -->
+      <img alt="{{ community.name }} logo" [src]="community?.images[2]" />
       <div fxLayout="column">
         <h1>{{ community.name }}</h1>
         <div fxLayout fxLayoutAlign="center social-links">
