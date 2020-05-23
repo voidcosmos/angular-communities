@@ -4,12 +4,14 @@
 
 export const environment = {
   production: false,
-  firebaseConfig:{ // SET YOUR FIREBASE CONFIGURATION VARIABLES
-    apiKey: "",
-    authDomain: "",
-    databaseURL: "",
-    storageBucket: "",
-    messagingSenderId: ""
+  firebaseConfig:{
+    apiKey: "AIzaSyDZ8CnVX4DY8Yps5E0srLMf2LMKHD1L6-8",
+    authDomain: "angular-communities-9785d.firebaseapp.com",
+    databaseURL: "https://angular-communities-9785d.firebaseio.com",
+    projectId: "angular-communities-9785d",
+    storageBucket: "angular-communities-9785d.appspot.com",
+    messagingSenderId: "365490950824",
+    appId: "1:365490950824:web:4d4d2ef801b6212e4ea89d" 
   },
   firestore:{
       COMMUNITIES_PATH: "communities-test"
