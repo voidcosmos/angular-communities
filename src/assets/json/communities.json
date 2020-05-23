@@ -2109,5 +2109,27 @@
         "twitter": "https://twitter.com/Brolag"
       }
     ]
+  },
+  "ngDubai": {
+    "id": 86,
+    "name": "ngDubai",
+    "position": {
+      "lat": 25.266666,
+      "lng": 55.316666
+    },
+    "city": "Dubai, Vereinigte Arabische Emirate",
+    "twitter": "https://twitter.com/AngularDubai",
+    "youtube": "https://www.youtube.com/channel/UCeA2u0zaw99UjuU2AwZHrkg",
+    "web": "https://www.meetup.com/ngDubai/",
+    "organizers": [
+      {
+        "name": "Mitko Tschimev",
+        "twitter": "https://twitter.com/mtschimev",
+        "github": "https://github.com/MitkoTschimev"
+      },
+      {
+        "name": "Helen Obogeanu"
+      }
+    ]
   }
 }
