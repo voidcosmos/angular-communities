@@ -1,8 +1,5 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
-# environment dev
-/src/environments/environment.dev.ts
-
 # compiled output
 /dist
 /tmp
@@ -51,3 +48,6 @@ testem.log
 .DS_Store
 Thumbs.db
 src/assets/images
+
+# Local configuration baks
+scripts/load-communities-to-firebase.bak.js

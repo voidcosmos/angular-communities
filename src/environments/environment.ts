@@ -5,16 +5,17 @@
 export const environment = {
   production: false,
   firebaseConfig:{
-    apiKey: "AIzaSyDZ8CnVX4DY8Yps5E0srLMf2LMKHD1L6-8",
-    authDomain: "angular-communities-9785d.firebaseapp.com",
-    databaseURL: "https://angular-communities-9785d.firebaseio.com",
-    projectId: "angular-communities-9785d",
-    storageBucket: "angular-communities-9785d.appspot.com",
-    messagingSenderId: "365490950824",
-    appId: "1:365490950824:web:4d4d2ef801b6212e4ea89d" 
+    apiKey: "AIzaSyAekY3N5j7_JHcJyBASaP8ApfAB0uDhVqg",
+    authDomain: "angular-communities.firebaseapp.com",
+    databaseURL: "https://angular-communities.firebaseio.com",
+    projectId: "angular-communities",
+    storageBucket: "angular-communities.appspot.com",
+    messagingSenderId: "527493599469",
+    appId: "1:527493599469:web:203c4cf32ef24bea343ce4",
+    measurementId: "G-X20FFQVR7X"
   },
   firestore:{
-      COMMUNITIES_PATH: "communities-test"
+      COMMUNITIES_PATH: "dev-communities"
   }
 };
 
