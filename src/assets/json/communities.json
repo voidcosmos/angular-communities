@@ -407,6 +407,7 @@
     "city": "Bogotá, Colombia",
     "twitter": "https://twitter.com/angularbogota",
     "web": "https://www.meetup.com/Angular-Bogota/",
+    "youtube": "https://www.youtube.com/channel/UCnnhrij6P35MdjHFV-MMhkw",
     "description": "🅰️💛❤️ Somos tu comunidad de Angular en Bogotá 🅰️💛❤️",
     "organizers": [
       {
@@ -1892,6 +1893,7 @@
     "city": "Cochabamba, Bolivia",
     "twitter": "https://twitter.com/angularBolivia",
     "web": "https://www.meetup.com/Angular-Bolivia/",
+    "youtube": "https://www.youtube.com/channel/UCkTe6tbnU9GhQ2VjpPBtgsw",
     "description": "Bienvenido a la creciente comunidad de Angular. En este grupo estamos dispuestos a ayudarte a empezar con esta tecnología. La idea es que podamos aprender compartiendo experiencias y conocimientos. Si eres alguien apasionado por aprender lo último en cuanto a tecnologías Web y Angular, este grupo es para ti.",
     "organizers": [
       {
@@ -2107,6 +2109,45 @@
       {
         "name": "Alfredo Bonilla",
         "twitter": "https://twitter.com/Brolag"
+      }
+    ]
+  },
+  "ngArab": {
+    "id": 86,
+    "name": "ngArab",
+    "position": {
+      "lat": 31.2001,
+      "lng": 29.9187
+    },
+    "city": "All Arab Cities ❤",
+    "youtube": "http://www.youtube.com/c/AngularArmy",
+    "description": "Angular Army 'Ng Arab' is the first community for all Arabic speakers to discuss what is all about Angular, We make online sessions, support new developers, and post for jobs related to Angular.",
+    "organizers": [
+      {
+        "name": "Omar Hasan",
+        "twitter": "https://twitter.com/OmarioHasan"
+      }
+    ]
+  },
+  "ngDubai": {
+    "id": 87,
+    "name": "ngDubai",
+    "position": {
+      "lat": 25.266666,
+      "lng": 55.316666
+    },
+    "city": "Dubai, Vereinigte Arabische Emirate",
+    "twitter": "https://twitter.com/AngularDubai",
+    "youtube": "https://www.youtube.com/channel/UCeA2u0zaw99UjuU2AwZHrkg",
+    "web": "https://www.meetup.com/ngDubai/",
+    "organizers": [
+      {
+        "name": "Mitko Tschimev",
+        "twitter": "https://twitter.com/mtschimev",
+        "github": "https://github.com/MitkoTschimev"
+      },
+      {
+        "name": "Helen Obogeanu"
       }
     ]
   }
