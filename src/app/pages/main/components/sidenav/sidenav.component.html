@@ -6,36 +6,22 @@
       <div fxLayout="column">
         <h1>{{ community.name }}</h1>
         <div fxLayout fxLayoutAlign="center social-links">
-          <a
-            *ngIf="community.twitter"
-            [href]="community.twitter"
-            target="_blank"
-            class="social-buttons__button social-button social-button--twitter"
-            aria-label="Twitter"
-          >
+          <a *ngIf="community.twitter" [href]="community.twitter" target="_blank"
+            class="social-buttons__button social-button social-button--twitter" aria-label="Twitter">
             <span class="social-button__inner">
               <i class="fab fa-twitter"></i>
             </span>
           </a>
 
-          <a
-            *ngIf="community.youtube"
-            [href]="community.youtube"
-            target="_blank"
-            class="social-buttons__button social-button social-button--youtube"
-            aria-label="Youtube"
-          >
+          <a *ngIf="community.youtube" [href]="community.youtube" target="_blank"
+            class="social-buttons__button social-button social-button--youtube" aria-label="Youtube">
             <span class="social-button__inner">
               <i class="fab fa-youtube"></i>
             </span>
           </a>
 
-          <a
-            *ngIf="community.web"
-            [href]="community.web"
-            target="_blank"
-            class="social-buttons__button social-button social-button--link"
-          >
+          <a *ngIf="community.web" [href]="community.web" target="_blank"
+            class="social-buttons__button social-button social-button--link">
             <span class="social-button__inner">
               <i class="fas fa-link"></i>
             </span>
@@ -51,54 +37,31 @@
       <header class="margin-top-1">
         <h1>Organizers</h1>
       </header>
-      <div
-        fxLayout
-        fxLayoutAlign="space-between center"
-        *ngFor="let organizer of community.organizers"
-      >
+      <div fxLayout fxLayoutAlign="space-between center" *ngFor="let organizer of community.organizers">
         <span class="organizer-name">{{ organizer.name }}</span>
 
         <div fxLayout fxFlexalign="space-between center">
-          <a
-            *ngIf="organizer.twitter"
-            [href]="organizer.twitter"
-            target="_blank"
-            class="social-buttons__button social-button social-button--twitter"
-            aria-label="Twitter"
-          >
+          <a *ngIf="organizer.twitter" [href]="organizer.twitter" target="_blank"
+            class="social-buttons__button social-button social-button--twitter" aria-label="Twitter">
             <span class="social-button__inner">
               <i class="fab fa-twitter"></i>
             </span>
           </a>
 
-          <a
-            *ngIf="organizer.github"
-            [href]="organizer.github"
-            target="_blank"
-            class="social-buttons__button social-button social-button--github"
-            aria-label="GitHub"
-          >
+          <a *ngIf="organizer.github" [href]="organizer.github" target="_blank"
+            class="social-buttons__button social-button social-button--github" aria-label="GitHub">
             <span class="social-button__inner">
               <i class="fab fa-github"></i>
             </span>
           </a>
-          <a
-            *ngIf="organizer.linkedin"
-            [href]="organizer.linkedin"
-            target="_blank"
-            class="social-buttons__button social-button social-button--linkedin"
-            aria-label="LinkedIn"
-          >
+          <a *ngIf="organizer.linkedin" [href]="organizer.linkedin" target="_blank"
+            class="social-buttons__button social-button social-button--linkedin" aria-label="LinkedIn">
             <span class="social-button__inner">
               <i class="fab fa-linkedin"></i>
             </span>
           </a>
-          <a
-            *ngFor="let web of organizer.webs"
-            [href]="web"
-            target="_blank"
-            class="social-buttons__button social-button social-button--link"
-          >
+          <a *ngFor="let web of organizer.webs" [href]="web" target="_blank"
+            class="social-buttons__button social-button social-button--link">
             <span class="social-button__inner">
               <i class="fas fa-link"></i>
             </span>
@@ -109,10 +72,6 @@
   </mat-sidenav-content>
   <ng-template #search class="content">
     <mat-sidenav-content>
-      <header>
-        <h1>Communities</h1>
-      </header>
-      <mat-divider></mat-divider>
       <ngcommunity-preview (selected)="onSelected($event)" [communities]="communities">
       </ngcommunity-preview>
     </mat-sidenav-content>

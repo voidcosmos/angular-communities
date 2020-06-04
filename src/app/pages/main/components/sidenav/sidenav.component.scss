@@ -1,5 +1,9 @@
 mat-sidenav-content {
-  height: calc(100vh - 128px);
+  height: calc(100vh - 64px);
+}
+
+mat-sidenav-container {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 @media (max-width: 599px) {

@@ -1,20 +1,9 @@
-<div
-  fxFlexFill
-  gdAreas="header | main | footer "
-  gdGap="0px"
-  gdRows="64px auto 64px"
-  gdAreas.lt-md="header | main | footer"
-  gdRows.lt-md="64px auto 64px"
-  gdColumns.lt-md="100% 100% 100%"
-  gdAreas.xs="header | main | footer"
-  gdRows.xs="64px 100% 64px"
-  gdColumns.xs="100% 100% 100%"
->
+<div fxFlexFill gdAreas="header | main  " gdGap="0px" gdRows="64px auto" gdAreas.lt-md="header | main "
+  gdRows.lt-md="64px auto " gdColumns.lt-md="100% 100% " gdAreas.xs="header | main " gdRows.xs="64px 100% "
+  gdColumns.xs="100% 100% ">
   <ngcommunity-header gdArea="header"></ngcommunity-header>
-  <ngcommunity-main
-    *ngIf="communitie$ | async as communities"
-    gdArea="main"
-    [communities]="communities"
-  ></ngcommunity-main>
-  <ngcommunity-footer gdArea="footer"></ngcommunity-footer>
+  <ngcommunity-main *ngIf="communitie$ | async as communities" gdArea="main" [communities]="communities">
+  </ngcommunity-main>
+  <!-- <ngcommunity-footer gdArea="footer"></ngcommunity-footer> -->
 </div>
+<ngcommunity-creator-badge></ngcommunity-creator-badge>

@@ -1,0 +1,22 @@
+.creator-badge {
+  position: absolute;
+  width: 169px;
+  height: 22px;
+  left: 26px;
+  bottom: 26px;
+  background: #626262;
+  border-radius: 10px;
+  z-index: 100000;
+  display: flex;
+  p {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    width: 100%;
+    color: #ffffff;
+  }
+}

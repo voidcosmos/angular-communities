@@ -7,10 +7,18 @@ import { SharedModule } from './shared/shared.module';
 import { RouterModule } from '@angular/router';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { CreatorBadgeComponent } from './shared/components/creator-badge/creator-badge.component';
 
 @NgModule({
-  declarations: [AppComponent],
-  imports: [BrowserModule, SharedModule, PagesModule, HttpClientModule, RouterModule.forRoot([]), ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })],
+  declarations: [AppComponent, CreatorBadgeComponent],
+  imports: [
+    BrowserModule,
+    SharedModule,
+    PagesModule,
+    HttpClientModule,
+    RouterModule.forRoot([]),
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
