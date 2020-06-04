@@ -21,10 +21,12 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { ScrollingModule } from '@angular/cdk/scrolling';
 import { NgModule } from '@angular/core';
 import { MatDividerModule } from '@angular/material/divider';
+import { CreatorBadgeComponent } from './components/creator-badge/creator-badge.component';
+import { SocialButtonComponent } from './components/social-button/social-button.component';
 
 const CORE_MODULES = [BrowserAnimationsModule, CommonModule, FormsModule, ReactiveFormsModule];
 
-const COMPONENTS = [FooterComponent, HeaderComponent];
+const COMPONENTS = [FooterComponent, HeaderComponent, CreatorBadgeComponent, SocialButtonComponent];
 
 const MATERIAL_MODULES = [
   MatInputModule,

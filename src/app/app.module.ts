@@ -7,10 +7,9 @@ import { SharedModule } from './shared/shared.module';
 import { RouterModule } from '@angular/router';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
-import { CreatorBadgeComponent } from './shared/components/creator-badge/creator-badge.component';
 
 @NgModule({
-  declarations: [AppComponent, CreatorBadgeComponent],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     SharedModule,
