@@ -1,0 +1,37 @@
+img {
+  height: 90px;
+  width: 90px;
+  margin: 10px;
+}
+:host {
+  border: 1px solid #d1d1d1;
+  background: #ffffff;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-bottom: 13px;
+  padding: 10px 5px 10px 5px;
+  &:hover {
+    cursor: pointer;
+    background-color: #f5f5f5;
+  }
+}
+.community {
+  h3 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #b90909;
+    margin-bottom: 6px;
+  }
+  p {
+    margin: 0;
+  }
+  img {
+    width: 64px;
+    height: 64px;
+    border: 1px solid #c4c4c4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 5px;
+  }
+}

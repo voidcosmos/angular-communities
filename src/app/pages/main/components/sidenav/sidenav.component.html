@@ -2,70 +2,34 @@
   <mat-sidenav-content *ngIf="community; else search">
     <header>
       <span (click)="onCloseInfo()" class="link close"></span>
-      <img alt="{{ community.name }} logo" [src]="'./assets/images/' + community.id + '_md.png'" />
-      <div fxLayout="column">
-        <h1>{{ community.name }}</h1>
-        <div fxLayout fxLayoutAlign="center social-links">
-          <a *ngIf="community.twitter" [href]="community.twitter" target="_blank"
-            class="social-buttons__button social-button social-button--twitter" aria-label="Twitter">
-            <span class="social-button__inner">
-              <i class="fab fa-twitter"></i>
-            </span>
-          </a>
-
-          <a *ngIf="community.youtube" [href]="community.youtube" target="_blank"
-            class="social-buttons__button social-button social-button--youtube" aria-label="Youtube">
-            <span class="social-button__inner">
-              <i class="fab fa-youtube"></i>
-            </span>
-          </a>
-
-          <a *ngIf="community.web" [href]="community.web" target="_blank"
-            class="social-buttons__button social-button social-button--link">
-            <span class="social-button__inner">
-              <i class="fas fa-link"></i>
-            </span>
-          </a>
+      <div class="community-detail-container" fxLayout="column">
+        <ngcommunity-community-item class="description-community" [community]="community">
+        </ngcommunity-community-item>
+        <div fxLayout fxLayoutAlign="flex-start">
+          <ngcommunity-social-button [type]="'twitter'" [link]="community.twitter"></ngcommunity-social-button>
+          <ngcommunity-social-button [type]="'youtube'" [link]="community.youtube"></ngcommunity-social-button>
+          <ngcommunity-social-button [type]="'web'" [link]="community.web"></ngcommunity-social-button>
         </div>
       </div>
     </header>
 
     <div class="community-bio">
+      <p class="title" *ngIf="community.description"><b>Descripction</b></p>
       <p *ngIf="community.description">
         {{ community.description }}
       </p>
-      <header class="margin-top-1">
-        <h1>Organizers</h1>
-      </header>
+      <p class="title"><b>Organizers</b></p>
       <div fxLayout fxLayoutAlign="space-between center" *ngFor="let organizer of community.organizers">
-        <span class="organizer-name">{{ organizer.name }}</span>
-
+        <p class="organizer-name">{{ organizer.name }}</p>
         <div fxLayout fxFlexalign="space-between center">
-          <a *ngIf="organizer.twitter" [href]="organizer.twitter" target="_blank"
-            class="social-buttons__button social-button social-button--twitter" aria-label="Twitter">
-            <span class="social-button__inner">
-              <i class="fab fa-twitter"></i>
-            </span>
-          </a>
-
-          <a *ngIf="organizer.github" [href]="organizer.github" target="_blank"
-            class="social-buttons__button social-button social-button--github" aria-label="GitHub">
-            <span class="social-button__inner">
-              <i class="fab fa-github"></i>
-            </span>
-          </a>
-          <a *ngIf="organizer.linkedin" [href]="organizer.linkedin" target="_blank"
-            class="social-buttons__button social-button social-button--linkedin" aria-label="LinkedIn">
-            <span class="social-button__inner">
-              <i class="fab fa-linkedin"></i>
-            </span>
-          </a>
-          <a *ngFor="let web of organizer.webs" [href]="web" target="_blank"
-            class="social-buttons__button social-button social-button--link">
-            <span class="social-button__inner">
-              <i class="fas fa-link"></i>
-            </span>
-          </a>
+          <ngcommunity-social-button *ngIf="organizer.twitter" [type]="'twitter'" [link]="organizer.twitter"
+            mode="icon-only"></ngcommunity-social-button>
+          <ngcommunity-social-button *ngIf="organizer.github" [type]="'github'" [link]="organizer.github"
+            mode="icon-only"></ngcommunity-social-button>
+          <ngcommunity-social-button *ngIf="organizer.linkedin" [type]="'linkedin'" [link]="organizer.linkedin"
+            mode="icon-only"></ngcommunity-social-button>
+          <ngcommunity-social-button *ngFor="let web of organizer.webs" [type]="'web'" [link]="web" mode="icon-only">
+          </ngcommunity-social-button>
         </div>
       </div>
     </div>

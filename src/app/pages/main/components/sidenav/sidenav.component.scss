@@ -22,10 +22,6 @@ header img {
   width: 200px;
 }
 
-header {
-  text-align: center;
-}
-
 header h1 {
   text-align: center;
   color: #000000;
@@ -62,22 +58,29 @@ header h2 {
   margin-right: 2px;
 }
 
-.community-bio p:first-child {
-  text-align: justify;
-  font-size: 19px;
-  line-height: 1.25em;
-  padding: 0em 1.25em;
+.community-bio p.title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #626262;
 }
 mat-form-field {
   width: 85%;
 }
 
 .organizer-name {
-  height: 42px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #7d7d7d;
+  margin: 0;
 }
 
-@media (max-width: 599px) {
-  .organizer-name {
-    height: 36px;
-  }
+.community-detail-container {
+  padding: 60px 25px 0 25px;
+}
+
+.description-community {
+  border: none !important;
+  background-color: transparent;
 }

@@ -4,22 +4,9 @@
   </mat-form-field>
   <div class="community-preview-list-container">
     <cdk-virtual-scroll-viewport itemSize="110" class="community-preview-list-view-port">
-      <div class="community" fxLayout="row" fxLayoutAlign="space-evenly"
-        *cdkVirtualFor="let community of filtered$ | async" (click)="onSelected(community.name)">
-        <picture>
-          <source *ngFor="let media of responsiveImagesConfiguration"
-            [media]="'(max-width: ' + media.max + 'px) and (min-width: ' + media.min + 'px)'"
-            [srcset]="'./assets/images/' + community.id + media.suffix + '.' + media.format"
-            [type]="'image/' + media.format" />
+      <ngcommunity-community-item *cdkVirtualFor="let community of filtered$ | async" [community]="community"
+        (communitySelected)="onSelected(community.name)"></ngcommunity-community-item>
 
-          <img alt="{{ community.name }} logo" [src]="'./assets/images/' + community.id + '_md.png'" />
-        </picture>
-
-        <div fxFlex="66" fxLayout="column" fxLayoutAlign="center left">
-          <h3>{{ community.name }}</h3>
-          <p>{{ community.city }}</p>
-        </div>
-      </div>
     </cdk-virtual-scroll-viewport>
   </div>
 </div>

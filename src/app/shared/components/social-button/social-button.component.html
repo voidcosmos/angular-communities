@@ -1,1 +1,6 @@
-<p>social-button works!</p>
+<mat-chip-list>
+  <mat-chip [ngStyle]="getChipStyle()">{{getName()}}<i [ngClass]="getFabIcon()" (click)="openLink()"
+      [ngStyle]="{'margin-left': getName() ? '10px' : '0' }" aria-hidden="true"></i>
+  </mat-chip>
+
+</mat-chip-list>
