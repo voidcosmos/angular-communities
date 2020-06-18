@@ -1,4 +1,5 @@
-<div class="community" fxLayout="row" fxLayoutAlign="space-evenly" (click)="onCommunitySelected()">
+<div [ngClass]="{community: true, detail:detailCommunity}" class="community" fxLayout="row" fxLayoutAlign="space-evenly"
+  (click)="onCommunitySelected()">
   <picture>
     <source *ngFor="let media of responsiveImagesConfiguration"
       [media]="'(max-width: ' + media.max + 'px) and (min-width: ' + media.min + 'px)'"

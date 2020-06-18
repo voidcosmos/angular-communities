@@ -5,7 +5,7 @@ div {
 .community-preview-list-container {
   display: flex;
   flex-direction: column;
-  height: calc(100vh - 170px);
+  height: calc(100vh - 210px);
   padding: 20px;
 }
 
@@ -16,14 +16,12 @@ div {
 mat-form-field {
   width: 85%;
   align-self: center;
+  margin-top: 20px;
+  padding: 10px;
 }
 
 @media (max-width: 599px) {
   .community-preview-list-container {
-    height: calc(100vh - 335px);
-  }
-
-  mat-form-field {
-    width: 100%;
+    height: calc(100vh - 434px);
   }
 }

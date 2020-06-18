@@ -8,6 +8,7 @@ import { Community } from '@shared/interfaces';
 })
 export class CommunityItemComponent implements OnInit {
   @Input() community: Community;
+  @Input() detailCommunity: boolean = false;
   @Output() communitySelected: EventEmitter<void> = new EventEmitter();
   responsiveImagesConfiguration = [
     {

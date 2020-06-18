@@ -3,7 +3,7 @@ img {
   width: 90px;
   margin: 10px;
 }
-:host {
+.community {
   border: 1px solid #d1d1d1;
   background: #ffffff;
   box-sizing: border-box;
@@ -14,8 +14,12 @@ img {
     cursor: pointer;
     background-color: #f5f5f5;
   }
-}
-.community {
+
+  &.detail {
+    border: none !important;
+    background-color: transparent !important;
+  }
+
   h3 {
     font-weight: bold;
     font-size: 20px;

@@ -3,7 +3,7 @@
     <header>
       <span (click)="onCloseInfo()" class="link close"></span>
       <div class="community-detail-container" fxLayout="column">
-        <ngcommunity-community-item class="description-community" [community]="community">
+        <ngcommunity-community-item [detailCommunity]="true" [community]="community">
         </ngcommunity-community-item>
         <div fxLayout fxLayoutAlign="flex-start">
           <ngcommunity-social-button [type]="'twitter'" [link]="community.twitter"></ngcommunity-social-button>

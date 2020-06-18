@@ -1,7 +1,8 @@
 .creator-badge {
   position: fixed;
-  width: 169px;
-  height: 22px;
+  height: 1.4em;
+
+  padding: 5px 10px 5px 10px;
   left: 26px;
   bottom: 26px;
   background: #626262;
@@ -14,7 +15,7 @@
     justify-content: center;
     align-items: center;
     font-weight: normal;
-    font-size: 10px;
+    font-size: 1em;
     line-height: 12px;
     width: 100%;
     color: #ffffff;
