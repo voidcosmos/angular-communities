@@ -1,6 +1,4 @@
 img {
-  height: 90px;
-  width: 90px;
   margin: 10px;
 }
 .community {
@@ -31,11 +29,30 @@ img {
     margin: 0;
   }
   img {
-    width: 64px;
-    height: 64px;
+    /*     max-width: 180px;
+    max-height: 180px; */
     border: 1px solid #c4c4c4;
     box-sizing: border-box;
     border-radius: 10px;
     padding: 5px;
+  }
+  @media (max-width: 599px) {
+    img {
+      height: 72px;
+      width: 72px;
+    }
+  }
+  @media (max-width: 959px) {
+    img {
+      height: 72px;
+      width: 72px;
+    }
+  }
+
+  @media (min-width: 960px) {
+    img {
+      height: 128px;
+      width: 128px;
+    }
   }
 }
