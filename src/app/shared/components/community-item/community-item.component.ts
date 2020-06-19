@@ -1,4 +1,5 @@
-import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+
 import { Community } from '@shared/interfaces';
 
 @Component({
@@ -6,9 +7,9 @@ import { Community } from '@shared/interfaces';
   templateUrl: './community-item.component.html',
   styleUrls: ['./community-item.component.scss'],
 })
-export class CommunityItemComponent implements OnInit {
+export class CommunityItemComponent {
   @Input() community: Community;
-  @Input() detailCommunity: boolean = false;
+  @Input() detailCommunity = false;
   @Output() communitySelected: EventEmitter<void> = new EventEmitter();
   responsiveImagesConfiguration = [
     {
@@ -74,8 +75,6 @@ export class CommunityItemComponent implements OnInit {
     },
   ];
   constructor() {}
-
-  ngOnInit(): void {}
 
   onCommunitySelected() {
     this.communitySelected.emit();
