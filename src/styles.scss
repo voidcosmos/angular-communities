@@ -7,6 +7,12 @@ body {
   margin: 0;
   font-family: Roboto, 'Helvetica Neue', sans-serif;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .link {
   cursor: pointer;
 }
@@ -35,126 +41,6 @@ body {
 }
 .close:after {
   transform: rotate(-45deg);
-}
-/* social-buttons*/
-
-.social-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: -10px;
-}
-.social-buttons__button {
-  margin: 10px 5px 0;
-}
-
-.social-button {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  outline: none;
-  width: 42px;
-  height: 42px;
-  text-decoration: none;
-}
-.social-button__inner {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: calc(100% - 2px);
-  height: calc(100% - 2px);
-  border-radius: 100%;
-  background: transparent;
-  text-align: center;
-  color: #fff;
-}
-.social-button i,
-.social-button svg {
-  position: relative;
-  z-index: 1;
-  transition: 0.3s;
-}
-.social-button i {
-  font-size: 28px;
-}
-.social-button svg {
-  height: 40%;
-  width: 40%;
-}
-.social-button::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 50%;
-  display: block;
-  width: 0;
-  height: 0;
-  border-radius: 100%;
-  transition: 0.3s;
-}
-.social-button:focus,
-.social-button:hover {
-  color: #f5f5f5;
-}
-.social-button:focus::after,
-.social-button:hover::after {
-  width: 100%;
-  height: 100%;
-  margin-left: -50%;
-}
-
-.social-button--linkedin {
-  color: #0077b5;
-}
-.social-button--linkedin::after {
-  background: #0077b5;
-}
-.social-button--github {
-  color: #6e5494;
-}
-.social-button--github::after {
-  background: #6e5494;
-}
-.social-button--youtube {
-  color: #c10707;
-}
-.social-button--youtube::after {
-  background: #c10707;
-}
-.social-button--link {
-  color: #212121;
-}
-.social-button--link::after {
-  background: #212121;
-}
-
-.social-button--twitter {
-  color: #55acee;
-}
-.social-button--twitter::after {
-  background: #55acee;
-}
-
-.margin-top-1 {
-  margin-top: 1em;
-}
-
-@media (max-width: 599px) {
-  .social-button {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    outline: none;
-    width: 36px;
-    height: 36px;
-    text-decoration: none;
-  }
-  .social-button i {
-    font-size: 26px;
-  }
 }
 
 /* Animated.css*/
@@ -233,11 +119,6 @@ body {
   }
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-i {
+mat-sidenav-container mat-sidenav-content header i {
   margin-left: 10px;
 }
