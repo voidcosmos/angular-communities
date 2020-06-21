@@ -23,16 +23,10 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { NgModule } from '@angular/core';
 import { ScrollingModule } from '@angular/cdk/scrolling';
-import { SocialButtonComponent } from './components/social-button/social-button.component';
 
 const CORE_MODULES = [BrowserAnimationsModule, CommonModule, FormsModule, ReactiveFormsModule];
 
-const COMPONENTS = [
-  FooterComponent,
-  HeaderComponent,
-  SocialButtonComponent,
-  CommunityItemComponent,
-];
+const COMPONENTS = [FooterComponent, HeaderComponent, CommunityItemComponent];
 
 const MATERIAL_MODULES = [
   MatInputModule,

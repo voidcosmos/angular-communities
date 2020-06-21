@@ -5,31 +5,64 @@
       <div class="community-detail-container" fxLayout="column">
         <ngcommunity-community-item [detailCommunity]="true" [community]="community">
         </ngcommunity-community-item>
-        <div fxLayout fxLayoutAlign="flex-start">
-          <ngcommunity-social-button [type]="'twitter'" [link]="community.twitter"></ngcommunity-social-button>
-          <ngcommunity-social-button [type]="'youtube'" [link]="community.youtube"></ngcommunity-social-button>
-          <ngcommunity-social-button [type]="'web'" [link]="community.web"></ngcommunity-social-button>
-        </div>
+        <mat-chip-list fxLayout fxLayoutAlign="center center">
+          <mat-chip class="social social-twitter" *ngIf="community.twitter"
+            ><a [href]="community.twitter" target="_blank">
+              Twitter
+              <i class="fab fa-twitter" aria-hidden="true"></i>
+            </a>
+          </mat-chip>
+          <mat-chip class="social social-youtube" *ngIf="community.youtube">
+            <a [href]="community.youtube" target="_blank">
+              Youtube
+              <i class="fab fa-youtube" aria-hidden="true"></i>
+            </a>
+          </mat-chip>
+          <mat-chip class="social social-web" *ngIf="community.web">
+            <a [href]="community.web" target="_blank">
+              Web
+              <i class="fas fa-link" aria-hidden="true"></i>
+            </a>
+          </mat-chip>
+        </mat-chip-list>
       </div>
     </header>
 
     <div class="community-bio">
-      <p class="title" *ngIf="community.description"><b>Descripction</b></p>
+      <p class="title" *ngIf="community.description"><b>Description</b></p>
       <p *ngIf="community.description">
         {{ community.description }}
       </p>
       <p class="title"><b>Organizers</b></p>
-      <div fxLayout fxLayoutAlign="space-between center" *ngFor="let organizer of community.organizers">
+      <div
+        fxLayout
+        fxLayoutAlign="space-between center"
+        *ngFor="let organizer of community.organizers"
+      >
         <p class="organizer-name">{{ organizer.name }}</p>
         <div fxLayout fxFlexalign="space-between center">
-          <ngcommunity-social-button *ngIf="organizer.twitter" [type]="'twitter'" [link]="organizer.twitter"
-            mode="icon-only"></ngcommunity-social-button>
-          <ngcommunity-social-button *ngIf="organizer.github" [type]="'github'" [link]="organizer.github"
-            mode="icon-only"></ngcommunity-social-button>
-          <ngcommunity-social-button *ngIf="organizer.linkedin" [type]="'linkedin'" [link]="organizer.linkedin"
-            mode="icon-only"></ngcommunity-social-button>
-          <ngcommunity-social-button *ngFor="let web of organizer.webs" [type]="'web'" [link]="web" mode="icon-only">
-          </ngcommunity-social-button>
+          <mat-chip-list>
+            <mat-chip class="social social-twitter" *ngIf="organizer.twitter"
+              ><a [href]="organizer.twitter" target="_blank">
+                <i class="fab fa-twitter" aria-hidden="true"></i>
+              </a>
+            </mat-chip>
+            <mat-chip class="social social-github" *ngIf="organizer.github"
+              ><a [href]="organizer.github" target="_blank">
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+            </mat-chip>
+            <mat-chip class="social social-linkedin" *ngIf="organizer.linkedin"
+              ><a [href]="organizer.linkedin" target="_blank">
+                <i class="fab fa-linkedin" aria-hidden="true"></i>
+              </a>
+            </mat-chip>
+            <mat-chip *ngFor="let web of organizer.webs" class="social social-web"
+              ><a [href]="web" target="_blank">
+                <i class="fas fa-link" aria-hidden="true"></i>
+              </a>
+            </mat-chip>
+          </mat-chip-list>
         </div>
       </div>
     </div>

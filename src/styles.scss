@@ -205,3 +205,39 @@ body {
   cursor: pointer;
   border-radius: 0.7rem;
 }
+
+/***/
+.mat-chip.mat-standard-chip.social {
+  margin: 5px;
+}
+
+.mat-chip.mat-standard-chip.social {
+  color: white;
+  margin-left: 10px;
+
+  &.social-web {
+    background-color: #626262;
+  }
+
+  &.social-twitter {
+    background-color: #1da1f2;
+  }
+  &.social-github {
+    background-color: black;
+  }
+  &.social-youtube {
+    background-color: red;
+  }
+  &.social-linkedin {
+    background-color: #0077b4;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+i {
+  margin-left: 10px;
+}
