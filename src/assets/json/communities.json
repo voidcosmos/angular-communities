@@ -2151,5 +2151,27 @@
         "name": "Helen Obogeanu"
       }
     ]
+  },
+  "Angular Dominicana": {
+    "id": 88,
+    "name": "Angular Dominicana",
+    "position": {
+      "lng": -69.929611,
+      "lat": 18.483402
+    },
+    "city": "Santo Domingo",
+    "twitter": "https://twitter.com/ngdominican",
+    "web": "https://ngdominican.com",
+    "description": "",
+    "organizers": [
+      {
+        "name": "Raymond Coplin",
+        "twitter": "https://twitter.com/raymondcoplin"
+      },
+      {
+        "name": "Bezael Perez",
+        "twitter": "https://twitter.com/bezael_dev"
+      }
+    ]
   }
 }
