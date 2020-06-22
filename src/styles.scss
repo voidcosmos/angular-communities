@@ -43,7 +43,10 @@ a {
   transform: rotate(-45deg);
 }
 
-/* Animated.css*/
+.social-button--github {
+  font-size: 1.7em;
+}
+
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
