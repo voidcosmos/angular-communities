@@ -74,7 +74,6 @@ export class CommunityItemComponent {
       format: 'png',
     },
   ];
-  constructor() {}
 
   onCommunitySelected() {
     this.communitySelected.emit();
