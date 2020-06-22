@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 import { Community } from '@shared/interfaces';
 
@@ -10,7 +10,6 @@ import { Community } from '@shared/interfaces';
 export class CommunityItemComponent {
   @Input() community: Community;
   @Input() detailCommunity = false;
-  @Output() communitySelected: EventEmitter<void> = new EventEmitter();
   responsiveImagesConfiguration = [
     {
       min: 0,
@@ -74,8 +73,4 @@ export class CommunityItemComponent {
       format: 'png',
     },
   ];
-
-  onCommunitySelected() {
-    this.communitySelected.emit();
-  }
 }

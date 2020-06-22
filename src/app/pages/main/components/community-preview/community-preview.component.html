@@ -1,12 +1,20 @@
 <div fxLayout="column">
   <mat-form-field>
-    <input placeholder="Search communities" type="text" [formControl]="filter" matInput autocomplete="off" />
+    <input
+      placeholder="Search communities"
+      type="text"
+      [formControl]="filter"
+      matInput
+      autocomplete="off"
+    />
   </mat-form-field>
   <div class="community-preview-list-container">
     <cdk-virtual-scroll-viewport itemSize="110" class="community-preview-list-view-port">
-      <ngcommunity-community-item *cdkVirtualFor="let community of filtered$ | async" [community]="community"
-        (communitySelected)="onSelected(community.name)"></ngcommunity-community-item>
-
+      <ngcommunity-community-item
+        *cdkVirtualFor="let community of (filtered$ | async)"
+        [community]="community"
+        (click)="onSelected(community.name)"
+      ></ngcommunity-community-item>
     </cdk-virtual-scroll-viewport>
   </div>
 </div>
