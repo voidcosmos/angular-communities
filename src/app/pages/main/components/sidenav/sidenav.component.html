@@ -2,117 +2,73 @@
   <mat-sidenav-content *ngIf="community; else search">
     <header>
       <span (click)="onCloseInfo()" class="link close"></span>
-      <img alt="{{ community.name }} logo" [src]="'./assets/images/' + community.id + '_md.png'" />
-      <div fxLayout="column">
-        <h1>{{ community.name }}</h1>
-        <div fxLayout fxLayoutAlign="center social-links">
-          <a
-            *ngIf="community.twitter"
-            [href]="community.twitter"
-            target="_blank"
-            class="social-buttons__button social-button social-button--twitter"
-            aria-label="Twitter"
-          >
-            <span class="social-button__inner">
-              <i class="fab fa-twitter"></i>
-            </span>
-          </a>
-
-          <a
-            *ngIf="community.youtube"
-            [href]="community.youtube"
-            target="_blank"
-            class="social-buttons__button social-button social-button--youtube"
-            aria-label="Youtube"
-          >
-            <span class="social-button__inner">
-              <i class="fab fa-youtube"></i>
-            </span>
-          </a>
-
-          <a
-            *ngIf="community.web"
-            [href]="community.web"
-            target="_blank"
-            class="social-buttons__button social-button social-button--link"
-          >
-            <span class="social-button__inner">
-              <i class="fas fa-link"></i>
-            </span>
-          </a>
-        </div>
+      <div class="community-detail-container" fxLayout="column">
+        <ngcommunity-community-item [detailCommunity]="true" [community]="community">
+        </ngcommunity-community-item>
+        <mat-chip-list fxLayout fxLayoutAlign="center center">
+          <mat-chip class="social social-twitter" *ngIf="community.twitter"
+            ><a [href]="community.twitter" target="_blank">
+              Twitter
+              <i class="fab fa-twitter" aria-hidden="true"></i>
+            </a>
+          </mat-chip>
+          <mat-chip class="social social-youtube" *ngIf="community.youtube">
+            <a [href]="community.youtube" target="_blank">
+              Youtube
+              <i class="fab fa-youtube" aria-hidden="true"></i>
+            </a>
+          </mat-chip>
+          <mat-chip class="social social-web" *ngIf="community.web">
+            <a [href]="community.web" target="_blank">
+              Web
+              <i class="fas fa-link" aria-hidden="true"></i>
+            </a>
+          </mat-chip>
+        </mat-chip-list>
       </div>
     </header>
 
     <div class="community-bio">
+      <p class="title" *ngIf="community.description"><b>Description</b></p>
       <p *ngIf="community.description">
         {{ community.description }}
       </p>
-      <header class="margin-top-1">
-        <h1>Organizers</h1>
-      </header>
+      <p class="title"><b>Organizers</b></p>
       <div
         fxLayout
         fxLayoutAlign="space-between center"
         *ngFor="let organizer of community.organizers"
       >
-        <span class="organizer-name">{{ organizer.name }}</span>
-
+        <p class="organizer-name">{{ organizer.name }}</p>
         <div fxLayout fxFlexalign="space-between center">
-          <a
-            *ngIf="organizer.twitter"
-            [href]="organizer.twitter"
-            target="_blank"
-            class="social-buttons__button social-button social-button--twitter"
-            aria-label="Twitter"
-          >
-            <span class="social-button__inner">
-              <i class="fab fa-twitter"></i>
-            </span>
-          </a>
-
-          <a
-            *ngIf="organizer.github"
-            [href]="organizer.github"
-            target="_blank"
-            class="social-buttons__button social-button social-button--github"
-            aria-label="GitHub"
-          >
-            <span class="social-button__inner">
-              <i class="fab fa-github"></i>
-            </span>
-          </a>
-          <a
-            *ngIf="organizer.linkedin"
-            [href]="organizer.linkedin"
-            target="_blank"
-            class="social-buttons__button social-button social-button--linkedin"
-            aria-label="LinkedIn"
-          >
-            <span class="social-button__inner">
-              <i class="fab fa-linkedin"></i>
-            </span>
-          </a>
-          <a
-            *ngFor="let web of organizer.webs"
-            [href]="web"
-            target="_blank"
-            class="social-buttons__button social-button social-button--link"
-          >
-            <span class="social-button__inner">
-              <i class="fas fa-link"></i>
-            </span>
-          </a>
+          <mat-chip-list>
+            <mat-chip class="social social-twitter" *ngIf="organizer.twitter"
+              ><a [href]="organizer.twitter" target="_blank">
+                <i class="fab fa-twitter" aria-hidden="true"></i>
+              </a>
+            </mat-chip>
+            <mat-chip class="social social-github" *ngIf="organizer.github"
+              ><a [href]="organizer.github" target="_blank">
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+            </mat-chip>
+            <mat-chip class="social social-linkedin" *ngIf="organizer.linkedin"
+              ><a [href]="organizer.linkedin" target="_blank">
+                <i class="fab fa-linkedin" aria-hidden="true"></i>
+              </a>
+            </mat-chip>
+            <mat-chip *ngFor="let web of organizer.webs" class="social social-web"
+              ><a [href]="web" target="_blank">
+                <i class="fas fa-link" aria-hidden="true"></i>
+              </a>
+            </mat-chip>
+          </mat-chip-list>
         </div>
       </div>
     </div>
   </mat-sidenav-content>
   <ng-template #search class="content">
     <mat-sidenav-content>
-      <header>
-        <h1>Communities</h1>
-      </header>
-      <mat-divider></mat-divider>
       <ngcommunity-preview (selected)="onSelected($event)" [communities]="communities">
       </ngcommunity-preview>
     </mat-sidenav-content>

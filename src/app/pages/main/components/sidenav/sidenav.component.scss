@@ -1,5 +1,9 @@
 mat-sidenav-content {
-  height: calc(100vh - 128px);
+  height: calc(100vh - 64px);
+}
+
+mat-sidenav-container {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 @media (max-width: 599px) {
@@ -16,10 +20,6 @@ header img {
   margin: 20px auto;
   display: block;
   width: 200px;
-}
-
-header {
-  text-align: center;
 }
 
 header h1 {
@@ -58,22 +58,24 @@ header h2 {
   margin-right: 2px;
 }
 
-.community-bio p:first-child {
-  text-align: justify;
-  font-size: 19px;
-  line-height: 1.25em;
-  padding: 0em 1.25em;
+.community-bio p.title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #626262;
 }
 mat-form-field {
   width: 85%;
 }
 
 .organizer-name {
-  height: 42px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #7d7d7d;
+  margin: 0;
 }
 
-@media (max-width: 599px) {
-  .organizer-name {
-    height: 36px;
-  }
+.community-detail-container {
+  padding: 60px 25px 0 25px;
 }

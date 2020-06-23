@@ -1,25 +1,12 @@
-img {
-  height: 90px;
-  width: 90px;
-  margin: 10px;
-}
-
-h3 {
-  font-size: 1.2rem;
-}
 div {
   font-size: 1rem;
-}
-
-.community:hover {
-  cursor: pointer;
-  background-color: #dfdfdf;
 }
 
 .community-preview-list-container {
   display: flex;
   flex-direction: column;
-  height: calc(100vh - 246px);
+  height: calc(100vh - 210px);
+  padding: 20px;
 }
 
 .community-preview-list-view-port {
@@ -29,14 +16,12 @@ div {
 mat-form-field {
   width: 85%;
   align-self: center;
+  margin-top: 20px;
+  padding: 10px;
 }
 
 @media (max-width: 599px) {
   .community-preview-list-container {
-    height: calc(100vh - 335px);
-  }
-
-  mat-form-field {
-    width: 100%;
+    height: calc(100vh - 434px);
   }
 }

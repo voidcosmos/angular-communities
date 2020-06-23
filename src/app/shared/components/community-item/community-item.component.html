@@ -1,0 +1,22 @@
+<div
+  [ngClass]="{ community: true, detail: detailCommunity }"
+  class="community"
+  fxLayout="row"
+  fxLayoutAlign="space-evenly"
+>
+  <picture>
+    <source
+      *ngFor="let media of responsiveImagesConfiguration"
+      [media]="'(max-width: ' + media.max + 'px) and (min-width: ' + media.min + 'px)'"
+      [srcset]="'./assets/images/' + community.id + media.suffix + '.' + media.format"
+      [type]="'image/' + media.format"
+    />
+
+    <img alt="{{ community.name }} logo" [src]="'./assets/images/' + community.id + '_md.png'" />
+  </picture>
+
+  <div fxFlex="66" fxLayout="column" fxLayoutAlign="center left">
+    <h3>{{ community.name }}</h3>
+    <p>{{ community.city }}</p>
+  </div>
+</div>
