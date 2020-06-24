@@ -2173,5 +2173,22 @@
         "twitter": "https://twitter.com/bezael_dev"
       }
     ]
+  },
+  "Angular Chennai": {
+    "id": 90,
+    "name": "Angular Chennai",
+    "position": {
+      "lng": 80.237617,
+      "lat": 13.067439
+    },
+    "city": "Chennai",
+    "twitter": "https://twitter.com/ng_chennai",
+    "description": "The angular community in Chennai.let's make angular is the best javascript framework together.",
+    "organizers": [
+      {
+        "name": "Arun Kumar",
+        "twitter": "https://twitter.com/dev_arunkumar"
+      }
+    ]
   }
 }
