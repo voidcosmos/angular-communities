@@ -11,11 +11,6 @@
   gdColumns.xs="100% 100% "
 >
   <ngcommunity-header gdArea="header"></ngcommunity-header>
-  <ngcommunity-main
-    *ngIf="(communitie$ | async) as communities"
-    gdArea="main"
-    [communities]="communities"
-  >
-  </ngcommunity-main>
+  <router-outlet></router-outlet>
 </div>
 <ngcommunity-footer></ngcommunity-footer>
