@@ -2173,5 +2173,27 @@
         "twitter": "https://twitter.com/bezael_dev"
       }
     ]
+  },
+   "ng-Keralam": {
+    "id": 89,
+    "name": "ng-Keralam",
+    "position": {
+      "lng": 10.850516,
+      "lat": 76.271080
+    },
+    "city": "Kerala",
+    "twitter": "https://twitter.com/ng_keralam",
+    "youtube": "https://www.youtube.com/channel/UCQx18FcKiPdKvSs800qME1w",
+    "description": "An Angular virtual event that was initiated to share and gain knowledge on angular.",
+    "organizers": [
+      {
+        "name": "Sundaram Subramanian",
+        "twitter": "https://twitter.com/IamSundarBhai"
+      },
+      {
+        "name": "Suhas Parameshwara",
+        "twitter": "https://twitter.com/ng_suhas"
+      }
+    ]
   }
 }
