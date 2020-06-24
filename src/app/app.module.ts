@@ -4,9 +4,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { PagesModule } from './pages/pages.module';
 import { SharedModule } from './shared/shared.module';
-import { RouterModule } from '@angular/router';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -15,8 +15,8 @@ import { environment } from '../environments/environment';
     SharedModule,
     PagesModule,
     HttpClientModule,
-    RouterModule.forRoot([]),
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
