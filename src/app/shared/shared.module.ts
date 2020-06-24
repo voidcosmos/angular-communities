@@ -23,6 +23,7 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { NgModule } from '@angular/core';
 import { ScrollingModule } from '@angular/cdk/scrolling';
+import { RouterModule } from '@angular/router';
 
 const CORE_MODULES = [BrowserAnimationsModule, CommonModule, FormsModule, ReactiveFormsModule];
 
@@ -49,7 +50,7 @@ const MATERIAL_MODULES = [
 
 @NgModule({
   declarations: COMPONENTS,
-  imports: [MATERIAL_MODULES, CORE_MODULES, FlexLayoutModule],
+  imports: [MATERIAL_MODULES, CORE_MODULES, FlexLayoutModule, RouterModule],
   exports: [COMPONENTS, MATERIAL_MODULES, CORE_MODULES, FlexLayoutModule],
 })
 export class SharedModule {}
