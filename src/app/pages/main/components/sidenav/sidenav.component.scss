@@ -79,3 +79,19 @@ mat-form-field {
 .community-detail-container {
   padding: 60px 25px 0 25px;
 }
+
+.community-copy {
+  display: block;
+}
+.community-share {
+  display: none;
+}
+
+@media (max-width: 599px) {
+  .community-copy {
+    display: none;
+  }
+  .community-share {
+    display: block;
+  }
+}
