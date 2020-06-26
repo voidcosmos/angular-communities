@@ -19,9 +19,7 @@ export class MainComponent {
     private router: Router,
     private route: ActivatedRoute,
     private communityService: CommunityService,
-  ) {
-    console.log(this.communitie$);
-  }
+  ) {}
 
   changeCommunity(community?: Community) {
     this.router.navigate([], {
