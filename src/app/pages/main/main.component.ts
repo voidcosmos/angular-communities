@@ -1,7 +1,7 @@
 import { ActivatedRoute, Router } from '@angular/router';
 import { Community, Communities } from '@shared/interfaces';
 import { Component, Input } from '@angular/core';
-import { map } from 'rxjs/operators';
+import { map, withLatestFrom } from 'rxjs/operators';
 import { CommunityService } from '@shared/services';
 
 @Component({
@@ -11,9 +11,11 @@ import { CommunityService } from '@shared/services';
 })
 export class MainComponent {
   @Input()
-  /* communities: Communities; */
   communitie$ = this.communityService.communities;
-  community$ = this.route.fragment.pipe(map(community => this.communitie$[community]));
+  community$ = this.route.fragment.pipe(
+    withLatestFrom(this.communitie$),
+    map(([community, communities]) => communities[community]),
+  );
 
   constructor(
     private router: Router,
