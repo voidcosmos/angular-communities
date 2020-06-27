@@ -12,12 +12,12 @@ export class CommunityService {
 
   constructor(private httpClient: HttpClient) {}
 
-  get communities(): Observable<Communities> {
-    return this.httpClient.get<Communities>(this.JSON_COMMUNITIES).pipe(
+  communitie$: Observable<Communities> = this.httpClient
+    .get<Communities>(this.JSON_COMMUNITIES)
+    .pipe(
       map(communities => this.normalizeCommunities(communities)),
       shareReplay(1),
     );
-  }
 
   private normalizeCommunities(communities: Communities): Communities {
     const communitiesNormalized = Object.entries(communities)
