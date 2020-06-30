@@ -87,6 +87,15 @@ mat-form-field {
   display: none;
 }
 
+.community-link-copied {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  font-weight: 900;
+  color: white;
+}
+
 @media (max-width: 599px) {
   .community-copy {
     display: none;
