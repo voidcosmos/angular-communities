@@ -1,1 +1,147 @@
-<p>community-editor works!</p>
+<form [formGroup]="communityForm" (ngSubmit)="onSubmit()">
+  <div class="form-header">
+    <h1>New community form</h1>
+    <a>
+      <span class="material-icons" (click)="onCloseInfo()">
+        close
+      </span>
+    </a>
+  </div>
+  <h2>Community Info</h2>
+  <mat-form-field>
+    <mat-label>Community Name</mat-label>
+    <input
+      matInput
+      formControlName="communityName"
+      placeholder="Your wonderful Angular community name"
+    />
+    <mat-error *ngIf="communityForm.controls.communityName.hasError('required')">
+      Community name is <strong>required</strong>
+    </mat-error>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Location</mat-label>
+    <input matInput formControlName="location" placeholder="latitude, longitude" />
+    <mat-error *ngIf="communityForm.controls.location.hasError('required')">
+      Location name is <strong>required</strong>
+    </mat-error>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Description</mat-label>
+    <textarea
+      matInput
+      formControlName="description"
+      placeholder="Write an engaging description about your community!"
+      cdkTextareaAutosize
+      #autosize="cdkTextareaAutosize"
+      cdkAutosizeMinRows="1"
+      cdkAutosizeMaxRows="5"
+    ></textarea>
+    <mat-error *ngIf="communityForm.controls.description.hasError('required')">
+      Description name is <strong>required</strong>
+    </mat-error>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>City</mat-label>
+    <input matInput formControlName="city" placeholder="Málaga, London..." />
+    <mat-error *ngIf="communityForm.controls.city.hasError('required')">
+      City name is <strong>required</strong>
+    </mat-error>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Web</mat-label>
+    <input matInput formControlName="web" placeholder="www.yourcommunity.hello" />
+    <mat-error *ngIf="communityForm.controls.web.hasError('required')">
+      Web name is <strong>required</strong>
+    </mat-error>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Twitter</mat-label>
+    <input matInput formControlName="twitter" placeholder="twitter/yourprofile" />
+    <mat-error *ngIf="communityForm.controls.twitter.hasError('required')">
+      Twitter name is <strong>required</strong>
+    </mat-error>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Youtube</mat-label>
+    <input matInput formControlName="youtube" placeholder="www.youtube.com/yourprofile" />
+    <mat-error *ngIf="communityForm.controls.twitter.hasError('required')">
+      Twitter name is <strong>required</strong>
+    </mat-error>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Email</mat-label>
+    <input matInput formControlName="email" placeholder="Ex. myemail@example.com" />
+    <mat-error
+      *ngIf="
+        communityForm.controls.email.hasError('email') &&
+        !communityForm.controls.email.hasError('required')
+      "
+    >
+      Please enter a valid email address
+    </mat-error>
+    <mat-error *ngIf="communityForm.controls.email.hasError('required')">
+      Email is <strong>required</strong>
+    </mat-error>
+  </mat-form-field>
+
+  <h2>Organizers</h2>
+  <div
+    formArrayName="organizers"
+    *ngFor="let organizer of communityForm['controls'].organizers['controls']; let i = index"
+  >
+    <div [formGroupName]="i">
+      <div>
+        <div class="organizer-header">
+          <small
+            >Organizer
+            {{
+              organizer.controls.name.value ? ' - ' + organizer.controls.name.value : i + 1
+            }}</small
+          >
+          <a>
+            <span
+              class="material-icons"
+              (click)="communityForm['controls'].organizers['controls'].splice(i, 1)"
+            >
+              close
+            </span>
+          </a>
+        </div>
+        <mat-divider></mat-divider>
+      </div>
+      <mat-form-field>
+        <mat-label>Full name</mat-label>
+        <input matInput formControlName="name" placeholder="Organizer name" />
+        <mat-error *ngIf="organizer.controls.name.hasError('required')">
+          Name is <strong>required</strong>
+        </mat-error>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Twitter</mat-label>
+        <input matInput formControlName="twitter" placeholder="www.twitter.com/yourprofile" />
+        <mat-error *ngIf="organizer.controls.twitter.hasError('required')">
+          Twitter is <strong>required</strong>
+        </mat-error>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Github</mat-label>
+        <input matInput formControlName="github" placeholder="www.githubm.com/yourprofile" />
+      </mat-form-field>
+    </div>
+  </div>
+  <button mat-raised-button color="primary" (click)="addOrganizer(); $event.preventDefault()">
+    Add organizer
+  </button>
+  <br />
+  <br />
+  <button
+    class="submite-button"
+    mat-raised-button
+    color="primary"
+    type="submit"
+    [disabled]="!communityForm.valid"
+  >
+    Add Community
+  </button>
+</form>

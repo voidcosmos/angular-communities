@@ -1,0 +1,38 @@
+form {
+  padding: 16px;
+}
+
+.form-header {
+  h1 {
+    display: inline-block;
+  }
+  a {
+    float: right;
+    span {
+      cursor: pointer;
+    }
+  }
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+mat-divider {
+  margin-bottom: 8px;
+}
+
+.organizer-header {
+  width: 100%;
+  a {
+    float: right;
+    span {
+      cursor: pointer;
+      font-size: 0.8em;
+    }
+  }
+}
+
+.submit-button {
+  width: 100%;
+}
