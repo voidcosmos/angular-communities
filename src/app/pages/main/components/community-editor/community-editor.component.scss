@@ -36,3 +36,25 @@ mat-divider {
 .submit-button {
   width: 100%;
 }
+
+.web-block {
+  input {
+    width: 90%;
+  }
+  a {
+    float: right;
+    span {
+      cursor: pointer;
+      font-size: 0.8em;
+    }
+  }
+}
+
+.organizer-block {
+  border-left: 1px solid #666;
+  padding-left: 8px;
+  margin-bottom: 16px;
+  small {
+    font-weight: bold;
+  }
+}

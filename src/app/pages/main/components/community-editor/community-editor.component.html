@@ -102,6 +102,7 @@
 
   <h2>Organizers</h2>
   <div
+    class="organizer-block"
     formArrayName="organizers"
     *ngFor="let organizer of communityForm['controls'].organizers['controls']; let i = index"
   >
@@ -123,7 +124,6 @@
             </span>
           </a>
         </div>
-        <mat-divider></mat-divider>
       </div>
       <mat-form-field>
         <mat-label>Full name</mat-label>
@@ -162,6 +162,33 @@
           Github input must be a <strong>valid URL</strong>
         </mat-error>
       </mat-form-field>
+      <small>Webs</small>
+      <div
+        formArrayName="webs"
+        *ngFor="let web of organizer['controls'].webs['controls']; let j = index"
+      >
+        <div class="web-block">
+          <mat-form-field>
+            <mat-label>Website</mat-label>
+            <input
+              type="url"
+              pattern="https?://.+"
+              matInput
+              [formControlName]="j"
+              placeholder="https://..."
+            />
+            <a>
+              <span
+                class="material-icons"
+                (click)="organizer['controls'].webs['controls'].splice(j, 1)"
+              >
+                close
+              </span>
+            </a>
+          </mat-form-field>
+        </div>
+      </div>
+      <button mat-flat-button (click)="addWeb(i); $event.preventDefault()">Add website</button>
     </div>
   </div>
   <button mat-raised-button color="primary" (click)="addOrganizer(); $event.preventDefault()">
