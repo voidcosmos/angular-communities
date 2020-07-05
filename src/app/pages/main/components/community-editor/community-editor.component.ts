@@ -4,6 +4,7 @@ import { CommunityService } from '@shared/services';
 import { map } from 'rxjs/operators';
 import { Communities } from '@shared/interfaces';
 import { Clipboard } from '@angular/cdk/clipboard';
+import { MatSnackBar } from '@angular/material/snack-bar';
 
 @Component({
   selector: 'ngcommunity-editor',
@@ -20,9 +21,10 @@ export class CommunityEditorComponent implements AfterViewInit {
 
   private lastCommunityId: number;
   constructor(
-    public formBuilder: FormBuilder,
     communityService: CommunityService,
-    public clipboard: Clipboard,
+    public formBuilder: FormBuilder,
+    private _clipboard: Clipboard,
+    private _snackBar: MatSnackBar,
   ) {
     communityService.communities
       .pipe(
@@ -85,11 +87,16 @@ export class CommunityEditorComponent implements AfterViewInit {
   }
   onSubmit() {
     let cleanedFormResult = this.cleanFormResult(this.communityForm.value);
-    let copyOperation = this.clipboard.beginCopy(
+    let copyOperation = this._clipboard.beginCopy(
       `"${cleanedFormResult.name}": ` + JSON.stringify(cleanedFormResult),
     );
     copyOperation.copy();
     copyOperation.destroy();
+
+    this._snackBar.open('Community JSON copied into clipboard', 'OK', {
+      duration: 2000,
+      panelClass: 'custom-mat-snackbar-style',
+    });
   }
 
   cleanFormResult(formResult: any) {
