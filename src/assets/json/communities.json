@@ -2212,5 +2212,33 @@
         "twitter": "https://twitter.com/dev_arunkumar"
       }
      ]
-   }
+   },
+  "Angular Vietnam": {
+    "id": 91,
+    "name": "Angular Vietnam",
+    "position": {
+      "lng": 105.3724885,
+      "lat": 20.9740874
+    },
+    "city": "Hanoi",
+    "web": "https://www.facebook.com/groups/AngularVietnam/",
+    "description": "Group thảo luận về Angular (Angular 2, Angular 4, 5, 6, 7, 8, 9, X++) và các kỹ thuật lập trình với Angular",
+    "organizers": [
+      {
+        "name": "Tiep Phan",
+        "twitter": "https://twitter.com/_tieppt",
+        "github": "https://github.com/tieppt"
+      },
+      {
+        "name": "Chau Tran",
+        "twitter": "https://twitter.com/Nartc1410",
+        "github": "https://github.com/nartc"
+      },
+      {
+        "name": "Trung Vo",
+        "twitter": "https://twitter.com/tuantrungvo",
+        "github": "https://github.com/trungk18"
+      }
+    ]
+  }	  
 }
