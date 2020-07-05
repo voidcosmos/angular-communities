@@ -188,14 +188,21 @@
           </mat-form-field>
         </div>
       </div>
-      <button mat-flat-button (click)="addWeb(i); $event.preventDefault()">Add website</button>
+      <button mat-stroked-button (click)="addWeb(i); $event.preventDefault()">ADD WEBSITE</button>
     </div>
   </div>
   <button mat-raised-button color="primary" (click)="addOrganizer(); $event.preventDefault()">
-    Add organizer
+    ADD ORGANIZER
   </button>
   <br />
   <br />
+
+  <p class="continue-community-generation">
+    Once you copied the JSON text of your community follow the steps described
+    <a href="https://github.com/voidcosmos/angular-communities#add-your-community" target="_blank"
+      >here</a
+    >.
+  </p>
   <button
     class="submit-button"
     mat-raised-button
@@ -203,6 +210,6 @@
     type="submit"
     [disabled]="!communityForm.valid"
   >
-    Copy Community Json
+    COPY COMMUNITY JSON TEXT
   </button>
 </form>
