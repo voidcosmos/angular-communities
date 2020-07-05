@@ -2174,11 +2174,11 @@
       }
     ]
   },
-   "ng-Keralam": {
+  "ng-Keralam": {
     "id": 89,
     "name": "ng-Keralam",
     "position": {
-      "lng": 76.271080,
+      "lng": 76.27108,
       "lat": 10.850516
     },
     "city": "Kerala",
@@ -2195,5 +2195,16 @@
         "twitter": "https://twitter.com/ng_suhas"
       }
     ]
+  },
+  "Asghar Ali Shah Cricket Stadium Shahrah Noor Jahan, Block C": {
+    "name": "Asghar Ali Shah Cricket Stadium Shahrah Noor Jahan, Block C",
+    "position": { "lat": 24.9367697, "lng": 67.03135929999999 },
+    "description": "hola",
+    "city": "asdf",
+    "twitter": "https://asdf",
+    "web": "https://asdf",
+    "youtube": "https://asdf",
+    "organizers": [{ "name": "sdf", "twitter": "https://asdf" }],
+    "id": 91
   }
 }

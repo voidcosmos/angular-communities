@@ -12,17 +12,24 @@
     <mat-label>Community Name</mat-label>
     <input
       matInput
-      formControlName="communityName"
+      formControlName="name"
       placeholder="Your wonderful Angular community name"
+      required
     />
-    <mat-error *ngIf="communityForm.controls.communityName.hasError('required')">
+    <mat-error *ngIf="communityForm.controls.name.hasError('required')">
       Community name is <strong>required</strong>
     </mat-error>
   </mat-form-field>
   <mat-form-field>
-    <mat-label>Location</mat-label>
-    <input matInput formControlName="location" placeholder="latitude, longitude" />
-    <mat-error *ngIf="communityForm.controls.location.hasError('required')">
+    <mat-label>Address</mat-label>
+    <input
+      matInput
+      formControlName="addressName"
+      placeholder="St. Saint Example..."
+      #addresstext
+      required
+    />
+    <mat-error *ngIf="communityForm.controls.addressName.hasError('required')">
       Location name is <strong>required</strong>
     </mat-error>
   </mat-form-field>
@@ -36,6 +43,7 @@
       #autosize="cdkTextareaAutosize"
       cdkAutosizeMinRows="1"
       cdkAutosizeMaxRows="5"
+      required
     ></textarea>
     <mat-error *ngIf="communityForm.controls.description.hasError('required')">
       Description name is <strong>required</strong>
@@ -43,45 +51,52 @@
   </mat-form-field>
   <mat-form-field>
     <mat-label>City</mat-label>
-    <input matInput formControlName="city" placeholder="Málaga, London..." />
+    <input matInput formControlName="city" placeholder="Málaga, London..." required />
     <mat-error *ngIf="communityForm.controls.city.hasError('required')">
       City name is <strong>required</strong>
     </mat-error>
   </mat-form-field>
   <mat-form-field>
     <mat-label>Web</mat-label>
-    <input matInput formControlName="web" placeholder="www.yourcommunity.hello" />
-    <mat-error *ngIf="communityForm.controls.web.hasError('required')">
-      Web name is <strong>required</strong>
+    <input
+      type="url"
+      pattern="https?://.+"
+      matInput
+      formControlName="web"
+      placeholder="https://..."
+    />
+    <mat-error *ngIf="communityForm.controls.web.hasError('pattern')">
+      Web input must be a <strong>valid URL</strong>
     </mat-error>
   </mat-form-field>
   <mat-form-field>
     <mat-label>Twitter</mat-label>
-    <input matInput formControlName="twitter" placeholder="twitter/yourprofile" />
+    <input
+      type="url"
+      pattern="https?://.+"
+      matInput
+      formControlName="twitter"
+      placeholder="https://..."
+      required
+    />
     <mat-error *ngIf="communityForm.controls.twitter.hasError('required')">
       Twitter name is <strong>required</strong>
+    </mat-error>
+    <mat-error *ngIf="communityForm.controls.twitter.hasError('pattern')">
+      Twitter input must be a <strong>valid URL</strong>
     </mat-error>
   </mat-form-field>
   <mat-form-field>
     <mat-label>Youtube</mat-label>
-    <input matInput formControlName="youtube" placeholder="www.youtube.com/yourprofile" />
-    <mat-error *ngIf="communityForm.controls.twitter.hasError('required')">
-      Twitter name is <strong>required</strong>
-    </mat-error>
-  </mat-form-field>
-  <mat-form-field>
-    <mat-label>Email</mat-label>
-    <input matInput formControlName="email" placeholder="Ex. myemail@example.com" />
-    <mat-error
-      *ngIf="
-        communityForm.controls.email.hasError('email') &&
-        !communityForm.controls.email.hasError('required')
-      "
-    >
-      Please enter a valid email address
-    </mat-error>
-    <mat-error *ngIf="communityForm.controls.email.hasError('required')">
-      Email is <strong>required</strong>
+    <input
+      type="url"
+      pattern="https?://.+"
+      matInput
+      formControlName="youtube"
+      placeholder="https://..."
+    />
+    <mat-error *ngIf="communityForm.controls.youtube.hasError('pattern')">
+      Web input must be a <strong>valid URL</strong>
     </mat-error>
   </mat-form-field>
 
@@ -112,21 +127,40 @@
       </div>
       <mat-form-field>
         <mat-label>Full name</mat-label>
-        <input matInput formControlName="name" placeholder="Organizer name" />
+        <input matInput formControlName="name" placeholder="Organizer name" required />
         <mat-error *ngIf="organizer.controls.name.hasError('required')">
           Name is <strong>required</strong>
         </mat-error>
       </mat-form-field>
       <mat-form-field>
         <mat-label>Twitter</mat-label>
-        <input matInput formControlName="twitter" placeholder="www.twitter.com/yourprofile" />
+        <input
+          type="url"
+          pattern="https?://.+"
+          matInput
+          formControlName="twitter"
+          placeholder="https://..."
+          required
+        />
         <mat-error *ngIf="organizer.controls.twitter.hasError('required')">
           Twitter is <strong>required</strong>
+        </mat-error>
+        <mat-error *ngIf="organizer.controls.twitter.hasError('pattern')">
+          Twitter input must be a <strong>valid URL</strong>
         </mat-error>
       </mat-form-field>
       <mat-form-field>
         <mat-label>Github</mat-label>
-        <input matInput formControlName="github" placeholder="www.githubm.com/yourprofile" />
+        <input
+          type="url"
+          pattern="https?://.+"
+          matInput
+          formControlName="github"
+          placeholder="https://..."
+        />
+        <mat-error *ngIf="organizer.controls.github.hasError('pattern')">
+          Github input must be a <strong>valid URL</strong>
+        </mat-error>
       </mat-form-field>
     </div>
   </div>
@@ -136,12 +170,12 @@
   <br />
   <br />
   <button
-    class="submite-button"
+    class="submit-button"
     mat-raised-button
     color="primary"
     type="submit"
     [disabled]="!communityForm.valid"
   >
-    Add Community
+    Copy Community Json
   </button>
 </form>
