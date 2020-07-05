@@ -2186,42 +2186,31 @@
     "youtube": "https://www.youtube.com/channel/UCQx18FcKiPdKvSs800qME1w",
     "description": "An Angular virtual event that was initiated to share and gain knowledge on angular.",
     "organizers": [
-      {
-        "name": "Sundaram Subramanian",
-        "twitter": "https://twitter.com/IamSundarBhai"
-      },
-      {
-        "name": "Suhas Parameshwara",
-        "twitter": "https://twitter.com/ng_suhas"
-      }
-    ]
-  },
-  "Angular Vietnam": {
-    "id": 91,
-    "name": "Angular Vietnam",
+        {
+          "name": "Sundaram Subramanian",
+          "twitter": "https://twitter.com/IamSundarBhai"
+        },
+        {
+          "name": "Suhas Parameshwara",
+          "twitter": "https://twitter.com/ng_suhas"
+        }
+      ]
+   },
+  "Angular Chennai": {
+    "id": 90,
+    "name": "Angular Chennai",
     "position": {
-      "lng": 105.3724885,
-      "lat": 20.9740874
+      "lng": 80.237617,
+      "lat": 13.067439
     },
-    "city": "Hanoi",
-    "web": "https://www.facebook.com/groups/AngularVietnam/",
-    "description": "Group thảo luận về Angular (Angular 2, Angular 4, 5, 6, 7, 8, 9, X++) và các kỹ thuật lập trình với Angular",
+    "city": "Chennai",
+    "twitter": "https://twitter.com/ng_chennai",
+    "description": "The angular community in Chennai.let's make angular is the best javascript framework together.",
     "organizers": [
       {
-        "name": "Tiep Phan",
-        "twitter": "https://twitter.com/_tieppt",
-        "github": "https://github.com/tieppt"
-      },
-      {
-        "name": "Chau Tran",
-        "twitter": "https://twitter.com/Nartc1410",
-        "github": "https://github.com/nartc"
-      },
-      {
-        "name": "Trung Vo",
-        "twitter": "https://twitter.com/tuantrungvo",
-        "github": "https://github.com/trungk18"
+        "name": "Arun Kumar",
+        "twitter": "https://twitter.com/dev_arunkumar"
       }
-    ]
-  }
+     ]
+   }
 }
