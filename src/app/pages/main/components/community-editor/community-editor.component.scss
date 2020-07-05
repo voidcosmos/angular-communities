@@ -1,0 +1,67 @@
+form {
+  padding: 16px;
+}
+
+.form-header {
+  h1 {
+    display: inline-block;
+  }
+  a {
+    float: right;
+    span {
+      cursor: pointer;
+    }
+  }
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+mat-divider {
+  margin-bottom: 8px;
+}
+
+.organizer-header {
+  width: 100%;
+  a {
+    float: right;
+    span {
+      cursor: pointer;
+      font-size: 0.8em;
+    }
+  }
+}
+
+.submit-button {
+  width: 100%;
+}
+
+.web-block {
+  input {
+    width: 90%;
+  }
+  a {
+    float: right;
+    span {
+      cursor: pointer;
+      font-size: 0.8em;
+    }
+  }
+}
+
+.organizer-block {
+  border-left: 1px solid #666;
+  padding-left: 8px;
+  margin-bottom: 16px;
+  small {
+    font-weight: bold;
+  }
+}
+
+.continue-community-generation {
+  a {
+    text-decoration: underline;
+    color: blue;
+  }
+}

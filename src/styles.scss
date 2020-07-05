@@ -100,6 +100,13 @@ a {
   margin: 5px;
 }
 
+.custom-mat-snackbar-style {
+  .mat-simple-snackbar-action {
+    color: white !important;
+    font-weight: bold !important;
+  }
+}
+
 .mat-chip.mat-standard-chip.social {
   color: white;
   margin-left: 10px;

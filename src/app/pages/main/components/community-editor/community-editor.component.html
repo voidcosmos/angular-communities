@@ -1,0 +1,215 @@
+<form [formGroup]="communityForm" (ngSubmit)="onSubmit()">
+  <div class="form-header">
+    <h1>New community form</h1>
+    <a>
+      <span class="material-icons" (click)="onCloseInfo()">
+        close
+      </span>
+    </a>
+  </div>
+  <h2>Community Info</h2>
+  <mat-form-field>
+    <mat-label>Community Name</mat-label>
+    <input
+      matInput
+      formControlName="name"
+      placeholder="Your wonderful Angular community name"
+      required
+    />
+    <mat-error *ngIf="communityForm.controls.name.hasError('required')">
+      Community name is <strong>required</strong>
+    </mat-error>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Address</mat-label>
+    <input
+      matInput
+      formControlName="addressName"
+      placeholder="St. Saint Example..."
+      #addresstext
+      required
+    />
+    <mat-error *ngIf="communityForm.controls.addressName.hasError('required')">
+      Location name is <strong>required</strong>
+    </mat-error>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Description</mat-label>
+    <textarea
+      matInput
+      formControlName="description"
+      placeholder="Write an engaging description about your community!"
+      cdkTextareaAutosize
+      #autosize="cdkTextareaAutosize"
+      cdkAutosizeMinRows="1"
+      cdkAutosizeMaxRows="5"
+      required
+    ></textarea>
+    <mat-error *ngIf="communityForm.controls.description.hasError('required')">
+      Description name is <strong>required</strong>
+    </mat-error>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>City</mat-label>
+    <input matInput formControlName="city" placeholder="Málaga, London..." required />
+    <mat-error *ngIf="communityForm.controls.city.hasError('required')">
+      City name is <strong>required</strong>
+    </mat-error>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Web</mat-label>
+    <input
+      type="url"
+      pattern="https?://.+"
+      matInput
+      formControlName="web"
+      placeholder="https://..."
+    />
+    <mat-error *ngIf="communityForm.controls.web.hasError('pattern')">
+      Web input must be a <strong>valid URL</strong>
+    </mat-error>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Twitter</mat-label>
+    <input
+      type="url"
+      pattern="https?://.+"
+      matInput
+      formControlName="twitter"
+      placeholder="https://..."
+      required
+    />
+    <mat-error *ngIf="communityForm.controls.twitter.hasError('required')">
+      Twitter name is <strong>required</strong>
+    </mat-error>
+    <mat-error *ngIf="communityForm.controls.twitter.hasError('pattern')">
+      Twitter input must be a <strong>valid URL</strong>
+    </mat-error>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Youtube</mat-label>
+    <input
+      type="url"
+      pattern="https?://.+"
+      matInput
+      formControlName="youtube"
+      placeholder="https://..."
+    />
+    <mat-error *ngIf="communityForm.controls.youtube.hasError('pattern')">
+      Web input must be a <strong>valid URL</strong>
+    </mat-error>
+  </mat-form-field>
+
+  <h2>Organizers</h2>
+  <div
+    class="organizer-block"
+    formArrayName="organizers"
+    *ngFor="let organizer of communityForm['controls'].organizers['controls']; let i = index"
+  >
+    <div [formGroupName]="i">
+      <div>
+        <div class="organizer-header">
+          <small
+            >Organizer
+            {{
+              organizer.controls.name.value ? ' - ' + organizer.controls.name.value : i + 1
+            }}</small
+          >
+          <a>
+            <span
+              class="material-icons"
+              (click)="communityForm['controls'].organizers['controls'].splice(i, 1)"
+            >
+              close
+            </span>
+          </a>
+        </div>
+      </div>
+      <mat-form-field>
+        <mat-label>Full name</mat-label>
+        <input matInput formControlName="name" placeholder="Organizer name" required />
+        <mat-error *ngIf="organizer.controls.name.hasError('required')">
+          Name is <strong>required</strong>
+        </mat-error>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Twitter</mat-label>
+        <input
+          type="url"
+          pattern="https?://.+"
+          matInput
+          formControlName="twitter"
+          placeholder="https://..."
+          required
+        />
+        <mat-error *ngIf="organizer.controls.twitter.hasError('required')">
+          Twitter is <strong>required</strong>
+        </mat-error>
+        <mat-error *ngIf="organizer.controls.twitter.hasError('pattern')">
+          Twitter input must be a <strong>valid URL</strong>
+        </mat-error>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Github</mat-label>
+        <input
+          type="url"
+          pattern="https?://.+"
+          matInput
+          formControlName="github"
+          placeholder="https://..."
+        />
+        <mat-error *ngIf="organizer.controls.github.hasError('pattern')">
+          Github input must be a <strong>valid URL</strong>
+        </mat-error>
+      </mat-form-field>
+      <small>Webs</small>
+      <div
+        formArrayName="webs"
+        *ngFor="let web of organizer['controls'].webs['controls']; let j = index"
+      >
+        <div class="web-block">
+          <mat-form-field>
+            <mat-label>Website</mat-label>
+            <input
+              type="url"
+              pattern="https?://.+"
+              matInput
+              [formControlName]="j"
+              placeholder="https://..."
+            />
+            <a>
+              <span
+                class="material-icons"
+                (click)="organizer['controls'].webs['controls'].splice(j, 1)"
+              >
+                close
+              </span>
+            </a>
+          </mat-form-field>
+        </div>
+      </div>
+      <button mat-stroked-button (click)="addWeb(i); $event.preventDefault()">ADD WEBSITE</button>
+    </div>
+  </div>
+  <button mat-raised-button color="primary" (click)="addOrganizer(); $event.preventDefault()">
+    ADD ORGANIZER
+  </button>
+  <br />
+  <br />
+
+  <p class="continue-community-generation">
+    Once you copied the JSON text of your community follow the steps described
+    <a href="https://github.com/voidcosmos/angular-communities#add-your-community" target="_blank"
+      >here</a
+    >.
+  </p>
+  <button
+    class="submit-button"
+    mat-raised-button
+    color="primary"
+    type="submit"
+    [disabled]="!communityForm.valid"
+  >
+    COPY COMMUNITY JSON TEXT
+  </button>
+</form>

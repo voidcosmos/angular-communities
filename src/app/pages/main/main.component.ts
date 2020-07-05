@@ -2,6 +2,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { Community, Communities } from '@shared/interfaces';
 import { Component, Input } from '@angular/core';
 import { map } from 'rxjs/operators';
+import { HeaderComponent } from '@shared/components/header/header.component';
 
 @Component({
   selector: 'ngcommunity-main',
@@ -13,6 +14,7 @@ export class MainComponent {
   communities: Communities;
 
   community$ = this.route.fragment.pipe(map(community => this.communities[community]));
+  editMode$ = this.route.fragment.pipe(map(url => url == HeaderComponent.ADD_COMMUNITY));
 
   constructor(private router: Router, private route: ActivatedRoute) {}
 

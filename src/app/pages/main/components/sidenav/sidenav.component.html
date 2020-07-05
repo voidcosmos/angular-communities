@@ -1,72 +1,77 @@
 <mat-sidenav-container fxFill class="animated" [ngClass]="{ fadeIn: community }">
-  <mat-sidenav-content *ngIf="community; else search">
-    <header>
-      <span (click)="onCloseInfo()" class="link close"></span>
-      <div class="community-detail-container" fxLayout="column">
-        <ngcommunity-community-item [detailCommunity]="true" [community]="community">
-        </ngcommunity-community-item>
-        <mat-chip-list fxLayout fxLayoutAlign="center center">
-          <mat-chip class="social social-twitter" *ngIf="community.twitter"
-            ><a [href]="community.twitter" target="_blank">
-              Twitter
-              <i class="fab fa-twitter" aria-hidden="true"></i>
-            </a>
-          </mat-chip>
-          <mat-chip class="social social-youtube" *ngIf="community.youtube">
-            <a [href]="community.youtube" target="_blank">
-              Youtube
-              <i class="fab fa-youtube" aria-hidden="true"></i>
-            </a>
-          </mat-chip>
-          <mat-chip class="social social-web" *ngIf="community.web">
-            <a [href]="community.web" target="_blank">
-              Web
-              <i class="fas fa-link" aria-hidden="true"></i>
-            </a>
-          </mat-chip>
-        </mat-chip-list>
-      </div>
-    </header>
-
-    <div class="community-bio">
-      <p class="title" *ngIf="community.description"><b>Description</b></p>
-      <p *ngIf="community.description">
-        {{ community.description }}
-      </p>
-      <p class="title"><b>Organizers</b></p>
-      <div
-        fxLayout
-        fxLayoutAlign="space-between center"
-        *ngFor="let organizer of community.organizers"
-      >
-        <p class="organizer-name">{{ organizer.name }}</p>
-        <div fxLayout fxFlexalign="space-between center">
-          <mat-chip-list>
-            <mat-chip class="social social-twitter" *ngIf="organizer.twitter"
-              ><a [href]="organizer.twitter" target="_blank">
+  <mat-sidenav-content *ngIf="editMode; else communityDetail">
+    <ngcommunity-editor (closeInfo)="onCloseInfo()"></ngcommunity-editor>
+  </mat-sidenav-content>
+  <ng-template #communityDetail>
+    <mat-sidenav-content *ngIf="community; else search">
+      <header>
+        <span (click)="onCloseInfo()" class="link close"></span>
+        <div class="community-detail-container" fxLayout="column">
+          <ngcommunity-community-item [detailCommunity]="true" [community]="community">
+          </ngcommunity-community-item>
+          <mat-chip-list fxLayout fxLayoutAlign="center center">
+            <mat-chip class="social social-twitter" *ngIf="community.twitter"
+              ><a [href]="community.twitter" target="_blank">
+                Twitter
                 <i class="fab fa-twitter" aria-hidden="true"></i>
               </a>
             </mat-chip>
-            <mat-chip class="social social-github" *ngIf="organizer.github"
-              ><a [href]="organizer.github" target="_blank">
-                <i class="fab fa-github" aria-hidden="true"></i>
+            <mat-chip class="social social-youtube" *ngIf="community.youtube">
+              <a [href]="community.youtube" target="_blank">
+                Youtube
+                <i class="fab fa-youtube" aria-hidden="true"></i>
               </a>
             </mat-chip>
-            <mat-chip class="social social-linkedin" *ngIf="organizer.linkedin"
-              ><a [href]="organizer.linkedin" target="_blank">
-                <i class="fab fa-linkedin" aria-hidden="true"></i>
-              </a>
-            </mat-chip>
-            <mat-chip *ngFor="let web of organizer.webs" class="social social-web"
-              ><a [href]="web" target="_blank">
+            <mat-chip class="social social-web" *ngIf="community.web">
+              <a [href]="community.web" target="_blank">
+                Web
                 <i class="fas fa-link" aria-hidden="true"></i>
               </a>
             </mat-chip>
           </mat-chip-list>
         </div>
+      </header>
+
+      <div class="community-bio">
+        <p class="title" *ngIf="community.description"><b>Description</b></p>
+        <p *ngIf="community.description">
+          {{ community.description }}
+        </p>
+        <p class="title"><b>Organizers</b></p>
+        <div
+          fxLayout
+          fxLayoutAlign="space-between center"
+          *ngFor="let organizer of community.organizers"
+        >
+          <p class="organizer-name">{{ organizer.name }}</p>
+          <div fxLayout fxFlexalign="space-between center">
+            <mat-chip-list>
+              <mat-chip class="social social-twitter" *ngIf="organizer.twitter"
+                ><a [href]="organizer.twitter" target="_blank">
+                  <i class="fab fa-twitter" aria-hidden="true"></i>
+                </a>
+              </mat-chip>
+              <mat-chip class="social social-github" *ngIf="organizer.github"
+                ><a [href]="organizer.github" target="_blank">
+                  <i class="fab fa-github" aria-hidden="true"></i>
+                </a>
+              </mat-chip>
+              <mat-chip class="social social-linkedin" *ngIf="organizer.linkedin"
+                ><a [href]="organizer.linkedin" target="_blank">
+                  <i class="fab fa-linkedin" aria-hidden="true"></i>
+                </a>
+              </mat-chip>
+              <mat-chip *ngFor="let web of organizer.webs" class="social social-web"
+                ><a [href]="web" target="_blank">
+                  <i class="fas fa-link" aria-hidden="true"></i>
+                </a>
+              </mat-chip>
+            </mat-chip-list>
+          </div>
+        </div>
       </div>
-    </div>
-  </mat-sidenav-content>
+    </mat-sidenav-content>
+  </ng-template>
   <ng-template #search class="content">
     <mat-sidenav-content>
       <ngcommunity-preview (selected)="onSelected($event)" [communities]="communities">
