@@ -2175,27 +2175,27 @@
     ]
   },
   "ng-Keralam": {
-  "id": 89,
-  "name": "ng-Keralam",
-  "position": {
-    "lng": 76.271080,
-    "lat": 10.850516
-  },
-  "city": "Kerala",
-  "twitter": "https://twitter.com/ng_keralam",
-  "youtube": "https://www.youtube.com/channel/UCQx18FcKiPdKvSs800qME1w",
-  "description": "An Angular virtual event that was initiated to share and gain knowledge on angular.",
-  "organizers": [
-      {
-        "name": "Sundaram Subramanian",
-        "twitter": "https://twitter.com/IamSundarBhai"
-      },
-      {
-        "name": "Suhas Parameshwara",
-        "twitter": "https://twitter.com/ng_suhas"
-      }
-    ]
-  },
+    "id": 89,
+    "name": "ng-Keralam",
+    "position": {
+      "lng": 76.271080,
+      "lat": 10.850516
+    },
+    "city": "Kerala",
+    "twitter": "https://twitter.com/ng_keralam",
+    "youtube": "https://www.youtube.com/channel/UCQx18FcKiPdKvSs800qME1w",
+    "description": "An Angular virtual event that was initiated to share and gain knowledge on angular.",
+    "organizers": [
+        {
+          "name": "Sundaram Subramanian",
+          "twitter": "https://twitter.com/IamSundarBhai"
+        },
+        {
+          "name": "Suhas Parameshwara",
+          "twitter": "https://twitter.com/ng_suhas"
+        }
+      ]
+   },
   "Angular Chennai": {
     "id": 90,
     "name": "Angular Chennai",
@@ -2212,5 +2212,5 @@
         "twitter": "https://twitter.com/dev_arunkumar"
       }
      ]
-  }
+   }
 }
