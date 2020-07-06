@@ -1,7 +1,7 @@
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=oidacra_angular-communities&metric=alert_status)](https://sonarcloud.io/dashboard?id=oidacra_angular-communities)
-[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=oidacra_angular-communities&metric=code_smells)](https://sonarcloud.io/dashboard?id=oidacra_angular-communities)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=oidacra_angular-communities&metric=coverage)](https://sonarcloud.io/dashboard?id=oidacra_angular-communities)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=oidacra_angular-communities&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=oidacra_angular-communities)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=voidcosmos_angular-communities&metric=alert_status)](https://sonarcloud.io/dashboard?id=voidcosmos_angular-communities)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=voidcosmos_angular-communities&metric=code_smells)](https://sonarcloud.io/dashboard?id=voidcosmos_angular-communities)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=voidcosmos_angular-communitiess&metric=coverage)](https://sonarcloud.io/dashboard?id=voidcosmos_angular-communities)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=voidcosmos_angular-communities&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=voidcosmos_angular-communities)
 
 <h1 align="center">
 <img width="40" valign="bottom" src="https://angular.io/assets/images/logos/angular/angular.svg">
