@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1594036562153,
+  "timestamp": 1594036599510,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -2132,7 +2132,7 @@
     "/assets/images/angular_xl.webp": "dcfa538d890f244813d32bd103779c15bf86fa68",
     "/assets/images/angular_xs.png": "2409f8f65843847c27009cc7d140172d047ed51b",
     "/assets/images/angular_xs.webp": "dcfa538d890f244813d32bd103779c15bf86fa68",
-    "/assets/images/manifest.json": "eb923b09aec1c13f74a7444beaaa68f7823dc9c0",
+    "/assets/images/manifest.json": "7cf863538e39e39e780a713c7de5635e4faebe99",
     "/fa-brands-400.31015e861aeb30ff8355.woff2": "509988477da79c146cb93fb728405f18e923c2de",
     "/fa-brands-400.3c45c98f6f6c1b009c08.svg": "d49c07aef6414916b3c6860b42b906e39748e842",
     "/fa-brands-400.5818bbd07dfd7095920a.ttf": "66c86edfd13e63e0e981ce853335c28bc2d20cec",
