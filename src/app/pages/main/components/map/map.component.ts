@@ -8,8 +8,7 @@ import { takeUntil, skip } from 'rxjs/operators';
 
 @Component({
   selector: 'ngcommunity-map',
-  templateUrl: './map.component.html',
-  styleUrls: ['./map.component.scss'],
+  templateUrl: './map.component.html'
 })
 export class MapComponent implements OnInit {
   @ViewChild(GoogleMap, { static: false }) map: GoogleMap;
