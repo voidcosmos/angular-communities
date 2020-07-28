@@ -56,7 +56,7 @@ export class CommunityEditorComponent implements AfterViewInit {
   }
 
   private getPlaceAutocomplete() {
-    const autocomplete = new google.maps.places.Autocomplete(this.addresstext.nativeElement, {
+    const autocomplete = new google.maps.places.Autocomplete(this.addressInput.nativeElement, {
       types: ['address'], // 'establishment' / 'address' / 'geocode'
     });
     google.maps.event.addListener(autocomplete, 'place_changed', () => {
