@@ -16,7 +16,7 @@ export class CommunityEditorComponent implements AfterViewInit {
   closeInfo = new EventEmitter<void>();
 
   @ViewChild('addressInput') addressInput: ElementRef<HTMLInputElement>;
-  public autocompletedInput: string;
+  private autocompletedInput: string;
   public communityForm: FormGroup;
 
   constructor(
