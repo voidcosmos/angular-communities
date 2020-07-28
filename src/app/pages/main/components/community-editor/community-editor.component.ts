@@ -61,9 +61,8 @@ export class CommunityEditorComponent implements AfterViewInit {
     });
     google.maps.event.addListener(autocomplete, 'place_changed', () => {
       const place = autocomplete.getPlace();
-      const positionControls = this.communityForm['controls'].position['controls'];
-      positionControls.lat.setValue(place.geometry.location.lat());
-      positionControls.lng.setValue(place.geometry.location.lng());
+      const { location } = place.geometry;
+      this.position.setValue({ lat: location.lat(), lng: location.lng() });
       this.autocompletedInput = place.name;
     });
   }
