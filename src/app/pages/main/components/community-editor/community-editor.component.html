@@ -100,7 +100,7 @@
   <div
     class="organizer-block"
     formArrayName="organizers"
-    *ngFor="let organizer of communityForm['controls'].organizers['controls']; let i = index"
+    *ngFor="let organizer of organizers.controls; let i = index"
   >
     <div [formGroupName]="i">
       <div>
