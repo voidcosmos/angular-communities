@@ -23,7 +23,7 @@ export class CommunityEditorComponent implements AfterViewInit {
   constructor(
     communityService: CommunityService,
     public formBuilder: FormBuilder,
-    private _clipboard: Clipboard,
+    private clipboard: Clipboard,
     private _snackBar: MatSnackBar,
   ) {
     communityService.communities
