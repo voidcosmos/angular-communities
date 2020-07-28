@@ -21,7 +21,7 @@ export class CommunityEditorComponent implements AfterViewInit {
 
   private lastCommunityId: number;
   constructor(
-    public formBuilder: FormBuilder,
+    private formBuilder: FormBuilder,
     private clipboard: Clipboard,
     private snackBar: MatSnackBar,
   ) {
