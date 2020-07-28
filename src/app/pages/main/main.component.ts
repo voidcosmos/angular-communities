@@ -14,7 +14,7 @@ export class MainComponent {
   communities: Communities;
 
   community$ = this.route.fragment.pipe(map(community => this.communities[community]));
-  editMode$ = this.route.fragment.pipe(map(url => url == HeaderComponent.ADD_COMMUNITY));
+  isEditMode$ = this.route.fragment.pipe(map(url => url === HeaderComponent.ADD_COMMUNITY));
 
   constructor(private router: Router, private route: ActivatedRoute) {}
 
