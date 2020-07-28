@@ -18,7 +18,7 @@ const COMPONENTS = [
 
 @NgModule({
   declarations: COMPONENTS,
-  imports: [SharedModule, GoogleMapsModule, ClipboardModule],
+  imports: [SharedModule, GoogleMapsModule],
   providers: [],
   exports: COMPONENTS,
 })
