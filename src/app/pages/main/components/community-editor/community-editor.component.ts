@@ -19,7 +19,6 @@ export class CommunityEditorComponent implements AfterViewInit {
   public autocompletedInput: string;
   public communityForm: FormGroup;
 
-  private lastCommunityId: number;
   constructor(
     private formBuilder: FormBuilder,
     private clipboard: Clipboard,
