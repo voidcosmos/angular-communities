@@ -83,7 +83,7 @@ export class CommunityEditorComponent implements AfterViewInit {
     webs.push(this.formBuilder.control(''));
   }
   onSubmit() {
-    let cleanedFormResult = this.cleanFormResult(this.communityForm.value);
+    const newCommunity = this.getCleanValue();
     const copyOperation = this.clipboard.beginCopy(
       `"${cleanedFormResult.name}": ` + JSON.stringify(cleanedFormResult),
     );
