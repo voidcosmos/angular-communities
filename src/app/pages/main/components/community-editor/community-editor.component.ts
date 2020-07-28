@@ -85,7 +85,7 @@ export class CommunityEditorComponent implements AfterViewInit {
   onSubmit() {
     const newCommunity = this.getCleanValue();
     const copyOperation = this.clipboard.beginCopy(
-      `"${cleanedFormResult.name}": ` + JSON.stringify(cleanedFormResult),
+      `"${newCommunity.name}": ${JSON.stringify(newCommunity)}`,
     );
     copyOperation.copy();
     copyOperation.destroy();
