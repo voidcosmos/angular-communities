@@ -78,10 +78,9 @@ export class CommunityEditorComponent implements AfterViewInit {
   addOrganizer() {
     (this.communityForm.get('organizers') as FormArray).push(this.createOrganizerFromGroup());
   }
-  addWeb(organizerIndex: number) {
-    (this.communityForm.get('organizers')['controls'][organizerIndex]['controls'][
-      'webs'
-    ] as FormArray).push(this.formBuilder.control(''));
+  addWebTo(organizer: FormGroup) {
+    const webs = organizer.get('webs') as FormArray;
+    webs.push(this.formBuilder.control(''));
   }
   onSubmit() {
     let cleanedFormResult = this.cleanFormResult(this.communityForm.value);
