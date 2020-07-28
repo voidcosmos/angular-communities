@@ -1,5 +1,5 @@
 <mat-sidenav-container fxFill class="animated" [ngClass]="{ fadeIn: community }">
-  <mat-sidenav-content *ngIf="editMode; else communityDetail">
+  <mat-sidenav-content *ngIf="isEditMode; else communityDetail">
     <ngcommunity-editor [communities]="communities" (closeInfo)="onCloseInfo()"></ngcommunity-editor>
   </mat-sidenav-content>
   <ng-template #communityDetail>
