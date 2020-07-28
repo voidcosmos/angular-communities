@@ -76,7 +76,7 @@ export class CommunityEditorComponent implements AfterViewInit {
     });
   }
   addOrganizer() {
-    (this.communityForm.get('organizers') as FormArray).push(this.createOrganizerFromGroup());
+    this.organizers.push(this.createOrganizerFromGroup());
   }
   addWebTo(organizer: FormGroup) {
     const webs = organizer.get('webs') as FormArray;
