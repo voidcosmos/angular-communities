@@ -123,7 +123,7 @@
       </div>
       <mat-form-field>
         <mat-label>Full name</mat-label>
-        <input matInput formControlName="name" placeholder="Organizer name" required />
+        <input matInput formControlName="name" placeholder="Organizer name" />
         <mat-error *ngIf="organizer.controls.name.hasError('required')">
           Name is <strong>required</strong>
         </mat-error>
