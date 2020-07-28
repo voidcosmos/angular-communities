@@ -160,7 +160,7 @@
       <small>Webs</small>
       <div
         formArrayName="webs"
-        *ngFor="let web of organizer['controls'].webs['controls']; let j = index"
+        *ngFor="let web of organizer.controls.webs.controls; let j = index"
       >
         <div class="web-block">
           <mat-form-field>
