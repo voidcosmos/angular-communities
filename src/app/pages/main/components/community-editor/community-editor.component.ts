@@ -96,7 +96,7 @@ export class CommunityEditorComponent implements AfterViewInit {
     });
   }
 
-  cleanFormResult(formResult: any) {
+  getCleanValue(): any {
     // This functions should be tested
     let cleanedResult = { ...formResult };
     cleanedResult['name'] = this.autocompletedInput;
