@@ -48,7 +48,7 @@
   </mat-form-field>
   <mat-form-field>
     <mat-label>City</mat-label>
-    <input matInput formControlName="city" placeholder="Málaga, London..." required />
+    <input matInput formControlName="city" placeholder="Málaga, London..." />
     <mat-error *ngIf="communityForm.controls.city.hasError('required')">
       City name is <strong>required</strong>
     </mat-error>
