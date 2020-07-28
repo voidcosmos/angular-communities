@@ -90,7 +90,7 @@ export class CommunityEditorComponent implements AfterViewInit {
     copyOperation.copy();
     copyOperation.destroy();
 
-    this._snackBar.open('Community JSON copied into clipboard', 'OK', {
+    this.snackBar.open('Community JSON copied into clipboard', 'OK', {
       duration: 2000,
       panelClass: 'custom-mat-snackbar-style',
     });
