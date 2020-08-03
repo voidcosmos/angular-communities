@@ -9,7 +9,7 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 export class SidenavComponent {
   @Input() community: Community;
   @Input() communities: Communities;
-  @Input() editMode: boolean = false;
+  @Input() isEditMode = false;
 
   @Output()
   selected = new EventEmitter<Community>();

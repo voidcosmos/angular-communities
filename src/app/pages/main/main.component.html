@@ -27,7 +27,7 @@
     gdArea="side"
     [communities]="communities"
     [community]="community$ | async"
-    [editMode]="editMode$ | async"
+    [isEditMode]="isEditMode$ | async"
     (selected)="changeCommunity($event)"
     (closeInfo)="changeCommunity(null)"
   ></ngcommunity-sidenav>

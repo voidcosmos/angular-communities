@@ -15,16 +15,14 @@ export class CommunityEditorComponent implements AfterViewInit {
   @Output()
   closeInfo = new EventEmitter<void>();
 
-  @ViewChild('addresstext') addresstext: any;
-  public autocompletedInput: string;
+  @ViewChild('addressInput') addressInput: ElementRef<HTMLInputElement>;
+  private autocompletedInput: string;
   public communityForm: FormGroup;
 
-  private lastCommunityId: number;
   constructor(
-    communityService: CommunityService,
-    public formBuilder: FormBuilder,
-    private _clipboard: Clipboard,
-    private _snackBar: MatSnackBar,
+    private formBuilder: FormBuilder,
+    private clipboard: Clipboard,
+    private snackBar: MatSnackBar,
   ) {
     communityService.communities
       .pipe(
@@ -57,14 +55,13 @@ export class CommunityEditorComponent implements AfterViewInit {
   }
 
   private getPlaceAutocomplete() {
-    const autocomplete = new google.maps.places.Autocomplete(this.addresstext.nativeElement, {
+    const autocomplete = new google.maps.places.Autocomplete(this.addressInput.nativeElement, {
       types: ['address'], // 'establishment' / 'address' / 'geocode'
     });
     google.maps.event.addListener(autocomplete, 'place_changed', () => {
       const place = autocomplete.getPlace();
-      const positionControls = this.communityForm['controls'].position['controls'];
-      positionControls.lat.setValue(place.geometry.location.lat());
-      positionControls.lng.setValue(place.geometry.location.lng());
+      const { location } = place.geometry;
+      this.position.setValue({ lat: location.lat(), lng: location.lng() });
       this.autocompletedInput = place.name;
     });
   }
@@ -78,28 +75,27 @@ export class CommunityEditorComponent implements AfterViewInit {
     });
   }
   addOrganizer() {
-    (this.communityForm.get('organizers') as FormArray).push(this.createOrganizerFromGroup());
+    this.organizers.push(this.createOrganizerFromGroup());
   }
-  addWeb(organizerIndex: number) {
-    (this.communityForm.get('organizers')['controls'][organizerIndex]['controls'][
-      'webs'
-    ] as FormArray).push(this.formBuilder.control(''));
+  addWebTo(organizer: FormGroup) {
+    const webs = organizer.get('webs') as FormArray;
+    webs.push(this.formBuilder.control(''));
   }
   onSubmit() {
-    let cleanedFormResult = this.cleanFormResult(this.communityForm.value);
-    let copyOperation = this._clipboard.beginCopy(
-      `"${cleanedFormResult.name}": ` + JSON.stringify(cleanedFormResult),
+    const newCommunity = this.getCleanValue();
+    const copyOperation = this.clipboard.beginCopy(
+      `"${newCommunity.name}": ${JSON.stringify(newCommunity)}`,
     );
     copyOperation.copy();
     copyOperation.destroy();
 
-    this._snackBar.open('Community JSON copied into clipboard', 'OK', {
+    this.snackBar.open('Community JSON copied into clipboard', 'OK', {
       duration: 2000,
       panelClass: 'custom-mat-snackbar-style',
     });
   }
 
-  cleanFormResult(formResult: any) {
+  getCleanValue(): any {
     // This functions should be tested
     let cleanedResult = { ...formResult };
     cleanedResult['name'] = this.autocompletedInput;
