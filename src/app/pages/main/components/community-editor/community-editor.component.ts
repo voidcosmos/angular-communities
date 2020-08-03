@@ -96,27 +96,27 @@ export class CommunityEditorComponent implements AfterViewInit {
   }
 
   getCleanValue(): any {
-    // This functions should be tested
-    let cleanedResult = { ...formResult };
-    cleanedResult['name'] = this.autocompletedInput;
-    cleanedResult['id'] = this.lastCommunityId + 1;
-
-    // Remove empty optional inputs
-    cleanedResult.organizers.forEach(organizer => {
-      if (organizer.github === '') delete organizer.github;
-      if (organizer.webs && organizer.webs.length === 0) delete organizer.webs;
-      else if (!organizer.webs) {
-        delete organizer.webs;
-      } else {
-        organizer.webs = organizer.webs.filter(web => web != '');
-        if (organizer.webs.length === 0) delete organizer.webs;
-      }
-    });
-    delete cleanedResult.addressName;
-    if (cleanedResult.web === '') delete cleanedResult.web;
-    if (cleanedResult.youtube === '') delete cleanedResult.youtube;
-
-    return cleanedResult;
+    const {
+    	addressName: _,
+    	organizers,
+    	web,
+    	youtube,
+    	...community,
+    } = this.communityForm.value;
+   
+    return {
+     ...community,
+     name: this.autocompletedInput,
+     id: this.communities.length,
+     web: web || undefined,
+     youtube: youtube || undefined,
+     organizers: organizers.map(
+     	({ github, webs, ...organizer }) => ({
+    		 ...organizer,
+     		github: github || undefiend,
+     		webs: Array.isArray(webs) && webs.length ? webs.filter(Boolean) : undefined,
+     	}),
+     };
   }
 
   onCloseInfo() {
