@@ -1,4 +1,13 @@
-import { Component, OnInit, Output, EventEmitter, ViewChild, AfterViewInit } from '@angular/core';
+import {
+  Component,
+  OnInit,
+  Output,
+  EventEmitter,
+  ViewChild,
+  AfterViewInit,
+  Input,
+  ElementRef,
+} from '@angular/core';
 import { FormGroup, FormBuilder, Validators, FormArray } from '@angular/forms';
 import { CommunityService } from '@shared/services';
 import { map } from 'rxjs/operators';
@@ -14,41 +23,34 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 export class CommunityEditorComponent implements AfterViewInit {
   @Output()
   closeInfo = new EventEmitter<void>();
+  @Input() communities: Communities;
 
   @ViewChild('addressInput') addressInput: ElementRef<HTMLInputElement>;
   private autocompletedInput: string;
-  public communityForm: FormGroup;
+
+  public position = this.formBuilder.group({
+    lat: ['', Validators.required],
+    lng: ['', Validators.required],
+  });
+  public organizers = this.formBuilder.array([this.createOrganizerFromGroup()]);
+
+  public communityForm = this.formBuilder.group({
+    name: ['', [Validators.required]],
+    addressName: ['', Validators.required],
+    position: this.position,
+    description: ['', Validators.required], // ADD LENGTH VALIDATOR WITH COUNTER AT THE BOTTOM
+    city: ['', Validators.required],
+    twitter: ['', [Validators.required, Validators.pattern('https?://.+')]],
+    web: ['', Validators.pattern('https?://.+')],
+    youtube: ['', Validators.pattern('https?://.+')],
+    organizers: this.organizers,
+  });
 
   constructor(
     private formBuilder: FormBuilder,
     private clipboard: Clipboard,
     private snackBar: MatSnackBar,
-  ) {
-    communityService.communities
-      .pipe(
-        map((communities: Communities) => {
-          const communityKeys = Object.keys(communities);
-          return communities[communityKeys[communityKeys.length - 1]].id;
-        }),
-      )
-      .subscribe((lastCommunityId: number) => {
-        this.lastCommunityId = lastCommunityId;
-      });
-    this.communityForm = formBuilder.group({
-      name: ['', [Validators.required]],
-      addressName: ['', Validators.required],
-      position: formBuilder.group({
-        lat: ['', Validators.required],
-        lng: ['', Validators.required],
-      }),
-      description: ['', Validators.required], // ADD LENGTH VALIDATOR WITH COUNTER AT THE BOTTOM
-      city: ['', Validators.required],
-      twitter: ['', Validators.required],
-      web: [''],
-      youtube: [''],
-      organizers: formBuilder.array([this.createOrganizerFromGroup()]),
-    });
-  }
+  ) {}
 
   ngAfterViewInit(): void {
     this.getPlaceAutocomplete();
@@ -69,9 +71,11 @@ export class CommunityEditorComponent implements AfterViewInit {
   createOrganizerFromGroup() {
     return this.formBuilder.group({
       name: ['', Validators.required],
-      twitter: ['', Validators.required],
-      github: [''],
-      webs: this.formBuilder.array([this.formBuilder.control('')]),
+      twitter: ['', [Validators.required, Validators.pattern('https?://.+')]],
+      github: ['', Validators.pattern('https?://.+')],
+      webs: this.formBuilder.array([
+        this.formBuilder.control('', Validators.pattern('https?://.+')),
+      ]),
     });
   }
   addOrganizer() {
@@ -96,27 +100,20 @@ export class CommunityEditorComponent implements AfterViewInit {
   }
 
   getCleanValue(): any {
-    const {
-    	addressName: _,
-    	organizers,
-    	web,
-    	youtube,
-    	...community,
-    } = this.communityForm.value;
-   
+    const { addressName: _, organizers, web, youtube, ...community } = this.communityForm.value;
+
     return {
-     ...community,
-     name: this.autocompletedInput,
-     id: this.communities.length,
-     web: web || undefined,
-     youtube: youtube || undefined,
-     organizers: organizers.map(
-     	({ github, webs, ...organizer }) => ({
-    		 ...organizer,
-     		github: github || undefiend,
-     		webs: Array.isArray(webs) && webs.length ? webs.filter(Boolean) : undefined,
-     	}),
-     };
+      ...community,
+      name: this.autocompletedInput,
+      id: Object.entries(this.communities).length + 1,
+      web: web || undefined,
+      youtube: youtube || undefined,
+      organizers: organizers.map(({ github, webs, ...organizer }) => ({
+        ...organizer,
+        github: github || undefined,
+        webs: Array.isArray(webs) && webs.length ? webs.filter(Boolean) : undefined,
+      })),
+    };
   }
 
   onCloseInfo() {

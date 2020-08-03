@@ -10,11 +10,7 @@
   <h2>Community Info</h2>
   <mat-form-field>
     <mat-label>Community Name</mat-label>
-    <input
-      matInput
-      formControlName="name"
-      placeholder="Your wonderful Angular community name"
-    />
+    <input matInput formControlName="name" placeholder="Your wonderful Angular community name" />
     <mat-error *ngIf="communityForm.controls.name.hasError('required')">
       Community name is <strong>required</strong>
     </mat-error>
@@ -55,26 +51,14 @@
   </mat-form-field>
   <mat-form-field>
     <mat-label>Web</mat-label>
-    <input
-      type="url"
-      pattern="https?://.+"
-      matInput
-      formControlName="web"
-      placeholder="https://..."
-    />
+    <input type="url" matInput formControlName="web" placeholder="https://..." />
     <mat-error *ngIf="communityForm.controls.web.hasError('pattern')">
       Web input must be a <strong>valid URL</strong>
     </mat-error>
   </mat-form-field>
   <mat-form-field>
     <mat-label>Twitter</mat-label>
-    <input
-      type="url"
-      pattern="https?://.+"
-      matInput
-      formControlName="twitter"
-      placeholder="https://..."
-    />
+    <input type="url" matInput formControlName="twitter" placeholder="https://..." />
     <mat-error *ngIf="communityForm.controls.twitter.hasError('required')">
       Twitter name is <strong>required</strong>
     </mat-error>
@@ -84,13 +68,7 @@
   </mat-form-field>
   <mat-form-field>
     <mat-label>Youtube</mat-label>
-    <input
-      type="url"
-      pattern="https?://.+"
-      matInput
-      formControlName="youtube"
-      placeholder="https://..."
-    />
+    <input type="url" matInput formControlName="youtube" placeholder="https://..." />
     <mat-error *ngIf="communityForm.controls.youtube.hasError('pattern')">
       Web input must be a <strong>valid URL</strong>
     </mat-error>
@@ -112,10 +90,7 @@
             }}</small
           >
           <a>
-            <span
-              class="material-icons"
-              (click)="organizers.removeAt(i)"
-            >
+            <span class="material-icons" (click)="organizers.removeAt(i)">
               close
             </span>
           </a>
@@ -130,13 +105,7 @@
       </mat-form-field>
       <mat-form-field>
         <mat-label>Twitter</mat-label>
-        <input
-          type="url"
-          pattern="https?://.+"
-          matInput
-          formControlName="twitter"
-          placeholder="https://..."
-        />
+        <input type="url" matInput formControlName="twitter" placeholder="https://..." />
         <mat-error *ngIf="organizer.controls.twitter.hasError('required')">
           Twitter is <strong>required</strong>
         </mat-error>
@@ -146,44 +115,28 @@
       </mat-form-field>
       <mat-form-field>
         <mat-label>Github</mat-label>
-        <input
-          type="url"
-          pattern="https?://.+"
-          matInput
-          formControlName="github"
-          placeholder="https://..."
-        />
+        <input type="url" matInput formControlName="github" placeholder="https://..." />
         <mat-error *ngIf="organizer.controls.github.hasError('pattern')">
           Github input must be a <strong>valid URL</strong>
         </mat-error>
       </mat-form-field>
       <small>Webs</small>
-      <div
-        formArrayName="webs"
-        *ngFor="let web of organizer.controls.webs.controls; let j = index"
-      >
+      <div formArrayName="webs" *ngFor="let web of organizer.controls.webs.controls; let j = index">
         <div class="web-block">
           <mat-form-field>
             <mat-label>Website</mat-label>
-            <input
-              type="url"
-              pattern="https?://.+"
-              matInput
-              [formControlName]="j"
-              placeholder="https://..."
-            />
+            <input type="url" matInput [formControlName]="j" placeholder="https://..." />
             <a>
-              <span
-                class="material-icons"
-                (click)="organizer.controls.webs.removeAt(j)"
-              >
+              <span class="material-icons" (click)="organizer.controls.webs.removeAt(j)">
                 close
               </span>
             </a>
           </mat-form-field>
         </div>
       </div>
-      <button mat-stroked-button (click)="addWebTo(organizer); $event.preventDefault()">ADD WEBSITE</button>
+      <button mat-stroked-button (click)="addWebTo(organizer); $event.preventDefault()">
+        ADD WEBSITE
+      </button>
     </div>
   </div>
   <button mat-raised-button color="primary" (click)="addOrganizer(); $event.preventDefault()">
