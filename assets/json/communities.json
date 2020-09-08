@@ -2240,5 +2240,26 @@
         "github": "https://github.com/trungk18"
       }
     ]
-  }	  
+  },
+  "Angular Tunisia": {
+    "id": 92,
+    "name": "ng-tunisia",
+    "position": {
+      "lng": 10.181667,
+      "lat": 36.806389
+    },
+    "city": "Tunis",
+    "twitter": "https://twitter.com/AngularTunisia",
+    "description": "Connecting Angular developers in Tunisia. Bringing the community close together through live or virtual events, workshops and meetups. ",
+    "organizers": [
+        {
+          "name": "Lamis Chebbi",
+          "twitter": "https://twitter.com/lamisChebbi"
+        },
+        {
+          "name": "Haroun Chebbi",
+          "github": "https://github.com/harounchebbi"
+        }
+      ]
+   }
 }
