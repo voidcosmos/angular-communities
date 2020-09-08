@@ -1396,22 +1396,36 @@
       "lat": -22.908333,
       "lng": -43.196388
     },
-    "city": "Río de Janeiro, Brazil",
-    "twitter": "https://twitter.com/angular_rio",
+    "city": "Rio de Janeiro, Brazil",
     "web": "https://www.meetup.com/Angular-RJ/",
-    "description": "Grupo para quem quer aprender, compartilhar e trocar ideias sobre Angular e TypeScript no Rio de Janeiro.",
+    "twitter": "https://twitter.com/angular_rio",
+    "youtube": "https://www.youtube.com/channel/UCDJUWULelomKvc8ifXnAdyg",
+    "description": "Group for those who want to learn, share and exchange ideas about Angular and TypeScript in Rio de Janeiro.",
     "organizers": [
       {
-        "name": "Ricardo Mello",
-        "twitter": "https://twitter.com/_ricardomello_"
-      },
-      {
-        "name": "Klaus Kazlauskas",
-        "twitter": "https://twitter.com/klauskpm"
+        "name": "Bruno Romeiro",
+        "twitter": "https://twitter.com/brunoromeiro",
+        "github": "https://github.com/brunoromeiro"
       },
       {
         "name": "Eduardo Florence",
-        "twitter": "https://twitter.com/eduardoflorence"
+        "twitter": "https://twitter.com/eduardoflorence",
+        "github": "https://github.com/eduardoflorence"
+      },
+      {
+        "name": "Fabio Miranda",
+        "twitter": "https://twitter.com/fabiomirandadev",
+        "github": "https://github.com/fabiomirandaa"
+      },
+      {
+        "name": "Raiane Bragança",
+        "twitter": "https://twitter.com/rabraganca",
+        "github": "https://github.com/rabraganca"
+      },
+      {
+        "name": "Ricardo Mello",
+        "twitter": "https://twitter.com/_ricardomello_",
+        "github": "https://github.com/ricardo-mello"
       }
     ]
   },
