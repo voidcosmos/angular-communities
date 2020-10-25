@@ -22,7 +22,9 @@
         "name": "Carlos Caballero González",
         "twitter": "https://twitter.com/Carlillo",
         "github": "https://github.com/caballerog",
-        "webs": ["https://carloscaballero.io/"]
+        "webs": [
+          "https://carloscaballero.io/"
+        ]
       },
       {
         "name": "Juan Torres Gómez",
@@ -33,7 +35,9 @@
         "name": "Luis José González Sánchez",
         "twitter": "https://twitter.com/luisjoseprofe",
         "github": "https://github.com/LuisJoseSanchez",
-        "webs": ["https://luisjose.org/"]
+        "webs": [
+          "https://luisjose.org/"
+        ]
       }
     ]
   },
@@ -88,12 +92,16 @@
         "name": "Sam Vloeberghs",
         "twitter": "https://twitter.com/samvloeberghs",
         "github": "https://github.com/samvloeberghs",
-        "webs": ["https://samvloeberghs.be/"]
+        "webs": [
+          "https://samvloeberghs.be/"
+        ]
       },
       {
         "name": "Jurgen Van de Moere",
         "twitter": "https://twitter.com/jvandemo",
-        "webs": ["https://www.jvandemo.com/"]
+        "webs": [
+          "https://www.jvandemo.com/"
+        ]
       }
     ]
   },
@@ -112,12 +120,16 @@
       {
         "name": "Johannes Hoppe",
         "twitter": "https://twitter.com/johanneshoppe",
-        "webs": ["https://angular.schule/"]
+        "webs": [
+          "https://angular.schule/"
+        ]
       },
       {
         "name": "Martina Kraus",
         "twitter": "https://twitter.com/martinakraus11",
-        "webs": ["https://martinakraus.github.io/"]
+        "webs": [
+          "https://martinakraus.github.io/"
+        ]
       },
       {
         "name": "Christian Janz",
@@ -144,7 +156,9 @@
       {
         "name": "Vitalii Bobrov",
         "twitter": "https://twitter.com/bobrov1989",
-        "webs": ["https://bobrov.dev/"]
+        "webs": [
+          "https://bobrov.dev/"
+        ]
       },
       {
         "name": "Szymon Pawlak"
@@ -173,7 +187,9 @@
       {
         "name": "Pete Bacon Darwin",
         "twitter": "https://twitter.com/petebd",
-        "webs": ["https://www.angularconnect.com/"]
+        "webs": [
+          "https://www.angularconnect.com/"
+        ]
       },
       {
         "name": "Josh Moont",
@@ -206,7 +222,9 @@
       {
         "name": "Matias Niemelä",
         "twitter": "https://twitter.com/yearofmoo",
-        "webs": ["https://www.yearofmoo.com/"]
+        "webs": [
+          "https://www.yearofmoo.com/"
+        ]
       },
       {
         "name": "Igor Minar",
@@ -239,7 +257,9 @@
       {
         "name": "Majid Hajian",
         "twitter": "https://twitter.com/mhadaily",
-        "webs": ["https://www.majidhajian.com/"]
+        "webs": [
+          "https://www.majidhajian.com/"
+        ]
       }
     ]
   },
@@ -263,7 +283,9 @@
       {
         "name": "Miroslav Jonas",
         "twitter": "https://twitter.com/meeroslav/",
-        "webs": ["https://missing-manual.com/"]
+        "webs": [
+          "https://missing-manual.com/"
+        ]
       }
     ]
   },
@@ -373,7 +395,9 @@
       {
         "name": "Robin Böhm",
         "twitter": "https://twitter.com/robinboehm",
-        "webs": ["https://workshops.de/"]
+        "webs": [
+          "https://workshops.de/"
+        ]
       }
     ]
   },
@@ -393,7 +417,9 @@
       {
         "name": "Alex Okrushko",
         "twitter": "https://twitter.com/AlexOkrushko",
-        "webs": ["https://medium.com/@alex.okrushko"]
+        "webs": [
+          "https://medium.com/@alex.okrushko"
+        ]
       }
     ]
   },
@@ -413,12 +439,16 @@
       {
         "name": "Mayra Alejandra Rodriguez",
         "twitter": "https://twitter.com/mayrascript",
-        "webs": ["https://mayrarodriguez.me/"]
+        "webs": [
+          "https://mayrarodriguez.me/"
+        ]
       },
       {
         "name": "Nicolás Contreras V.",
         "twitter": "https://twitter.com/ni500",
-        "webs": ["https://ni500.com/"]
+        "webs": [
+          "https://ni500.com/"
+        ]
       },
       {
         "name": "Giovanny Betancourt Gutierrez",
@@ -447,7 +477,9 @@
         "name": "Chihab Otmani",
         "twitter": "https://twitter.com/chihabotmani",
         "github": "https://github.com/chihab",
-        "webs": ["https://chihab.dev/"]
+        "webs": [
+          "https://chihab.dev/"
+        ]
       }
     ]
   },
@@ -466,7 +498,9 @@
       {
         "name": "Jeff Whelpley",
         "twitter": "https://twitter.com/jeffwhelpley",
-        "webs": ["https://jeffwhelpley.com/"]
+        "webs": [
+          "https://jeffwhelpley.com/"
+        ]
       },
       {
         "name": "Rico dos Santos"
@@ -492,7 +526,9 @@
       {
         "name": "Patrick Aljord",
         "twitter": "https://twitter.com/patcito/",
-        "webs": ["https://medium.com/@patcito"]
+        "webs": [
+          "https://medium.com/@patcito"
+        ]
       },
       {
         "name": "Katiuska Gamero",
@@ -554,18 +590,24 @@
       {
         "name": "Katerina Skroumpelou",
         "twitter": "https://twitter.com/psybercity",
-        "webs": ["https://twitter.com/psybercity"]
+        "webs": [
+          "https://twitter.com/psybercity"
+        ]
       },
       {
         "name": "Stefanos Lignos",
         "twitter": "https://twitter.com/stefanos_lig",
-        "webs": ["http://stefanos-lignos.com/"],
+        "webs": [
+          "http://stefanos-lignos.com/"
+        ],
         "github": "https://github.com/stefanoslig"
       },
       {
         "name": "Lena Lekkou",
         "twitter": "https://twitter.com/lenalekkou",
-        "webs": ["https://www.lenalekkou.gr/"]
+        "webs": [
+          "https://www.lenalekkou.gr/"
+        ]
       },
       {
         "name": "Aristeidis Bampakos",
@@ -592,7 +634,9 @@
       {
         "name": "Healy Dwyer",
         "twitter": "https://twitter.com/healydwya",
-        "webs": ["http://www.healydwyer.com/"],
+        "webs": [
+          "http://www.healydwyer.com/"
+        ],
         "github": "https://github.com/healydwya"
       },
       {
@@ -615,12 +659,16 @@
       {
         "name": "Robin Böhm",
         "twitter": "https://twitter.com/robinboehm",
-        "webs": ["https://workshops.de/"]
+        "webs": [
+          "https://workshops.de/"
+        ]
       },
       {
         "name": "Leonard Thiele",
         "twitter": "https://twitter.com/thiele_leonard",
-        "webs": ["https://leonardthiele.com/"],
+        "webs": [
+          "https://leonardthiele.com/"
+        ],
         "github": "https://github.com/leonardthiele"
       },
       {
@@ -679,11 +727,15 @@
       {
         "name": "Jussi Kinnula",
         "twitter": "https://twitter.com/jussikinnula",
-        "webs": ["https://jussikinnula.com/"]
+        "webs": [
+          "https://jussikinnula.com/"
+        ]
       },
       {
         "name": "Michael Belov",
-        "webs": ["https://www.linkedin.com/in/belovm"]
+        "webs": [
+          "https://www.linkedin.com/in/belovm"
+        ]
       }
     ]
   },
@@ -704,7 +756,9 @@
         "name": "Daniel Zen",
         "twitter": "https://twitter.com/danielze",
         "github": "https://github.com/danielzen",
-        "webs": ["https://zen.digital/"]
+        "webs": [
+          "https://zen.digital/"
+        ]
       },
       {
         "name": "Kirill Cherkashin",
@@ -728,7 +782,9 @@
       {
         "name": "Jan-Niklas W.",
         "twitter": "https://twitter.com/niklas_wortmann",
-        "webs": ["https://niklas-wortmann.com/"]
+        "webs": [
+          "https://niklas-wortmann.com/"
+        ]
       },
       {
         "name": "Tobias Struckmeier",
@@ -756,12 +812,16 @@
       {
         "name": "Martina Kraus",
         "twitter": "https://twitter.com/martinakraus11",
-        "webs": ["https://martinakraus.github.io/"]
+        "webs": [
+          "https://martinakraus.github.io/"
+        ]
       },
       {
         "name": "Ferdinand Malcher",
         "twitter": "https://twitter.com/fmalcher01/",
-        "webs": ["https://www.ferdinand-malcher.de/home/index.html"]
+        "webs": [
+          "https://www.ferdinand-malcher.de/home/index.html"
+        ]
       },
       {
         "name": "Robert Beier",
@@ -792,7 +852,9 @@
       {
         "name": "Nicole Oliver",
         "twitter": "https://twitter.com/nixallover",
-        "webs": ["http://nixallover.com/"]
+        "webs": [
+          "http://nixallover.com/"
+        ]
       },
       {
         "name": "Kendrick Burson"
@@ -814,7 +876,9 @@
       {
         "name": "Dariusz Kalbarczyk",
         "twitter": "https://twitter.com/ngKalbarczyk",
-        "webs": ["https://ng-poland.pl/"]
+        "webs": [
+          "https://ng-poland.pl/"
+        ]
       }
     ]
   },
@@ -842,7 +906,9 @@
       {
         "name": "Tomas Trajan",
         "twitter": "https://twitter.com/tomastrajan",
-        "webs": ["https://www.tomastrajan.com/home"],
+        "webs": [
+          "https://www.tomastrajan.com/home"
+        ],
         "github": "https://github.com/tomastrajan"
       }
     ]
@@ -905,7 +971,9 @@
       {
         "name": "Chander Dhall",
         "github": "https://github.com/csdhall",
-        "webs": ["https://www.youtube.com/channel/UCRL37KOiqQ-tOohlkMwGKKg"]
+        "webs": [
+          "https://www.youtube.com/channel/UCRL37KOiqQ-tOohlkMwGKKg"
+        ]
       },
       {
         "name": "Alison Wadsworth Dhall",
@@ -928,7 +996,9 @@
         "name": "Alain Chautard",
         "twitter": "https://twitter.com/alainchautard",
         "github": "https://github.com/alcfeoh",
-        "webs": ["http://www.angulartraining.com/"]
+        "webs": [
+          "http://www.angulartraining.com/"
+        ]
       }
     ]
   },
@@ -951,7 +1021,9 @@
       {
         "name": "George Wilde",
         "twitter": "https://twitter.com/MrGeorgeWilde/",
-        "webs": ["https://www.wildecreations.co.uk/"]
+        "webs": [
+          "https://www.wildecreations.co.uk/"
+        ]
       },
       {
         "name": "Gary A Scott"
@@ -973,7 +1045,9 @@
       {
         "name": "Dariusz Kalbarczyk",
         "twitter": "https://twitter.com/ngKalbarczyk",
-        "webs": ["https://ng-poland.pl/"]
+        "webs": [
+          "https://ng-poland.pl/"
+        ]
       },
       {
         "name": "Arek Kalbarczyk"
@@ -995,12 +1069,16 @@
       {
         "name": "Gregor Doroschenko",
         "twitter": "https://twitter.com/g_doroschenko/",
-        "webs": ["https://www.meetup.com/es-ES/Angular-Meetup-Dresden/"]
+        "webs": [
+          "https://www.meetup.com/es-ES/Angular-Meetup-Dresden/"
+        ]
       },
       {
         "name": "Henry Ruhs",
         "twitter": "https://twitter.com/redaxmedia",
-        "webs": ["https://redaxmedia.com/"]
+        "webs": [
+          "https://redaxmedia.com/"
+        ]
       }
     ]
   },
@@ -1020,13 +1098,17 @@
         "name": "Jorge Cano",
         "twitter": "https://twitter.com/jorgeucano/",
         "github": "https://github.com/jorgeucano",
-        "webs": ["https://medium.com/@jorgeucano"]
+        "webs": [
+          "https://medium.com/@jorgeucano"
+        ]
       },
       {
         "name": "Andrés Villanueva",
         "twitter": "https://twitter.com/villanuevand",
         "github": "https://github.com/Villanuevand/",
-        "webs": ["https://www.andresvillanueva.com.ve/"]
+        "webs": [
+          "https://www.andresvillanueva.com.ve/"
+        ]
       },
       {
         "name": "Leonardo Pittelli",
@@ -1090,13 +1172,18 @@
         "name": "Michael Oliveira de Deus",
         "twitter": "https://twitter.com/michaelsdeus",
         "github": "https://github.com/izshx",
-        "webs": ["https://dev.to/michaelsdeus"]
+        "webs": [
+          "https://dev.to/michaelsdeus"
+        ]
       },
       {
         "name": "Igor Alves",
         "twitter": "https://twitter.com/devBaiano",
         "github": "https://github.com/Perolanegra",
-        "webs": ["https://dev.to/perolanegra", "https://medium.com/@devbaiano"]
+        "webs": [
+          "https://dev.to/perolanegra",
+          "https://medium.com/@devbaiano"
+        ]
       }
     ]
   },
@@ -1116,7 +1203,9 @@
         "name": "Christian Morante",
         "twitter": "https://twitter.com/cmodev/",
         "github": "https://github.com/christianmorante",
-        "webs": ["https://christianmorante.github.io/"]
+        "webs": [
+          "https://christianmorante.github.io/"
+        ]
       }
     ]
   },
@@ -1158,13 +1247,17 @@
         "name": "Joaquin Cid",
         "twitter": "https://twitter.com/joaqcid/",
         "github": "https://github.com/joaqcid",
-        "webs": ["https://joaqcid.dev/"]
+        "webs": [
+          "https://joaqcid.dev/"
+        ]
       },
       {
         "name": "Salim Chemes",
         "twitter": "https://twitter.com/salimchemes/",
         "github": "https://github.com/salimchemes",
-        "webs": ["https://www.salimchemes.com/"]
+        "webs": [
+          "https://www.salimchemes.com/"
+        ]
       },
       {
         "name": "Franco Battista",
@@ -1208,7 +1301,9 @@
       {
         "name": "Guillermo Fernandez",
         "twitter": "https://twitter.com/ollita7",
-        "webs": ["https://www.cavepot.com/"]
+        "webs": [
+          "https://www.cavepot.com/"
+        ]
       },
       {
         "name": "Humberto Llauradó Falcó"
@@ -1278,7 +1373,9 @@
       {
         "name": "Johannes Weber",
         "twitter": "https://twitter.com/jowe/",
-        "webs": ["https://js-kongress.com/"]
+        "webs": [
+          "https://js-kongress.com/"
+        ]
       },
       {
         "name": "David Amend"
@@ -1308,7 +1405,9 @@
       {
         "name": "Joe Eames",
         "twitter": "https://twitter.com/josepheames/",
-        "webs": ["https://medium.com/@josepheames"]
+        "webs": [
+          "https://medium.com/@josepheames"
+        ]
       },
       {
         "name": "Anthony Humes"
@@ -1341,13 +1440,17 @@
       {
         "name": "Doguhan Uluca",
         "twitter": "https://twitter.com/duluca",
-        "webs": ["https://expertlysimple.io/angular-for-enterprise-2nd-edition/"]
+        "webs": [
+          "https://expertlysimple.io/angular-for-enterprise-2nd-edition/"
+        ]
       },
       {
         "name": "Tracy King",
         "twitter": "https://twitter.com/ng_tracyy/",
         "github": "https://github.com/tracyalison11",
-        "webs": ["http://tracyking.me/"]
+        "webs": [
+          "http://tracyking.me/"
+        ]
       },
       {
         "name": "Sam Blissard",
@@ -1375,7 +1478,9 @@
         "name": "Hassan Sani",
         "twitter": "https://twitter.com/inidaname",
         "github": "https://github.com/inidaname",
-        "webs": ["https://hassansani.me"]
+        "webs": [
+          "https://hassansani.me"
+        ]
       },
       {
         "name": "Ahmad Abdulaziz",
@@ -1461,17 +1566,23 @@
       {
         "name": "Udhayakumar G",
         "twitter": "https://twitter.com/AskUdhay/",
-        "webs": ["https://angularhive.com/"]
+        "webs": [
+          "https://angularhive.com/"
+        ]
       },
       {
         "name": "Ethan Presberg",
         "twitter": "https://twitter.com/ethnp/",
-        "webs": ["http://ethanpresberg.com/"]
+        "webs": [
+          "http://ethanpresberg.com/"
+        ]
       },
       {
         "name": "Tracy Lee",
         "twitter": "https://twitter.com/ladyleet/",
-        "webs": ["https://labs.thisdot.co/"]
+        "webs": [
+          "https://labs.thisdot.co/"
+        ]
       }
     ]
   },
@@ -1489,7 +1600,9 @@
       {
         "name": "Richard Lemieux",
         "github": "https://github.com/r7lemieux",
-        "webs": ["https://www.linkedin.com/in/richardlemieux1/"]
+        "webs": [
+          "https://www.linkedin.com/in/richardlemieux1/"
+        ]
       },
       {
         "name": "Srini Kusunam",
@@ -1512,7 +1625,9 @@
       {
         "name": "Nick van Dijk",
         "twitter": "https://twitter.com/NickvanDijk/",
-        "webs": ["https://passionatepeople.io/"]
+        "webs": [
+          "https://passionatepeople.io/"
+        ]
       },
       {
         "name": "David den Toom"
@@ -1538,12 +1653,16 @@
         "name": "Steve Witman",
         "twitter": "https://twitter.com/stevewitman",
         "github": "https://github.com/stevewitman",
-        "webs": ["http://stevewitman.com/"]
+        "webs": [
+          "http://stevewitman.com/"
+        ]
       },
       {
         "name": "Jesse Sanders",
         "twitter": "https://twitter.com/JesseS_BrieBug/",
-        "webs": ["https://briebug.com/"]
+        "webs": [
+          "https://briebug.com/"
+        ]
       },
       {
         "name": "Andrea Wilson"
@@ -1574,12 +1693,16 @@
       {
         "name": "Alisa Duncan",
         "twitter": "https://twitter.com/AlisaDuncan",
-        "webs": ["https://alisaduncan.dev/"]
+        "webs": [
+          "https://alisaduncan.dev/"
+        ]
       },
       {
         "name": "Devin Kelly-Collins",
         "twitter": "https://twitter.com/dkellycollins",
-        "webs": ["http://github.dkellycollins.info"]
+        "webs": [
+          "http://github.dkellycollins.info"
+        ]
       }
     ]
   },
@@ -1598,7 +1721,9 @@
         "name": "Bogdan Carpean",
         "github": "https://github.com/bogdancar",
         "twitter": "https://twitter.com/bogdan_carpean",
-        "webs": ["https://www.bogdancarpean.com/"]
+        "webs": [
+          "https://www.bogdancarpean.com/"
+        ]
       }
     ]
   },
@@ -1643,7 +1768,9 @@
       {
         "name": "Jedidiah Weller",
         "twitter": "https://twitter.com/jedihacks",
-        "webs": ["https://openforge.io/"]
+        "webs": [
+          "https://openforge.io/"
+        ]
       },
       {
         "name": "Paulina Gallo",
@@ -1673,7 +1800,9 @@
       {
         "name": "Alison Wadsworth Dhall",
         "twitter": "https://twitter.com/alison_dhall",
-        "webs": ["https://cazton.com/"]
+        "webs": [
+          "https://cazton.com/"
+        ]
       }
     ]
   },
@@ -1696,7 +1825,9 @@
       {
         "name": "David Müllerchen",
         "twitter": "https://twitter.com/webdave_de",
-        "webs": ["https://www.webdave.de"]
+        "webs": [
+          "https://www.webdave.de"
+        ]
       },
       {
         "name": "André Dickenscheidt",
@@ -1723,7 +1854,9 @@
       {
         "name": "Javier Dutan",
         "twitter": "https://twitter.com/foodvier",
-        "webs": ["https://javierdutan.com/"]
+        "webs": [
+          "https://javierdutan.com/"
+        ]
       }
     ]
   },
@@ -1741,12 +1874,16 @@
       {
         "name": "Igor Minar",
         "twitter": "https://twitter.com/IgorMinar/",
-        "webs": ["http://blog.igorminar.com/"]
+        "webs": [
+          "http://blog.igorminar.com/"
+        ]
       },
       {
         "name": "Stephen Fluin",
         "twitter": "https://twitter.com/stephenfluin",
-        "webs": ["https://fluin.io/"]
+        "webs": [
+          "https://fluin.io/"
+        ]
       }
     ]
   },
@@ -1767,12 +1904,16 @@
         "name": "Heather Moore",
         "twitter": "https://twitter.com/heathrmoor",
         "github": "https://github.com/heatherm",
-        "webs": ["https://heather.work/"]
+        "webs": [
+          "https://heather.work/"
+        ]
       },
       {
         "name": "Paul Spears",
         "twitter": "https://twitter.com/theevergreendev",
-        "webs": ["https://donaldspears.wordpress.com/"]
+        "webs": [
+          "https://donaldspears.wordpress.com/"
+        ]
       }
     ]
   },
@@ -1822,12 +1963,16 @@
       {
         "name": "Stepan Suvorov",
         "twitter": "https://twitter.com/stevermeister",
-        "webs": ["http://stepansuvorov.com/"]
+        "webs": [
+          "http://stepansuvorov.com/"
+        ]
       },
       {
         "name": "Jeffrey Bosch",
         "twitter": "https://twitter.com/jefiozie",
-        "webs": ["https://jefiozie.github.io/"]
+        "webs": [
+          "https://jefiozie.github.io/"
+        ]
       }
     ]
   },
@@ -1934,7 +2079,9 @@
         "name": "Aliaksei Kuncevič",
         "twitter": "https://twitter.com/kuncevic",
         "github": "https://github.com/kuncevic",
-        "webs": ["https://kuncevic.dev/"]
+        "webs": [
+          "https://kuncevic.dev/"
+        ]
       },
       {
         "name": "Yury Tatsenka",
@@ -1958,7 +2105,9 @@
       {
         "name": "Sherry List",
         "twitter": "https://twitter.com/sherrrylst/",
-        "webs": ["https://about.me/sherrylist"]
+        "webs": [
+          "https://about.me/sherrylist"
+        ]
       },
       {
         "name": "Mohsen Asfia",
@@ -1988,7 +2137,9 @@
       {
         "name": "Christoph Höller",
         "twitter": "https://twitter.com/chris_hoeller/",
-        "webs": ["http://christoph-hoeller.net/"]
+        "webs": [
+          "http://christoph-hoeller.net/"
+        ]
       },
       {
         "name": "Tilman"
@@ -2015,7 +2166,9 @@
         "name": "Sam Julien",
         "twitter": "https://twitter.com/samjulien",
         "github": "https://github.com/samjulien/",
-        "webs": ["https://www.samjulien.com/"]
+        "webs": [
+          "https://www.samjulien.com/"
+        ]
       }
     ]
   },
@@ -2059,7 +2212,9 @@
       {
         "name": "Diego Coy",
         "twitter": "https://twitter.com/UnJavaScripter",
-        "webs": ["https://twitter.com/UnJavaScripter"]
+        "webs": [
+          "https://twitter.com/UnJavaScripter"
+        ]
       },
       {
         "name": "Milena Suarez",
@@ -2095,12 +2250,21 @@
     },
     "city": "Nairobi, Kenya",
     "twitter": "https://twitter.com/angular_kenya",
+    "web": "https://www.youtube.com/channel/UCxobODaL7lX8Wo4JRe_WoVg",
+    "description": "Angular Kenya Community: we 'ng serve' the Kenyan tech community to become profecient Angular developers. We are a community of developers who are passionate about sharing the knowledge of the Angular Framework with budding Kenyan developers.",
     "organizers": [
       {
         "name": "Wayne Gakuo",
         "twitter": "https://twitter.com/wayne_gakuo",
-        "webs": ["https://waynegakuo.github.io/"],
+        "webs": [
+          "https://waynegakuo.netlify.app/"
+        ],
         "github": "https://github.com/waynegakuo"
+      },
+      {
+        "name": "Ivy Walobwa",
+        "twitter": "https://twitter.com/IWalobwa",
+        "github": "https://github.com/Ivy-Walobwa"
       }
     ]
   },
@@ -2200,16 +2364,16 @@
     "youtube": "https://www.youtube.com/channel/UCQx18FcKiPdKvSs800qME1w",
     "description": "An Angular virtual event that was initiated to share and gain knowledge on angular.",
     "organizers": [
-        {
-          "name": "Sundaram Subramanian",
-          "twitter": "https://twitter.com/IamSundarBhai"
-        },
-        {
-          "name": "Suhas Parameshwara",
-          "twitter": "https://twitter.com/ng_suhas"
-        }
-      ]
-   },
+      {
+        "name": "Sundaram Subramanian",
+        "twitter": "https://twitter.com/IamSundarBhai"
+      },
+      {
+        "name": "Suhas Parameshwara",
+        "twitter": "https://twitter.com/ng_suhas"
+      }
+    ]
+  },
   "Angular Chennai": {
     "id": 90,
     "name": "Angular Chennai",
@@ -2225,8 +2389,8 @@
         "name": "Arun Kumar",
         "twitter": "https://twitter.com/dev_arunkumar"
       }
-     ]
-   },
+    ]
+  },
   "Angular Vietnam": {
     "id": 91,
     "name": "Angular Vietnam",
@@ -2266,14 +2430,14 @@
     "twitter": "https://twitter.com/AngularTunisia",
     "description": "Connecting Angular developers in Tunisia. Bringing the community close together through live or virtual events, workshops and meetups. ",
     "organizers": [
-        {
-          "name": "Lamis Chebbi",
-          "twitter": "https://twitter.com/lamisChebbi"
-        },
-        {
-          "name": "Haroun Chebbi",
-          "github": "https://github.com/harounchebbi"
-        }
-      ]
-   }
+      {
+        "name": "Lamis Chebbi",
+        "twitter": "https://twitter.com/lamisChebbi"
+      },
+      {
+        "name": "Haroun Chebbi",
+        "github": "https://github.com/harounchebbi"
+      }
+    ]
+  }
 }
