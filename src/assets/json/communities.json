@@ -81,7 +81,7 @@
       "lat": 50.85045
     },
     "city": "Brussels",
-    "web": "https://www.meetup.com/es-ES/Angular-Belgium/",
+    "web": "https://www.meetup.com/Angular-Belgium/",
     "description": "",
     "organizers": [
       {
@@ -134,7 +134,7 @@
     },
     "city": "Wrocław",
     "twitter": "https://twitter.com/AngularWroclaw",
-    "web": "https://www.meetup.com/es-ES/AngularJS-Wroc%C5%82aw/",
+    "web": "https://www.meetup.com/AngularJS-Wroc%C5%82aw/",
     "description": "",
     "organizers": [
       {
@@ -163,7 +163,7 @@
     },
     "city": "London, UK",
     "twitter": "https://twitter.com/AngularLONDON",
-    "web": "https://www.meetup.com/es-ES/angular-london/",
+    "web": "https://www.meetup.com/angular-london/",
     "description": "",
     "organizers": [
       {
@@ -189,7 +189,7 @@
       "lat": 37.773972
     },
     "city": "San Francisco, CA",
-    "web": "https://www.meetup.com/es-ES/Angular-SF/",
+    "web": "https://www.meetup.com/Angular-SF/",
     "twitter": "https://twitter.com/angularsf",
     "description": "Angular meetup group in San Francisco, CA. To host or speak, please message us!",
     "organizers": [
@@ -223,7 +223,7 @@
     },
     "city": "Oslo, Norway",
     "twitter": "https://twitter.com/angularoslo",
-    "web": "https://www.meetup.com/es-ES/AngularJS-Oslo/",
+    "web": "https://www.meetup.com/AngularJS-Oslo/",
     "youtube": "https://www.youtube.com/channel/UC-bZWTOkwB5JMgicaBEZEdQ",
     "description": "Angular Oslo Meetup is a community of web developers dedicated to one of the most advanced and hot discussed JavaScript frameworks ideally suited for creating modern web and mobile applications. Community's mission is to help web front-end developers with selection of the best framework for their needs and to share knowledge, experience and best practices on it.",
     "organizers": [
@@ -252,7 +252,7 @@
     },
     "city": "Wien, Österreich",
     "twitter": "https://twitter.com/AngularVienna",
-    "web": "https://www.meetup.com/es-ES/Angular-Vienna/",
+    "web": "https://www.meetup.com/Angular-Vienna/",
     "youtube": "https://www.youtube.com/playlist?list=PL8xuokhAnn4pftOHlvSvcO2TaPxXQeZD6",
     "description": "A user group for Angular rookies, gurus, and everybody curious about what's new in the Angular world and related technologies.",
     "organizers": [
@@ -276,7 +276,7 @@
     },
     "city": "Manila, the Philippines",
     "twitter": "https://twitter.com/ngManila",
-    "web": "https://www.meetup.com/es-ES/ngManila/",
+    "web": "https://www.meetup.com/ngManila/",
     "description": "This is a group for anyone interested (experienced or new) in developing in Angular. Meet ups will be held with the primary goal of sharing knowledge and furthering the science of single-page app development using Angular. Expect speakers, networking, and fun!",
     "organizers": [
       {
@@ -294,7 +294,7 @@
     },
     "city": "Bucharest, Romania",
     "twitter": "https://twitter.com/ngBucharest",
-    "web": "https://www.meetup.com/es-ES/AngularJS-Bucharest/",
+    "web": "https://www.meetup.com/AngularJS-Bucharest/",
     "description": "This meet-up group has the purpose of creating a community around the Angular framework and related technologies.",
     "organizers": [
       {
@@ -313,7 +313,7 @@
     },
     "city": "Brighton, United Kingdom",
     "twitter": "https://twitter.com/Angular2bes",
-    "web": "https://www.meetup.com/es-ES/Brighton-Worthing-Angular2-Meetup/",
+    "web": "https://www.meetup.com/Brighton-Worthing-Angular2-Meetup/",
     "description": "Hello there! We're a local Angular community group. Fancy joining up to share and learn together?",
     "organizers": [
       {
@@ -899,7 +899,7 @@
       "lat": 30.266666
     },
     "city": "Austin, TX",
-    "web": "https://www.meetup.com/es-ES/AngularATX/",
+    "web": "https://www.meetup.com/AngularATX/",
     "description": "Do you use Angular to build brilliant web apps? Are you interested in one of the best Javascript framework? Meetup with others who are into AngularJS, share knowledge, apps and collaborate. Angular -The Superheroic JavaScript MVW Framework is an open source offering from Google. Angular is what HTML would have been, had it been designed for building web-apps. Declarative templates with data-binding, MVW, MVVM, MVC, dependency injection and great testability story all implemented with pure client-side JavaScript!",
     "organizers": [
       {
@@ -995,7 +995,7 @@
       {
         "name": "Gregor Doroschenko",
         "twitter": "https://twitter.com/g_doroschenko/",
-        "webs": ["https://www.meetup.com/es-ES/Angular-Meetup-Dresden/"]
+        "webs": ["https://www.meetup.com/Angular-Meetup-Dresden/"]
       },
       {
         "name": "Henry Ruhs",
@@ -1298,7 +1298,7 @@
     },
     "city": "South Jordan, UT",
     "twitter": "https://twitter.com/AngularJSUtah",
-    "web": "https://www.meetup.com/es-ES/AngularUtah/",
+    "web": "https://www.meetup.com/AngularUtah/",
     "description": "One of the world's first Angular meetups started here in Utah. This is a great place to learn about Angular and collaborate and network with other developers. Meetups are held the fourth Tuesday of every month on the south end of Salt Lake Valley.",
     "organizers": [
       {
@@ -1335,7 +1335,7 @@
     },
     "city": "Washington, DC",
     "twitter": "https://twitter.com/angulardc",
-    "web": "https://www.meetup.com/es-ES/angularDC/",
+    "web": "https://www.meetup.com/angularDC/",
     "description": "Whether 'old' (v 1.x), or new (2, 4, 5, ...) Angular, we work, play, and/or dabble in Angular. We meet every once a month for talks or workshops on anything Angular related.",
     "organizers": [
       {
@@ -2114,7 +2114,7 @@
     "city": "San José, Costa Rica",
     "twitter": "https://twitter.com/AngularCRa",
     "youtube": "https://www.youtube.com/channel/UC4vCnqA5s8IR2zCcSXp63_w/",
-    "web": "https://www.meetup.com/es-ES/gdg-costarica/",
+    "web": "https://www.meetup.com/gdg-costarica/",
     "organizers": [
       {
         "name": "Mariano Álvarez",
