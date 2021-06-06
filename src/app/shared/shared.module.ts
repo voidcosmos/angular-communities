@@ -1,6 +1,5 @@
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CommonModule } from '@angular/common';
 import { CommunityItemComponent } from './components/community-item/community-item.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
@@ -26,7 +25,6 @@ import { ScrollingModule } from '@angular/cdk/scrolling';
 import { RouterModule } from '@angular/router';
 import { ClipboardModule } from '@angular/cdk/clipboard';
 
-const CORE_MODULES = [BrowserAnimationsModule, CommonModule, FormsModule, ReactiveFormsModule];
 
 const COMPONENTS = [FooterComponent, HeaderComponent, CommunityItemComponent];
 
@@ -52,7 +50,7 @@ const MATERIAL_MODULES = [
 
 @NgModule({
   declarations: COMPONENTS,
-  imports: [MATERIAL_MODULES, CORE_MODULES, FlexLayoutModule, RouterModule],
-  exports: [COMPONENTS, MATERIAL_MODULES, CORE_MODULES, FlexLayoutModule],
+  imports: [MATERIAL_MODULES, CommonModule, ReactiveFormsModule, FlexLayoutModule, RouterModule],
+  exports: [COMPONENTS, MATERIAL_MODULES, CommonModule, ReactiveFormsModule, FlexLayoutModule],
 })
 export class SharedModule {}

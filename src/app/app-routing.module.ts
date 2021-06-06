@@ -1,11 +1,15 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { FaqComponent } from '@pages/faq/faq.component';
-import { MainComponent } from '@pages/main/main.component';
 
 const routes: Routes = [
-  { path: '', component: MainComponent },
-  { path: 'faq', component: FaqComponent },
+  {
+    path: '',
+    loadChildren: () => import('./pages/main/main.module').then(m => m.MainModule)
+  },
+  {
+    path: 'faq',
+    loadChildren: () => import('./pages/faq/faq.module').then(m => m.FaqModule)
+  },
   {
     path: '**',
     redirectTo: '',
