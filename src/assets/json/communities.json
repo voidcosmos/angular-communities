@@ -2275,5 +2275,26 @@
           "github": "https://github.com/harounchebbi"
         }
       ]
-   }
+   },
+   "Angular Sydney": {
+    "id": 93,
+    "name": "Angular Sydney",
+    "position": {
+      "lat": -33.868820,
+      "lng": 151.209290
+    },
+    "city": "Sydney",
+    "twitter": "https://twitter.com/AngularSydney",
+    "web": "https://angularsydney.org",
+    "youtube": "https://youtube.com/channel/UCh48MtOnSd9l6CmbqUFrn0Q",
+    "description": "This group is for everyone who want to sharpen their Angular skills, to learn Angular best practices and how build modern web apps using Angular. Our goal is to bring Angular-related activities in Sydney. We offer presentations, online and offline workshops and social events to help people to learn Angular and get to know people in community.",
+    "organizers": [
+      {
+        "name": "Aliaksei Kuncevič",
+        "twitter": "https://twitter.com/kuncevic",
+        "github": "https://github.com/kuncevic",
+        "webs": ["https://kuncevic.dev/"]
+      }
+    ]
+  }
 }
