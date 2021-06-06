@@ -98,9 +98,6 @@ a {
 /***/
 .mat-chip.mat-standard-chip.social {
   margin: 5px;
-}
-
-.mat-chip.mat-standard-chip.social {
   color: white;
   margin-left: 10px;
 
@@ -119,6 +116,9 @@ a {
   }
   &.social-linkedin {
     background-color: #0077b4;
+  }
+  &.social-share {
+    background-color: blue;
   }
 }
 

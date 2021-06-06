@@ -24,6 +24,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { NgModule } from '@angular/core';
 import { ScrollingModule } from '@angular/cdk/scrolling';
 import { RouterModule } from '@angular/router';
+import { ClipboardModule } from '@angular/cdk/clipboard';
 
 const CORE_MODULES = [BrowserAnimationsModule, CommonModule, FormsModule, ReactiveFormsModule];
 
@@ -46,6 +47,7 @@ const MATERIAL_MODULES = [
   MatDividerModule,
   ScrollingModule,
   MatChipsModule,
+  ClipboardModule
 ];
 
 @NgModule({
