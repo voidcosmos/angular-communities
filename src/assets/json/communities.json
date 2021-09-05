@@ -2257,23 +2257,80 @@
   },
   "Angular Tunisia": {
     "id": 92,
-    "name": "Angular Tunisia",
+    "name": "ngTunisia",
     "position": {
       "lng": 10.1815,
       "lat": 36.8065
     },
     "city": "Tunis",
+    "web": "https://js-community.tn/",
+    "youtube": "https://www.youtube.com/channel/UCeWHKEOX998dAebsYhI6gKw",
+    "github": "https://github.com/ngTunisia",
     "twitter": "https://twitter.com/AngularTunisia",
-    "description": "Connecting Angular developers in Tunisia. Bringing the community close together through live or virtual events, workshops and meetups. ",
+    "description": "Connecting Angular developers in Tunisia. Bringing the community close together through live or virtual events, workshops and meetups.",
     "organizers": [
-        {
-          "name": "Lamis Chebbi",
-          "twitter": "https://twitter.com/lamisChebbi"
-        },
-        {
-          "name": "Haroun Chebbi",
-          "github": "https://github.com/harounchebbi"
-        }
-      ]
+      {
+        "name": "Ahmed Rebai",
+        "github": "https://github.com/Rebaiahmed",
+        "twitter": "https://twitter.com/RebaiAhmed_",
+        "linkedin": "https://www.linkedin.com/in/rebaiahmed"
+      },
+      {
+        "name": "Chehir Dhawedi",
+        "github": "https://github.com/thevexx",
+        "twitter": "https://twitter.com/chehir_dh",
+        "linkedin": "https://www.linkedin.com/in/chehirdhawedi"
+      },
+      {
+        "name": "Heithem Moumni",
+        "github": "https://github.com/heithemmoumni",
+        "twitter": "https://twitter.com/MoumniHeithem",
+        "linkedin": "https://www.linkedin.com/in/heithemmoumni"
+      },
+      {
+        "name": "Imed Jaberi",
+        "github": "https://github.com/3imed-jaberi",
+        "twitter": "https://twitter.com/3imed_jaberi",
+        "linkedin": "https://www.linkedin.com/in/3imed-jaberi"
+      },
+      {
+        "name": "Chamsddine Bouzaine",
+        "github": "https://github.com/ChamsBouzaiene",
+        "twitter": "https://twitter.com/@shemsddine",
+        "linkedin": "https://www.linkedin.com/in/chamsddine"
+      },
+      {
+        "name": "Houssem Amiri",
+        "github": "https://github.com/AmiriHoussem",
+        "twitter": "https://twitter.com/AmiriHoussem1",
+        "linkedin": "https://www.linkedin.com/in/amiri-houssem"
+      },
+      {
+        "name": "Mohamed Anas Ben Othman",
+        "github": "https://github.com/mabotn",
+        "twitter": "https://twitter.com/mabotn",
+        "linkedin": "https://www.linkedin.com/in/mabotn"
+      },
+      {
+        "name": "Majd Mimoun",
+        "github": "https://github.com/mnmajd",
+        "twitter": "",
+        "linkedin": "https://www.linkedin.com/in/majd-mimoun"
+      },
+      {
+        "name": "Chaouki Ben Fredj",
+        "github": "https://github.com/chaoukibenfradj",
+        "twitter": "https://twitter.com/chaoukibenfredj",
+        "linkedin": "https://www.linkedin.com/in/chaouki-ben-fredj"
+      },
+      {
+        "name": "Lamis Chebbi",
+        "twitter": "https://twitter.com/lamisChebbi"
+      },
+      {
+        "name": "Haroun Chebbi",
+        "github": "https://github.com/harounchebbi"
+      }
+    ]
    }
 }
