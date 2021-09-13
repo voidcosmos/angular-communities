@@ -5,8 +5,9 @@ div {
 .community-preview-list-container {
   display: flex;
   flex-direction: column;
-  height: calc(100vh - 210px);
-  padding: 20px;
+  height: 100%;
+  padding: 10px 20px;
+  word-break: break-word;
 }
 
 .community-preview-list-view-port {
@@ -18,10 +19,4 @@ mat-form-field {
   align-self: center;
   margin-top: 20px;
   padding: 10px;
-}
-
-@media (max-width: 599px) {
-  .community-preview-list-container {
-    height: calc(100vh - 434px);
-  }
 }
