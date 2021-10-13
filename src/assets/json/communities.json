@@ -2332,5 +2332,23 @@
         "github": "https://github.com/harounchebbi"
       }
     ]
+   },
+   "Angular Developers Thailand": {
+     "id": 93,
+     "name": "Angular Developers Thailand",
+     "position": {
+       "lng": 100.471505,
+       "lat": 13.7726222
+     },
+     "city": "Bangkok",
+     "twitter": "https://twitter.com/AngularThailand",
+     "web": "https://www.facebook.com/groups/angularjs.th",
+     "description": "กลุ่มผู้ใช้งาน Angular ในประเทศไทย",
+     "organizers": [
+       {
+         "name": "Siwat Kaolueng",
+         "twitter": "https://twitter.com/perjerz34"
+       }
+     ]
    }
 }
