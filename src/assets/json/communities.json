@@ -2350,5 +2350,25 @@
          "twitter": "https://twitter.com/perjerz34"
        }
      ]
-   }
+   },
+  "Angular Algeria": {
+    "id": 94,
+    "name": "Angular ALG",
+    "position": {
+      "lng": 36.35703179220973,
+      "lat": 6.639005755973282
+    },
+    "city": "Constantine",
+    "twitter": "https://twitter.com/Angular_Algeria",
+    "web": "https://inessehili.github.io/",
+    "description": "This group is made for all Algerian developers who love angular <3. Welcome !",
+    "organizers": [
+      {
+        "name": "Ines Sehili",
+        "twitter": "https://twitter.com/InesSehili",
+        "github": "https://github.com/InesSehili",
+        "linkedin": "https://www.linkedin.com/in/ines-sehili-7354311bb/"
+      }
+    ]
+  }
 }
