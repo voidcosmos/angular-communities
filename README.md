@@ -61,7 +61,7 @@ Angular Communities
 
 Fork this repo so you can commit directly to your account and submit a Pull Request to include your community.
 
-Access the `assets/json/communities.json` file and add your community.
+Access the [`assets/json/communities.json`](https://github.com/voidcosmos/angular-communities/blob/master/src/assets/json/communities.json) file and add your community.
 
 > Please see the following example for reference on how to add the correct information about your community:
 
