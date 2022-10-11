@@ -14,6 +14,7 @@
   gdColumns.xs="100% auto"
   gdRows.xs="35% 65%"
   fxFlexFill
+  *ngIf="communitie$ | async as communities"
 >
   <ngcommunity-map
     gdArea="map"
