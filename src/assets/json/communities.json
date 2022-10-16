@@ -258,7 +258,42 @@
     "organizers": [
       {
         "name": "Michael Hladky",
-        "twitter": "https://twitter.com/michael_hladky"
+        "twitter": "https://twitter.com/michael_hladky",
+        "webs": ["https://www.linkedin.com/in/michael-hladky-519340148/"]
+      },
+      {
+        "name": "Miroslav Jonas",
+        "twitter": "https://twitter.com/meeroslav/",
+        "webs": ["https://missing-manual.com/"]
+      }
+    ]
+  },
+  "Angular Austria": {
+    "id": 87,
+    "name": "Angular Austria",
+    "position": {
+      "lng": 14.510690,
+      "lat": 47.739257
+    },
+    "city": "Wien, Österreich",
+    "twitter": "https://twitter.com/angularaustria",
+    "web": "https://angular-austria.at/",
+    "description": "The non-profit association supporting the Angular & Frontend developer community in Austria and beyond",
+    "organizers": [
+      {
+        "name": "Michael Hladky",
+        "twitter": "https://twitter.com/michael_hladky",
+        "webs": ["https://www.linkedin.com/in/michael-hladky-519340148/"]
+      },
+      {
+        "name": "Michael Bromley",
+        "twitter": "https://twitter.com/michlbrmly",
+        "webs": ["https://www.linkedin.com/in/michael-bromley-ab1704156/"]
+      },
+      {
+        "name": "Marko Jurisic",
+        "twitter": "https://twitter.com/JurisicMarko",
+        "webs": ["https://www.linkedin.com/in/mjurisic"]
       },
       {
         "name": "Miroslav Jonas",
