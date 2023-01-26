@@ -2,17 +2,17 @@
   fxFlexFill
   gdAreas="header | main  "
   gdGap="0px"
-  gdRows="64px auto"
+  gdRows="15% auto"
   gdAreas.lt-md="header | main "
-  gdRows.lt-md="64px auto "
+  gdRows.lt-md="15% auto "
   gdColumns.lt-md="100% 100% "
   gdAreas.xs="header | main "
-  gdRows.xs="64px 100% "
+  gdRows.xs="15% auto"
   gdColumns.xs="100% 100% "
 >
   <ngcommunity-header gdArea="header"></ngcommunity-header>
   <ngcommunity-main
-    *ngIf="(communitie$ | async) as communities"
+    *ngIf="communitie$ | async as communities"
     gdArea="main"
     [communities]="communities"
   >
